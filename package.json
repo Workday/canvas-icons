@@ -1,0 +1,13 @@
+{
+  "name": "canvas-icons",
+  "version": "1.0.0",
+  "description": "Canvas system and expressive icons",
+  "main": "index.js",
+  "repository": "git@github.com:Workday/canvas-icons.git",
+  "author": "Workday, Inc. (https://www.workday.com)",
+  "license": "CC-BY-ND-4.0",
+  "private": true,
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
