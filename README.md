@@ -1,4 +1,4 @@
-# Workday Tokens
+# Workday Icons
 
 _Canvas system and expressive icons_
 
