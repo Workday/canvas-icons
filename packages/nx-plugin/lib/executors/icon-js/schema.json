@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "Icon List Executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "iconType": {"type": "string"},
+    "moduleType": {"type": "string", "enum": ["es6", "commonjs"]}
+  },
+  "required": ["iconType", "moduleType"]
+}

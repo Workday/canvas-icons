@@ -14,6 +14,7 @@ export default [
       '.cache/**',
       '.cache/',
       'docs/**',
+      'packages/canvas-icons-docs/**',
     ],
   },
   {

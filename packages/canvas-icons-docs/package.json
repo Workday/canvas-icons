@@ -1,0 +1,48 @@
+{
+  "name": "@workday/canvas-icons-docs",
+  "version": "0.0.0",
+  "description": "Documentation for Canvas Icons",
+  "author": "Workday, Inc. (https://www.workday.com)",
+  "license": "CC-BY-ND-4.0",
+  "homepage": "https://github.com/Workday/canvas-icons",
+  "bugs": {
+    "url": "https://github.com/Workday/canvas-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Workday/canvas-icons.git"
+  },
+  "main": "dist/commonjs/index.js",
+  "module": "dist/es6/index.js",
+  "type": "module",
+  "sideEffects": false,
+  "types": "dist/es6/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "private": true,
+  "scripts": {
+    "build:nextra": "next build",
+    "build": "yarn clean && run-s build:*",
+    "clean:dist": "rimraf dist",
+    "clean:docs": "rimraf docs",
+    "clean": "run-s clean:*",
+    "dev": "next dev",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.1.7",
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.2.1",
+    "@types/react-dom": "^19.2.1",
+    "rimraf": "^6.0.1",
+    "typescript": "^6.0.3"
+  }
+}

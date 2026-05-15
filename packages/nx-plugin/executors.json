@@ -1,0 +1,14 @@
+{
+  "executors": {
+    "icon-js": {
+      "implementation": "./lib/executors/icon-js/executor",
+      "schema": "./lib/executors/icon-js/schema.json",
+      "description": "Icon JS files executor"
+    },
+    "sprites": {
+      "implementation": "./lib/executors/sprites/executor",
+      "schema": "./lib/executors/sprites/schema.json",
+      "description": "Executor to create sprites from SVG files"
+    }
+  }
+}

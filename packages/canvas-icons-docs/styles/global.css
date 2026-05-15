@@ -1,0 +1,32 @@
+.light {
+  --cnvs-docs-fg-primary: var(--cnvs-sys-color-fg-primary-default);
+}
+
+.dark {
+  --cnvs-docs-fg-primary: var(--cnvs-sys-color-icon-inverse);
+}
+
+.separator {
+  color: var(--cnvs-sys-color-text-primary-default);
+  text-transform: uppercase;
+}
+
+.separator__level-2 {
+  font-size: var(--cnvs-sys-font-size-subtext-medium);
+  margin-inline: -0.5rem;
+  margin-bottom: -0.25rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--cnvs-sys-color-border-divider);
+}
+
+.nextra-card {
+  margin-bottom: var(--cnvs-sys-space-x2);
+}
+
+.nextra-card svg {
+  fill: var(--cnvs-sys-color-icon-default);
+}
+
+.nextra-card:hover svg {
+  fill: var(--cnvs-sys-color-icon-strong);
+}

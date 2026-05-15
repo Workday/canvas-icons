@@ -1,0 +1,39 @@
+{
+  "name": "@workday/canvas-assets-nx-plugin",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/nx-plugin/lib",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/nx-plugin",
+        "main": "packages/nx-plugin/lib/index.ts",
+        "tsConfig": "packages/nx-plugin/tsconfig.lib.json",
+        "assets": [
+          "packages/nx-plugin/*.md",
+          {
+            "input": "./packages/nx-plugin/lib",
+            "glob": "**/!(*.ts)",
+            "output": "./lib"
+          },
+          {
+            "input": "./packages/nx-plugin/lib",
+            "glob": "**/*.d.ts",
+            "output": "./lib"
+          },
+          {
+            "input": "./packages/nx-plugin",
+            "glob": "executors.json",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
