@@ -1,0 +1,36 @@
+[
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Edit Sparkle",
+    "filename": "wd-icon-edit-sparkle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "edit-sparkle",
+    "tags": [
+      "editing",
+      "pencil",
+      "pen",
+      "new",
+      "AI",
+      "artificial",
+      "intelligence",
+      "Generate"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Flag",
+    "filename": "wd-icon-flag.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "flag",
+    "tags": [
+      "banner",
+      "emblem",
+      "pole",
+      "wind"
+    ]
+  }
+]
