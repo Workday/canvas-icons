@@ -14,11 +14,9 @@ const iconMap = systemIcons as unknown as Record<string, SystemIconEntry>;
 
 export const SystemIconsList = ({
   category,
-  columns,
   deprecated = false,
 }: {
   category?: string;
-  columns?: string;
   deprecated?: boolean;
 }) => {
   const icons = Object.keys(systemIcons).filter(

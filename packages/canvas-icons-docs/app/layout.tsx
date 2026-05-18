@@ -6,7 +6,7 @@ import type {ReactNode} from 'react';
 
 import '@workday/canvas-tokens-web/css/base/_variables.css';
 import '@workday/canvas-tokens-web/css/brand/_variables.css';
-import '@workday/canvas-tokens-web/css/components/_variables.css';
+import '@workday/canvas-tokens-web/css/component/_variables.css';
 import '@workday/canvas-tokens-web/css/system/_variables.css';
 
 import {Logo} from '../components/Logo';
