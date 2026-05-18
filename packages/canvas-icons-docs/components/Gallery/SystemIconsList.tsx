@@ -4,8 +4,7 @@ import {capitalCase} from 'change-case-all';
 import * as React from 'react';
 
 import {Table} from '@workday/canvas-kit-react/table';
-// TODO: Edit import systemIcons path once icons package is added to this repo
-import * as systemIcons from '@workday/canvas-system-icons-web/dist/es6';
+import * as systemIcons from '@workday/canvas-system-icons-web';
 import {system} from '@workday/canvas-tokens-web';
 import {CanvasSystemIcon} from '@workday/design-assets-types';
 
