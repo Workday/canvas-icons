@@ -4,4 +4,4 @@ This library was generated with [Nx](https://nx.dev) to handle utility build fun
 
 ## Building
 
-Run `nx build util-plugin` to build the library.
+Run `nx build @workday/canvas-assets-nx-plugin` to build the library.
