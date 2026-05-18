@@ -4,7 +4,7 @@ export default {
     type: 'separator',
     title: <p className="separator">Maintaining</p>,
   },
-  git: 'Git & Github',
+  git: 'Git & GitHub',
   actions: 'GitHub Actions',
   executors: 'Nx Executors',
   '-- icons': {
