@@ -22,7 +22,7 @@
   ],
   "private": true,
   "scripts": {
-    "build:nextra": "next build",
+    "build:nextra": "next build && next typegen",
     "build": "yarn clean && run-s build:*",
     "clean:dist": "rimraf dist",
     "clean:docs": "rimraf docs",

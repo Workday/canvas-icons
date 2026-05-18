@@ -5,6 +5,7 @@
 /docs
 
 # Generated files
+next-env.d.ts
 .next
 .cache-loader
 
