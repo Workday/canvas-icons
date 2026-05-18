@@ -153,7 +153,10 @@ const runExecutor: PromiseExecutor<MetadataExecutorSchema> = async options => {
     fs.writeFileSync(path.resolve(moduleDir, `${iconMetadata.name}.d.ts`), typeContent);
   });
 
-  const iconNames: string[] = metadata.map(({name}: any) => name);
+  const iconNames: string[] = icons.map(icon => {
+    const {name} = metadata.find((meta: {filename: string; name: string}) => meta.filename === icon)!;
+    return name;
+  });
   const exportsContent = getExportContent(moduleType, iconNames, iconType, moduleDir);
 
   const mainTsContent = getExportContent('es6', iconNames, iconType, moduleDir).replace(
