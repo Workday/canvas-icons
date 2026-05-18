@@ -44,7 +44,7 @@
     "docs:run": "nx start @workday/canvas-icons-docs",
     "graph": "nx graph",
     "lint": "eslint .",
-    "typecheck": "tsc -p . --noEmit",
+    "typecheck": "npm run typecheck --workspaces --if-present",
     "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write"
   }
 }
