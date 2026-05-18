@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "Create Changelog Executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "ghToken": {"type": "string", "description": "Bot GitHub token"},
+    "commit": {"type": "string", "description": "GitHub HEAD commit message"},
+    "scope": {"type": "string", "description": "Package scope"},
+    "packageName": {"type": "string", "description": "Package name"}
+  },
+  "required": ["ghToken", "commit", "scope", "packageName"]
+}

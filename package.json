@@ -11,6 +11,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
     "@nx/eslint": "22.5.4",
@@ -39,6 +40,7 @@
   },
   "scripts": {
     "prepare": "husky",
+    "changelog": "nx generate-changelog @workday/canvas-assets-nx-plugin --commit=\"$(git log -1 --pretty=%s)\"",
     "docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
     "docs:run": "nx start @workday/canvas-icons-docs",

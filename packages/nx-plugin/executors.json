@@ -1,5 +1,10 @@
 {
   "executors": {
+    "changelog": {
+      "implementation": "./lib/executors/changelog/executor",
+      "schema": "./lib/executors/changelog/schema.json",
+      "description": "Executor to generate pre-changelog for specific package"
+    },
     "icon-js": {
       "implementation": "./lib/executors/icon-js/executor",
       "schema": "./lib/executors/icon-js/schema.json",
