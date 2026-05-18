@@ -6,7 +6,6 @@ import {getJSONContent, getSvgContent, getTypesContent, toCamelCase} from '../..
 import {MetadataExecutorSchema} from './schema';
 
 const types = {
-  graphics: 'Graphic',
   system: 'System',
   expressive: 'Expressive',
 };
