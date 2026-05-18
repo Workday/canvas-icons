@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--cnvs-sys-space-x2);
+}
+
+.logo p {
+  font-weight: var(--cnvs-sys-font-weight-bold);
+}
+
+.stroke {
+  stroke: var(--cnvs-docs-fg-primary);
+}
+
+.fill {
+  fill: var(--cnvs-docs-fg-primary);
+}

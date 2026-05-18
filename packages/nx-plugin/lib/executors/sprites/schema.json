@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "Sprites Executor",
+  "description": "Create sprites from SVG files",
+  "type": "object",
+  "properties": {
+    "iconType": {"type": "string", "enum": ["system", "expressive"]}
+  },
+  "required": ["iconType"]
+}
