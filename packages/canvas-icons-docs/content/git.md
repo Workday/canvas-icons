@@ -1,4 +1,4 @@
-# Git & Github
+# Git & GitHub
 
 ```sh
 # clone the repo
