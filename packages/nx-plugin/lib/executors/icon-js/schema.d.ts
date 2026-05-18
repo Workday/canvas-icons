@@ -1,4 +1,4 @@
 export interface MetadataExecutorSchema {
-  iconType: string;
+  iconType: 'system' | 'expressive';
   moduleType: 'es6' | 'commonjs';
 }
