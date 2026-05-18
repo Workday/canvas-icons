@@ -1,14 +1,16 @@
-import {Layout, Navbar, Footer} from 'nextra-theme-docs';
+import {Footer, Layout, Navbar} from 'nextra-theme-docs';
+import 'nextra-theme-docs/style.css';
 import {Head} from 'nextra/components';
 import {getPageMap} from 'nextra/page-map';
-import {Logo} from '../components/Logo';
-import {Providers} from './providers';
 
-import 'nextra-theme-docs/style.css';
-import '../styles/global.css';
 import '@workday/canvas-tokens-web/css/base/_variables.css';
-import '@workday/canvas-tokens-web/css/system/_variables.css';
 import '@workday/canvas-tokens-web/css/brand/_variables.css';
+import '@workday/canvas-tokens-web/css/components/_variables.css';
+import '@workday/canvas-tokens-web/css/system/_variables.css';
+
+import {Logo} from '../components/Logo';
+import '../styles/global.css';
+import {Providers} from './providers';
 
 export default async function RootLayout({children}: {children: React.ReactNode}) {
   const pageMap = await getPageMap();
