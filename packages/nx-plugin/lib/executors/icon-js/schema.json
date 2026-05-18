@@ -5,7 +5,7 @@
   "description": "",
   "type": "object",
   "properties": {
-    "iconType": {"type": "string"},
+    "iconType": {"type": "string", "enum": ["system", "expressive"]},
     "moduleType": {"type": "string", "enum": ["es6", "commonjs"]}
   },
   "required": ["iconType", "moduleType"]
