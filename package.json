@@ -52,7 +52,7 @@
     "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --cache --fix",
-    "*.{ts,tsx,md}": "prettier --write"
+    "*.{ts,tsx}": ["eslint --cache --fix", "prettier --write"],
+    "*.md": "prettier --write"
   }
 }
