@@ -1,6 +1,6 @@
 ---
 name: 🔍 Spike
-label: 'spike'
+labels: 'spike'
 about: Submit a proposal for technical exploration
 ---
 

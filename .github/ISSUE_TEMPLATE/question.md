@@ -1,6 +1,6 @@
 ---
 name: 🤔 Question
-label: 'question'
+labels: 'question'
 about: Submit a question about Canvas Icons
 ---
 
