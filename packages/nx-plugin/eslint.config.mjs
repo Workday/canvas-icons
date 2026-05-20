@@ -11,9 +11,7 @@ export default [
       parser: jsoncParser,
     },
     plugins: {
-      '@nx': {
-        rules: nxEslintPlugin.rules,
-      },
+      '@nx': nxEslintPlugin,
     },
     rules: {
       '@nx/dependency-checks': 'error',
