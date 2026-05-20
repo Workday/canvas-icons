@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-barcode" role="presentation">
+<g>
+<path d="M2.5 14C2.77614 14 3 14.2239 3 14.5V18H6.5C6.77614 18 7 18.2239 7 18.5V19.5C7 19.7761 6.77614 20 6.5 20H2C1.48232 20 1.05621 19.6067 1.00488 19.1025L1 19V14.5C1 14.2239 1.22386 14 1.5 14H2.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M22.5 14C22.7761 14 23 14.2239 23 14.5V19L22.9951 19.1025C22.9438 19.6067 22.5177 20 22 20H17.5C17.2239 20 17 19.7761 17 19.5V18.5C17 18.2239 17.2239 18 17.5 18H21V14.5C21 14.2239 21.2239 14 21.5 14H22.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M8 16H5V8H8V16Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M11 16H9V8H11V16Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M16 16H12V8H16V16Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M19 16H17V8H19V16Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M6.5 4C6.77614 4 7 4.22386 7 4.5V5.5C7 5.77614 6.77614 6 6.5 6H3V9.5C3 9.77614 2.77614 10 2.5 10H1.5C1.22386 10 1 9.77614 1 9.5V5L1.00488 4.89746C1.05621 4.39333 1.48232 4 2 4H6.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M22 4C22.5177 4 22.9438 4.39333 22.9951 4.89746L23 5V9.5C23 9.77614 22.7761 10 22.5 10H21.5C21.2239 10 21 9.77614 21 9.5V6H17.5C17.2239 6 17 5.77614 17 5.5V4.5C17 4.22386 17.2239 4 17.5 4H22Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

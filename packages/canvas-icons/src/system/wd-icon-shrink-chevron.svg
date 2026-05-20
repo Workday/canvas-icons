@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-shrink-chevron" role="presentation">
+<g>
+<path d="M10.5 13C10.7761 13 11 13.2239 11 13.5V20.5C11 20.7761 10.7761 21 10.5 21H9.5C9.22386 21 9 20.7761 9 20.5V15H3.625C3.27982 15 3 14.7202 3 14.375V13.625C3 13.2798 3.27982 13 3.625 13H10.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M14.5 3C14.7761 3 15 3.22386 15 3.5V9H20.375C20.7202 9 21 9.27982 21 9.625V10.375C21 10.7202 20.7202 11 20.375 11H13.5C13.2239 11 13 10.7761 13 10.5V3.5C13 3.22386 13.2239 3 13.5 3H14.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

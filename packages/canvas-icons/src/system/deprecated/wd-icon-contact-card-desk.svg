@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-contact-card-desk" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-desk.svg instead. -->
+<path d="M10.5 5C10.7761 5 11 5.22386 11 5.5V18.5C11 18.7761 10.7761 19 10.5 19H3.5C3.22386 19 3 18.7761 3 18.5V5.5C3 5.22386 3.22386 5 3.5 5H10.5Z" fill="transparent" class="wd-icon-background"></path>
+<path d="M22.5 4C22.7761 4 23 4.22386 23 4.5V5.5C23 5.77614 22.7761 6 22.5 6H21V19.5C21 19.7761 20.7761 20 20.5 20H19.5C19.2239 20 19 19.7761 19 19.5V6H12V18.5C12 19.3284 11.3284 20 10.5 20H3.5C2.67157 20 2 19.3284 2 18.5V6H1.5C1.22386 6 1 5.77614 1 5.5V4.5C1 4.22386 1.22386 4 1.5 4H22.5ZM4 13V18H10V13H4ZM4 11H10V6H4V11Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<g>
+<path d="M8.5 14C8.77614 14 9 14.2239 9 14.5V15.5C9 15.7761 8.77614 16 8.5 16H5.5C5.22386 16 5 15.7761 5 15.5V14.5C5 14.2239 5.22386 14 5.5 14H8.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+<path d="M8.5 7C8.77614 7 9 7.22386 9 7.5V8.5C9 8.77614 8.77614 9 8.5 9H5.5C5.22386 9 5 8.77614 5 8.5V7.5C5 7.22386 5.22386 7 5.5 7H8.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</g>
+</svg>

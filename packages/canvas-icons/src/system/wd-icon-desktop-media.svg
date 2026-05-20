@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-desktop-media" role="presentation">
+<path d="M2 5H22V17H2V5Z" fill="transparent" class="wd-icon-background"></path>
+<g>
+<path d="M17.5 20C17.7761 20 18 20.2239 18 20.5V21.5C18 21.7761 17.7761 22 17.5 22H6.5C6.22386 22 6 21.7761 6 21.5V20.5C6 20.2239 6.22386 20 6.5 20H17.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M23 18H1V4H23V18ZM3 16H21V6H3V16Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+<path d="M10 8.58251C10.0002 8.19421 10.4237 7.95436 10.7568 8.1538L14.7852 10.5708C15.1088 10.765 15.1088 11.234 14.7852 11.4282L10.7568 13.8452C10.4236 14.0449 10 13.8051 10 13.4165V8.58251Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</svg>

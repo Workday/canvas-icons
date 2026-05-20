@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-calendar" role="presentation">
+<path d="M3.5 4C3.22386 4 3 4.22386 3 4.5V8H21V4.5C21 4.22386 20.7761 4 20.5 4H3.5Z" fill="transparent" class="wd-icon-background"></path>
+<g>
+<path d="M9.5 11C9.77614 11 10 11.2239 10 11.5V14.5C10 14.7761 9.77614 15 9.5 15H6.5C6.22386 15 6 14.7761 6 14.5V11.5C6 11.2239 6.22386 11 6.5 11H9.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M7.5 1C7.77614 1 8 1.22386 8 1.5V3H16V1.5C16 1.22386 16.2239 1 16.5 1H17.5C17.7761 1 18 1.22386 18 1.5V3H20.5C21.3284 3 22 3.67157 22 4.5V19.5C22 20.3284 21.3284 21 20.5 21H3.5C2.67157 21 2 20.3284 2 19.5V4.5C2 3.67157 2.67157 3 3.5 3H6V1.5C6 1.22386 6.22386 1 6.5 1H7.5ZM4 19H20V9H4V19ZM4 7H20V5H4V7Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

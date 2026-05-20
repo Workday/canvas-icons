@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-legend" role="presentation">
+<g>
+<path d="M7 3C7.55228 3 8 3.44772 8 4V20C8 20.5523 7.55228 21 7 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7ZM4 19H6V5H4V19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M14 3C14.5523 3 15 3.44772 15 4V20C15 20.5523 14.5523 21 14 21H10C9.44772 21 9 20.5523 9 20V4C9 3.44772 9.44772 3 10 3H14ZM11 19H13V5H11V19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M21 3C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H17C16.4477 21 16 20.5523 16 20V4C16 3.44772 16.4477 3 17 3H21ZM18 19H20V5H18V19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

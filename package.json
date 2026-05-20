@@ -6,7 +6,6 @@
   "repository": "git@github.com:Workday/canvas-icons.git",
   "author": "Workday, Inc. (https://www.workday.com)",
   "license": "CC-BY-ND-4.0",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -37,14 +36,29 @@
     "react-dom": "^19.2.1",
     "typescript": "^6.0.3"
   },
+  "resolutions": {
+    "zod": "4.3.6"
+  },
   "scripts": {
-    "prepare": "husky",
+    "build": "run-p build:system build:expressive",
+    "build:system": "run-s build:base:system build:web:system",
+    "build:expressive": "run-s build:base:expressive build:web:expressive",
+    "build:base": "nx run @workday/canvas-icons:build",
+    "build:base:system": "nx run @workday/canvas-icons:build:system",
+    "build:base:expressive": "nx run @workday/canvas-icons:build:expressive",
+    "build:web": "nx run-many -t build --projects=tag:platform:web",
+    "build:web:system": "nx run @workday/canvas-system-icons-web:build",
+    "build:web:expressive": "nx run @workday/canvas-expressive-icons-web:build",
+    "clean": "nx run-many -t clean --projects=tag:*:*",
     "docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
     "docs:run": "nx start @workday/canvas-icons-docs",
+    "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write",
     "graph": "nx graph",
     "lint": "eslint .",
-    "typecheck": "npm run typecheck --workspaces --if-present",
-    "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write"
-  }
+    "prepare": "husky",
+    "predocs:dev": "yarn build",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "private": true
 }

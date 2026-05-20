@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-bar-cluster-chart" role="presentation">
+<g>
+<path d="M10 6C10.5523 6 11 6.44772 11 7V20C11 20.5523 10.5523 21 10 21H2C1.44772 21 1 20.5523 1 20V11C1 10.4477 1.44772 10 2 10H5V7C5 6.44772 5.44772 6 6 6H10ZM3 19H5V12H3V19ZM7 19H9V8H7V19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M18 1C18.5523 1 19 1.44772 19 2V6H22C22.5523 6 23 6.44772 23 7V20C23 20.5523 22.5523 21 22 21H14C13.4477 21 13 20.5523 13 20V2C13 1.44772 13.4477 1 14 1H18ZM15 19H17V3H15V19ZM19 19H21V8H19V19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

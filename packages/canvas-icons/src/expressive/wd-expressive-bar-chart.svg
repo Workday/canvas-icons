@@ -1,0 +1,12 @@
+<svg role="presentation" width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" class="wd-expressive wd-expressive-bar-chart">
+<g>
+<path d="M13 47H6V22H13V47Z" fill="oklch(0.3057 0.079 256.22 / 0.13)" class="wd-expressive-accent"></path>
+<path d="M30 47H23V8H30V47Z" fill="oklch(0.3057 0.079 256.22 / 0.13)" class="wd-expressive-accent"></path>
+<path d="M47 47H40V29H47V47Z" fill="oklch(0.3057 0.079 256.22 / 0.13)" class="wd-expressive-accent"></path>
+</g>
+<g>
+<path d="M16 18C16.5523 18 17 18.4477 17 19V47C17 47.5523 16.5523 48 16 48H6C5.44772 48 5 47.5523 5 47V19C5 18.4477 5.44772 18 6 18H16ZM7 46H15V20H7V46Z" fill="oklch(0.3523 0 0 / 1)" class="wd-expressive-fill"></path>
+<path d="M33 4C33.5523 4 34 4.44772 34 5V47C34 47.5523 33.5523 48 33 48H23C22.4477 48 22 47.5523 22 47V5C22 4.44772 22.4477 4 23 4H33ZM24 46H32V6H24V46Z" fill="oklch(0.3523 0 0 / 1)" class="wd-expressive-fill"></path>
+<path d="M50 25C50.5523 25 51 25.4477 51 26V47C51 47.5523 50.5523 48 50 48H40C39.4477 48 39 47.5523 39 47V26C39 25.4477 39.4477 25 40 25H50ZM41 46H49V27H41V46Z" fill="oklch(0.3523 0 0 / 1)" class="wd-expressive-fill"></path>
+</g>
+</svg>

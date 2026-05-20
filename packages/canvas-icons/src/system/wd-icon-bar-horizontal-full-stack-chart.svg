@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-bar-horizontal-full-stack-chart" role="presentation">
+<g>
+<path d="M10 16C10.5523 16 11 16.4477 11 17V21C11 21.5523 10.5523 22 10 22H4C3.44772 22 3 21.5523 3 21V17C3 16.4477 3.44772 16 4 16H10ZM5 20H9V18H5V20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M9 9C9.55228 9 10 9.44772 10 10V14C10 14.5523 9.55228 15 9 15H4C3.44772 15 3 14.5523 3 14V10C3 9.44772 3.44772 9 4 9H9ZM5 13H8V11H5V13Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M14 2C14.5523 2 15 2.44772 15 3V7C15 7.55228 14.5523 8 14 8H4C3.44772 8 3 7.55228 3 7V3C3 2.44772 3.44772 2 4 2H14ZM5 6H13V4H5V6Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+<g>
+<path d="M20 16C20.5523 16 21 16.4477 21 17V21C21 21.5523 20.5523 22 20 22H13C12.4477 22 12 21.5523 12 21V17C12 16.4477 12.4477 16 13 16H20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+<path d="M20 9C20.5523 9 21 9.44772 21 10V14C21 14.5523 20.5523 15 20 15H12C11.4477 15 11 14.5523 11 14V10C11 9.44772 11.4477 9 12 9H20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+<path d="M20 2C20.5523 2 21 2.44772 21 3V7C21 7.55228 20.5523 8 20 8H17C16.4477 8 16 7.55228 16 7V3C16 2.44772 16.4477 2 17 2H20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</g>
+</svg>
