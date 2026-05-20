@@ -24,6 +24,12 @@ jobs:
         with:
           node_version: 22.x
 
+      - name: Build project graph
+        shell: bash
+        run: npx nx show projects
+        env:
+          NX_DAEMON: 'false'
+
       - name: Lint
         shell: bash
         run: yarn lint
