@@ -1,15 +1,16 @@
-import {SystemIconsList} from '../../components/Gallery/SystemIconsList';
+import * as systemIcons from '@workday/canvas-system-icons-web';
 
-# Canvas System Icons
+import {IconsGallery} from '../../components/IconsGallery';
+
+# Gallery
 
 ### Active Icons
 
 <br />
 
-<SystemIconsList />
-
-### Deprecated Icons
-
-<br />
-
-<SystemIconsList deprecated />
+<IconsGallery
+  icons={Object.keys(systemIcons)
+    .filter(k => !('fallback' in systemIcons[k]) && 'svg' in systemIcons[k])
+    .map(k => systemIcons[k])}
+  type="system"
+/>
