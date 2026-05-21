@@ -26,10 +26,10 @@ jobs:
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v3
+        uses: actions/cache/restore@v4
         with:
           path: node_modules
-          key: ${{ runner.os }}-22.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
 
       - name: Install deps
         if: steps.cache.outputs.cache-hit != 'true'
@@ -37,7 +37,7 @@ jobs:
 
       - name: Save cache
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         with:
           path: node_modules
-          key: ${{ runner.os }}-22.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
