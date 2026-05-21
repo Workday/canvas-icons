@@ -11,6 +11,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@chromatic-com/cypress": "^0.12.5",
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
     "@nx/eslint": "22.5.4",
@@ -25,6 +26,7 @@
     "@workday/canvas-tokens-web": "^4.1.0",
     "@workday/design-assets-types": "^0.2.10",
     "change-case-all": "^2.1.0",
+    "cypress": "^15",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
@@ -38,6 +40,9 @@
     "typescript": "^6.0.3"
   },
   "scripts": {
+    "cy:build": "echo 'TODO: add icon package build commands once packages are migrated'",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --component",
     "prepare": "husky",
     "docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
