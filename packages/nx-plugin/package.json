@@ -7,10 +7,11 @@
   "private": true,
   "executors": "./executors.json",
   "dependencies": {
-"@nx/devkit": "22.5.4",
+    "@nx/devkit": "22.5.4",
     "@nx/eslint-plugin": "22.5.4",
     "change-case-all": "^2.1.0",
-    "jsonc-eslint-parser": "^2.4.0"
+    "jsonc-eslint-parser": "^2.4.0",
+    "@actions/github": "6.0.1"
   },
   "devDependencies": {
     "@swc-node/register": "^1.11.1",
