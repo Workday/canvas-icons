@@ -41,7 +41,7 @@
   },
   "scripts": {
     "prepare": "husky",
-"docs:build": "nx build @workday/canvas-icons-docs",
+    "docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
     "docs:run": "nx start @workday/canvas-icons-docs",
     "graph": "nx graph",
