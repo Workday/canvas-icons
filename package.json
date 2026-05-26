@@ -41,8 +41,7 @@
   },
   "scripts": {
     "prepare": "husky",
-    "changelog": "nx generate-changelog @workday/canvas-assets-nx-plugin --commit=\"$(git log -1 --pretty=%s)\"",
-    "docs:build": "nx build @workday/canvas-icons-docs",
+"docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
     "docs:run": "nx start @workday/canvas-icons-docs",
     "graph": "nx graph",
