@@ -7,8 +7,7 @@
   "private": true,
   "executors": "./executors.json",
   "dependencies": {
-    "@actions/github": "^9.1.1",
-    "@nx/devkit": "22.5.4",
+"@nx/devkit": "22.5.4",
     "@nx/eslint-plugin": "22.5.4",
     "change-case-all": "^2.1.0",
     "jsonc-eslint-parser": "^2.4.0"
