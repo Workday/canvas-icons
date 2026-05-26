@@ -35,8 +35,5 @@
     "lint": {
       "executor": "@nx/eslint:lint"
     },
-    "generate-changelog": {
-      "executor": "@workday/canvas-assets-nx-plugin:changelog"
-    }
   }
 }
