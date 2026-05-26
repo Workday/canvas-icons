@@ -45,6 +45,8 @@ jobs:
           key: ${{ runner.os }}-icons-dist-${{ github.sha }}
       - name: Run Cypress component tests
         run: yarn cy:run
+        env:
+          CYPRESS_CACHE_FOLDER: .cache/cypress
       - uses: chromaui/action@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
