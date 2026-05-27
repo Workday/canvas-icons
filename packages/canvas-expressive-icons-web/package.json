@@ -5,8 +5,11 @@
   "license": "CC-BY-ND-4.0",
   "author": "Workday, Inc. (https://www.workday.com)",
   "contributors": [
+    "Alan Smith",
+    "Josh Bagwell",
+    "Manuel Carrera",
     "Raisa Primerova",
-    "Alan Smith"
+    "Sheelah Brennan"
   ],
   "main": "dist/commonjs/index.js",
   "module": "dist/es6/index.js",
