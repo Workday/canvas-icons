@@ -11,6 +11,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@changesets/cli": "^2.31.0",
     "@chromatic-com/cypress": "^0.12.5",
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
@@ -32,6 +33,7 @@
     "eslint-plugin-prettier": "^5.5.4",
     "husky": "^9.1.7",
     "jsonc-eslint-parser": "^2.4.0",
+    "lint-staged": "^15.4.3",
     "npm-run-all": "^4.1.5",
     "nx": "22.5.4",
     "prettier": "^3.8.3",
@@ -50,7 +52,15 @@
     "docs:run": "nx start @workday/canvas-icons-docs",
     "graph": "nx graph",
     "lint": "eslint .",
+    "precommit": "lint-staged",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ],
+    "*.md": "prettier --write"
   }
 }

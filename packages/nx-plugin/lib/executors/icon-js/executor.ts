@@ -153,7 +153,9 @@ const runExecutor: PromiseExecutor<MetadataExecutorSchema> = async options => {
   });
 
   const iconNames: string[] = icons.map(icon => {
-    const {name} = metadata.find((meta: {filename: string; name: string}) => meta.filename === icon)!;
+    const {name} = metadata.find(
+      (meta: {filename: string; name: string}) => meta.filename === icon
+    )!;
     return name;
   });
   const exportsContent = getExportContent(moduleType, iconNames, iconType, moduleDir);
