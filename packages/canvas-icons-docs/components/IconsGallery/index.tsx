@@ -58,7 +58,7 @@ const galleryStyles = createStencil({
 export const IconsGallery = ({icons, type}: IconsGalleryProps) => {
   return (
     <div {...galleryStyles({type})}>
-      {icons.map((icon, i) => (
+      {icons.map(icon => (
         <div key={icon.name} {...galleryStyles.parts.iconCard}>
           {icon.type === 'system' ? <SystemIcon icon={icon} /> : <ExpressiveIcon icon={icon} />}
           <span>{capitalCase(icon.name)}</span>
