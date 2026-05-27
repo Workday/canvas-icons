@@ -6,7 +6,6 @@
   "repository": "git@github.com:Workday/canvas-icons.git",
   "author": "Workday, Inc. (https://www.workday.com)",
   "license": "CC-BY-ND-4.0",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -15,17 +14,16 @@
     "@chromatic-com/cypress": "^0.12.5",
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
-    "@nx/eslint": "22.5.4",
-    "@nx/eslint-plugin": "22.5.4",
-    "@nx/js": "22.5.4",
-    "@nx/next": "22.5.4",
+    "@nx/eslint": "22.6.4",
+    "@nx/eslint-plugin": "22.6.4",
+    "@nx/js": "22.6.4",
+    "@nx/next": "22.6.4",
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^8.59.3",
     "@typescript-eslint/parser": "^8.59.3",
-    "@workday/canvas-kit-react": "^14.2.20",
-    "@workday/canvas-system-icons-web": "^3.0.37",
-    "@workday/canvas-tokens-web": "^4.1.0",
-    "@workday/design-assets-types": "^0.2.10",
+    "@workday/canvas-kit-react": "^15.0.4",
+    "@workday/canvas-kit-styling": "^15.0.4",
+    "@workday/canvas-tokens-web": "^4.3.0",
     "change-case-all": "^2.1.0",
     "cypress": "^15",
     "eslint": "^10.4.0",
@@ -42,19 +40,33 @@
     "typescript": "^6.0.3",
     "vite": "^8.0.14"
   },
+  "resolutions": {
+    "zod": "4.3.6"
+  },
   "scripts": {
-    "cy:build": "echo 'TODO: add icon package build commands once packages are migrated'",
+    "build": "run-p build:system build:expressive",
+    "build:system": "run-s build:base:system build:web:system",
+    "build:expressive": "run-s build:base:expressive build:web:expressive",
+    "build:base": "nx run @workday/canvas-icons:build",
+    "build:base:system": "nx run @workday/canvas-icons:build:system",
+    "build:base:expressive": "nx run @workday/canvas-icons:build:expressive",
+    "build:web": "nx run-many -t build --projects=tag:platform:web",
+    "build:web:system": "nx run @workday/canvas-system-icons-web:build",
+    "build:web:expressive": "nx run @workday/canvas-expressive-icons-web:build",
+    "clean": "nx run-many -t clean --projects=tag:*:*",
     "cy:open": "cypress open",
+    "precy:run": "yarn build",
     "cy:run": "cypress run --component",
-    "prepare": "husky",
     "docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
     "docs:run": "nx start @workday/canvas-icons-docs",
+    "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write",
     "graph": "nx graph",
     "lint": "eslint .",
+    "prepare": "husky",
     "precommit": "lint-staged",
-    "typecheck": "npm run typecheck --workspaces --if-present",
-    "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write"
+    "predocs:dev": "yarn build",
+    "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -62,5 +74,6 @@
       "prettier --write"
     ],
     "*.md": "prettier --write"
-  }
+  },
+  "private": true
 }

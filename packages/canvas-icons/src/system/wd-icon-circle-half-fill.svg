@@ -1,0 +1,5 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-circle-half-fill" role="presentation">
+<path d="M12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12C21 14.3869 20.0518 16.6761 18.364 18.364C16.6761 20.0518 14.387 21 12 21L12 3Z" fill="transparent" class="wd-icon-background"></path>
+<path d="M12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1ZM12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3V21Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M12 21C9.61305 21 7.32357 20.0521 5.63574 18.3643C3.94792 16.6764 3 14.3869 3 12C3 9.61305 3.94791 7.32357 5.63574 5.63574C7.32357 3.94791 9.61305 3 12 3V21Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</svg>

@@ -1,0 +1,10 @@
+<svg role="presentation" width="56" height="56" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" class="wd-expressive wd-expressive-bar-cluster-chart">
+<g>
+<path d="M21 47H16V18H21V47Z" fill="oklch(0.3057 0.079 256.22 / 0.13)" class="wd-expressive-accent"></path>
+<path d="M45 47H40V18H45V47Z" fill="oklch(0.3057 0.079 256.22 / 0.13)" class="wd-expressive-accent"></path>
+</g>
+<g>
+<path d="M24 14C24.5523 14 25 14.4477 25 15V47C25 47.5523 24.5523 48 24 48H8C7.44772 48 7 47.5523 7 47V26C7 25.4477 7.44772 25 8 25H15V15C15 14.4477 15.4477 14 16 14H24ZM9 46H15V27H9V46ZM17 46H23V16H17V46Z" fill="oklch(0.3523 0 0 / 1)" class="wd-expressive-fill"></path>
+<path d="M40 4C40.5523 4 41 4.44772 41 5V14H48C48.5523 14 49 14.4477 49 15V47C49 47.5523 48.5523 48 48 48H32C31.4477 48 31 47.5523 31 47V5C31 4.44772 31.4477 4 32 4H40ZM33 46H39V6H33V46ZM41 46H47V16H41V46Z" fill="oklch(0.3523 0 0 / 1)" class="wd-expressive-fill"></path>
+</g>
+</svg>

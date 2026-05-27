@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-task-overview" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-document-task.svg instead. -->
+<path d="M18.5 2H5.5C5.22386 2 5 2.22386 5 2.5V21.5C5 21.7761 5.22386 22 5.5 22H18.5C18.7761 22 19 21.7761 19 21.5V2.5C19 2.22386 18.7761 2 18.5 2Z" fill="transparent" class="wd-icon-background"></path>
+<path d="M18.5 1C19.3284 1 20 1.67157 20 2.5V21.5C20 22.3284 19.3284 23 18.5 23H5.5C4.67157 23 4 22.3284 4 21.5V2.5C4 1.67157 4.67157 1 5.5 1H18.5ZM6 21H18V3H6V21Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<g>
+<path d="M15.5 16C15.7761 16 16 16.2239 16 16.5V17.5C16 17.7761 15.7761 18 15.5 18H8.5C8.22386 18 8 17.7761 8 17.5V16.5C8 16.2239 8.22386 16 8.5 16H15.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+<path d="M15.5 13C15.7761 13 16 13.2239 16 13.5V14.5C16 14.7761 15.7761 15 15.5 15H8.5C8.22386 15 8 14.7761 8 14.5V13.5C8 13.2239 8.22386 13 8.5 13H15.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</g>
+</svg>

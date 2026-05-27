@@ -1,0 +1,1381 @@
+{
+  "unchanged": [
+    "wd-icon-accessibility",
+    "wd-icon-actuals",
+    "wd-icon-add-above",
+    "wd-icon-add-below",
+    "wd-icon-add-left",
+    "wd-icon-add-right",
+    "wd-icon-add-split-row",
+    "wd-icon-add-zero",
+    "wd-icon-alarm-clock",
+    "wd-icon-alarm-clock-plus",
+    "wd-icon-align-bottom",
+    "wd-icon-align-center",
+    "wd-icon-align-left",
+    "wd-icon-align-middle",
+    "wd-icon-align-right",
+    "wd-icon-align-top",
+    "wd-icon-anomaly-detection",
+    "wd-icon-array",
+    "wd-icon-arrow-corner-down-left",
+    "wd-icon-arrow-corner-down-right",
+    "wd-icon-arrow-corner-up-left",
+    "wd-icon-arrow-corner-up-right",
+    "wd-icon-arrow-down",
+    "wd-icon-arrow-left",
+    "wd-icon-arrow-left-small",
+    "wd-icon-arrow-right",
+    "wd-icon-arrow-right-small",
+    "wd-icon-arrow-up",
+    "wd-icon-attribute",
+    "wd-icon-audio-min",
+    "wd-icon-audio-mute",
+    "wd-icon-audio-none",
+    "wd-icon-bid",
+    "wd-icon-birthday",
+    "wd-icon-bold",
+    "wd-icon-bolt",
+    "wd-icon-boolean",
+    "wd-icon-border-all",
+    "wd-icon-border-bottom",
+    "wd-icon-border-center",
+    "wd-icon-border-color",
+    "wd-icon-border-left",
+    "wd-icon-border-none",
+    "wd-icon-border-outside",
+    "wd-icon-border-right",
+    "wd-icon-border-top",
+    "wd-icon-box-text",
+    "wd-icon-button",
+    "wd-icon-calculator",
+    "wd-icon-calendar",
+    "wd-icon-camera",
+    "wd-icon-canvas",
+    "wd-icon-caret-bottom",
+    "wd-icon-caret-bottom-small",
+    "wd-icon-caret-down",
+    "wd-icon-caret-down-small",
+    "wd-icon-caret-left-small",
+    "wd-icon-caret-right-small",
+    "wd-icon-caret-top",
+    "wd-icon-caret-top-small",
+    "wd-icon-caret-up",
+    "wd-icon-caret-up-small",
+    "wd-icon-cart",
+    "wd-icon-check",
+    "wd-icon-check-in",
+    "wd-icon-check-small",
+    "wd-icon-checkbox",
+    "wd-icon-chevron-2x-down-small",
+    "wd-icon-chevron-2x-left-small",
+    "wd-icon-chevron-2x-right-small",
+    "wd-icon-chevron-2x-up-small",
+    "wd-icon-chevron-down",
+    "wd-icon-chevron-down-small",
+    "wd-icon-chevron-left",
+    "wd-icon-chevron-left-small",
+    "wd-icon-chevron-right",
+    "wd-icon-chevron-right-small",
+    "wd-icon-chevron-up",
+    "wd-icon-chevron-up-small",
+    "wd-icon-chip",
+    "wd-icon-clipboard-check",
+    "wd-icon-clock",
+    "wd-icon-clock-check",
+    "wd-icon-clock-exclamation",
+    "wd-icon-clock-minus",
+    "wd-icon-clock-pause",
+    "wd-icon-clock-plus",
+    "wd-icon-clock-x",
+    "wd-icon-cloud-lock",
+    "wd-icon-code",
+    "wd-icon-comment-active",
+    "wd-icon-comment-plus",
+    "wd-icon-compare-files",
+    "wd-icon-compass",
+    "wd-icon-component",
+    "wd-icon-component-edit",
+    "wd-icon-credit-card",
+    "wd-icon-cut",
+    "wd-icon-dashboard",
+    "wd-icon-data-source",
+    "wd-icon-delta",
+    "wd-icon-document-csv",
+    "wd-icon-document-download",
+    "wd-icon-document-html",
+    "wd-icon-document-star",
+    "wd-icon-document-tsv",
+    "wd-icon-dollar-sign",
+    "wd-icon-dot",
+    "wd-icon-download",
+    "wd-icon-draggable",
+    "wd-icon-draggable-vertical",
+    "wd-icon-drill-down",
+    "wd-icon-dropdown",
+    "wd-icon-dropdown-button",
+    "wd-icon-edit",
+    "wd-icon-endpoints",
+    "wd-icon-excel",
+    "wd-icon-exclamation",
+    "wd-icon-exclamation-circle",
+    "wd-icon-exclamation-triangle",
+    "wd-icon-export",
+    "wd-icon-face-happy",
+    "wd-icon-face-id",
+    "wd-icon-face-neutral",
+    "wd-icon-face-unhappy",
+    "wd-icon-face-very-happy",
+    "wd-icon-fast-forward-15",
+    "wd-icon-filter",
+    "wd-icon-filter-exclamation",
+    "wd-icon-fingerprint-android",
+    "wd-icon-flag",
+    "wd-icon-flash-auto",
+    "wd-icon-flow",
+    "wd-icon-folder-minus",
+    "wd-icon-folder-open",
+    "wd-icon-folder-plus",
+    "wd-icon-font-face",
+    "wd-icon-font-size",
+    "wd-icon-formula-edit",
+    "wd-icon-gear",
+    "wd-icon-globe",
+    "wd-icon-grid",
+    "wd-icon-grid-view",
+    "wd-icon-grow",
+    "wd-icon-heading",
+    "wd-icon-hierarchy",
+    "wd-icon-hierarchy-child",
+    "wd-icon-hierarchy-diagonal-parent",
+    "wd-icon-hierarchy-diagonal-parent-child",
+    "wd-icon-hierarchy-diagonal-parent-child-child",
+    "wd-icon-hierarchy-full",
+    "wd-icon-hierarchy-parent",
+    "wd-icon-highlight",
+    "wd-icon-home",
+    "wd-icon-image",
+    "wd-icon-indent",
+    "wd-icon-info",
+    "wd-icon-insert-column-after",
+    "wd-icon-insert-column-before",
+    "wd-icon-insert-row-after",
+    "wd-icon-insert-row-before",
+    "wd-icon-instance",
+    "wd-icon-italics",
+    "wd-icon-join-full",
+    "wd-icon-join-inner",
+    "wd-icon-join-left",
+    "wd-icon-join-right",
+    "wd-icon-keyboard",
+    "wd-icon-kpi",
+    "wd-icon-laptop",
+    "wd-icon-legend",
+    "wd-icon-lightbulb",
+    "wd-icon-link",
+    "wd-icon-list-detail",
+    "wd-icon-list-view",
+    "wd-icon-location",
+    "wd-icon-lock",
+    "wd-icon-loop",
+    "wd-icon-mail",
+    "wd-icon-map",
+    "wd-icon-marker",
+    "wd-icon-medal",
+    "wd-icon-megaphone",
+    "wd-icon-merge",
+    "wd-icon-merge-small",
+    "wd-icon-microphone",
+    "wd-icon-minus",
+    "wd-icon-moon",
+    "wd-icon-multi-instance",
+    "wd-icon-nearby",
+    "wd-icon-number-input",
+    "wd-icon-numbers",
+    "wd-icon-object",
+    "wd-icon-operator",
+    "wd-icon-package-arrow-down",
+    "wd-icon-package-arrow-up",
+    "wd-icon-paragraph",
+    "wd-icon-pattern",
+    "wd-icon-pdf",
+    "wd-icon-percentage",
+    "wd-icon-phone",
+    "wd-icon-pi",
+    "wd-icon-pill",
+    "wd-icon-pin",
+    "wd-icon-placeholder",
+    "wd-icon-platform-cart",
+    "wd-icon-playbook",
+    "wd-icon-plus-small",
+    "wd-icon-power-of-one",
+    "wd-icon-powerpoint",
+    "wd-icon-previous",
+    "wd-icon-print",
+    "wd-icon-prism",
+    "wd-icon-proxy-user",
+    "wd-icon-puzzle",
+    "wd-icon-qr-code",
+    "wd-icon-range-period",
+    "wd-icon-reference-line",
+    "wd-icon-region",
+    "wd-icon-related-actions",
+    "wd-icon-related-actions-vertical",
+    "wd-icon-remove-column-after",
+    "wd-icon-remove-indent",
+    "wd-icon-remove-row-after",
+    "wd-icon-remove-split-row",
+    "wd-icon-remove-zero",
+    "wd-icon-rename-split-row",
+    "wd-icon-replay",
+    "wd-icon-reset",
+    "wd-icon-resizable",
+    "wd-icon-restore",
+    "wd-icon-rewind-30",
+    "wd-icon-ribbon",
+    "wd-icon-rocket",
+    "wd-icon-rotate",
+    "wd-icon-save",
+    "wd-icon-save-as",
+    "wd-icon-screen-reader",
+    "wd-icon-search",
+    "wd-icon-search-user",
+    "wd-icon-select",
+    "wd-icon-send",
+    "wd-icon-shapes",
+    "wd-icon-share",
+    "wd-icon-shrink",
+    "wd-icon-signal-four",
+    "wd-icon-signal-one",
+    "wd-icon-signal-three",
+    "wd-icon-signal-two",
+    "wd-icon-skip",
+    "wd-icon-slider",
+    "wd-icon-soccer-ball",
+    "wd-icon-social-media",
+    "wd-icon-sort",
+    "wd-icon-sort-a-z",
+    "wd-icon-sort-z-a",
+    "wd-icon-split",
+    "wd-icon-split-small",
+    "wd-icon-square",
+    "wd-icon-star",
+    "wd-icon-strikethrough",
+    "wd-icon-substitute",
+    "wd-icon-table",
+    "wd-icon-tag",
+    "wd-icon-text",
+    "wd-icon-text-edit",
+    "wd-icon-text-input",
+    "wd-icon-text-wrap",
+    "wd-icon-tokens",
+    "wd-icon-tools",
+    "wd-icon-touch-id",
+    "wd-icon-translation",
+    "wd-icon-trash",
+    "wd-icon-trophy",
+    "wd-icon-underline",
+    "wd-icon-unsort",
+    "wd-icon-upload",
+    "wd-icon-user",
+    "wd-icon-user-check",
+    "wd-icon-user-forward",
+    "wd-icon-versions",
+    "wd-icon-video",
+    "wd-icon-virtual-version",
+    "wd-icon-visible",
+    "wd-icon-webpage",
+    "wd-icon-word",
+    "wd-icon-x-small",
+    "wd-icon-x",
+    "wd-icon-book-open"
+  ],
+  "changed": [
+    {
+      "name": "academic-appointment-title",
+      "fallback": "clipboard-user"
+    },
+    {
+      "name": "accounts",
+      "fallback": "catalog"
+    },
+    {
+      "name": "activity-stream",
+      "fallback": "comment"
+    },
+    {
+      "name": "actuals-locked",
+      "fallback": "actuals-lock"
+    },
+    {
+      "name": "ad-hoc-delivery",
+      "fallback": "box-text-plus"
+    },
+    {
+      "name": "add-footer-ws",
+      "fallback": "plus"
+    },
+    {
+      "name": "adjust-inventory",
+      "fallback": "package-gear"
+    },
+    {
+      "name": "anti-join-left",
+      "fallback": "join-left-anti"
+    },
+    {
+      "name": "anti-join-right",
+      "fallback": "join-right-anti"
+    },
+    {
+      "name": "arrow-circle",
+      "fallback": "arrow-up-circle"
+    },
+    {
+      "name": "arrow-diagonal-small",
+      "fallback": "arrow-diagonal-down-right-small"
+    },
+    {
+      "name": "article-stacked",
+      "fallback": "document-stack"
+    },
+    {
+      "name": "as-applied",
+      "fallback": "check-square"
+    },
+    {
+      "name": "at-tag-mention",
+      "fallback": "mention"
+    },
+    {
+      "name": "audio-max",
+      "fallback": "audio"
+    },
+    {
+      "name": "authentication-tag",
+      "fallback": "lock-authentication"
+    },
+    {
+      "name": "autosum",
+      "fallback": "auto-sum"
+    },
+    {
+      "name": "avatar",
+      "fallback": "cloud"
+    },
+    {
+      "name": "barcode-scanner",
+      "fallback": "barcode"
+    },
+    {
+      "name": "benefits",
+      "fallback": "shield-heart"
+    },
+    {
+      "name": "bg-color",
+      "fallback": "background-color"
+    },
+    {
+      "name": "border-btm2",
+      "fallback": "border-bottom-thick"
+    },
+    {
+      "name": "border-dbl",
+      "fallback": "border-bottom-double"
+    },
+    {
+      "name": "box-plus",
+      "fallback": "square-plus"
+    },
+    {
+      "name": "box-text-user-solid",
+      "fallback": "box-text-user"
+    },
+    {
+      "name": "business-intelligence",
+      "fallback": "document-lightbulb"
+    },
+    {
+      "name": "c-area-100",
+      "fallback": "area-chart"
+    },
+    {
+      "name": "c-area-layered",
+      "fallback": "area-layer-chart"
+    },
+    {
+      "name": "c-area-stacked",
+      "fallback": "area-stack-chart"
+    },
+    {
+      "name": "c-bar-100",
+      "fallback": "bar-horizontal-full-stack-chart"
+    },
+    {
+      "name": "c-bar-clustered",
+      "fallback": "bar-horizontal-chart"
+    },
+    {
+      "name": "c-bar-stacked",
+      "fallback": "bar-horizontal-stack-chart"
+    },
+    {
+      "name": "c-bubble",
+      "fallback": "bubble-chart"
+    },
+    {
+      "name": "c-column-100",
+      "fallback": "bar-full-stack-chart"
+    },
+    {
+      "name": "c-column-clustered",
+      "fallback": "bar-chart-fill"
+    },
+    {
+      "name": "c-column-line",
+      "fallback": "bar-line-chart"
+    },
+    {
+      "name": "c-column-stacked",
+      "fallback": "bar-stack-chart"
+    },
+    {
+      "name": "c-dual-line",
+      "fallback": "dual-line-chart"
+    },
+    {
+      "name": "c-line",
+      "fallback": "line-chart"
+    },
+    {
+      "name": "c-pie",
+      "fallback": "donut-chart"
+    },
+    {
+      "name": "c-scatter",
+      "fallback": "scatter-chart"
+    },
+    {
+      "name": "c-waterfall",
+      "fallback": "waterfall-chart"
+    },
+    {
+      "name": "calculator-locked",
+      "fallback": "calculator-lock"
+    },
+    {
+      "name": "calculator-refresh",
+      "fallback": "calculator-loop"
+    },
+    {
+      "name": "calendar-alt",
+      "fallback": "calendar-days"
+    },
+    {
+      "name": "calendar-user-solid",
+      "fallback": "calendar-user"
+    },
+    {
+      "name": "capture-delivery",
+      "fallback": "package"
+    },
+    {
+      "name": "card",
+      "fallback": "card-stack"
+    },
+    {
+      "name": "card-view",
+      "fallback": "document-view"
+    },
+    {
+      "name": "cell-filter",
+      "fallback": "table-filter"
+    },
+    {
+      "name": "cell-gear",
+      "fallback": "table-gear"
+    },
+    {
+      "name": "cell-reset",
+      "fallback": "table-refresh"
+    },
+    {
+      "name": "cell-row",
+      "fallback": "table-row"
+    },
+    {
+      "name": "cell-search",
+      "fallback": "table-search"
+    },
+    {
+      "name": "cell-swap-axis",
+      "fallback": "table-swap-axis"
+    },
+    {
+      "name": "cell-template",
+      "fallback": "dashboard-grid"
+    },
+    {
+      "name": "chart",
+      "fallback": "bar-chart"
+    },
+    {
+      "name": "chart-config",
+      "fallback": "configure"
+    },
+    {
+      "name": "chart-visuals-fan",
+      "fallback": "fan-chart"
+    },
+    {
+      "name": "checkboxes",
+      "fallback": "checkbox-stack"
+    },
+    {
+      "name": "chevron-2xleft",
+      "fallback": "chevron-2x-left"
+    },
+    {
+      "name": "chevron-2xright",
+      "fallback": "chevron-2x-right"
+    },
+    {
+      "name": "chevron-hierarchy-closed",
+      "fallback": "hierarchy-chevron"
+    },
+    {
+      "name": "chevron-hierarchy-open",
+      "fallback": "hierarchy-chevron-open"
+    },
+    {
+      "name": "clipboard-blank-check",
+      "fallback": "clipboard-success"
+    },
+    {
+      "name": "clipboard-remove",
+      "fallback": "clipboard-x"
+    },
+    {
+      "name": "close",
+      "fallback": "shrink-chevron"
+    },
+    {
+      "name": "closedcaption",
+      "fallback": "closed-caption"
+    },
+    {
+      "name": "cluster",
+      "fallback": "bar-cluster-chart"
+    },
+    {
+      "name": "comma-ws",
+      "fallback": "comma"
+    },
+    {
+      "name": "conclusion",
+      "fallback": "check-circle-underline"
+    },
+    {
+      "name": "conclusion-popup",
+      "fallback": "document-success"
+    },
+    {
+      "name": "contact-card-cost-center",
+      "fallback": "buildings"
+    },
+    {
+      "name": "contact-card-desk",
+      "fallback": "desk"
+    },
+    {
+      "name": "contact-card-id",
+      "fallback": "id-card"
+    },
+    {
+      "name": "contact-card-job-profile",
+      "fallback": "document-user"
+    },
+    {
+      "name": "contact-card-matrix-manager",
+      "fallback": "user-group"
+    },
+    {
+      "name": "convert-inventory",
+      "fallback": "package-loop"
+    },
+    {
+      "name": "course",
+      "fallback": "easel"
+    },
+    {
+      "name": "dashboard-expenses",
+      "fallback": "receipt"
+    },
+    {
+      "name": "dashboard-workforce",
+      "fallback": "user-group-circle"
+    },
+    {
+      "name": "data-complex",
+      "fallback": "data-server"
+    },
+    {
+      "name": "data-input",
+      "fallback": "data-arrow-right"
+    },
+    {
+      "name": "device-desktop",
+      "fallback": "desktop"
+    },
+    {
+      "name": "device-phone",
+      "fallback": "mobile"
+    },
+    {
+      "name": "device-tablet",
+      "fallback": "tablet"
+    },
+    {
+      "name": "discovery-board",
+      "fallback": "bar-line-chart"
+    },
+    {
+      "name": "doc",
+      "fallback": "document"
+    },
+    {
+      "name": "document-alt",
+      "fallback": "document"
+    },
+    {
+      "name": "document-candidate-action-required",
+      "fallback": "document-user-exclamation"
+    },
+    {
+      "name": "document-candidate-inactive",
+      "fallback": "document-user-minus"
+    },
+    {
+      "name": "document-candidate-search",
+      "fallback": "document-user-search"
+    },
+    {
+      "name": "document-candidate-star",
+      "fallback": "document-user-star"
+    },
+    {
+      "name": "document-locked",
+      "fallback": "document-lock"
+    },
+    {
+      "name": "documents-check",
+      "fallback": "document-stack-check"
+    },
+    {
+      "name": "dollar",
+      "fallback": "money"
+    },
+    {
+      "name": "edit-button",
+      "fallback": "button-edit"
+    },
+    {
+      "name": "edit-button-bar",
+      "fallback": "button-bar"
+    },
+    {
+      "name": "empty-app",
+      "fallback": "cloud-search"
+    },
+    {
+      "name": "eraser",
+      "fallback": "erase"
+    },
+    {
+      "name": "eraser-cell",
+      "fallback": "cell-erase"
+    },
+    {
+      "name": "eraser-font",
+      "fallback": "font-erase"
+    },
+    {
+      "name": "esignature",
+      "fallback": "e-signature"
+    },
+    {
+      "name": "expand-table",
+      "fallback": "table-expand"
+    },
+    {
+      "name": "ext-link",
+      "fallback": "external-link"
+    },
+    {
+      "name": "fetch-data",
+      "fallback": "data-arrow-left"
+    },
+    {
+      "name": "file",
+      "fallback": "document"
+    },
+    {
+      "name": "filter-checked",
+      "fallback": "filter-check"
+    },
+    {
+      "name": "find-inventory",
+      "fallback": "package-search"
+    },
+    {
+      "name": "find-transactions",
+      "fallback": "receipt-search"
+    },
+    {
+      "name": "folder-close",
+      "fallback": "folder"
+    },
+    {
+      "name": "folder-move",
+      "fallback": "folder-arrow-right"
+    },
+    {
+      "name": "footer",
+      "fallback": "document-footer"
+    },
+    {
+      "name": "fork-knife",
+      "fallback": "utensils"
+    },
+    {
+      "name": "formatting",
+      "fallback": "font-edit"
+    },
+    {
+      "name": "formula-clipboard",
+      "fallback": "clipboard-formula"
+    },
+    {
+      "name": "freeze-header",
+      "fallback": "table-header-freeze"
+    },
+    {
+      "name": "fullscreen",
+      "fallback": "grow-chevron"
+    },
+    {
+      "name": "fx",
+      "fallback": "formula"
+    },
+    {
+      "name": "fx-brackets",
+      "fallback": "formula-brackets"
+    },
+    {
+      "name": "fx-loop",
+      "fallback": "formula-loop"
+    },
+    {
+      "name": "fx-writeback",
+      "fallback": "formula-bolt"
+    },
+    {
+      "name": "hash-mark",
+      "fallback": "hashmark"
+    },
+    {
+      "name": "heatmap",
+      "fallback": "grid-square"
+    },
+    {
+      "name": "hide-col",
+      "fallback": "column-hide"
+    },
+    {
+      "name": "hierarchy-parent-child",
+      "fallback": "hierarchy-children"
+    },
+    {
+      "name": "hierarchy-right-full",
+      "fallback": "hierarchy-partial"
+    },
+    {
+      "name": "hour-glass",
+      "fallback": "hourglass"
+    },
+    {
+      "name": "inbox-fill",
+      "fallback": "inbox"
+    },
+    {
+      "name": "inbox-large",
+      "fallback": "inbox"
+    },
+    {
+      "name": "instance-mapping",
+      "fallback": "instance-search"
+    },
+    {
+      "name": "interactiongroup",
+      "fallback": "copy"
+    },
+    {
+      "name": "inventory-count",
+      "fallback": "row-clipboard"
+    },
+    {
+      "name": "inventory-search",
+      "fallback": "list-check"
+    },
+    {
+      "name": "invisible",
+      "fallback": "visible-strikethrough"
+    },
+    {
+      "name": "itemize",
+      "fallback": "document-list"
+    },
+    {
+      "name": "job-info",
+      "fallback": "briefcase-info"
+    },
+    {
+      "name": "justify",
+      "fallback": "hamburger"
+    },
+    {
+      "name": "labeled-image",
+      "fallback": "image-label"
+    },
+    {
+      "name": "left-sidebar",
+      "fallback": "sidebar-left"
+    },
+    {
+      "name": "legal",
+      "fallback": "gavel"
+    },
+    {
+      "name": "letter-a",
+      "fallback": "font"
+    },
+    {
+      "name": "live-data",
+      "fallback": "data-bolt"
+    },
+    {
+      "name": "livepages",
+      "fallback": "box-text-circle"
+    },
+    {
+      "name": "mail-letter",
+      "fallback": "mail-open"
+    },
+    {
+      "name": "manage-delivery",
+      "fallback": "box-text-user"
+    },
+    {
+      "name": "media-classroom",
+      "fallback": "users"
+    },
+    {
+      "name": "media-error",
+      "fallback": "bolt-fill"
+    },
+    {
+      "name": "media-mylearning",
+      "fallback": "bookmark"
+    },
+    {
+      "name": "media-pause",
+      "fallback": "pause"
+    },
+    {
+      "name": "media-play",
+      "fallback": "play"
+    },
+    {
+      "name": "media-quiz",
+      "fallback": "document-list"
+    },
+    {
+      "name": "media-survey",
+      "fallback": "document-survey"
+    },
+    {
+      "name": "media-topics",
+      "fallback": "dashboard-grid"
+    },
+    {
+      "name": "menu-group",
+      "fallback": "stack"
+    },
+    {
+      "name": "merge-tag",
+      "fallback": "tag-merge"
+    },
+    {
+      "name": "messaging",
+      "fallback": "comment-discussion"
+    },
+    {
+      "name": "mobile-notifications",
+      "fallback": "mobile-active"
+    },
+    {
+      "name": "move-inventory",
+      "fallback": "dolly"
+    },
+    {
+      "name": "my-learning",
+      "fallback": "book-open-bookmark"
+    },
+    {
+      "name": "my-referrals",
+      "fallback": "user-focus"
+    },
+    {
+      "name": "nbox",
+      "fallback": "dashboard-grid"
+    },
+    {
+      "name": "no-bid",
+      "fallback": "bid-strikethrough"
+    },
+    {
+      "name": "no-connection-cloud",
+      "fallback": "cloud-strikethrough"
+    },
+    {
+      "name": "notifications-large",
+      "fallback": "notifications"
+    },
+    {
+      "name": "onboarding-home",
+      "fallback": "map-location"
+    },
+    {
+      "name": "one-column",
+      "fallback": "column-one"
+    },
+    {
+      "name": "openresponse",
+      "fallback": "comment-text"
+    },
+    {
+      "name": "opportunity-graph",
+      "fallback": "donut-chart-user"
+    },
+    {
+      "name": "ordered-list",
+      "fallback": "list-order"
+    },
+    {
+      "name": "org-chart",
+      "fallback": "organization"
+    },
+    {
+      "name": "org-chart-people",
+      "fallback": "card-user"
+    },
+    {
+      "name": "panel-list",
+      "fallback": "list-plus"
+    },
+    {
+      "name": "password",
+      "fallback": "lock-keyhole"
+    },
+    {
+      "name": "paste",
+      "fallback": "clipboard"
+    },
+    {
+      "name": "people-recruiting",
+      "fallback": "user-plus"
+    },
+    {
+      "name": "perspective",
+      "fallback": "layers"
+    },
+    {
+      "name": "phone-unlock",
+      "fallback": "mobile-unlock"
+    },
+    {
+      "name": "picked-short",
+      "fallback": "circle-half-fill"
+    },
+    {
+      "name": "pin-slash",
+      "fallback": "pin-strikethrough"
+    },
+    {
+      "name": "pivot-table",
+      "fallback": "table-pivot"
+    },
+    {
+      "name": "progress-circle",
+      "fallback": "related-actions-circle"
+    },
+    {
+      "name": "projects",
+      "fallback": "hammer"
+    },
+    {
+      "name": "prompts",
+      "fallback": "list"
+    },
+    {
+      "name": "proof-of-delivery",
+      "fallback": "package-check"
+    },
+    {
+      "name": "prospect",
+      "fallback": "id-card-search"
+    },
+    {
+      "name": "pyramid",
+      "fallback": "pyramid-chart"
+    },
+    {
+      "name": "question-fill",
+      "fallback": "question-circle-fill"
+    },
+    {
+      "name": "question-outline",
+      "fallback": "question-circle"
+    },
+    {
+      "name": "radio-mobile",
+      "fallback": "circle"
+    },
+    {
+      "name": "radio-mobile-selected",
+      "fallback": "radio"
+    },
+    {
+      "name": "receipts",
+      "fallback": "receipt"
+    },
+    {
+      "name": "rename",
+      "fallback": "document-edit"
+    },
+    {
+      "name": "reorder-v2",
+      "fallback": "hamburger"
+    },
+    {
+      "name": "report-parameter",
+      "fallback": "document-gear"
+    },
+    {
+      "name": "right-sidebar",
+      "fallback": "sidebar-right"
+    },
+    {
+      "name": "rows-check",
+      "fallback": "row-check"
+    },
+    {
+      "name": "rows-plus",
+      "fallback": "row-plus"
+    },
+    {
+      "name": "rpm",
+      "fallback": "gauge"
+    },
+    {
+      "name": "rte-emphasis",
+      "fallback": "font-emphasis"
+    },
+    {
+      "name": "rte-list",
+      "fallback": "list"
+    },
+    {
+      "name": "screen-magnification",
+      "fallback": "webpage-search"
+    },
+    {
+      "name": "setup",
+      "fallback": "configure"
+    },
+    {
+      "name": "show-col",
+      "fallback": "column-show"
+    },
+    {
+      "name": "signout",
+      "fallback": "sign-out"
+    },
+    {
+      "name": "skills",
+      "fallback": "bow-compass"
+    },
+    {
+      "name": "sort-down",
+      "fallback": "arrow-down-small"
+    },
+    {
+      "name": "sort-up",
+      "fallback": "arrow-up-small"
+    },
+    {
+      "name": "sparkle-single-small",
+      "fallback": "sparkle"
+    },
+    {
+      "name": "speech-bubble",
+      "fallback": "assistant"
+    },
+    {
+      "name": "speech-exclamation",
+      "fallback": "comment-exclamation"
+    },
+    {
+      "name": "star-half",
+      "fallback": "star-half-fill"
+    },
+    {
+      "name": "suborg",
+      "fallback": "sub-organization"
+    },
+    {
+      "name": "switch",
+      "fallback": "arrow-switch"
+    },
+    {
+      "name": "system-notification",
+      "fallback": "cloud-settings"
+    },
+    {
+      "name": "task-academic",
+      "fallback": "grad-cap"
+    },
+    {
+      "name": "task-benefits",
+      "fallback": "shield-heart"
+    },
+    {
+      "name": "task-career",
+      "fallback": "target"
+    },
+    {
+      "name": "task-company-property",
+      "fallback": "stapler"
+    },
+    {
+      "name": "task-compensation",
+      "fallback": "document-chart"
+    },
+    {
+      "name": "task-contact",
+      "fallback": "book-user"
+    },
+    {
+      "name": "task-job",
+      "fallback": "briefcase"
+    },
+    {
+      "name": "task-overview",
+      "fallback": "document-task"
+    },
+    {
+      "name": "task-pay",
+      "fallback": "wallet"
+    },
+    {
+      "name": "task-performance",
+      "fallback": "clipboard-chart"
+    },
+    {
+      "name": "task-timeoff",
+      "fallback": "suitcase"
+    },
+    {
+      "name": "text-color",
+      "fallback": "font-color"
+    },
+    {
+      "name": "three-column",
+      "fallback": "column-three"
+    },
+    {
+      "name": "thumbs-down-filled",
+      "fallback": "thumbs-down-fill"
+    },
+    {
+      "name": "thumbs-down-outlined",
+      "fallback": "thumbs-down"
+    },
+    {
+      "name": "thumbs-up-filled",
+      "fallback": "thumbs-up-fill"
+    },
+    {
+      "name": "thumbs-up-outlined",
+      "fallback": "thumbs-up"
+    },
+    {
+      "name": "time",
+      "fallback": "history"
+    },
+    {
+      "name": "time-off-balance",
+      "fallback": "calendar-info"
+    },
+    {
+      "name": "timeline-all",
+      "fallback": "timeline"
+    },
+    {
+      "name": "timeline-milestone",
+      "fallback": "signpost"
+    },
+    {
+      "name": "timeline-performance-input",
+      "fallback": "user-star"
+    },
+    {
+      "name": "transcription",
+      "fallback": "box-text-microphone"
+    },
+    {
+      "name": "transformation-groupby",
+      "fallback": "group"
+    },
+    {
+      "name": "transformation-import",
+      "fallback": "extend"
+    },
+    {
+      "name": "transformation-join",
+      "fallback": "shrink-horizontal"
+    },
+    {
+      "name": "transformation-union",
+      "fallback": "union"
+    },
+    {
+      "name": "translated-actuals",
+      "fallback": "actuals-finance"
+    },
+    {
+      "name": "travel",
+      "fallback": "airplane"
+    },
+    {
+      "name": "two-column",
+      "fallback": "column-two"
+    },
+    {
+      "name": "undo-l",
+      "fallback": "undo"
+    },
+    {
+      "name": "undo-r",
+      "fallback": "redo"
+    },
+    {
+      "name": "unfreeze",
+      "fallback": "sun"
+    },
+    {
+      "name": "unknown",
+      "fallback": "document-user-text"
+    },
+    {
+      "name": "unlink",
+      "fallback": "link-strikethrough"
+    },
+    {
+      "name": "unlocked",
+      "fallback": "lock-keyhole-open"
+    },
+    {
+      "name": "unordered-list",
+      "fallback": "list-bullet"
+    },
+    {
+      "name": "upload-clip",
+      "fallback": "paperclip"
+    },
+    {
+      "name": "upload-cloud",
+      "fallback": "cloud-arrow-up"
+    },
+    {
+      "name": "user-locked",
+      "fallback": "user-lock"
+    },
+    {
+      "name": "user-remove",
+      "fallback": "user-x"
+    },
+    {
+      "name": "view-team",
+      "fallback": "team"
+    },
+    {
+      "name": "viewsite",
+      "fallback": "webpage-open"
+    },
+    {
+      "name": "virtual-version-locked",
+      "fallback": "virtual-version-lock"
+    },
+    {
+      "name": "webinar",
+      "fallback": "desktop-media"
+    },
+    {
+      "name": "wizard",
+      "fallback": "magic-wand"
+    },
+    {
+      "name": "workbook",
+      "fallback": "book"
+    },
+    {
+      "name": "worksheets",
+      "fallback": "document-worksheets"
+    },
+    {
+      "name": "xo-instance-list",
+      "fallback": "xo-loop"
+    },
+    {
+      "name": "zoomin",
+      "fallback": "zoom-in"
+    },
+    {
+      "name": "zoomout",
+      "fallback": "zoom-out"
+    }
+  ],
+  "added": [
+    "wd-icon-backspace",
+    "wd-icon-bar-horizontal-cluster-chart",
+    "wd-icon-dashboard-fill",
+    "wd-icon-money-search",
+    "wd-icon-money-ribbon",
+    "wd-icon-bar-chart-growth",
+    "wd-icon-row-arrow-up",
+    "wd-icon-document-stack-user",
+    "wd-icon-diamond",
+    "wd-icon-briefcase-search",
+    "wd-icon-calendar-list",
+    "wd-icon-leaf",
+    "wd-icon-move-row-down",
+    "wd-icon-move-row-up",
+    "wd-icon-fill-strikethrough",
+    "wd-icon-required",
+    "wd-icon-table-axis",
+    "wd-icon-triangle",
+    "wd-icon-caret-left",
+    "wd-icon-caret-right"
+  ]
+}

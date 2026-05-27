@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-cell-template" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-dashboard-grid.svg instead. -->
+<g>
+<path d="M9.5 13C10.3284 13 11 13.6716 11 14.5V20.5C11 21.3284 10.3284 22 9.5 22H3.5C2.67157 22 2 21.3284 2 20.5V14.5C2 13.6716 2.67157 13 3.5 13H9.5ZM4 20H9V15H4V20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M20.5 13C21.3284 13 22 13.6716 22 14.5V20.5C22 21.3284 21.3284 22 20.5 22H14.5C13.6716 22 13 21.3284 13 20.5V14.5C13 13.6716 13.6716 13 14.5 13H20.5ZM15 20H20V15H15V20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M9.5 2C10.3284 2 11 2.67157 11 3.5V9.5C11 10.3284 10.3284 11 9.5 11H3.5C2.67157 11 2 10.3284 2 9.5V3.5C2 2.67157 2.67157 2 3.5 2H9.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M20.5 2C21.3284 2 22 2.67157 22 3.5V9.5C22 10.3284 21.3284 11 20.5 11H14.5C13.6716 11 13 10.3284 13 9.5V3.5C13 2.67157 13.6716 2 14.5 2H20.5ZM15 9H20V4H15V9Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

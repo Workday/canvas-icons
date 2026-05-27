@@ -1,0 +1,3322 @@
+[
+  {
+    "category": "Commerce",
+    "figmaName": "Accounting",
+    "filename": "wd-expressive-accounting.svg",
+    "name": "accounting",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["accounting", "finance", "bookkeeping"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Analytics User",
+    "filename": "wd-expressive-analytics-user.svg",
+    "name": "analytics-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["analytics", "user", "data"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "API",
+    "filename": "wd-expressive-api.svg",
+    "name": "api",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["api", "interface", "integration"]
+  },
+  {
+    "category": "Food",
+    "figmaName": "Apple",
+    "filename": "wd-expressive-apple.svg",
+    "name": "apple",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["apple", "fruit", "food"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Arrow Down Circle",
+    "filename": "wd-expressive-arrow-down-circle.svg",
+    "name": "arrow-down-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["arrow", "down", "circle", "direction"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Arrow Left Circle",
+    "filename": "wd-expressive-arrow-left-circle.svg",
+    "name": "arrow-left-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["arrow", "left", "circle", "direction"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Arrow Right Circle",
+    "filename": "wd-expressive-arrow-right-circle.svg",
+    "name": "arrow-right-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["arrow", "right", "circle", "direction"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Arrow Up Circle",
+    "filename": "wd-expressive-arrow-up-circle.svg",
+    "name": "arrow-up-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["arrow", "up", "circle", "direction"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Atomic",
+    "filename": "wd-expressive-atomic.svg",
+    "name": "atomic",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["atomic", "science", "atom"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Backpack",
+    "filename": "wd-expressive-backpack.svg",
+    "name": "backpack",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["backpack", "bag", "school"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Badge",
+    "filename": "wd-expressive-badge.svg",
+    "name": "badge",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["badge", "id", "access"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Balloons",
+    "filename": "wd-expressive-balloons.svg",
+    "name": "balloons",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["balloons", "party", "celebration"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Ballot Box",
+    "filename": "wd-expressive-ballot-box.svg",
+    "name": "ballot-box",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["ballot", "box", "vote"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Band Aids",
+    "filename": "wd-expressive-band-aids.svg",
+    "name": "band-aids",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["band", "aids", "health", "medical"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Bar Chart",
+    "filename": "wd-expressive-bar-chart.svg",
+    "name": "bar-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bar chart", "analytics", "stats", "chart"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Bar Chart Arrow",
+    "filename": "wd-expressive-bar-chart-arrow.svg",
+    "name": "bar-chart-arrow",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bar chart", "arrow", "growth", "increase", "chart"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Bar Chart Growth",
+    "filename": "wd-expressive-bar-chart-growth.svg",
+    "name": "bar-chart-growth",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bar chart", "growth", "increase", "chart"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Bar Chart Growth Coin",
+    "filename": "wd-expressive-bar-chart-growth-coin.svg",
+    "name": "bar-chart-growth-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bar chart", "growth", "coin", "finance", "chart"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Bar Cluster Chart",
+    "filename": "wd-expressive-bar-cluster-chart.svg",
+    "name": "bar-cluster-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bar chart", "cluster", "grouped", "analytics", "chart"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Bar Line Chart",
+    "filename": "wd-expressive-bar-line-chart.svg",
+    "name": "bar-line-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bar chart", "line chart", "analytics", "combo chart"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Basket",
+    "filename": "wd-expressive-basket.svg",
+    "name": "basket",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["basket", "shopping"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Benefit Elections",
+    "filename": "wd-expressive-benefit-elections.svg",
+    "name": "benefit-elections",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["benefit", "elections", "health"]
+  },
+  {
+    "category": "Food",
+    "figmaName": "Birthday Cake",
+    "filename": "wd-expressive-birthday-cake.svg",
+    "name": "birthday-cake",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["birthday", "cake", "party"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Bitcoin Circle",
+    "filename": "wd-expressive-bitcoin-circle.svg",
+    "name": "bitcoin-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bitcoin", "crypto", "currency", "circle"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Blockchain",
+    "filename": "wd-expressive-blockchain.svg",
+    "name": "blockchain",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["blockchain", "crypto", "chain"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Board",
+    "filename": "wd-expressive-board.svg",
+    "name": "board",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["board", "whiteboard", "meeting"]
+  },
+  {
+    "category": "Energy",
+    "figmaName": "Bolt",
+    "filename": "wd-expressive-bolt.svg",
+    "name": "bolt",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bolt", "lightning", "fast", "energy"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book",
+    "filename": "wd-expressive-book.svg",
+    "name": "book",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "close", "bookmark"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book Gears",
+    "filename": "wd-expressive-book-gears.svg",
+    "name": "book-gears",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "close", "bookmark", "gears", "gear", "training"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book Lightbulb",
+    "filename": "wd-expressive-book-lightbulb.svg",
+    "name": "book-lightbulb",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "close", "bookmark", "lightbulb", "idea", "inspiration", "insights"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book Open",
+    "filename": "wd-expressive-book-open.svg",
+    "name": "book-open",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "open"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book Open Bookmark",
+    "filename": "wd-expressive-book-open-bookmark.svg",
+    "name": "book-open-bookmark",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "open", "bookmark"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book User",
+    "filename": "wd-expressive-book-user.svg",
+    "name": "book-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "close", "bookmark", "user", "person", "individual", "profile", "avatar"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Book User Group",
+    "filename": "wd-expressive-book-user-group.svg",
+    "name": "book-user-group",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["book", "close", "bookmark", "users", "person", "group", "organization"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Briefcase",
+    "filename": "wd-expressive-briefcase.svg",
+    "name": "briefcase",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["briefcase", "work", "business"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Briefcase Clock",
+    "filename": "wd-expressive-briefcase-clock.svg",
+    "name": "briefcase-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["briefcase", "clock", "time"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Briefcase Straps",
+    "filename": "wd-expressive-briefcase-straps.svg",
+    "name": "briefcase-straps",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["briefcase", "straps", "work"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Building Flag",
+    "filename": "wd-expressive-building-flag.svg",
+    "name": "building-flag",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["building", "flag"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Building Large",
+    "filename": "wd-expressive-building-large.svg",
+    "name": "building-large",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["building", "large", "structure"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Building Medium",
+    "filename": "wd-expressive-building-medium.svg",
+    "name": "building-medium",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["building", "medium", "structure"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Building Small",
+    "filename": "wd-expressive-building-small.svg",
+    "name": "building-small",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["building", "small", "structure"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Buildings",
+    "filename": "wd-expressive-buildings.svg",
+    "name": "buildings",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["buildings", "architecture", "city"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Burst",
+    "filename": "wd-expressive-burst.svg",
+    "name": "burst",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["burst", "explosion", "star"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Bus",
+    "filename": "wd-expressive-bus.svg",
+    "name": "bus",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["bus", "vehicle", "transport"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Calculator",
+    "filename": "wd-expressive-calculator.svg",
+    "name": "calculator",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calculator", "math", "finance"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Calculator Coin",
+    "filename": "wd-expressive-calculator-coin.svg",
+    "name": "calculator-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calculator", "coin", "finance"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Calculator Goal",
+    "filename": "wd-expressive-calculator-goal.svg",
+    "name": "calculator-goal",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calculator", "goal", "target"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar",
+    "filename": "wd-expressive-calendar.svg",
+    "name": "calendar",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "date", "schedule", "month"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar Check Account",
+    "filename": "wd-expressive-calendar-check-account.svg",
+    "name": "calendar-check-account",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "check", "account"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar Check Clock",
+    "filename": "wd-expressive-calendar-check-clock.svg",
+    "name": "calendar-check-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "check", "clock", "time"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar Check User",
+    "filename": "wd-expressive-calendar-check-user.svg",
+    "name": "calendar-check-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "check", "user", "approve"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar Coin",
+    "filename": "wd-expressive-calendar-coin.svg",
+    "name": "calendar-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "coin", "money"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar Comment",
+    "filename": "wd-expressive-calendar-comment.svg",
+    "name": "calendar-comment",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "comment", "chat", "note"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar Pie Chart",
+    "filename": "wd-expressive-calendar-pie-chart.svg",
+    "name": "calendar-pie-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "pie chart", "analytics"]
+  },
+  {
+    "category": "Calendars",
+    "figmaName": "Calendar User",
+    "filename": "wd-expressive-calendar-user.svg",
+    "name": "calendar-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["calendar", "user", "person", "schedule"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Call Bell",
+    "filename": "wd-expressive-call-bell.svg",
+    "name": "call-bell",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["call bell", "service", "ring"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Car",
+    "filename": "wd-expressive-car.svg",
+    "name": "car",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["car", "vehicle", "transport"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Card Chart Clock",
+    "filename": "wd-expressive-card-chart-clock.svg",
+    "name": "card-chart-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "chart", "clock", "time"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Card Chart User",
+    "filename": "wd-expressive-card-chart-user.svg",
+    "name": "card-chart-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "chart", "user"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Card Community",
+    "filename": "wd-expressive-card-community.svg",
+    "name": "card-community",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "community", "people"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Card Tools",
+    "filename": "wd-expressive-card-tools.svg",
+    "name": "card-tools",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "tools", "settings"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Card User",
+    "filename": "wd-expressive-card-user.svg",
+    "name": "card-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "user", "profile"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Card User Chart",
+    "filename": "wd-expressive-card-user-chart.svg",
+    "name": "card-user-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "user", "chart", "data", "presentation"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Card User Clock",
+    "filename": "wd-expressive-card-user-clock.svg",
+    "name": "card-user-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "user", "clock", "time"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Card User Search",
+    "filename": "wd-expressive-card-user-search.svg",
+    "name": "card-user-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["card", "user", "search"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Cart",
+    "filename": "wd-expressive-cart.svg",
+    "name": "cart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cart", "shopping"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Catalog",
+    "filename": "wd-expressive-catalog.svg",
+    "name": "catalog",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["catalog", "list", "library"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Celebration",
+    "filename": "wd-expressive-celebration.svg",
+    "name": "celebration",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["celebration", "party", "event"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Certificate",
+    "filename": "wd-expressive-certificate.svg",
+    "name": "certificate",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["certificate", "award", "document"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Chair",
+    "filename": "wd-expressive-chair.svg",
+    "name": "chair",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["chair", "seat"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Check",
+    "filename": "wd-expressive-check.svg",
+    "name": "check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["check", "success", "approve"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Check Circle",
+    "filename": "wd-expressive-check-circle.svg",
+    "name": "check-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["check", "circle", "success", "approve"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Check In",
+    "filename": "wd-expressive-check-in.svg",
+    "name": "check-in",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["check", "in", "attendance"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Check Simple",
+    "filename": "wd-expressive-check-simple.svg",
+    "name": "check-simple",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["check", "simple", "approve"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Chevron Left",
+    "filename": "wd-expressive-chevron-left.svg",
+    "name": "chevron-left",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["chevron", "left", "arrow"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Chevron Right",
+    "filename": "wd-expressive-chevron-right.svg",
+    "name": "chevron-right",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["chevron", "right", "arrow"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Circle",
+    "filename": "wd-expressive-circle.svg",
+    "name": "circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["circle", "shape", "round"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Circuit Board",
+    "filename": "wd-expressive-circuit-board.svg",
+    "name": "circuit-board",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["circuit", "board", "electronics"]
+  },
+  {
+    "category": "Energy",
+    "figmaName": "Clean Energy",
+    "filename": "wd-expressive-clean-energy.svg",
+    "name": "clean-energy",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["clean", "energy", "eco"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard",
+    "filename": "wd-expressive-clipboard.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "clipboard",
+    "tags": [
+      "displacement",
+      "pages",
+      "compliance",
+      "checkmark",
+      "resources",
+      "list",
+      "documents",
+      "docs",
+      "todo",
+      "projects"
+    ]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Chart Clock",
+    "filename": "wd-expressive-clipboard-chart-clock.svg",
+    "name": "clipboard-chart-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["financial", "reporting", "metric", "measurement", "scale", "time"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Chart Compass",
+    "filename": "wd-expressive-clipboard-chart-compass.svg",
+    "name": "clipboard-chart-compass",
+    "maintainer": "Canvas Design System Team",
+    "tags": [
+      "bar chart",
+      "compass",
+      "direction",
+      "navigation",
+      "location",
+      "geolocation",
+      "charting",
+      "graph",
+      "visualization"
+    ]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Clock",
+    "filename": "wd-expressive-clipboard-clock.svg",
+    "name": "clipboard-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["financial", "time", "management", "project", "checklist"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Edit",
+    "filename": "wd-expressive-clipboard-edit.svg",
+    "name": "clipboard-edit",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["edit", "update", "modify", "change", "pencil"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Equal",
+    "filename": "wd-expressive-clipboard-equal.svg",
+    "name": "clipboard-equal",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["financial", "reporting", "metric", "measurement", "scale", "headcount"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Exclamation",
+    "filename": "wd-expressive-clipboard-exclamation.svg",
+    "name": "clipboard-exclamation",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["safety", "incident", "warning", "alert", "exclamation", "triangle"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Gauge",
+    "filename": "wd-expressive-clipboard-gauge.svg",
+    "name": "clipboard-gauge",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["financial", "reporting", "metric", "measurement", "scale"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Hierarchy",
+    "filename": "wd-expressive-clipboard-hierarchy.svg",
+    "name": "clipboard-hierarchy",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hierarchy", "organization", "organization chart", "tree", "tree structure", "flow"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Lock",
+    "filename": "wd-expressive-clipboard-lock.svg",
+    "name": "clipboard-lock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["checklist", "lock", "security", "protect", "protection"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Pie Chart",
+    "filename": "wd-expressive-clipboard-pie-chart.svg",
+    "name": "clipboard-pie-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["pie chart", "charting", "graph", "visualization"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Pie Chart Forward",
+    "filename": "wd-expressive-clipboard-pie-chart-forward.svg",
+    "name": "clipboard-pie-chart-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["pie chart", "charting", "graph", "visualization", "forward", "link"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Pie Chart User",
+    "filename": "wd-expressive-clipboard-pie-chart-user.svg",
+    "name": "clipboard-pie-chart-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["pie chart", "charting", "graph", "visualization", "user", "person"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Refresh",
+    "filename": "wd-expressive-clipboard-refresh.svg",
+    "name": "clipboard-refresh",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["refresh", "update", "sync", "reload", "checklist"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Star",
+    "filename": "wd-expressive-clipboard-star.svg",
+    "name": "clipboard-star",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["checklist", "star", "rating", "favorite", "like"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard Team",
+    "filename": "wd-expressive-clipboard-team.svg",
+    "name": "clipboard-team",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "group", "organization", "hierarchy", "organization chart"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard User",
+    "filename": "wd-expressive-clipboard-user.svg",
+    "name": "clipboard-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "person", "individual", "profile", "avatar", "perfomance"]
+  },
+  {
+    "category": "Presentation",
+    "description": "",
+    "figmaName": "Clipboard X",
+    "filename": "wd-expressive-clipboard-x.svg",
+    "name": "clipboard-x",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["checklist", "x", "remove", "delete", "cross"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Arrow Down",
+    "filename": "wd-expressive-cloud-arrow-down.svg",
+    "name": "cloud-arrow-down",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "arrow", "down"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Binary",
+    "filename": "wd-expressive-cloud-binary.svg",
+    "name": "cloud-binary",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "binary", "data"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Clock",
+    "filename": "wd-expressive-cloud-clock.svg",
+    "name": "cloud-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "clock", "time"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Devices",
+    "filename": "wd-expressive-cloud-devices.svg",
+    "name": "cloud-devices",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "devices", "hardware"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Empty",
+    "filename": "wd-expressive-cloud-empty.svg",
+    "name": "cloud-empty",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "empty", "no-data"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Loader",
+    "filename": "wd-expressive-cloud-loader.svg",
+    "name": "cloud-loader",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "loading", "spinner"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Lock",
+    "filename": "wd-expressive-cloud-lock.svg",
+    "name": "cloud-lock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "lock", "secure"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Puzzle",
+    "filename": "wd-expressive-cloud-puzzle.svg",
+    "name": "cloud-puzzle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "puzzle", "integration"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Puzzle Lightbulb",
+    "filename": "wd-expressive-cloud-puzzle-lightbulb.svg",
+    "name": "cloud-puzzle-lightbulb",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "puzzle", "lightbulb", "idea"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Cloud Shield",
+    "filename": "wd-expressive-cloud-shield.svg",
+    "name": "cloud-shield",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "shield", "secure"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Cloud Users",
+    "filename": "wd-expressive-cloud-users.svg",
+    "name": "cloud-users",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cloud", "users", "group"]
+  },
+  {
+    "category": "Food",
+    "figmaName": "Cocktail",
+    "filename": "wd-expressive-cocktail.svg",
+    "name": "cocktail",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cocktail", "drink", "bar"]
+  },
+  {
+    "category": "Food",
+    "figmaName": "Coffee",
+    "filename": "wd-expressive-coffee.svg",
+    "name": "coffee",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["coffee", "drink", "cafe"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Coin",
+    "filename": "wd-expressive-coin.svg",
+    "name": "coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["coin", "money", "currency"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Coin Strikethrough",
+    "filename": "wd-expressive-coin-strikethrough.svg",
+    "name": "coin-strikethrough",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["coin", "strikethrough", "none"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Comment",
+    "filename": "wd-expressive-comment.svg",
+    "name": "comment",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["comment", "chat", "feedback"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Comment Chart",
+    "filename": "wd-expressive-comment-chart.svg",
+    "name": "comment-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["comment", "chart", "analytics"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Comment Discussion",
+    "filename": "wd-expressive-comment-discussion.svg",
+    "name": "comment-discussion",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["comment", "discussion", "chat"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Comment Education",
+    "filename": "wd-expressive-comment-education.svg",
+    "name": "comment-education",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["comment", "education", "chat"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Comment Question",
+    "filename": "wd-expressive-comment-question.svg",
+    "name": "comment-question",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["comment", "question", "chat"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Connection",
+    "filename": "wd-expressive-connection.svg",
+    "name": "connection",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["connection", "link", "network"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Connection Circle",
+    "filename": "wd-expressive-connection-circle.svg",
+    "name": "connection-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["connection", "circle", "network"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Connection Square",
+    "filename": "wd-expressive-connection-square.svg",
+    "name": "connection-square",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["connection", "square", "network"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Control Panel",
+    "filename": "wd-expressive-control-panel.svg",
+    "name": "control-panel",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["controls", "panel", "settings"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Credit Card",
+    "filename": "wd-expressive-credit-card.svg",
+    "name": "credit-card",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["credit", "card", "payment"]
+  },
+  {
+    "category": "Food",
+    "figmaName": "Cupcake",
+    "filename": "wd-expressive-cupcake.svg",
+    "name": "cupcake",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["cupcake", "dessert", "bakery"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Curriculum",
+    "filename": "wd-expressive-curriculum.svg",
+    "name": "curriculum",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["curriculum", "education", "school"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Dashboard Chart",
+    "filename": "wd-expressive-dashboard-chart.svg",
+    "name": "dashboard-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["dashboard", "chart", "analytics"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Dashboard Chart Gear",
+    "filename": "wd-expressive-dashboard-chart-gear.svg",
+    "name": "dashboard-chart-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["dashboard", "chart", "gear"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Dashboard User Gear",
+    "filename": "wd-expressive-dashboard-user-gear.svg",
+    "name": "dashboard-user-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["dashboard", "user", "gear", "settings"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Data Clock",
+    "filename": "wd-expressive-data-clock.svg",
+    "name": "data-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["data", "clock", "time", "technology"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Data Migration",
+    "filename": "wd-expressive-data-migration.svg",
+    "name": "data-migration",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["data", "migration", "transfer", "move", "technology"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Data Refresh",
+    "filename": "wd-expressive-data-refresh.svg",
+    "name": "data-refresh",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["data", "refresh", "update", "reload", "technology"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Data Server",
+    "filename": "wd-expressive-data-server.svg",
+    "name": "data-server",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["data", "server", "database", "storage", "technology"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Data Server Arrow Up",
+    "filename": "wd-expressive-data-server-arrow-up.svg",
+    "name": "data-server-arrow-up",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["data", "server", "upload", "arrow up", "technology"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Data Server Cloud",
+    "filename": "wd-expressive-data-server-cloud.svg",
+    "name": "data-server-cloud",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["data", "server", "cloud", "database", "technology"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Desk",
+    "filename": "wd-expressive-desk.svg",
+    "name": "desk",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["desk", "office"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Desktop Gear",
+    "filename": "wd-expressive-desktop-gear.svg",
+    "name": "desktop-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["desktop", "gear", "settings", "computer"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Diamond",
+    "filename": "wd-expressive-diamond.svg",
+    "name": "diamond",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["diamond", "shape", "gem"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "DNA",
+    "filename": "wd-expressive-dna.svg",
+    "name": "dna",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["dna", "gene", "science"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document",
+    "filename": "wd-expressive-document.svg",
+    "name": "document",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "file", "doc", "paper"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Account",
+    "filename": "wd-expressive-document-account.svg",
+    "name": "document-account",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "account", "profile", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Back",
+    "filename": "wd-expressive-document-back.svg",
+    "name": "document-back",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "back", "return", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Card",
+    "filename": "wd-expressive-document-card.svg",
+    "name": "document-card",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "card", "id", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Chart Coin",
+    "filename": "wd-expressive-document-chart-coin.svg",
+    "name": "document-chart-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "chart", "coin", "finance", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Clock",
+    "filename": "wd-expressive-document-clock.svg",
+    "name": "document-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "clock", "time", "schedule", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Forward",
+    "filename": "wd-expressive-document-forward.svg",
+    "name": "document-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "forward", "send", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document List",
+    "filename": "wd-expressive-document-list.svg",
+    "name": "document-list",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "list", "files", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document List Check",
+    "filename": "wd-expressive-document-list-check.svg",
+    "name": "document-list-check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "list", "check", "approve", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document List Coin",
+    "filename": "wd-expressive-document-list-coin.svg",
+    "name": "document-list-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "list", "coin", "docs", "finance"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document List Lock",
+    "filename": "wd-expressive-document-list-lock.svg",
+    "name": "document-list-lock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "list", "lock", "secure", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document List Refresh",
+    "filename": "wd-expressive-document-list-refresh.svg",
+    "name": "document-list-refresh",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "list", "refresh", "reload", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document List Search",
+    "filename": "wd-expressive-document-list-search.svg",
+    "name": "document-list-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "list", "search", "find", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Ribbon",
+    "filename": "wd-expressive-document-ribbon.svg",
+    "name": "document-ribbon",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "ribbon", "award", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Stack",
+    "filename": "wd-expressive-document-stack.svg",
+    "name": "document-stack",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "stack", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Stack Loop",
+    "filename": "wd-expressive-document-stack-loop.svg",
+    "name": "document-stack-loop",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "stack", "loop", "repeat", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Stack User",
+    "filename": "wd-expressive-document-stack-user.svg",
+    "name": "document-stack-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "stack", "user", "docs"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document User",
+    "filename": "wd-expressive-document-user.svg",
+    "name": "document-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "user", "profile", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document User Coin",
+    "filename": "wd-expressive-document-user-coin.svg",
+    "name": "document-user-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "user", "coin", "finance", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document User Search",
+    "filename": "wd-expressive-document-user-search.svg",
+    "name": "document-user-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "user", "search", "find", "doc"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Document Worksheets",
+    "filename": "wd-expressive-document-worksheets.svg",
+    "name": "document-worksheets",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["document", "worksheet", "sheet", "doc"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Donut Bar Chart",
+    "filename": "wd-expressive-donut-bar-chart.svg",
+    "name": "donut-bar-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["donut chart", "bar chart", "analytics", "chart"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Donut Chart User",
+    "filename": "wd-expressive-donut-chart-user.svg",
+    "name": "donut-chart-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["donut chart", "user", "analytics", "chart"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Double Diamond",
+    "filename": "wd-expressive-double-diamond.svg",
+    "name": "double-diamond",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["diamond", "double", "shape"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Area Chart",
+    "filename": "wd-expressive-easel-area-chart.svg",
+    "name": "easel-area-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "area chart", "presentation", "chart"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Arrow Right",
+    "filename": "wd-expressive-easel-arrow-right.svg",
+    "name": "easel-arrow-right",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "arrow right", "presentation"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Bar Chart",
+    "filename": "wd-expressive-easel-bar-chart.svg",
+    "name": "easel-bar-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "bar chart", "presentation", "chart"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Chart Search",
+    "filename": "wd-expressive-easel-chart-search.svg",
+    "name": "easel-chart-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "chart", "search", "presentation"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Horizontal Chart",
+    "filename": "wd-expressive-easel-horizontal-chart.svg",
+    "name": "easel-horizontal-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "horizontal chart", "presentation", "chart"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel List",
+    "filename": "wd-expressive-easel-list.svg",
+    "name": "easel-list",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "list", "presentation"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Pie Chart",
+    "filename": "wd-expressive-easel-pie-chart.svg",
+    "name": "easel-pie-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "pie chart", "presentation", "chart"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Scatter Chart",
+    "filename": "wd-expressive-easel-scatter-chart.svg",
+    "name": "easel-scatter-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "scatter chart", "presentation", "chart"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel Table",
+    "filename": "wd-expressive-easel-table.svg",
+    "name": "easel-table",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "table", "presentation"]
+  },
+  {
+    "category": "Presentation",
+    "figmaName": "Easel User",
+    "filename": "wd-expressive-easel-user.svg",
+    "name": "easel-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["easel", "user", "presentation", "person"]
+  },
+  {
+    "category": "Energy",
+    "figmaName": "Electric Plug",
+    "filename": "wd-expressive-electric-plug.svg",
+    "name": "electric-plug",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["electric", "plug", "power", "energy"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Elevator",
+    "filename": "wd-expressive-elevator.svg",
+    "name": "elevator",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["elevator", "lift", "building"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Escalator",
+    "filename": "wd-expressive-escalator.svg",
+    "name": "escalator",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["escalator", "stair", "building"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Exclamation Circle",
+    "filename": "wd-expressive-exclamation-circle.svg",
+    "name": "exclamation-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["exclamation", "circle", "alert", "warning"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Exclamation Triangle",
+    "filename": "wd-expressive-exclamation-triangle.svg",
+    "name": "exclamation-triangle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["exclamation", "triangle", "warning", "alert"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Face ID",
+    "filename": "wd-expressive-face-id.svg",
+    "name": "face-id",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["face", "id", "security"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Factory",
+    "filename": "wd-expressive-factory.svg",
+    "name": "factory",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["factory", "work", "industry"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Fingerprint Android",
+    "filename": "wd-expressive-fingerprint-android.svg",
+    "name": "fingerprint-android",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["fingerprint", "android", "security"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Flag",
+    "filename": "wd-expressive-flag.svg",
+    "name": "flag",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["flag", "banner"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Flag Triangle",
+    "filename": "wd-expressive-flag-triangle.svg",
+    "name": "flag-triangle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["flag", "triangle", "banner"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Flag Wave",
+    "filename": "wd-expressive-flag-wave.svg",
+    "name": "flag-wave",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["flag", "wave", "banner"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Flow",
+    "filename": "wd-expressive-flow.svg",
+    "name": "flow",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["flow", "process", "arrow", "blocks", "workflow"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Folder Cloud",
+    "filename": "wd-expressive-folder-cloud.svg",
+    "name": "folder-cloud",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["folder", "cloud", "files"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Folder Documents User",
+    "filename": "wd-expressive-folder-documents-user.svg",
+    "name": "folder-documents-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["folder", "documents", "user"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Folder Media",
+    "filename": "wd-expressive-folder-media.svg",
+    "name": "folder-media",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["folder", "media", "files"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Folder Receipts",
+    "filename": "wd-expressive-folder-receipts.svg",
+    "name": "folder-receipts",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["folder", "receipts", "files"]
+  },
+  {
+    
+    "category": "Papers",
+    "figmaName": "Folder User Receipt",
+    "filename": "wd-expressive-folder-user-receipt.svg",
+    "name": "folder-user-receipt",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["folder", "user", "receipt"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Gauge",
+    "filename": "wd-expressive-gauge.svg",
+    "name": "gauge",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["gauge", "meter", "level"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Gavel",
+    "filename": "wd-expressive-gavel.svg",
+    "name": "gavel",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["gavel", "law", "judge"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Glasses",
+    "filename": "wd-expressive-glasses.svg",
+    "name": "glasses",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["glasses", "vision", "health"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Globe",
+    "filename": "wd-expressive-globe.svg",
+    "name": "globe",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["globe", "earth", "world", "planet"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Globe Coin",
+    "filename": "wd-expressive-globe-coin.svg",
+    "name": "globe-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["globe", "coin", "world", "money"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Globe Desk",
+    "filename": "wd-expressive-globe-desk.svg",
+    "name": "globe-desk",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["globe", "desk", "world", "education"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Globe Earth",
+    "filename": "wd-expressive-globe-earth.svg",
+    "name": "globe-earth",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["globe", "earth", "planet", "world"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Globe Location",
+    "filename": "wd-expressive-globe-location.svg",
+    "name": "globe-location",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["globe", "location", "world", "place"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Grad Cap",
+    "filename": "wd-expressive-grad-cap.svg",
+    "name": "grad-cap",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["grad cap", "graduation", "education"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Grad Cap Apple",
+    "filename": "wd-expressive-grad-cap-apple.svg",
+    "name": "grad-cap-apple",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["grad cap", "apple", "education"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Grad Cap Finance",
+    "filename": "wd-expressive-grad-cap-finance.svg",
+    "name": "grad-cap-finance",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["grad cap", "finance", "education"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Grad Cap Search",
+    "filename": "wd-expressive-grad-cap-search.svg",
+    "name": "grad-cap-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["grad cap", "search", "education"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Guidance Question",
+    "filename": "wd-expressive-guidance-question.svg",
+    "name": "guidance-question",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["guidance", "question", "help"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Hand Coin",
+    "filename": "wd-expressive-hand-coin.svg",
+    "name": "hand-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hand", "coin", "money"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Hand Gear",
+    "filename": "wd-expressive-hand-gear.svg",
+    "name": "hand-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hand", "gear", "settings"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Hand Heart",
+    "filename": "wd-expressive-hand-heart.svg",
+    "name": "hand-heart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hand", "heart", "help", "care"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Hand Leaf",
+    "filename": "wd-expressive-hand-leaf.svg",
+    "name": "hand-leaf",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hand", "leaf", "eco"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Hand Money",
+    "filename": "wd-expressive-hand-money.svg",
+    "name": "hand-money",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hand", "money", "finance"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Hands Heart",
+    "filename": "wd-expressive-hands-heart.svg",
+    "name": "hands-heart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["hands", "heart", "love", "care"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Handshake",
+    "filename": "wd-expressive-handshake.svg",
+    "name": "handshake",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["handshake", "agreement", "deal"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Handshake Heart",
+    "filename": "wd-expressive-handshake-heart.svg",
+    "name": "handshake-heart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["handshake", "heart", "love"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Handshake Heart Coin",
+    "filename": "wd-expressive-handshake-heart-coin.svg",
+    "name": "handshake-heart-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["handshake", "heart", "coin"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Handshake Plus",
+    "filename": "wd-expressive-handshake-plus.svg",
+    "name": "handshake-plus",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["handshake", "plus", "add", "agreement"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Happy Face",
+    "filename": "wd-expressive-happy-face.svg",
+    "name": "happy-face",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["happy", "face", "smile"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Head Arrow Up",
+    "filename": "wd-expressive-head-arrow-up.svg",
+    "name": "head-arrow-up",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["head", "arrow", "up", "success"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Head Chart",
+    "filename": "wd-expressive-head-chart.svg",
+    "name": "head-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["head", "chart", "analytics"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Head Lightbulb",
+    "filename": "wd-expressive-head-lightbulb.svg",
+    "name": "head-lightbulb",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["head", "lightbulb", "idea", "think"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Head Memory",
+    "filename": "wd-expressive-head-memory.svg",
+    "name": "head-memory",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["head", "memory", "brain"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Headset",
+    "filename": "wd-expressive-headset.svg",
+    "name": "headset",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["headset", "audio", "headphones"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Health Finance",
+    "filename": "wd-expressive-health-finance.svg",
+    "name": "health-finance",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["health", "finance"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Heart",
+    "filename": "wd-expressive-heart.svg",
+    "name": "heart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["heart", "love", "health"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Heart Gear",
+    "filename": "wd-expressive-heart-gear.svg",
+    "name": "heart-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["heart", "gear", "settings", "health"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Heartbeat",
+    "filename": "wd-expressive-heartbeat.svg",
+    "name": "heartbeat",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["heartbeat", "health", "pulse"]
+  },
+  {
+    "category": "People",
+    "figmaName": "High Five",
+    "filename": "wd-expressive-high-five.svg",
+    "name": "high-five",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["high five", "celebrate", "success"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "History",
+    "filename": "wd-expressive-history.svg",
+    "name": "history",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["history", "time", "past"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Home",
+    "filename": "wd-expressive-home.svg",
+    "name": "home",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["home", "house"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Inbox",
+    "filename": "wd-expressive-inbox.svg",
+    "name": "inbox",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["inbox", "mail", "messages"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Inbox Documents User",
+    "filename": "wd-expressive-inbox-documents-user.svg",
+    "name": "inbox-documents-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["inbox", "documents", "user"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Inbox Tray",
+    "filename": "wd-expressive-inbox-tray.svg",
+    "name": "inbox-tray",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["inbox", "tray", "mail"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "IT",
+    "filename": "wd-expressive-it.svg",
+    "name": "it",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["it", "technology", "support"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Jacks",
+    "filename": "wd-expressive-jacks.svg",
+    "name": "jacks",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["jacks", "game", "toy"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Laptop Cursor",
+    "filename": "wd-expressive-laptop-cursor.svg",
+    "name": "laptop-cursor",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["laptop", "cursor", "computer"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Laptop Education",
+    "filename": "wd-expressive-laptop-education.svg",
+    "name": "laptop-education",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["laptop", "education", "computer"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Laptop Lock Check",
+    "filename": "wd-expressive-laptop-lock-check.svg",
+    "name": "laptop-lock-check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["laptop", "lock", "check", "secure"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Laptop Loop",
+    "filename": "wd-expressive-laptop-loop.svg",
+    "name": "laptop-loop",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["laptop", "loop", "repeat"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Laptop Media",
+    "filename": "wd-expressive-laptop-media.svg",
+    "name": "laptop-media",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["laptop", "media", "computer"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Layers",
+    "filename": "wd-expressive-layers.svg",
+    "name": "layers",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["layers", "stack", "multiple"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Layers Code",
+    "filename": "wd-expressive-layers-code.svg",
+    "name": "layers-code",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["layers", "code", "stack"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Leaf",
+    "filename": "wd-expressive-leaf.svg",
+    "name": "leaf",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["leaf", "eco", "green"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Leaf Sustainability",
+    "filename": "wd-expressive-leaf-sustainability.svg",
+    "name": "leaf-sustainability",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["leaf", "sustainability", "eco", "green"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Learning Media",
+    "filename": "wd-expressive-learning-media.svg",
+    "name": "learning-media",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["learning", "media", "education"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Leaves",
+    "filename": "wd-expressive-leaves.svg",
+    "name": "leaves",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["leaves", "nature", "plant"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Lifesaver",
+    "filename": "wd-expressive-lifesaver.svg",
+    "name": "lifesaver",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lifesaver", "rescue", "help"]
+  },
+  {
+    "category": "Energy",
+    "figmaName": "Lightbulb",
+    "filename": "wd-expressive-lightbulb.svg",
+    "name": "lightbulb",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lightbulb", "light", "idea"]
+  },
+  {
+    "category": "Energy",
+    "figmaName": "Lightbulb Bolt",
+    "filename": "wd-expressive-lightbulb-bolt.svg",
+    "name": "lightbulb-bolt",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lightbulb", "bolt", "energy", "idea"]
+  },
+  {
+    "category": "Energy",
+    "figmaName": "Lightbulb Bright",
+    "filename": "wd-expressive-lightbulb-bright.svg",
+    "name": "lightbulb-bright",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lightbulb", "bright", "idea", "light"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Line Chart",
+    "filename": "wd-expressive-line-chart.svg",
+    "name": "line-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["line chart", "analytics", "trend", "data", "chart"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Loading Circles",
+    "filename": "wd-expressive-loading-circles.svg",
+    "name": "loading-circles",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["loading", "circle", "spinner", "wait"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Location",
+    "filename": "wd-expressive-location.svg",
+    "name": "location",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["location", "place", "pin"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Lock",
+    "filename": "wd-expressive-lock.svg",
+    "name": "lock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lock", "secure", "password"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Lock Check",
+    "filename": "wd-expressive-lock-check.svg",
+    "name": "lock-check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lock", "check", "secure"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Lock Keyhole",
+    "filename": "wd-expressive-lock-keyhole.svg",
+    "name": "lock-keyhole",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lock", "keyhole", "secure"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Loop",
+    "filename": "wd-expressive-loop.svg",
+    "name": "loop",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["loop", "repeat", "cycle"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Lotus Flower",
+    "filename": "wd-expressive-lotus-flower.svg",
+    "name": "lotus-flower",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["lotus", "flower", "nature"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Magnet Users",
+    "filename": "wd-expressive-magnet-users.svg",
+    "name": "magnet-users",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["magnet", "users", "attract"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Mail Admission",
+    "filename": "wd-expressive-mail-admission.svg",
+    "name": "mail-admission",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mail", "admission", "envelope"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Mail Benefits",
+    "filename": "wd-expressive-mail-benefits.svg",
+    "name": "mail-benefits",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mail", "benefits", "reward"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Mail Checklist",
+    "filename": "wd-expressive-mail-checklist.svg",
+    "name": "mail-checklist",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mail", "checklist", "list"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Mail Education",
+    "filename": "wd-expressive-mail-education.svg",
+    "name": "mail-education",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mail", "education", "school"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Mail Template",
+    "filename": "wd-expressive-mail-template.svg",
+    "name": "mail-template",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mail", "template", "document"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Map",
+    "filename": "wd-expressive-map.svg",
+    "name": "map",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["map", "location", "navigation"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Map Location",
+    "filename": "wd-expressive-map-location.svg",
+    "name": "map-location",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["map", "location", "pin"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Media Stack",
+    "filename": "wd-expressive-media-stack.svg",
+    "name": "media-stack",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["media", "stack", "collection"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Megaphone",
+    "filename": "wd-expressive-megaphone.svg",
+    "name": "megaphone",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["megaphone", "announcement", "loud"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Microphone",
+    "filename": "wd-expressive-microphone.svg",
+    "name": "microphone",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["microphone", "audio", "record", "voice"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Microscope",
+    "filename": "wd-expressive-microscope.svg",
+    "name": "microscope",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["microscope", "science", "lab"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Minus Circle",
+    "filename": "wd-expressive-minus-circle.svg",
+    "name": "minus-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["minus", "circle", "subtract", "remove"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Mobile",
+    "filename": "wd-expressive-mobile.svg",
+    "name": "mobile",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mobile", "phone", "device"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Mobile Lock Check",
+    "filename": "wd-expressive-mobile-lock-check.svg",
+    "name": "mobile-lock-check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mobile", "lock", "check", "secure"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Mobile Media",
+    "filename": "wd-expressive-mobile-media.svg",
+    "name": "mobile-media",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mobile", "media", "device"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Money Coin",
+    "filename": "wd-expressive-money-coin.svg",
+    "name": "money-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["money", "coin", "currency"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Money Forward",
+    "filename": "wd-expressive-money-forward.svg",
+    "name": "money-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["money", "forward", "send"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Money Refresh",
+    "filename": "wd-expressive-money-refresh.svg",
+    "name": "money-refresh",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["money", "refresh", "reload"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Money Search",
+    "filename": "wd-expressive-money-search.svg",
+    "name": "money-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["money", "search", "find"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Mountain Flag",
+    "filename": "wd-expressive-mountain-flag.svg",
+    "name": "mountain-flag",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mountain", "flag", "peak"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Mountains",
+    "filename": "wd-expressive-mountains.svg",
+    "name": "mountains",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["mountains", "nature", "landscape"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Newspaper",
+    "filename": "wd-expressive-newspaper.svg",
+    "name": "newspaper",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["newspaper", "news", "press", "media"]
+  },
+  {
+    "category": "Chat",
+    "figmaName": "Communication",
+    "filename": "wd-expressive-notification.svg",
+    "name": "notification",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["notification", "alert", "bell"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Ocean",
+    "filename": "wd-expressive-ocean.svg",
+    "name": "ocean",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["ocean", "sea", "water"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Office Tools",
+    "filename": "wd-expressive-office-tools.svg",
+    "name": "office-tools",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["office", "tools", "stationery"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Organization",
+    "filename": "wd-expressive-organization.svg",
+    "name": "organization",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["organization", "group", "company"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Package",
+    "filename": "wd-expressive-package.svg",
+    "name": "package",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["package", "box", "delivery"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Package Conveyor",
+    "filename": "wd-expressive-package-conveyor.svg",
+    "name": "package-conveyor",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["package", "conveyor", "shipping"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Package Location",
+    "filename": "wd-expressive-package-location.svg",
+    "name": "package-location",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["package", "location", "delivery"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Paper Airplane",
+    "filename": "wd-expressive-paper-airplane.svg",
+    "name": "paper-airplane",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["paper airplane", "fly", "travel"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Paw",
+    "filename": "wd-expressive-paw.svg",
+    "name": "paw",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["paw", "animal", "pet"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Pencil Ruler",
+    "filename": "wd-expressive-pencil-ruler.svg",
+    "name": "pencil-ruler",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["pencil", "ruler", "drawing"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Phone",
+    "filename": "wd-expressive-phone.svg",
+    "name": "phone",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["phone", "call", "device"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Phone Wrench",
+    "filename": "wd-expressive-phone-wrench.svg",
+    "name": "phone-wrench",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["phone", "wrench", "repair"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Pie Chart Star",
+    "filename": "wd-expressive-pie-chart-star.svg",
+    "name": "pie-chart-star",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["pie chart", "star", "analytics", "chart"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Ping Pong",
+    "filename": "wd-expressive-ping-pong.svg",
+    "name": "ping-pong",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["ping pong", "paddle", "ball"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Pipeline",
+    "filename": "wd-expressive-pipeline.svg",
+    "name": "pipeline",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["pipeline", "flow", "process"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Platform",
+    "filename": "wd-expressive-platform.svg",
+    "name": "platform",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["platform", "base", "technology"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Platform Cart",
+    "filename": "wd-expressive-platform-cart.svg",
+    "name": "platform-cart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["platform", "cart", "shopping"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Play Circle",
+    "filename": "wd-expressive-play-circle.svg",
+    "name": "play-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["play", "circle", "media", "start"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Playbook",
+    "filename": "wd-expressive-playbook.svg",
+    "name": "playbook",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["playbook", "strategy", "plan"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Plus Circle",
+    "filename": "wd-expressive-plus-circle.svg",
+    "name": "plus-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["plus", "circle", "add", "new"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Prerequisite",
+    "filename": "wd-expressive-prerequisite.svg",
+    "name": "prerequisite",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["prerequisite", "requirement", "education"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Prism",
+    "filename": "wd-expressive-prism.svg",
+    "name": "prism",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["prism", "shape", "glass"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Procurement",
+    "filename": "wd-expressive-procurement.svg",
+    "name": "procurement",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["procurement", "buy", "purchase"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Purchase",
+    "filename": "wd-expressive-purchase.svg",
+    "name": "purchase",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["purchase", "buy"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Puzzle",
+    "filename": "wd-expressive-puzzle.svg",
+    "name": "puzzle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["puzzle", "game", "piece"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Puzzle Piece",
+    "filename": "wd-expressive-puzzle-piece.svg",
+    "name": "puzzle-piece",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["puzzle", "piece", "game"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Quad",
+    "filename": "wd-expressive-quad.svg",
+    "name": "quad",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["quad", "shape", "four"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Question Circle",
+    "filename": "wd-expressive-question-circle.svg",
+    "name": "question-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["question", "circle", "help", "info"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Quotes",
+    "filename": "wd-expressive-quotes.svg",
+    "name": "quotes",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["quotes", "text", "quotation"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Quotes Simple",
+    "filename": "wd-expressive-quotes-simple.svg",
+    "name": "quotes-simple",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["quotes", "simple", "text"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Rabbit",
+    "filename": "wd-expressive-rabbit.svg",
+    "name": "rabbit",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["rabbit", "animal", "pet"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Radio Tower",
+    "filename": "wd-expressive-radio-tower.svg",
+    "name": "radio-tower",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["radio", "tower", "signal"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "RAM",
+    "filename": "wd-expressive-ram.svg",
+    "name": "ram",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["ram", "memory", "hardware"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Receipt",
+    "filename": "wd-expressive-receipt.svg",
+    "name": "receipt",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["receipt", "payment", "finance", "paper"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Receipt Account",
+    "filename": "wd-expressive-receipt-account.svg",
+    "name": "receipt-account",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["receipt", "account", "finance", "payment"]
+  },
+  {
+    "category": "Papers",
+    "figmaName": "Receipt Forward",
+    "filename": "wd-expressive-receipt-forward.svg",
+    "name": "receipt-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["receipt", "forward", "send", "payment"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Recorder",
+    "filename": "wd-expressive-recorder.svg",
+    "name": "recorder",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["recorder", "audio", "voice"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Recycle",
+    "filename": "wd-expressive-recycle.svg",
+    "name": "recycle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["recycle", "eco", "green"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Related Actions",
+    "filename": "wd-expressive-related-actions.svg",
+    "name": "related-actions",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["related", "actions", "more"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Related Actions Circle",
+    "filename": "wd-expressive-related-actions-circle.svg",
+    "name": "related-actions-circle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["related", "actions", "circle", "more"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Reports Coin",
+    "filename": "wd-expressive-reports-coin.svg",
+    "name": "reports-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["reports", "coin", "finance"]
+  },
+  {
+    "category": "Award",
+    "figmaName": "Ribbon",
+    "filename": "wd-expressive-ribbon.svg",
+    "name": "ribbon",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["ribbon", "award", "badge"]
+  },
+  {
+    "category": "Award",
+    "figmaName": "Ribbon Star",
+    "filename": "wd-expressive-ribbon-star.svg",
+    "name": "ribbon-star",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["ribbon", "star", "award"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Rocket",
+    "filename": "wd-expressive-rocket.svg",
+    "name": "rocket",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["rocket", "space", "launch"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Satelite",
+    "filename": "wd-expressive-satellite.svg",
+    "name": "satellite",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["satellite", "space", "orbit"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Scale",
+    "filename": "wd-expressive-scale.svg",
+    "name": "scale",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["scale", "balance", "law"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Scroll",
+    "filename": "wd-expressive-scroll.svg",
+    "name": "scroll",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["scroll", "document", "paper"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Scroll Coin",
+    "filename": "wd-expressive-scroll-coin.svg",
+    "name": "scroll-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["scroll", "coin", "document", "open", "finance"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Scroll List Coin",
+    "filename": "wd-expressive-scroll-list-coin.svg",
+    "name": "scroll-list-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["scroll", "list", "coin", "document", "open", "finance"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Search",
+    "filename": "wd-expressive-search.svg",
+    "name": "search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["search", "magnifier", "find"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Search User",
+    "filename": "wd-expressive-search-user.svg",
+    "name": "search-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["search", "user", "find"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Shield",
+    "filename": "wd-expressive-shield.svg",
+    "name": "shield",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["shield", "protect", "security"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Shield Benefits",
+    "filename": "wd-expressive-shield-benefits.svg",
+    "name": "shield-benefits",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["shield", "benefits", "health", "dental", "vision", "medical", "heart"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Shield Benefits Forward",
+    "filename": "wd-expressive-shield-benefits-forward.svg",
+    "name": "shield-benefits-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["shield", "benefits", "forward", "health", "dental", "vision", "medical", "heart"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Shield Check",
+    "filename": "wd-expressive-shield-check.svg",
+    "name": "shield-check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["shield", "check", "security"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Shield Security",
+    "filename": "wd-expressive-shield-security.svg",
+    "name": "shield-security",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["shield", "security", "protect"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Shield User Blocks",
+    "filename": "wd-expressive-shield-user-blocks.svg",
+    "name": "shield-user-blocks",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["shield", "user", "block"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Sigma",
+    "filename": "wd-expressive-sigma.svg",
+    "name": "sigma",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["sigma", "math", "science"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Smart Speaker",
+    "filename": "wd-expressive-smart-speaker.svg",
+    "name": "smart-speaker",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["speaker", "smart", "audio", "voice"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Soccer Ball",
+    "filename": "wd-expressive-soccer-ball.svg",
+    "name": "soccer-ball",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["soccer", "ball", "sports"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Sparkles",
+    "filename": "wd-expressive-sparkles.svg",
+    "name": "sparkles",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["sparkles", "shine", "glitter"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Square",
+    "filename": "wd-expressive-square.svg",
+    "name": "square",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["square", "shape", "four"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "Stadium",
+    "filename": "wd-expressive-stadium.svg",
+    "name": "stadium",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["stadium", "arena", "sports"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Star",
+    "filename": "wd-expressive-star.svg",
+    "name": "star",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["star", "favorite", "important"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Stopwatch",
+    "filename": "wd-expressive-stopwatch.svg",
+    "name": "stopwatch",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["stopwatch", "time", "timer"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Suitcase",
+    "filename": "wd-expressive-suitcase.svg",
+    "name": "suitcase",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["suitcase", "travel", "luggage"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Sun",
+    "filename": "wd-expressive-sun.svg",
+    "name": "sun",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["sun", "light", "weather"]
+  },
+  {
+    "category": "Charts",
+    "figmaName": "Sunburst Chart User",
+    "filename": "wd-expressive-sunburst-chart-user.svg",
+    "name": "sunburst-chart-user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["sunburst chart", "user", "analytics", "chart"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Tablet Lock Check",
+    "filename": "wd-expressive-tablet-lock-check.svg",
+    "name": "tablet-lock-check",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tablet", "lock", "check", "secure"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Tablet Text",
+    "filename": "wd-expressive-tablet-text.svg",
+    "name": "tablet-text",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tablet", "text", "device"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Tag",
+    "filename": "wd-expressive-tag.svg",
+    "name": "tag",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tag", "label"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Tag Lock",
+    "filename": "wd-expressive-tag-lock.svg",
+    "name": "tag-lock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tag", "lock", "secure"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Target",
+    "filename": "wd-expressive-target.svg",
+    "name": "target",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["target", "bullseye", "goal"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team",
+    "filename": "wd-expressive-team.svg",
+    "name": "team",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "group", "people"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Chart",
+    "filename": "wd-expressive-team-chart.svg",
+    "name": "team-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "chart", "group"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Clock",
+    "filename": "wd-expressive-team-clock.svg",
+    "name": "team-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "clock", "time"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Coin",
+    "filename": "wd-expressive-team-coin.svg",
+    "name": "team-coin",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "coin", "finance"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Documents",
+    "filename": "wd-expressive-team-documents.svg",
+    "name": "team-documents",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "documents", "files"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Equal",
+    "filename": "wd-expressive-team-equal.svg",
+    "name": "team-equal",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "equal", "diversity"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Goal",
+    "filename": "wd-expressive-team-goal.svg",
+    "name": "team-goal",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "goal", "target"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Mountain",
+    "filename": "wd-expressive-team-mountain.svg",
+    "name": "team-mountain",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "mountain", "goal"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Organization",
+    "filename": "wd-expressive-team-organization.svg",
+    "name": "team-organization",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "organization", "group"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Plus",
+    "filename": "wd-expressive-team-plus.svg",
+    "name": "team-plus",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "plus", "group", "add"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Survey",
+    "filename": "wd-expressive-team-survey.svg",
+    "name": "team-survey",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "survey", "question"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Team Timeline",
+    "filename": "wd-expressive-team-timeline.svg",
+    "name": "team-timeline",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["team", "timeline", "progress"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Tent",
+    "filename": "wd-expressive-tent.svg",
+    "name": "tent",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tent", "camping", "outdoor"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Tie",
+    "filename": "wd-expressive-tie.svg",
+    "name": "tie",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tie", "clothes", "business"]
+  },
+  {
+    "category": "Office",
+    "figmaName": "Tie Gear",
+    "filename": "wd-expressive-tie-gear.svg",
+    "name": "tie-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tie", "gear", "settings"]
+  },
+  {
+    "category": "Tools",
+    "figmaName": "Tools",
+    "filename": "wd-expressive-tools.svg",
+    "name": "tools",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tools", "settings", "gear"]
+  },
+  {
+    "category": "Health",
+    "figmaName": "Tooth",
+    "filename": "wd-expressive-tooth.svg",
+    "name": "tooth",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["tooth", "dental", "health"]
+  },
+  {
+    "category": "Protection",
+    "figmaName": "Touch ID",
+    "filename": "wd-expressive-touch-id.svg",
+    "name": "touch-id",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["touch", "id", "security"]
+  },
+  {
+    "category": "Hands",
+    "figmaName": "Touchpoints",
+    "filename": "wd-expressive-touchpoints.svg",
+    "name": "touchpoints",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["touchpoints", "contact", "network"]
+  },
+  {
+    "category": "Eco",
+    "figmaName": "Trash Strikethrough",
+    "filename": "wd-expressive-trash-strikethrough.svg",
+    "name": "trash-strikethrough",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["trash", "strikethrough", "none"]
+  },
+  {
+    "category": "Shapes",
+    "figmaName": "Triangle",
+    "filename": "wd-expressive-triangle.svg",
+    "name": "triangle",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["triangle", "shape", "three"]
+  },
+  {
+    "category": "Award",
+    "figmaName": "Trophy",
+    "filename": "wd-expressive-trophy.svg",
+    "name": "trophy",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["trophy", "award", "prize"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Umbrella",
+    "filename": "wd-expressive-umbrella.svg",
+    "name": "umbrella",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["umbrella", "rain", "weather"]
+  },
+  {
+    "category": "Education & Science",
+    "figmaName": "Universal",
+    "filename": "wd-expressive-universal.svg",
+    "name": "universal",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["universal", "global", "all"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "University",
+    "filename": "wd-expressive-university.svg",
+    "name": "university",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["university", "campus", "school"]
+  },
+  {
+    "category": "Buildings",
+    "figmaName": "University Finance",
+    "filename": "wd-expressive-university-finance.svg",
+    "name": "university-finance",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["university", "finance", "money"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User",
+    "filename": "wd-expressive-user.svg",
+    "name": "user",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "person", "avatar", "profile"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Arrows",
+    "filename": "wd-expressive-user-arrows.svg",
+    "name": "user-arrows",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "arrows", "move"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Briefcase",
+    "filename": "wd-expressive-user-briefcase.svg",
+    "name": "user-briefcase",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "briefcase", "work"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Card",
+    "filename": "wd-expressive-user-card.svg",
+    "name": "user-card",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "card", "id"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Chart",
+    "filename": "wd-expressive-user-chart.svg",
+    "name": "user-chart",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "chart", "data"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Clipboard",
+    "filename": "wd-expressive-user-clipboard.svg",
+    "name": "user-clipboard",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "clipboard", "document", "note"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Flag",
+    "filename": "wd-expressive-user-flag.svg",
+    "name": "user-flag",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "flag", "mark"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Gear",
+    "filename": "wd-expressive-user-gear.svg",
+    "name": "user-gear",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "gear", "settings"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Group",
+    "filename": "wd-expressive-user-group.svg",
+    "name": "user-group",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "group", "team"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Loop",
+    "filename": "wd-expressive-user-loop.svg",
+    "name": "user-loop",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "loop", "repeat"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Megaphone",
+    "filename": "wd-expressive-user-megaphone.svg",
+    "name": "user-megaphone",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "megaphone", "speak"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Microphone",
+    "filename": "wd-expressive-user-microphone.svg",
+    "name": "user-microphone",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "microphone", "audio", "voice"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Refresh",
+    "filename": "wd-expressive-user-refresh.svg",
+    "name": "user-refresh",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "refresh", "reload"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Search",
+    "filename": "wd-expressive-user-search.svg",
+    "name": "user-search",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "search", "find"]
+  },
+  {
+    "category": "People",
+    "figmaName": "User Star",
+    "filename": "wd-expressive-user-star.svg",
+    "name": "user-star",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "star", "favorite"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "User VR",
+    "filename": "wd-expressive-user-vr.svg",
+    "name": "user-vr",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["user", "vr", "virtual"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Users",
+    "filename": "wd-expressive-users.svg",
+    "name": "users",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["users", "people", "group"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Users Discussion",
+    "filename": "wd-expressive-users-discussion.svg",
+    "name": "users-discussion",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["users", "discussion", "chat"]
+  },
+  {
+    "category": "Food",
+    "figmaName": "Utensils",
+    "filename": "wd-expressive-utensils.svg",
+    "name": "utensils",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["utensils", "kitchen", "cook"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Vault",
+    "filename": "wd-expressive-vault.svg",
+    "name": "vault",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["vault", "lock", "secure"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Video",
+    "filename": "wd-expressive-video.svg",
+    "name": "video",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["video", "media", "play", "film"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Video Camera",
+    "filename": "wd-expressive-video-camera.svg",
+    "name": "video-camera",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["video", "camera", "record"]
+  },
+  {
+    "category": "Commerce",
+    "figmaName": "Wallet",
+    "filename": "wd-expressive-wallet.svg",
+    "name": "wallet",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["wallet", "money", "storage"]
+  },
+  {
+    "category": "Devices",
+    "figmaName": "Watch",
+    "filename": "wd-expressive-watch.svg",
+    "name": "watch",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["watch", "time", "clock"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage",
+    "filename": "wd-expressive-webpage.svg",
+    "name": "webpage",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "website", "internet"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage Code",
+    "filename": "wd-expressive-webpage-code.svg",
+    "name": "webpage-code",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "code", "developer"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage Code Clock",
+    "filename": "wd-expressive-webpage-code-clock.svg",
+    "name": "webpage-code-clock",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "code", "clock", "schedule", "developer"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage Code Forward",
+    "filename": "wd-expressive-webpage-code-forward.svg",
+    "name": "webpage-code-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "code", "forward", "developer"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage Edit",
+    "filename": "wd-expressive-webpage-edit.svg",
+    "name": "webpage-edit",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "edit", "pencil", "website"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage Link Forward",
+    "filename": "wd-expressive-webpage-link-forward.svg",
+    "name": "webpage-link-forward",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "link", "forward", "internet"]
+  },
+  {
+    "category": "Media",
+    "figmaName": "Webpage Media",
+    "filename": "wd-expressive-webpage-media.svg",
+    "name": "webpage-media",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "media", "website"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Webpage Plus",
+    "filename": "wd-expressive-webpage-plus.svg",
+    "name": "webpage-plus",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "plus", "add", "website"]
+  },
+  {
+    "category": "People",
+    "figmaName": "Webpage Users",
+    "filename": "wd-expressive-webpage-users.svg",
+    "name": "webpage-users",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["webpage", "users", "team", "people"]
+  },
+  {
+    "category": "Fun",
+    "figmaName": "Weights",
+    "filename": "wd-expressive-weights.svg",
+    "name": "weights",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["weights", "fitness", "gym"]
+  },
+  {
+    "category": "Communication",
+    "figmaName": "Workday Assistant",
+    "filename": "wd-expressive-workday-assistant.svg",
+    "name": "workday-assistant",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["workday", "assistant", "help"]
+  },
+  {
+    "category": "Technology",
+    "figmaName": "Worksheets",
+    "filename": "wd-expressive-worksheets.svg",
+    "name": "worksheets",
+    "maintainer": "Canvas Design System Team",
+    "tags": ["worksheet", "document", "form"]
+  }
+]

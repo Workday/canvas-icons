@@ -1,0 +1,25 @@
+{
+  "name": "@workday/canvas-icons",
+  "version": "0.0.0",
+  "description": "Canvas icons package to store all icons for the canvas system",
+  "author": "Workday, Inc. (https://www.workday.com)",
+  "contributors": [
+    "Raisa Primerova",
+    "Alan Smith"
+  ],
+  "license": "CC-BY-ND-4.0",
+  "scripts": {
+    "build:expressive": "run-s optimize:expressive",
+    "build:system": "run-s optimize:system",
+    "build": "run-p build:*",
+    "clean": "rimraf dist",
+    "optimize:expressive": "svgo -f ./src/expressive -o ./dist/svg/expressive --config svgo.config.js",
+    "optimize:system:deprecated": "svgo -f ./src/system/deprecated -o ./dist/svg/system --config svgo.config.js",
+    "optimize:system:web": "svgo -f ./src/system -o ./dist/svg/system --config svgo.config.js",
+    "optimize:system": "run-s optimize:system:web optimize:system:deprecated"
+  },
+  "private": true,
+  "devDependencies": {
+    "svgo": "^3.3.2"
+  }
+}

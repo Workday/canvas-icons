@@ -1,0 +1,27 @@
+{
+  "name": "@workday/canvas-expressive-icons-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "tags": ["type:expressive", "platform:web"],
+  "targets": {
+    "icon-es6": {
+      "executor": "@workday/canvas-assets-nx-plugin:icon-js",
+      "options": {
+        "iconType": "expressive",
+        "moduleType": "es6"
+      }
+    },
+    "icon-commonjs": {
+      "executor": "@workday/canvas-assets-nx-plugin:icon-js",
+      "options": {
+        "iconType": "expressive",
+        "moduleType": "commonjs"
+      }
+    },
+    "sprites": {
+      "executor": "@workday/canvas-assets-nx-plugin:sprites",
+      "options": {
+        "iconType": "expressive"
+      }
+    }
+  }
+}

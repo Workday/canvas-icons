@@ -6,6 +6,10 @@ This document provides an overview of the custom Nx Executors used in the Canvas
 which are part of the `@workday/canvas-assets-nx-plugin` package. These executors serve as utility
 functions to streamline workflows and deliverables.
 
+<Callout type="warning" emoji="⚠️">
+  Required options must be specified in `project.json` or in the command line.
+</Callout>
+
 ## `icon-js`
 
 The `icon-js` executor is designed to build JavaScript files (with `common js` or `es6` code styles)
@@ -13,25 +17,25 @@ from SVG icons. This process helps in delivering optimized and ready-to-use icon
 
 ### Options
 
-| Option       | Required |              Type               | Description                                       |
-| :----------- | :------: | :-----------------------------: | :------------------------------------------------ |
-| `iconType`   | ✅ true  | `accent`, `applet`, or `system` | Icon type to get correct file paths and ts types. |
-| `moduleType` | ✅ true  |       `commonjs` or `es6`       | Module Type to specify code style.                |
+| Option       | Required |           Type           | Description                                       |
+| :----------- | :------: | :----------------------: | :------------------------------------------------ |
+| `iconType`   | ✅ true  | `system` or `expressive` | Icon type to get correct file paths and ts types. |
+| `moduleType` | ✅ true  |   `commonjs` or `es6`    | Module Type to specify code style.                |
 
 ### Usage
 
 Add the executors to your project's configuration. Update package `project.json` file to include the
 executors as follows:
 
-```js filename="canvas-graphics-web/project.json" {5-11}
+```js filename="canvas-system-icons-web/project.json" {5-11}
 {
-  "name": "@workday/canvas-graphics-web",
+  "name": "@workday/canvas-system-icons-web",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "targets": {
     "icon-es6": {
       "executor": "@workday/canvas-assets-nx-plugin:icon-js",
       "options": {
-        "iconType": "graphics",
+        "iconType": "system",
         "moduleType": "es6"
       }
     },
@@ -42,12 +46,8 @@ executors as follows:
 To use the `icon-js` executor, run the following command:
 
 ```bash
-nx run @workday/canvas-graphics-web:icon-es6
+nx run @workday/canvas-system-icons-web:icon-es6
 ```
-
-<Callout type="warning" emoji="⚠️">
-  Required options have to be specified in `project.json` or/and in bash command
-</Callout>
 
 ## `sprites`
 
@@ -79,7 +79,3 @@ The `sprites` executor combines SVGs from `dist/svg` into a single sprite sheet 
 ```bash
 nx run @workday/canvas-system-icons-web:sprites
 ```
-
-<Callout type="warning" emoji="⚠️">
-  Required options must be specified in `project.json` or in the command line.
-</Callout>

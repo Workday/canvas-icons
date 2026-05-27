@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-dollar" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-money.svg instead. -->
+<g>
+<path d="M12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8ZM12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M22 5C22.5523 5 23 5.44772 23 6V18C23 18.5523 22.5523 19 22 19H2C1.44772 19 1 18.5523 1 18V6C1 5.44772 1.44772 5 2 5H22ZM7 7C7 9.20914 5.20914 11 3 11V13C5.20914 13 7 14.7909 7 17H17C17 14.7909 18.7909 13 21 13V11C18.7909 11 17 9.20914 17 7H7ZM21 15C19.8954 15 19 15.8954 19 17H21V15ZM3 17H5C5 15.8954 4.10457 15 3 15V17ZM3 9C4.10457 9 5 8.10457 5 7H3V9ZM19 7C19 8.10457 19.8954 9 21 9V7H19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

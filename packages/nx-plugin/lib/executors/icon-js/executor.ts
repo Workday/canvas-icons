@@ -74,8 +74,7 @@ const getExportContent = (
 const runExecutor: PromiseExecutor<MetadataExecutorSchema> = async options => {
   const {iconType, moduleType} = options;
   const type = types[iconType as keyof typeof types];
-  const endName = iconType === 'graphics' ? 'Graphic' : 'Icon';
-  const iconTypeDeclaration = `Canvas${type}${iconType !== 'graphics' ? 'Icon' : ''}`;
+  const iconTypeDeclaration = `Canvas${type}Icon`;
 
   const packageRoot = process.cwd();
   const packageDistDir = path.join(packageRoot, 'dist');
@@ -83,7 +82,7 @@ const runExecutor: PromiseExecutor<MetadataExecutorSchema> = async options => {
   const iconDir = path.join(packageDistDir, 'svg');
   const moduleDir = path.join(packageDistDir, moduleType);
 
-  const basePackageDir = `../canvas-${iconType !== 'graphics' ? 'icons' : iconType}`;
+  const basePackageDir = '../canvas-icons';
 
   const metadataPaths = fs
     .readdirSync(path.resolve(packageRoot, basePackageDir))
@@ -124,7 +123,7 @@ const runExecutor: PromiseExecutor<MetadataExecutorSchema> = async options => {
       type: `CanvasIconTypes.${type}`,
       svg,
       filename: iconMetadata.filename,
-      category: iconMetadata.category,
+      category: !iconMetadata.deprecated ? iconMetadata.category : 'Deprecated',
       tags: iconMetadata.tags,
       fallback,
     };
@@ -140,13 +139,8 @@ const runExecutor: PromiseExecutor<MetadataExecutorSchema> = async options => {
       `CanvasIconTypes.${type}`
     );
 
-    const typeContent = `import {${iconTypeDeclaration}} from "./types";\n\n${deprecatedContent}export declare const ${camelizedName}${endName}: ${iconTypeDeclaration};`;
-    const content = getModuleContent(
-      moduleType,
-      `${camelizedName}${endName}`,
-      data,
-      deprecatedContent
-    );
+    const typeContent = `import {${iconTypeDeclaration}} from "./types";\n\n${deprecatedContent}export declare const ${camelizedName}Icon: ${iconTypeDeclaration};`;
+    const content = getModuleContent(moduleType, `${camelizedName}Icon`, data, deprecatedContent);
 
     fs.writeFileSync(path.resolve(moduleDir, `${iconMetadata.name}.js`), content);
     fs.writeFileSync(path.resolve(moduleDir, `${iconMetadata.name}.d.ts`), typeContent);

@@ -1,0 +1,4 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-folder-close" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-folder.svg instead. -->
+<path d="M7.36914 3.00879L7.38086 3.00977H7.39258C8.30896 3.05482 9.21211 3.25754 10.0615 3.60938C10.8773 3.94729 11.6291 4.41807 12.2891 5H20.5C21.3284 5 22 5.67157 22 6.5V18.5L21.9922 18.6533C21.9154 19.4097 21.2767 20 20.5 20H3.5C2.72334 20 2.08461 19.4097 2.00781 18.6533L2 18.5V4.5C2 3.67157 2.67157 3 3.5 3H7.02539L7.36914 3.00879ZM4 18H20V7H11.4893L11.1973 6.71484C10.6491 6.17791 10.0042 5.75043 9.2959 5.45703C8.66164 5.19433 7.9878 5.04248 7.30371 5.00781L6.97461 5H4V18Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</svg>

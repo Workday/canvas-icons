@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-conclusion" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-check-circle-underline.svg instead. -->
+<path d="M20 10C20 14.4183 16.4183 18 12 18C7.58172 18 4 14.4183 4 10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10Z" fill="transparent" class="wd-icon-background"></path>
+<g>
+<path d="M21.5 20C21.7761 20 22 20.2239 22 20.5V21.5C22 21.7761 21.7761 22 21.5 22H2.5C2.22386 22 2 21.7761 2 21.5V20.5C2 20.2239 2.22386 20 2.5 20H21.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M12 1C16.9706 1 21 5.02944 21 10C21 14.9706 16.9706 19 12 19C7.02944 19 3 14.9706 3 10C3 5.02944 7.02944 1 12 1ZM12 3C8.13401 3 5 6.13401 5 10C5 13.866 8.13401 17 12 17C15.866 17 19 13.866 19 10C19 6.13401 15.866 3 12 3Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+<path d="M14.9394 7.1464C15.1346 6.95121 15.4512 6.95119 15.6464 7.1464L16.3534 7.85343C16.5486 8.04868 16.5486 8.36522 16.3534 8.56046L11.707 13.2069C11.3165 13.5974 10.6834 13.5972 10.2929 13.2069L8.14641 11.0605C7.9512 10.8652 7.9512 10.5487 8.14641 10.3534L8.85344 9.6464C9.04869 9.45121 9.36523 9.45119 9.56047 9.6464L10.9999 11.0859L14.9394 7.1464Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</svg>

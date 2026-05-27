@@ -1,0 +1,16 @@
+import * as expressiveIcons from '@workday/canvas-expressive-icons-web';
+
+import {IconsGallery} from '../../components/IconsGallery';
+
+# Gallery
+
+### Active Icons
+
+<br />
+
+<IconsGallery
+  icons={Object.keys(expressiveIcons)
+    .filter(k => 'svg' in expressiveIcons[k])
+    .map(k => expressiveIcons[k])}
+  type="expressive"
+/>

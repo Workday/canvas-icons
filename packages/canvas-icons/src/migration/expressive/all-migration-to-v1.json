@@ -1,0 +1,5210 @@
+[
+  {
+    "name": {
+      "figma": "Comment Education",
+      "web": "comment-education"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Speech Bubble Student"],
+        "web": ["speech-bubble-student"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Laptop Education",
+      "web": "laptop-education"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Laptop Education"],
+        "web": ["laptop-education"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mail Education",
+      "web": "mail-education"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Student Admissions"],
+        "web": ["student-admissions"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Backpack",
+      "web": "backpack"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Backpack"],
+        "web": ["backpack"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Scroll",
+      "web": "scroll"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Scroll"],
+        "web": ["scroll"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clean Energy",
+      "web": "clean-energy"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Clean Energy"],
+        "web": ["clean-energy"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Electric Plug",
+      "web": "electric-plug"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Electric Plug"],
+        "web": ["electric-plug"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Birthday Cake",
+      "web": "birthday-cake"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Cake"],
+        "web": ["cake"]
+      },
+      "applet": {
+        "figma": ["Birthdays"],
+        "web": ["birthdays"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cupcake",
+      "web": "cupcake"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Cupcake"],
+        "web": ["cupcake"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Utensils",
+      "web": "utensils"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Plate"],
+        "web": ["plate"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Apple",
+      "web": "apple"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Apple"],
+        "web": ["apple"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cocktail",
+      "web": "cocktail"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Cocktail"],
+        "web": ["cocktail"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Coffee",
+      "web": "coffee"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Coffee"],
+        "web": ["coffee"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Globe Earth",
+      "web": "globe-earth"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Globe Earth"],
+        "web": ["globe-earth"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Globe",
+      "web": "globe"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Globe"],
+        "web": ["globe"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Globe Coin",
+      "web": "globe-coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Globe Coin"],
+        "web": ["globe-coin"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Globe Desk",
+      "web": "globe-desk"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Globe Desk"],
+        "web": ["globe-desk"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Microphone",
+      "web": "microphone"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Microphone"],
+        "web": ["microphone"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Play Circle",
+      "web": "play-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Play Circle"],
+        "web": ["play-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Leaves",
+      "web": "leaves"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Leaves"],
+        "web": ["leaves"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mountains",
+      "web": "mountains"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Mountains"],
+        "web": ["mountains"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mountain Flag",
+      "web": "mountain-flag"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Mountain Flag"],
+        "web": ["mountain-flag"]
+      },
+      "applet": {
+        "figma": ["Career-Hub"],
+        "web": ["career-hub"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Trash Strikethrough",
+      "web": "trash-strikethrough"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["No Trash"],
+        "web": ["no-trash"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Ocean",
+      "web": "ocean"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Ocean"],
+        "web": ["ocean"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Paw",
+      "web": "paw"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Paw"],
+        "web": ["paw"]
+      },
+      "applet": {
+        "figma": ["Paw"],
+        "web": ["paw"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Rabbit",
+      "web": "rabbit"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Rabbit"],
+        "web": ["rabbit"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Recycle",
+      "web": "recycle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Recycle"],
+        "web": ["recycle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Leaf Sustainability",
+      "web": "leaf-sustainability"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Sustainability"],
+        "web": ["sustainability"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Grad Cap",
+      "web": "grad-cap"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Student"],
+        "web": ["student"]
+      },
+      "applet": {
+        "figma": ["Student-Academics"],
+        "web": ["student-academics"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Grad Cap Search",
+      "web": "grad-cap-search"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Student Search"],
+        "web": ["student-search"]
+      },
+      "applet": {
+        "figma": ["Prospects"],
+        "web": ["prospects"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Grad Cap Apple",
+      "web": "grad-cap-apple"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Student Apple"],
+        "web": ["student-apple"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Grad Cap Finance",
+      "web": "grad-cap-finance"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Student Finance"],
+        "web": ["student-finance"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Video",
+      "web": "video"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Video Camera"],
+        "web": ["video-camera"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Video Camera",
+      "web": "video-camera"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Video Camera Alt"],
+        "web": ["video-camera-alt"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Folder Media",
+      "web": "folder-media"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Media File"],
+        "web": ["media-file"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Recorder",
+      "web": "recorder"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Recorder"],
+        "web": ["recorder"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Media Stack",
+      "web": "media-stack"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Video Playlist"],
+        "web": ["video-playlist"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Media",
+      "web": "webpage-media"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Web Window Play"],
+        "web": ["web-window-play"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Flag Wave",
+      "web": "flag-wave"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Flag Waving"],
+        "web": ["flag-wave"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Flag",
+      "web": "flag"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Flag Flat"],
+        "web": ["flag-flat"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Flag Triangle",
+      "web": "flag-triangle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Flag Triangle"],
+        "web": ["flag-triangle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Puzzle Piece",
+      "web": "puzzle-piece"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Puzzle"],
+        "web": ["puzzle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book Open",
+      "web": "book-open"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Open Book Blank"],
+        "web": ["open-book-blank"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Package Conveyor",
+      "web": "package-conveyor"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Box Conveyor"],
+        "web": ["box-conveyor"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Briefcase Straps",
+      "web": "briefcase-straps"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Briefcase Alt"],
+        "web": ["briefcase-alt"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Scale",
+      "web": "scale"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Scale"],
+        "web": ["scale"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lightbulb",
+      "web": "lightbulb"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lightbulb"],
+        "web": ["lightbulb"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lightbulb Bright",
+      "web": "lightbulb-bright"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lightbulb Rays"],
+        "web": ["lightbulb-rays"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Package",
+      "web": "package"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Box Barcode"],
+        "web": ["box-barcode"]
+      },
+      "applet": {
+        "figma": ["Inventory"],
+        "web": ["inventory"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Platform Cart",
+      "web": "platform-cart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Supplier-Management"],
+        "web": ["supplier-management"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Gavel",
+      "web": "gavel"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Legal"],
+        "web": ["legal"]
+      },
+      "applet": {
+        "figma": ["RFQ"],
+        "web": ["rfq"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tag",
+      "web": "tag"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tag"],
+        "web": ["tag"]
+      },
+      "applet": {
+        "figma": ["FavBO"],
+        "web": ["fav-bo"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Prism",
+      "web": "prism"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Prism"],
+        "web": ["prism"]
+      },
+      "applet": {
+        "figma": ["Prism"],
+        "web": ["prism"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Notification",
+      "web": "notification"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Notification"],
+        "web": ["notification"]
+      },
+      "applet": {
+        "figma": ["Notifications"],
+        "web": ["notifications"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book Open Bookmark",
+      "web": "book-open-bookmark"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Open Book"],
+        "web": ["open-book"]
+      },
+      "applet": {
+        "figma": ["Basics"],
+        "web": ["basics"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Briefcase",
+      "web": "briefcase"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Briefcase"],
+        "web": ["briefcase"]
+      },
+      "applet": {
+        "figma": ["Career"],
+        "web": ["career"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Money Refresh",
+      "web": "money-refresh"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Cash-Management"],
+        "web": ["cash-management"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Money Search",
+      "web": "money-search"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Money Search"],
+        "web": ["money-search"]
+      },
+      "applet": {
+        "figma": ["Fin-Accounting"],
+        "web": ["fin-accounting"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Money Coin",
+      "web": "money-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Cost-Savings"],
+        "web": ["cost-savings"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Money Forward",
+      "web": "money-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Total-Company-Spend"],
+        "web": ["total-company-spend"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Wallet",
+      "web": "wallet"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Pay"],
+        "web": ["pay"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Credit Card",
+      "web": "credit-card"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Credit Card"],
+        "web": ["credit-card"]
+      },
+      "applet": {
+        "figma": ["Purchases"],
+        "web": ["purchases"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Receipt",
+      "web": "receipt"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Receipt"],
+        "web": ["receipt"]
+      },
+      "applet": {
+        "figma": ["Expenses"],
+        "web": ["expenses"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cart",
+      "web": "cart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Shopping Cart"],
+        "web": ["shopping-cart"]
+      },
+      "applet": {
+        "figma": ["Guided-Requisition"],
+        "web": ["guided-requisition"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Receipt Account",
+      "web": "receipt-account"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Expense-Links"],
+        "web": ["expense-links"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Receipt Forward",
+      "web": "receipt-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Invoices"],
+        "web": ["invoices"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Vault",
+      "web": "vault"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Bank"],
+        "web": ["bank"]
+      },
+      "applet": {
+        "figma": ["Defined-Contribution"],
+        "web": ["defined-contribution"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bitcoin Circle",
+      "web": "bitcoin-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Bitcoin"],
+        "web": ["bitcoin"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Coin",
+      "web": "coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Credits"],
+        "web": ["credits"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Health Finance",
+      "web": "health-finance"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Financial Aid"],
+        "web": ["financial-aid"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Chart Coin",
+      "web": "document-chart-coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Financial Paper"],
+        "web": ["financial-paper"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Coin Strikethrough",
+      "web": "coin-strikethrough"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["No Coin"],
+        "web": ["no-coin"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Scroll List Coin",
+      "web": "scroll-list-coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Scroll Coin"],
+        "web": ["scroll-coin"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "University Finance",
+      "web": "university-finance"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Education Finance"],
+        "web": ["education-finance"]
+      },
+      "applet": {
+        "figma": ["Student-Finances"],
+        "web": ["student-finances"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Reports Coin",
+      "web": "reports-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Compensation", "Custom-Dashboards-Expenses", "Fin-Reporting"],
+        "web": ["compensation", "custom-dashboards-expenses", "fin-reporting"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Basket",
+      "web": "basket"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Purchasing"],
+        "web": ["purchasing"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mail Benefits",
+      "web": "mail-benefits"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Compensation-Benefits-Dashboard"],
+        "web": ["compensation-benefits-dashboard"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Comment Question",
+      "web": "comment-question"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Speech Bubble Question", "Help"],
+        "web": ["speech-bubble-question", "help"]
+      },
+      "applet": {
+        "figma": ["Help"],
+        "web": ["help"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Workday Assistant",
+      "web": "workday-assistant"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Workday Assistant"],
+        "web": ["workday-assistant"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Comment",
+      "web": "comment"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Speech Bubble Text"],
+        "web": ["speech-bubble-text"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Comment Discussion",
+      "web": "comment-discussion"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Speech Bubbles"],
+        "web": ["speech-bubbles"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Phone",
+      "web": "phone"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Phone"],
+        "web": ["phone"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Paper Airplane",
+      "web": "paper-airplane"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Paper Airplane"],
+        "web": ["paper-airplane"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mail Checklist",
+      "web": "mail-checklist"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["My-Requests"],
+        "web": ["my-requests"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mail Template",
+      "web": "mail-template"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Email Template"],
+        "web": ["email-template"]
+      },
+      "applet": {
+        "figma": ["Email-Template"],
+        "web": ["email-template"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mail Admission",
+      "web": "mail-admission"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Admission"],
+        "web": ["admission"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Inbox Tray",
+      "web": "inbox-tray"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Inbox"],
+        "web": ["inbox"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Inbox",
+      "web": "inbox"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Inbox"],
+        "web": ["inbox"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Megaphone",
+      "web": "megaphone"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Megaphone"],
+        "web": ["megaphone"]
+      },
+      "applet": {
+        "figma": ["Announcements"],
+        "web": ["announcements"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Headset",
+      "web": "headset"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Headset"],
+        "web": ["headset"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lifesaver",
+      "web": "lifesaver"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Life Saver"],
+        "web": ["life-saver"]
+      },
+      "applet": {
+        "figma": ["Lifesaver"],
+        "web": ["lifesaver"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Phone Wrench",
+      "web": "phone-wrench"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Phone Wrench"],
+        "web": ["phone-wrench"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Data Clock",
+      "web": "data-clock"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Data Clock"],
+        "web": ["data-clock"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Data Refresh",
+      "web": "data-refresh"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Data Loading"],
+        "web": ["data-loading"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Data Migration",
+      "web": "data-migration"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Data Refresh"],
+        "web": ["data-refresh"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar Pie Chart",
+      "web": "calendar-pie-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Calendar Chart"],
+        "web": ["calendar-chart"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar Comment",
+      "web": "calendar-comment"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Calendar Speech Bubble"],
+        "web": ["calendar-speech-bubble"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Stopwatch",
+      "web": "stopwatch"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Stopwatch"],
+        "web": ["stopwatch"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "History",
+      "web": "history"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Time"],
+        "web": ["time"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Trophy",
+      "web": "trophy"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Trophy"],
+        "web": ["trophy"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Ribbon",
+      "web": "ribbon"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Award"],
+        "web": ["award"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Ribbon Star",
+      "web": "ribbon-star"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Award Ribbons", "Award Medal", "Award Star"],
+        "web": ["award-ribbons", "award-medal", "award-star"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Loop",
+      "web": "loop"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Loop"],
+        "web": ["loop"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Arrow Up Circle",
+      "web": "arrow-up-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Arrow Up Circle"],
+        "web": ["arrow-up-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Arrow Down Circle",
+      "web": "arrow-down-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Arrow Down Circle"],
+        "web": ["arrow-down-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Arrow Left Circle",
+      "web": "arrow-left-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Arrow Left Circle"],
+        "web": ["arrow-left-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Arrow Right Circle",
+      "web": "arrow-right-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Arrow Right Circle"],
+        "web": ["arrow-right-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Chevron Left",
+      "web": "chevron-left"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chevron Solid Left", "Chevron Left"],
+        "web": ["chevron-solid-left", "chevron-left"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Chevron Right",
+      "web": "chevron-right"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chevron Solid Right", "Chevron Right"],
+        "web": ["chevron-solid-right", "chevron-right"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Glasses",
+      "web": "glasses"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Glasses"],
+        "web": ["glasses"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tie",
+      "web": "tie"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tie"],
+        "web": ["tie"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tie Gear",
+      "web": "tie-gear"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tie Gear"],
+        "web": ["tie-gear"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Celebration",
+      "web": "celebration"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Fun"],
+        "web": ["fun"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lotus Flower",
+      "web": "lotus-flower"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Yoga"],
+        "web": ["yoga"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Band Aids",
+      "web": "band-aids"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Band Aids"],
+        "web": ["band-aids"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Heart",
+      "web": "heart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Heart", "Heart Plain"],
+        "web": ["heart", "heart-plain"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar",
+      "web": "calendar"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Calendar Open Dates", "Calendar"],
+        "web": ["calendar-open-dates", "calendar"]
+      },
+      "applet": {
+        "figma": ["Calendar"],
+        "web": ["calendar"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar User",
+      "web": "calendar-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["My-Schedule"],
+        "web": ["my-schedule"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar Check User",
+      "web": "calendar-check-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Employee-on-Leave"],
+        "web": ["employee-on-leave"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar Check Account",
+      "web": "calendar-check-account"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Events"],
+        "web": ["events"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar Check Clock",
+      "web": "calendar-check-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Enter-Time"],
+        "web": ["enter-time"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calendar Coin",
+      "web": "calendar-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Total-Spend-YTD", "Payroll-Year-End"],
+        "web": ["total-spend-ytd", "payroll-year-end"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Check In",
+      "web": "check-in"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Time Clock"],
+        "web": ["time-clock"]
+      },
+      "applet": {
+        "figma": ["Time"],
+        "web": ["time"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Watch",
+      "web": "watch"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Recent-Activity"],
+        "web": ["recent-activity"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Heart Gear",
+      "web": "heart-gear"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Heart Gear"],
+        "web": ["heart-gear"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tooth",
+      "web": "tooth"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tooth"],
+        "web": ["tooth"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Umbrella",
+      "web": "umbrella"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Umbrella"],
+        "web": ["umbrella"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Sigma",
+      "web": "sigma"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Sigma"],
+        "web": ["sigma"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bar Chart",
+      "web": "bar-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chart Bar"],
+        "web": ["chart-bar"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bar Line Chart",
+      "web": "bar-line-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chart Bar Scatter"],
+        "web": ["chart-bar-scatter"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Donut Bar Chart",
+      "web": "donut-bar-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chart Pie Bar"],
+        "web": ["chart-pie-bar"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Pie Chart Star",
+      "web": "pie-chart-star"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Piechart Star"],
+        "web": ["piechart-star"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Gauge",
+      "web": "gauge"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Gauge"],
+        "web": ["gauge"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Arrow Right",
+      "web": "easel-arrow-right"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Easel Arrow"],
+        "web": ["easel-arrow"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Bar Chart",
+      "web": "easel-bar-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Easel Graph"],
+        "web": ["easel-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel List",
+      "web": "easel-list"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Easel Info"],
+        "web": ["easel-info"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Heartbeat",
+      "web": "heartbeat"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Heartbeat"],
+        "web": ["heartbeat"]
+      },
+      "applet": {
+        "figma": ["Pulsepoint"],
+        "web": ["pulsepoint"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Benefit Elections",
+      "web": "benefit-elections"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Benefit-Elections"],
+        "web": ["benefit-elections"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Shield Benefits",
+      "web": "shield-benefits"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Shield Benefits"],
+        "web": ["shield-benefits"]
+      },
+      "applet": {
+        "figma": ["Benefits"],
+        "web": ["benefits"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Shield Benefits Forward",
+      "web": "shield-benefits-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Benefit-Links"],
+        "web": ["benefit-links"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calculator",
+      "web": "calculator"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Calculator"],
+        "web": ["calculator"]
+      },
+      "applet": {
+        "figma": ["Spend-Management", "Revenue-Management"],
+        "web": ["spend-management", "revenue-management"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calculator Coin",
+      "web": "calculator-coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Calculator Coins"],
+        "web": ["calculator-coins"]
+      },
+      "applet": {
+        "figma": ["Budget"],
+        "web": ["budget"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Calculator Goal",
+      "web": "calculator-goal"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Spend-Target"],
+        "web": ["spend-target"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Area Chart",
+      "web": "easel-area-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Area-Graph"],
+        "web": ["area-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Scatter Chart",
+      "web": "easel-scatter-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Scatter-Graph"],
+        "web": ["scatter-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Table",
+      "web": "easel-table"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Custom-Dashboards-Workforce-Planning"],
+        "web": ["custom-dashboards-workforce-planning"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Pie Chart",
+      "web": "easel-pie-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Pie-Graph"],
+        "web": ["pie-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Chart Search",
+      "web": "easel-chart-search"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Report-Admin"],
+        "web": ["report-admin"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel Horizontal Chart",
+      "web": "easel-horizontal-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Reporting-Analytics"],
+        "web": ["reporting-analytics"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Easel User",
+      "web": "easel-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Custom-Dashboards-Talent-Management"],
+        "web": ["custom-dashboards-talent-management"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bar Cluster Chart",
+      "web": "bar-cluster-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Bar-Graph"],
+        "web": ["bar-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bar Chart Growth",
+      "web": "bar-chart-growth"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chart Bar Straight Arrow"],
+        "web": ["chart-bar-straight-arrow"]
+      },
+      "applet": {
+        "figma": ["Custom-Dashboards-Financials"],
+        "web": ["custom-dashboards-financials"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bar Chart Arrow",
+      "web": "bar-chart-arrow"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chart Bar Arrow"],
+        "web": ["chart-bar-arrow"]
+      },
+      "applet": {
+        "figma": ["Column-Graph"],
+        "web": ["column-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bar Chart Growth Coin",
+      "web": "bar-chart-growth-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Column-Graph-Budget"],
+        "web": ["column-graph-budget"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Line Chart",
+      "web": "line-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chart Scatter"],
+        "web": ["chart-scatter"]
+      },
+      "applet": {
+        "figma": ["Line-Graph"],
+        "web": ["line-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Pie Chart User",
+      "web": "clipboard-pie-chart-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Clipboard Person"],
+        "web": ["clipboard-person"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Playbook",
+      "web": "playbook"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Playbook"],
+        "web": ["playbook"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Prerequisite",
+      "web": "prerequisite"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Prerequisite"],
+        "web": ["prerequisite"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Connection Circle",
+      "web": "connection-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Community"],
+        "web": ["community"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Connection",
+      "web": "connection"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Connected"],
+        "web": ["connected"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Connection Square",
+      "web": "connection-square"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Connected Square"],
+        "web": ["connected-square"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Double Diamond",
+      "web": "double-diamond"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Double Diamond"],
+        "web": ["double-diamond"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Chart Compass",
+      "web": "clipboard-chart-compass"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Clipboard Chart Compass"],
+        "web": ["clipboard-chart-compass"]
+      },
+      "applet": {
+        "figma": ["Adoption"],
+        "web": ["adoption"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Chart Clock",
+      "web": "clipboard-chart-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Execution-Metric-Status"],
+        "web": ["execution-metric-status"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard User",
+      "web": "clipboard-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Performance"],
+        "web": ["performance"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard X",
+      "web": "clipboard-x"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Remove-Par-Inventory"],
+        "web": ["remove-par-inventory"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard",
+      "web": "clipboard"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Clipboard Checklist"],
+        "web": ["clipboard-checklist"]
+      },
+      "applet": {
+        "figma": ["Reporting-Surveys"],
+        "web": ["reporting-surveys"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Clock",
+      "web": "clipboard-clock"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Clipboard Clock"],
+        "web": ["clipboard-clock"]
+      },
+      "applet": {
+        "figma": ["Projects"],
+        "web": ["projects"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Edit",
+      "web": "clipboard-edit"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Project-Tasks"],
+        "web": ["project-tasks"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Star",
+      "web": "clipboard-star"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Reports-Favorites"],
+        "web": ["reports-favorites"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Refresh",
+      "web": "clipboard-refresh"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Business-Process"],
+        "web": ["business-process"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Gauge",
+      "web": "clipboard-gauge"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Reports-Gauge"],
+        "web": ["reports-gauge"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Equal",
+      "web": "clipboard-equal"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Reports-Headcount"],
+        "web": ["reports-headcount"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Exclamation",
+      "web": "clipboard-exclamation"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Safety-Incident"],
+        "web": ["safety-incident"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Lock",
+      "web": "clipboard-lock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Security"],
+        "web": ["security"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Pie Chart",
+      "web": "clipboard-pie-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Clipboard Chart"],
+        "web": ["clipboard-chart"]
+      },
+      "applet": {
+        "figma": ["Reports"],
+        "web": ["reports"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Pie Chart Forward",
+      "web": "clipboard-pie-chart-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Reports-Links"],
+        "web": ["reports-links"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Team",
+      "web": "clipboard-team"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Reports-Hierarchy"],
+        "web": ["reports-hierarchy"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Clipboard Hierarchy",
+      "web": "clipboard-hierarchy"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Project-Hierarchy"],
+        "web": ["project-hierarchy"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Code",
+      "web": "webpage-code"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Code"],
+        "web": ["code"]
+      },
+      "applet": {
+        "figma": ["Development"],
+        "web": ["development", "extend"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Layers Code",
+      "web": "layers-code"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Function-Services"],
+        "web": ["function-services"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Organization",
+      "web": "organization"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Org-Studio"],
+        "web": ["org-studio"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Flow",
+      "web": "flow"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Flow Writer"],
+        "web": ["flow-writer"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document User",
+      "web": "document-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Profile Paper"],
+        "web": ["profile-paper"]
+      },
+      "applet": {
+        "figma": ["Recruiting"],
+        "web": ["recruiting"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document User Search",
+      "web": "document-user-search"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Recruiting-Dashboard"],
+        "web": ["recruiting-dashboard"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document",
+      "web": "document"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Paper"],
+        "web": ["paper"]
+      },
+      "applet": {
+        "figma": ["Purchase-Orders"],
+        "web": ["purchase-orders"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Clock",
+      "web": "document-clock"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Paper Clock"],
+        "web": ["paper-clock"]
+      },
+      "applet": {
+        "figma": ["Timesheets"],
+        "web": ["timesheets"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document List Check",
+      "web": "document-list-check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Checklist"],
+        "web": ["checklist"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document List Lock",
+      "web": "document-list-lock"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Paper Lock"],
+        "web": ["paper-lock"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Ribbon",
+      "web": "document-ribbon"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Paper Seal"],
+        "web": ["paper-seal"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Certificate",
+      "web": "certificate"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Document Ribbon"],
+        "web": ["document-ribbon"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Stack Loop",
+      "web": "document-stack-loop"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Papers"],
+        "web": ["papers"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document List",
+      "web": "document-list"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Checkmarked Page"],
+        "web": ["checkmarked-page"]
+      },
+      "applet": {
+        "figma": ["In-Process"],
+        "web": ["in-process"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document List Search",
+      "web": "document-list-search"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Checklist Paper Search"],
+        "web": ["checklist-paper-search"]
+      },
+      "applet": {
+        "figma": ["Case-Repository"],
+        "web": ["case-repository"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document List Refresh",
+      "web": "document-list-refresh"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Form-I9-Process-Status"],
+        "web": ["form-i9-process-status"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document List Coin",
+      "web": "document-list-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Payroll-Compliance"],
+        "web": ["payroll-compliance"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Worksheets",
+      "web": "document-worksheets"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Headcount-by-Sales"],
+        "web": ["headcount-by-sales"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Forward",
+      "web": "document-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["AP-Aging"],
+        "web": ["ap-aging"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Back",
+      "web": "document-back"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["AR-Aging"],
+        "web": ["ar-aging"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Card",
+      "web": "document-card"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Purchase-Requisitions"],
+        "web": ["purchase-requisitions"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Account",
+      "web": "document-account"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Supplier-Accounts"],
+        "web": ["supplier-accounts"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document User Coin",
+      "web": "document-user-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Payroll-Work-Area"],
+        "web": ["payroll-work-area"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Scroll Coin",
+      "web": "scroll-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Payroll"],
+        "web": ["payroll"]
+      },
+      "accent": {
+        "figma": ["Scroll Seal"],
+        "web": ["scroll-seal"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Catalog",
+      "web": "catalog"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Filing Tray"],
+        "web": ["filing-tray"]
+      },
+      "applet": {
+        "figma": ["Catalog-Loads"],
+        "web": ["catalog-loads"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Inbox Documents User",
+      "web": "inbox-documents-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Student Records"],
+        "web": ["student-records"]
+      },
+      "applet": {
+        "figma": ["Academic-Records"],
+        "web": ["academic-records"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Stack",
+      "web": "document-stack"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Docs"],
+        "web": ["docs"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Document Stack User",
+      "web": "document-stack-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Papers Update", "Not-Issued-To-A-Product"],
+        "web": ["papers-update", "not-issued-to-a-product"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book User",
+      "web": "book-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Directory"],
+        "web": ["directory"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book",
+      "web": "book"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Closed Book"],
+        "web": ["closed-book"]
+      },
+      "applet": {
+        "figma": ["Notebooks"],
+        "web": ["notebooks"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book User Group",
+      "web": "book-user-group"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Company-Directory"],
+        "web": ["company-directory"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book Lightbulb",
+      "web": "book-lightbulb"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Journal-Insights"],
+        "web": ["journal-insights", "learning-trainer"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Book Gears",
+      "web": "book-gears"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Trainer-Systems"],
+        "web": ["trainer-systems"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Folder Cloud",
+      "web": "folder-cloud"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Drive"],
+        "web": ["drive"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Folder Receipts",
+      "web": "folder-receipts"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Expense-Reports"],
+        "web": ["expense-reports"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Folder Documents User",
+      "web": "folder-documents-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Job-Req-Workspace"],
+        "web": ["job-req-workspace"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Folder User Receipt",
+      "web": "folder-user-receipt"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Portal"],
+        "web": ["portal"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card User",
+      "web": "card-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Personal-Info", "Influencers"],
+        "web": ["personal-info", "influencers"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card User Search",
+      "web": "card-user-search"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Recruiters"],
+        "web": ["recruiters"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card Chart User",
+      "web": "card-chart-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Time Charts"],
+        "web": ["time-charts"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Map",
+      "web": "map"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Sitemap"],
+        "web": ["sitemap"]
+      },
+      "applet": {
+        "web": ["journey"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Leaf",
+      "web": "leaf"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Leaf"],
+        "web": ["leaf"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lightbulb Bolt",
+      "web": "lightbulb-bolt"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lightbulb Lightning"],
+        "web": ["lightbulb-lightning"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Target",
+      "web": "target"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Target"],
+        "web": ["target"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Call Bell",
+      "web": "call-bell"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Call Bell"],
+        "web": ["call-bell"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Desk",
+      "web": "desk"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Desk"],
+        "web": ["desk"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Atomic",
+      "web": "atomic"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Atomic"],
+        "web": ["atomic"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "DNA",
+      "web": "dna"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["DNA"],
+        "web": ["dna"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Microscope",
+      "web": "microscope"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Microscope"],
+        "web": ["microscope"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Chair",
+      "web": "chair"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Chair"],
+        "web": ["chair"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Happy Face",
+      "web": "happy-face"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Happy Face"],
+        "web": ["happy-face"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User",
+      "web": "user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person"],
+        "web": ["person"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Briefcase",
+      "web": "user-briefcase"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Briefcase"],
+        "web": ["person-briefcase"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Search",
+      "web": "user-search"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Search Alt"],
+        "web": ["person-search-alt"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Flag",
+      "web": "user-flag"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Flag"],
+        "web": ["person-flag"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Loop",
+      "web": "user-loop"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Loop"],
+        "web": ["person-loop"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Microphone",
+      "web": "user-microphone"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Presenter"],
+        "web": ["presenter"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Search User",
+      "web": "search-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Search"],
+        "web": ["person-search"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Users",
+      "web": "cloud-users"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["People Cloud"],
+        "web": ["people-cloud"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card Chart Clock",
+      "web": "card-chart-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Custom-Dashboards-Labor-Cost-Analysis"],
+        "web": ["custom-dashboards-labor-cost-analysis"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Badge",
+      "web": "badge"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["ID Badge"],
+        "web": ["id-badge"]
+      },
+      "applet": {
+        "figma": ["Recent-Sign-Ons"],
+        "web": ["recent-sign-ons"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card User Clock",
+      "web": "card-user-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Recruiting-Cycle"],
+        "web": ["recruiting-cycle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Ballot Box",
+      "web": "ballot-box"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Suggestions"],
+        "web": ["suggestions"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Newspaper",
+      "web": "newspaper"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["News"],
+        "web": ["news"]
+      },
+      "applet": {
+        "figma": ["Company-News"],
+        "web": ["company-news"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Accounting",
+      "web": "accounting"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Accounting-Center"],
+        "web": ["accounting-center"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Suitcase",
+      "web": "suitcase"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Suitcase"],
+        "web": ["suitcase"]
+      },
+      "applet": {
+        "figma": ["Time-Off"],
+        "web": ["time-off"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Star",
+      "web": "user-star"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Star"],
+        "web": ["person-star"]
+      },
+      "applet": {
+        "figma": ["Talent"],
+        "web": ["talent"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Group",
+      "web": "user-group"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["People Group"],
+        "web": ["people-group"]
+      },
+      "applet": {
+        "figma": ["Meet-Executive-Team"],
+        "web": ["meet-executive-team"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Donut Chart User",
+      "web": "donut-chart-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Skills"],
+        "web": ["skills"]
+      },
+      "applet": {
+        "figma": ["Skills"],
+        "web": ["skills"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Map Location",
+      "web": "map-location"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Onboarding"],
+        "web": ["onboarding"]
+      },
+      "applet": {
+        "figma": ["Onboarding"],
+        "web": ["onboarding"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card User Chart",
+      "web": "card-user-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Person Easel Chart"],
+        "web": ["person-easel-chart"]
+      },
+      "applet": {
+        "figma": ["Teaching"],
+        "web": ["teaching"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Control Panel",
+      "web": "control-panel"
+    },
+    "replacementFor": {}
+  },
+  {
+    "name": {
+      "figma": "High Five",
+      "web": "high-five"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["High Five"],
+        "web": ["high-five"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Shield User Blocks",
+      "web": "shield-user-blocks"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Credentials"],
+        "web": ["credentials"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Head Arrow Up",
+      "web": "head-arrow-up"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Head Arrow"],
+        "web": ["head-arrow"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Head Chart",
+      "web": "head-chart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Head Chart"],
+        "web": ["head-chart"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Head Lightbulb",
+      "web": "head-lightbulb"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Head Lightbulb"],
+        "web": ["head-lightbulb"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Head Memory",
+      "web": "head-memory"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Head Memory"],
+        "web": ["head-memory"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Hand Gear",
+      "web": "hand-gear"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Hand Gear"],
+        "web": ["hand-gear"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Hand Heart",
+      "web": "hand-heart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Hand Heart"],
+        "web": ["hand-heart"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Touchpoints",
+      "web": "touchpoints"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Touchpoints"],
+        "web": ["touchpoints"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Hands Heart",
+      "web": "hands-heart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Hands Heart"],
+        "web": ["hands-heart"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Handshake",
+      "web": "handshake"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Handshake"],
+        "web": ["handshake"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Handshake Plus",
+      "web": "handshake-plus"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Handshake Plus"],
+        "web": ["handshake-plus"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Pipeline",
+      "web": "pipeline"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Candidate Pipeline"],
+        "web": ["candidate-pipeline"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lock",
+      "web": "lock"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lock"],
+        "web": ["lock"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lock Check",
+      "web": "lock-check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lock Keyhole"],
+        "web": ["lock-keyhole"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Lock Keyhole",
+      "web": "lock-keyhole"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lock Checkmark"],
+        "web": ["lock-checkmark"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Face ID",
+      "web": "face-id"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Face ID"],
+        "web": ["face-id"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Fingerprint Android",
+      "web": "fingerprint-android"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Fingerprint Android"],
+        "web": ["fingerprint-android"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Touch ID",
+      "web": "touch-id"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Touch ID"],
+        "web": ["touch-id"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Shield",
+      "web": "shield"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Shield"],
+        "web": ["shield"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Shield Check",
+      "web": "shield-check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Shield Checkmark"],
+        "web": ["shield-checkmark"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Sun",
+      "web": "sun"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Sun"],
+        "web": ["sun"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Ping Pong",
+      "web": "ping-pong"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Ping Pong"],
+        "web": ["ping-pong"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Plus",
+      "web": "team-plus"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Open Positions"],
+        "web": ["open-positions"]
+      },
+      "applet": {
+        "figma": ["Open-Positions"],
+        "web": ["open-positions"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team",
+      "web": "team"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Employees"],
+        "web": ["employees"]
+      },
+      "applet": {
+        "figma": ["Organization"],
+        "web": ["organization"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Analytics User",
+      "web": "analytics-user"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["People Analytics"],
+        "web": ["people-analytics"]
+      },
+      "applet": {
+        "figma": ["People-Analytics"],
+        "web": ["people-analytics"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Hand Leaf",
+      "web": "hand-leaf"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Hand Leaf"],
+        "web": ["hand-leaf"]
+      },
+      "applet": {
+        "figma": ["Learning"],
+        "web": ["learning"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Handshake Heart",
+      "web": "handshake-heart"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Handshake Heart"],
+        "web": ["handshake-heart"]
+      },
+      "applet": {
+        "figma": ["Giving-Doing"],
+        "web": ["giving-doing"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Shield Security",
+      "web": "shield-security"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Workday BYOK"],
+        "web": ["workday-byok"]
+      },
+      "applet": {
+        "figma": ["Workday-BYOK"],
+        "web": ["workday-byok"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Magnet Users",
+      "web": "magnet-users"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Candidate Engagement"],
+        "web": ["candidate-engagement"]
+      },
+      "applet": {
+        "figma": ["Candidate Engagement"],
+        "web": ["candidate-engagement"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Users Discussion",
+      "web": "users-discussion"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["People Talking"],
+        "web": ["people-talking"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Factory",
+      "web": "factory"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Manufacturing"],
+        "web": ["manufacturing"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Building Flag",
+      "web": "building-flag"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Building Flag"],
+        "web": ["building-flag"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Building Large",
+      "web": "building-large"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Building Large"],
+        "web": ["building-large"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Building Medium",
+      "web": "building-medium"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Building Medium"],
+        "web": ["building-medium"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Building Small",
+      "web": "building-small"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Building Small"],
+        "web": ["building-small"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Stadium",
+      "web": "stadium"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Expo"],
+        "web": ["expo"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Home",
+      "web": "home"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Building Home"],
+        "web": ["building-home"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tent",
+      "web": "tent"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tent"],
+        "web": ["tent"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Weights",
+      "web": "weights"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Weights"],
+        "web": ["weights"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Soccer Ball",
+      "web": "soccer-ball"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Sports"],
+        "web": ["sports"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Minus Circle",
+      "web": "minus-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Circle Minus"],
+        "web": ["minus-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Plus Circle",
+      "web": "plus-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Circle Plus"],
+        "web": ["plus-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Related Actions Circle",
+      "web": "related-actions-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Related Actions Circle"],
+        "web": ["related-actions-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Exclamation Circle",
+      "web": "exclamation-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Exclamation Circle"],
+        "web": ["exclamation-circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Check Simple",
+      "web": "check-simple"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Checkmark Solid"],
+        "web": ["checkmark-solid"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bolt",
+      "web": "bolt"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Lightning Bolt"],
+        "web": ["lightning-bolt"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Check",
+      "web": "check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Checkmark"],
+        "web": ["checkmark"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Universal",
+      "web": "universal"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Universal"],
+        "web": ["universal"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Elevator",
+      "web": "elevator"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Elevator"],
+        "web": ["elevator"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Escalator",
+      "web": "escalator"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Escalator"],
+        "web": ["escalator"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Desktop Gear",
+      "web": "desktop-gear"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Desktop Gear"],
+        "web": ["desktop-gear"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mobile Lock Check",
+      "web": "mobile-lock-check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Mobile Lock Check"],
+        "web": ["mobile-lock-check"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mobile Media",
+      "web": "mobile-media"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Mobile Play"],
+        "web": ["mobile-play"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tablet Lock Check",
+      "web": "tablet-lock-check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tablet Lock Check"],
+        "web": ["tablet-lock-check"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tablet Text",
+      "web": "tablet-text"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Tablet Text"],
+        "web": ["tablet-text"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Laptop Lock Check",
+      "web": "laptop-lock-check"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Privacy"],
+        "web": ["privacy"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Buildings",
+      "web": "buildings"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Skyscraper"],
+        "web": ["skyscraper"]
+      },
+      "applet": {
+        "figma": ["Cost-Center"],
+        "web": ["cost-center"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "University",
+      "web": "university"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Building", "Roman Building"],
+        "web": ["building", "roman-building"]
+      },
+      "applet": {
+        "figma": ["Institutions"],
+        "web": ["institutions"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Check Circle",
+      "web": "check-circle"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Circle Checkmark"],
+        "web": ["circle-checkmark"]
+      },
+      "applet": {
+        "figma": ["Checkmark"],
+        "web": ["checkmark"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Star",
+      "web": "star"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Star"],
+        "web": ["star", "star-plain 1"]
+      },
+      "applet": {
+        "figma": ["Favorites"],
+        "web": ["star", "star"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Worksheets",
+      "web": "worksheets"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Worksheets"],
+        "web": ["worksheets"]
+      },
+      "applet": {
+        "figma": ["Worksheets"],
+        "web": ["worksheets"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Laptop Cursor",
+      "web": "laptop-cursor"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Laptop Cursor"],
+        "web": ["laptop-cursor"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Laptop Media",
+      "web": "laptop-media"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Laptop Play"],
+        "web": ["laptop-play"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Laptop Loop",
+      "web": "laptop-loop"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Laptop Loop"],
+        "web": ["laptop-loop"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Data Server Arrow Up",
+      "web": "data-server-arrow-up"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Upgrades"],
+        "web": ["upgrades"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Binary",
+      "web": "cloud-binary"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["DAAS"],
+        "web": ["daas"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Devices",
+      "web": "cloud-devices"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Power of One"],
+        "web": ["power-of-one"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Edit",
+      "web": "webpage-edit"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Web Window Write"],
+        "web": ["web-window-write"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Sparkles",
+      "web": "sparkles"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Sparkle"],
+        "web": ["sparkle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "API",
+      "web": "api"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["API"],
+        "web": ["api"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Blockchain",
+      "web": "blockchain"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Blockchain"],
+        "web": ["blockchain"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Circuit Board",
+      "web": "circuit-board"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Circuit Board"],
+        "web": ["circuit-board"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Platform",
+      "web": "platform"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Cloud Platform"],
+        "web": ["cloud-platform"]
+      },
+      "applet": {
+        "web": ["cube"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "IT",
+      "web": "it"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["IT"],
+        "web": ["it"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Radio Tower",
+      "web": "radio-tower"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Radio Tower"],
+        "web": ["radio-tower"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Satellite",
+      "web": "satellite"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Satelite"],
+        "web": ["satelite"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Smart Speaker",
+      "web": "smart-speaker"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Smart Speaker"],
+        "web": ["smart-speaker"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "RAM",
+      "web": "ram"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Ram"],
+        "web": ["ram"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User VR",
+      "web": "user-vr"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["VR"],
+        "web": ["vr"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Quotes Simple",
+      "web": "quotes-simple"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Quotes"],
+        "web": ["quotes"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Quotes",
+      "web": "quotes"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Quotes Solid"],
+        "web": ["quotes-solid"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Location",
+      "web": "location"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Location"],
+        "web": ["location"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Bus",
+      "web": "bus"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Bus"],
+        "web": ["bus"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Car",
+      "web": "car"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Car"],
+        "web": ["car"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Layers",
+      "web": "layers"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Stack"],
+        "web": ["stack"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Loading Circles",
+      "web": "loading-circles"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Circle Loading"],
+        "web": ["circle-loading"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Data Server",
+      "web": "data-server"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Deployment"],
+        "web": ["deployment"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Pencil Ruler",
+      "web": "pencil-ruler"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Pencil Brush"],
+        "web": ["pencil-brush"]
+      },
+      "applet": {
+        "figma": ["Pencil-Ruler"],
+        "web": ["pencil-ruler"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tools",
+      "web": "tools"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Toolbox", "Tools"],
+        "web": ["toolbox", "tools"]
+      },
+      "applet": {
+        "figma": ["Background-Processes"],
+        "web": ["background-processes"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Office Tools",
+      "web": "office-tools"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Planning"],
+        "web": ["planning"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Rocket",
+      "web": "rocket"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Rocket"],
+        "web": ["rocket"]
+      },
+      "applet": {
+        "figma": ["Rocket"],
+        "web": ["rocket"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Dashboard Chart Gear",
+      "web": "dashboard-chart-gear"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Dashboard"],
+        "web": ["dashboard"]
+      },
+      "applet": {
+        "figma": ["Performance-Dashboard"],
+        "web": ["performance-dashboard"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Dashboard User Gear",
+      "web": "dashboard-user-gear"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Resources"],
+        "web": ["resources"]
+      },
+      "applet": {
+        "figma": ["Resource-Management"],
+        "web": ["resource-management"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Search",
+      "web": "search"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["HR-Recruiting"],
+        "web": ["hr-recruiting"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Tag Lock",
+      "web": "tag-lock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Custom-Reports"],
+        "web": ["custom-reports"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Puzzle",
+      "web": "puzzle"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Connect-Dashboard"],
+        "web": ["connect-dashboard"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Package Location",
+      "web": "package-location"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Business-Assets-Tracking"],
+        "web": ["business-assets-tracking"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Briefcase Clock",
+      "web": "briefcase-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Tenure"],
+        "web": ["tenure"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Board",
+      "web": "board"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Open-Job-Req"],
+        "web": ["open-job-req"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Balloons",
+      "web": "balloons"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Anniversaries"],
+        "web": ["anniversaries"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Megaphone",
+      "web": "user-megaphone"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Campaigns"],
+        "web": ["campaigns"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Chart",
+      "web": "user-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["My-Processes"],
+        "web": ["my-processes"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Arrows",
+      "web": "user-arrows"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Flexible-Work"],
+        "web": ["flexible-work"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Gear",
+      "web": "user-gear"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["My-Account"],
+        "web": ["my-account"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Card",
+      "web": "user-card"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["My-Recent-Purchase-Orders"],
+        "web": ["my-recent-purchase-orders"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Clipboard",
+      "web": "user-clipboard"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["My-Projects"],
+        "web": ["my-projects"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "User Refresh",
+      "web": "user-refresh"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Employee-Changes"],
+        "web": ["employee-changes"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Users",
+      "web": "users"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Contingent-Workers"],
+        "web": ["contingent-workers"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Comment Chart",
+      "web": "comment-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Feedback-Dashboard"],
+        "web": ["feedback-dashboard"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Sunburst Chart User",
+      "web": "sunburst-chart-user"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Opportunity-Graph"],
+        "web": ["opportunity-graph"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Equal",
+      "web": "team-equal"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Headcount"],
+        "web": ["headcount"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Documents",
+      "web": "team-documents"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Applicants"],
+        "web": ["applicants"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Chart",
+      "web": "team-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Performance-Reviews"],
+        "web": ["performance-reviews"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Clock",
+      "web": "team-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Teams-Time"],
+        "web": ["teams-time"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Mountain",
+      "web": "team-mountain"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Manager-Insights"],
+        "web": ["manager-insights"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Survey",
+      "web": "team-survey"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Teams-Work"],
+        "web": ["teams-work"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Timeline",
+      "web": "team-timeline"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Resource-Management-dashboard"],
+        "web": ["resource-management-dashboard"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Goal",
+      "web": "team-goal"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Team-Goals"],
+        "web": ["team-goals"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Procurement",
+      "web": "procurement"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Procurement"],
+        "web": ["procurement"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Purchase",
+      "web": "purchase"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Buyer-Hub"],
+        "web": ["buyer-hub"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Organization",
+      "web": "team-organization"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Direct-Reports"],
+        "web": ["direct-reports"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Team Coin",
+      "web": "team-coin"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Worker-Spend"],
+        "web": ["worker-spend"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card Community",
+      "web": "card-community"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["People-Community-Cards"],
+        "web": ["people-community-cards"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Learning Media",
+      "web": "learning-media"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Learning-Admin"],
+        "web": ["learning-admin"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Globe Location",
+      "web": "globe-location"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Regions"],
+        "web": ["regions"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Hand Coin",
+      "web": "hand-coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Hand Coin"],
+        "web": ["hand-coin"]
+      },
+      "applet": {
+        "web": ["strategic-sourcing"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Handshake Heart Coin",
+      "web": "handshake-heart-coin"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Handshake Heart Coins"],
+        "web": ["handshake-heart-coins"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Mobile",
+      "web": "mobile"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Mobile"],
+        "web": ["mobile"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Data Server Cloud",
+      "web": "data-server-cloud"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Customer-Central"],
+        "web": ["customer-central"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Curriculum",
+      "web": "curriculum"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Curriculum-Enrollment"],
+        "web": ["curriculum-enrollment"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Dashboard Chart",
+      "web": "dashboard-chart"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Dashboards"],
+        "web": ["dashboards"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Arrow Down",
+      "web": "cloud-arrow-down"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["WDrive"],
+        "web": ["w-drive"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Lock",
+      "web": "cloud-lock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Troubleshoot-Security"],
+        "web": ["troubleshoot-security"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Clock",
+      "web": "cloud-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Workday-System-Monitor"],
+        "web": ["workday-system-monitor"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Empty",
+      "web": "cloud-empty"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Fallback"],
+        "web": ["fallback"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Shield",
+      "web": "cloud-shield"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Cloud-Shield"],
+        "web": ["cloud-shield"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Loader",
+      "web": "cloud-loader"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Cloudloader"],
+        "web": ["cloudloader"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Puzzle Lightbulb",
+      "web": "cloud-puzzle-lightbulb"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Big-Data-Analytics"],
+        "web": ["big-data-analytics"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Cloud Puzzle",
+      "web": "cloud-puzzle"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Integrations"],
+        "web": ["integrations"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Hand Money",
+      "web": "hand-money"
+    },
+    "replacementFor": {
+      "accent": {
+        "figma": ["Hand Money"],
+        "web": ["hand-money"]
+      },
+      "applet": {
+        "figma": ["Financials"],
+        "web": ["financials"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Related Actions",
+      "web": "related-actions"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["More"],
+        "web": ["more"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Card Tools",
+      "web": "card-tools"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Guidance-Workspace"],
+        "web": ["guidance-workspace"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Guidance Question",
+      "web": "guidance-question"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Pex-Workspace"],
+        "web": ["people-workspace"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Circle",
+      "web": "circle"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Circle"],
+        "web": ["circle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Square",
+      "web": "square"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Square"],
+        "web": ["square"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Question Circle",
+      "web": "question-circle"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Question-Mark"],
+        "web": ["question-mark"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Triangle",
+      "web": "triangle"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Triangle"],
+        "web": ["triangle"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Exclamation Triangle",
+      "web": "exclamation-triangle"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Safety"],
+        "web": ["safety"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Burst",
+      "web": "burst"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Burst"],
+        "web": ["burst"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Diamond",
+      "web": "diamond"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Diamond"],
+        "web": ["diamond"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Jacks",
+      "web": "jacks"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Jacks"],
+        "web": ["jacks"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Quad",
+      "web": "quad"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Quad"],
+        "web": ["quad"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage",
+      "web": "webpage"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Designer"],
+        "web": ["designer"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Code Forward",
+      "web": "webpage-code-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Developer-Quicklinks"],
+        "web": ["developer-quicklinks"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Code Clock",
+      "web": "webpage-code-clock"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Developer-Recent-Activity"],
+        "web": ["developer-recent-activity"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Link Forward",
+      "web": "webpage-link-forward"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["External-Application"],
+        "web": ["external-application"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Users",
+      "web": "webpage-users"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["Gigs"],
+        "web": ["gigs"]
+      }
+    }
+  },
+  {
+    "name": {
+      "figma": "Webpage Plus",
+      "web": "webpage-plus"
+    },
+    "replacementFor": {
+      "applet": {
+        "figma": ["App-Creator"],
+        "web": ["app-creator"]
+      }
+    }
+  }
+]

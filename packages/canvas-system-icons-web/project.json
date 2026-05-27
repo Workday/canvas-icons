@@ -1,0 +1,27 @@
+{
+  "name": "@workday/canvas-system-icons-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "tags": ["type:system", "platform:web", "system:web"],
+  "targets": {
+    "icon-es6": {
+      "executor": "@workday/canvas-assets-nx-plugin:icon-js",
+      "options": {
+        "iconType": "system",
+        "moduleType": "es6"
+      }
+    },
+    "icon-commonjs": {
+      "executor": "@workday/canvas-assets-nx-plugin:icon-js",
+      "options": {
+        "iconType": "system",
+        "moduleType": "commonjs"
+      }
+    },
+    "sprites": {
+      "executor": "@workday/canvas-assets-nx-plugin:sprites",
+      "options": {
+        "iconType": "system"
+      }
+    }
+  }
+}

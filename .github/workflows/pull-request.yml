@@ -19,6 +19,10 @@ jobs:
         env:
           NX_DAEMON: 'false'
 
+      - name: Build project
+        shell: bash
+        run: yarn build
+
       - name: Lint
         shell: bash
         run: yarn lint

@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-c-waterfall" role="presentation" data-deprecated="true">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-waterfall-chart.svg instead. -->
+<g>
+<path d="M7 20H3V10H7V20Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+<path d="M21 16H17V4H21V16Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-accent"></path>
+</g>
+<g>
+<path d="M7 9C7.55228 9 8 9.44772 8 10V20C8 20.5523 7.55228 21 7 21H3C2.44772 21 2 20.5523 2 20V10C2 9.44772 2.44772 9 3 9H7ZM4 19H6V11H4V19Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M21 3C21.5523 3 22 3.44772 22 4V16C22 16.5523 21.5523 17 21 17H17C16.4477 17 16 16.5523 16 16V4C16 3.44772 16.4477 3 17 3H21ZM18 15H20V5H18V15Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+<path d="M14 3C14.5523 3 15 3.44772 15 4V10C15 10.5523 14.5523 11 14 11H10C9.44772 11 9 10.5523 9 10V4C9 3.44772 9.44772 3 10 3H14ZM11 9H13V5H11V9Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
+</g>
+</svg>

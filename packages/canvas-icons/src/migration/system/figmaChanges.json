@@ -1,0 +1,1594 @@
+{
+  "unchanged": [
+    "People/Accessibility",
+    "Data Stream/Actuals",
+    "Editor/Add Above",
+    "Editor/Add Below",
+    "Editor/Add Left",
+    "Editor/Add Right",
+    "Editor/Add Split Row",
+    "Editor/Add Zero",
+    "Core/Alarm Clock",
+    "Core/Alarm Clock Plus",
+    "Editor/Align Bottom",
+    "Editor/Align Center",
+    "Editor/Align Left",
+    "Editor/Align Middle",
+    "Editor/Align Right",
+    "Editor/Align Top",
+    "Chart Visuals/Anomaly Detection",
+    "Core/Array",
+    "Navigation/Arrow Corner Down Left",
+    "Navigation/Arrow Corner Down Right",
+    "Navigation/Arrow Corner Up Left",
+    "Navigation/Arrow Corner Up Right",
+    "Navigation/Arrow Down",
+    "Navigation/Arrow Left",
+    "Navigation/Arrow Left Small",
+    "Navigation/Arrow Right",
+    "Navigation/Arrow Right Small",
+    "Navigation/Arrow Up",
+    "Data Stream/Attribute",
+    "Audio Visual/Audio Min",
+    "Audio Visual/Audio Mute",
+    "Audio Visual/Audio None",
+    "Objects/Bid",
+    "Objects/Birthday",
+    "Editor/Bold",
+    "Notification/Bolt",
+    "Core/Boolean",
+    "Editor/Border All",
+    "Editor/Border Bottom",
+    "Editor/Border Center",
+    "Editor/Border Color",
+    "Editor/Border Left",
+    "Editor/Border None",
+    "Editor/Border Outside",
+    "Editor/Border Right",
+    "Editor/Border Top",
+    "Files & Docs/Box Text",
+    "Core/Button",
+    "Objects/Calculator",
+    "Core/Calendar",
+    "Objects/Camera",
+    "Core/Canvas",
+    "Navigation/Caret Bottom",
+    "Navigation/Caret Bottom Small",
+    "Navigation/Caret Down",
+    "Navigation/Caret Down Small",
+    "Navigation/Caret Left Small",
+    "Navigation/Caret Right Small",
+    "Navigation/Caret Top",
+    "Navigation/Caret Top Small",
+    "Navigation/Caret Up",
+    "Navigation/Caret Up Small",
+    "Objects/Cart",
+    "Notification/Check",
+    "Core/Check In",
+    "Notification/Check Small",
+    "Core/Checkbox",
+    "Navigation/Chevron 2x Down Small",
+    "Navigation/Chevron 2x Left Small",
+    "Navigation/Chevron 2x Right Small",
+    "Navigation/Chevron 2x Up Small",
+    "Navigation/Chevron Down",
+    "Navigation/Chevron Down Small",
+    "Navigation/Chevron Left",
+    "Navigation/Chevron Left Small",
+    "Navigation/Chevron Right",
+    "Navigation/Chevron Right Small",
+    "Navigation/Chevron Up",
+    "Navigation/Chevron Up Small",
+    "Core/Chip",
+    "Files & Docs/Clipboard Check",
+    "Core/Clock",
+    "Core/Clock Check",
+    "Core/Clock Exclamation",
+    "Core/Clock Minus",
+    "Core/Clock Pause",
+    "Core/Clock Plus",
+    "Core/Clock X",
+    "Data Stream/Cloud Lock",
+    "Core/Code",
+    "Core/Comment Active",
+    "Core/Comment Plus",
+    "Data Stream/Compare Files",
+    "Objects/Compass",
+    "Objects/Component",
+    "Objects/Component Edit",
+    "Objects/Credit Card",
+    "Editor/Cut",
+    "Core/Dashboard",
+    "Data Stream/Data Source",
+    "Core/Delta",
+    "Files & Docs/Document CSV",
+    "Files & Docs/Document Download",
+    "Files & Docs/Document HTML",
+    "Files & Docs/Document Star",
+    "Files & Docs/Document TSV",
+    "Objects/Dollar Sign",
+    "Core/Dot",
+    "Core/Download",
+    "Core/Draggable",
+    "Core/Draggable Vertical",
+    "Navigation/Drill Down",
+    "Core/Dropdown",
+    "Core/Dropdown Button",
+    "Editor/Edit",
+    "Data Stream/Endpoints",
+    "Files & Docs/Excel",
+    "Notification/Exclamation",
+    "Notification/Exclamation Circle",
+    "Notification/Exclamation Triangle",
+    "Core/Export",
+    "People/Face Happy",
+    "Mobile App/Face ID",
+    "People/Face Neutral",
+    "People/Face Unhappy",
+    "People/Face Very Happy",
+    "Audio Visual/Fast Forward 15",
+    "Core/Filter",
+    "Core/Filter Exclamation",
+    "Mobile App/Fingerprint Android",
+    "Notification/Flag",
+    "Mobile App/Flash Auto",
+    "Data Stream/Flow",
+    "Files & Docs/Folder Minus",
+    "Files & Docs/Folder Open",
+    "Files & Docs/Folder Plus",
+    "Editor/Font Face",
+    "Editor/Font Size",
+    "Editor/Formula Edit",
+    "Core/Gear",
+    "Objects/Globe",
+    "Core/Grid",
+    "Core/Grid View",
+    "Navigation/Grow",
+    "Editor/Heading",
+    "Data Stream/Hierarchy",
+    "Data Stream/Hierarchy Child",
+    "Data Stream/Hierarchy Diagonal Parent",
+    "Data Stream/Hierarchy Diagonal Parent Child",
+    "Data Stream/Hierarchy Diagonal Parent Child Child",
+    "Data Stream/Hierarchy Full",
+    "Data Stream/Hierarchy Parent",
+    "Editor/Highlight",
+    "Objects/Home",
+    "Files & Docs/Image",
+    "Editor/Indent",
+    "Core/Info",
+    "Editor/Insert Column After",
+    "Editor/Insert Column Before",
+    "Editor/Insert Row After",
+    "Editor/Insert Row Before",
+    "Data Stream/Instance",
+    "Editor/Italics",
+    "Core/Join Full",
+    "Core/Join Inner",
+    "Core/Join Left",
+    "Core/Join Left Anti",
+    "Mobile App/Keyboard",
+    "Chart Visuals/KPI",
+    "Objects/Laptop",
+    "Chart Visuals/Legend",
+    "Objects/Lightbulb",
+    "Editor/Link",
+    "Core/List Detail",
+    "Core/List View",
+    "Objects/Location",
+    "Core/Lock",
+    "Audio Visual/Loop",
+    "Files & Docs/Mail",
+    "Objects/Map",
+    "Audio Visual/Marker",
+    "Objects/Medal",
+    "Notification/Megaphone",
+    "Data Stream/Merge",
+    "Data Stream/Merge Small",
+    "Audio Visual/Microphone",
+    "Core/Minus",
+    "Objects/Moon",
+    "Data Stream/Multi Instance",
+    "Mobile App/Nearby",
+    "Mobile App/Number Input",
+    "Editor/Numbers",
+    "Core/Object",
+    "Editor/Operator",
+    "Objects/Package Arrow Down",
+    "Objects/Package Arrow Up",
+    "Editor/Paragraph",
+    "Objects/Pattern",
+    "Files & Docs/PDF",
+    "Editor/Percentage",
+    "Objects/Phone",
+    "Editor/Pi",
+    "Core/Pill",
+    "Objects/Pin",
+    "Core/Placeholder",
+    "Objects/Platform Cart",
+    "Core/Playbook",
+    "Core/Plus Small",
+    "Core/Power of One",
+    "Files & Docs/Powerpoint",
+    "Audio Visual/Previous",
+    "Objects/Print",
+    "Core/Prism",
+    "People/Proxy User",
+    "Object/Puzzle",
+    "Core/QR Code",
+    "Chart Visuals/Range Period",
+    "Chart Visuals/Reference Line",
+    "Editor/Region",
+    "Core/Related Actions",
+    "Core/Related Actions Vertical",
+    "Editor/Remove Column After",
+    "Editor/Remove Indent",
+    "Editor/Remove Row After",
+    "Editor/Remove Split Row",
+    "Editor/Remove Zero",
+    "Editor/Rename Split Row",
+    "Audio Visual/Replay",
+    "Core/Reset",
+    "Core/Resizable",
+    "Editor/Restore",
+    "Audio Visual/Rewind 30",
+    "Objects/Ribbon",
+    "Objects/Rocket",
+    "Core/Rotate",
+    "Editor/Save",
+    "Editor/Save As",
+    "Core/Screen Reader",
+    "Core/Search",
+    "People/Search User",
+    "Core/Select",
+    "Core/Send",
+    "Objects/Shapes",
+    "Core/Share",
+    "Navigation/Shrink",
+    "Mobile App/Signal Four",
+    "Mobile App/Signal One",
+    "Mobile App/Signal Three",
+    "Mobile App/Signal Two",
+    "Audio Visual/Skip",
+    "Core/Slider",
+    "Objects/Soccer Ball",
+    "Core/Social Media",
+    "Navigation/Sort",
+    "Navigation/Sort A-Z",
+    "Navigation/Sort Z-A",
+    "Data Stream/Split",
+    "Data Stream/Split Small",
+    "Core/Square",
+    "Core/Star",
+    "Editor/Strikethrough",
+    "Core/Substitute",
+    "Editor/Table",
+    "Core/Tag",
+    "Editor/Text",
+    "Editor/Text Edit",
+    "Core/Text Input",
+    "Editor/Text Wrap",
+    "Objects/Tokens",
+    "Core/Tools",
+    "Mobile App/Touch ID",
+    "Core/Translation",
+    "Core/Trash",
+    "Objects/Trophy",
+    "Editor/Underline",
+    "Navigation/Unsort",
+    "Core/Upload",
+    "People/User",
+    "People/User Check",
+    "People/User Forward",
+    "Editor/Versions",
+    "Audio Visual/Video",
+    "Files & Docs/Virtual Version",
+    "Editor/Visible",
+    "Core/Webpage",
+    "Files & Docs/Word",
+    "Core/X Small",
+    "Core/X",
+    "Objects/Book Open"
+  ],
+  "changed": [
+    {
+      "comment": "The Whatsapp icon has been renamed to 'Whats App' to align with its company branding.",
+      "deprecated": ["Whatsapp"],
+      "replacement": "Whats App"
+    },
+    {
+      "comment": "The Aim icon has been renamed to 'AIM' to align with its company branding.",
+      "deprecated": ["Aim"],
+      "replacement": "AIM"
+    },
+    {
+      "comment": "The old Ranking icon has been replaced by a new Laurel Wreath icon to align naming with web. The Rankin icon still exist but with new design similar to web.",
+      "replacement": "Laurel Wreath",
+      "deprecated": ["Ranking"]
+    },
+    {
+      "comment": "The ccolumn100 and 100column icons have been replaced by a new 'Bar Full Stack Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Full Stack Chart",
+      "deprecated": ["ccolumn100", "100column"]
+    },
+    {
+      "comment": "The Accounts icon has been renamed to 'Catalog' to align naming with the v3 icon naming convention.",
+      "replacement": "Catalog",
+      "deprecated": ["Accounts"]
+    },
+    {
+      "comment": "The Actuals Locked icon has been renamed to 'Actuals Lock' to align naming with the v3 icon naming convention.",
+      "replacement": "Actuals Lock",
+      "deprecated": ["Actuals Locked"]
+    },
+    {
+      "comment": "The Arrow-arc icon has been renamed to 'Arrow Arc' to align naming with the v3 icon naming convention.",
+      "replacement": "Arrow Arc",
+      "deprecated": ["Arrow-arc"]
+    },
+    {
+      "comment": "The Arrow Circle icon has been renamed to 'Arrow Up Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Arrow Up Circle",
+      "deprecated": ["Arrow Circle"]
+    },
+    {
+      "comment": "The Arrow Diagonal Small icon has been renamed to 'Arrow Diagonal Down Right Small' to align naming with the v3 icon naming convention.",
+      "replacement": "Arrow Diagonal Down Right Small",
+      "deprecated": ["Arrow Diagonal Small"]
+    },
+    {
+      "comment": "The Article Stacked icon has been renamed to 'Document Stack' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Stack",
+      "deprecated": ["Article Stacked"]
+    },
+    {
+      "comment": "The As Applied icon has been renamed to 'Check Square' to align naming with the v3 icon naming convention.",
+      "replacement": "Check Square",
+      "deprecated": ["As Applied"]
+    },
+    {
+      "comment": "The At Tag Mention icon has been renamed to 'Mention' to align naming with the v3 icon naming convention.",
+      "replacement": "Mention",
+      "deprecated": ["At Tag Mention"]
+    },
+    {
+      "comment": "The Audio Max icon has been removed to reduce icon duplications, use 'Audio' icon instead.",
+      "deprecated": ["Audio Max"],
+      "replacement": "Audio"
+    },
+    {
+      "comment": "The Authentication Tag icon has been renamed to 'Lock Authentication' to align naming with the v3 icon naming convention.",
+      "replacement": "Lock Authentication",
+      "deprecated": ["Authentication Tag"]
+    },
+    {
+      "comment": "The Barcode Scanner icon has been renamed to 'Barcode' to align naming with the v3 icon naming convention.",
+      "replacement": "Barcode",
+      "deprecated": ["Barcode Scanner"]
+    },
+    {
+      "comment": "The Benefits icon has been renamed to 'Shield Heart' to align naming with the v3 icon naming convention.",
+      "replacement": "Shield Heart",
+      "deprecated": ["Benefits"]
+    },
+    {
+      "comment": "The Background Color icon has been renamed to 'Background' to align naming with the v3 icon naming convention.",
+      "replacement": "Background Color",
+      "deprecated": ["BG Color"]
+    },
+    {
+      "comment": "The Border Bottom 2 icon has been renamed to 'Border Bottom Thick' to align naming with the v3 icon naming convention.",
+      "replacement": "Border Bottom Thick",
+      "deprecated": ["Border Bottom 2"]
+    },
+    {
+      "comment": "The Box icon has been renamed to 'Package' to align naming with the v3 icon naming convention.",
+      "replacement": "Package",
+      "deprecated": ["Box"]
+    },
+    {
+      "comment": "The Box + Plus icon has been renamed to 'Square Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Square Plus",
+      "deprecated": ["Box + Plus"]
+    },
+    {
+      "comment": "The Box Text + Check icon has been renamed to 'Box Text Check' to align naming with the v3 icon naming convention.",
+      "replacement": "Box Text Check",
+      "deprecated": ["Box Text + Check"]
+    },
+    {
+      "comment": "The Box Text + Plus icon has been renamed to 'Box Text Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Box Text Plus",
+      "deprecated": ["Box Text + Plus"]
+    },
+    {
+      "comment": "The Box Text + Search icon has been renamed to 'Box Text Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Box Text Search",
+      "deprecated": ["Box Text + Search"]
+    },
+    {
+      "comment": "The Box Text + User Solid icon has been renamed to 'Box Text User' to align naming with the new icon naming convention.",
+      "replacement": "Box Text User",
+      "deprecated": ["Box Text + User Solid"]
+    },
+    {
+      "comment": "The Box Text + X icon has been renamed to 'Box Text X' to align naming with the v3 icon naming convention.",
+      "replacement": "Box Text X",
+      "deprecated": ["Box Text + X"]
+    },
+    {
+      "comment": "The Break icon has been renamed to 'Coffee' to align naming with the new web and the v3 icon naming convention.",
+      "replacement": "Coffee",
+      "deprecated": ["Break"]
+    },
+    {
+      "comment": "Prompts and RTE List icons have been consolidated and replaced by the List Bullet icon to reduce duplications and improve consistency.",
+      "replacement": "List Bullet",
+      "deprecated": ["Bullet List"]
+    },
+    {
+      "comment": "Prompts and RTE List icons have been consolidated and replaced by the List icon to reduce duplications and improve consistency.",
+      "replacement": "List",
+      "deprecated": ["Prompts", "RTE List"]
+    },
+    {
+      "comment": "The Business Intelligence icon has been renamed to 'Document Lightbulb' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Lightbulb",
+      "deprecated": ["Business Intelligence"]
+    },
+    {
+      "comment": "The Calculator Locked icon has been renamed to 'Calculator Lock' to align naming with the v3 icon naming convention.",
+      "replacement": "Calculator Lock",
+      "deprecated": ["Calculator Locked"]
+    },
+    {
+      "comment": "The Calculator Refresh icon has been renamed to 'Calculator Loop' to align naming with the v3 icon naming convention.",
+      "replacement": "Calculator Loop",
+      "deprecated": ["Calculator Refresh"]
+    },
+    {
+      "comment": "The Calendar Alt icon has been renamed to 'Calendar Days' to align naming with the v3 icon naming convention.",
+      "replacement": "Calendar Days",
+      "deprecated": ["Calendar Alt"]
+    },
+    {
+      "comment": "The Candidate Action Required icon has been renamed to 'Document User Exclamation' to align naming with the v3 icon naming convention.",
+      "replacement": "Document User Exclamation",
+      "deprecated": ["Candidate Action Required"]
+    },
+    {
+      "comment": "The Candidate Details icon has been renamed to 'Document User Text' to align naming with the v3 icon naming convention.",
+      "replacement": "Document User Text",
+      "deprecated": ["Candidate Details"]
+    },
+    {
+      "comment": "The Candidate Inactive icon has been renamed to 'Document User Minus' to align naming with the v3 icon naming convention.",
+      "replacement": "Document User Minus",
+      "deprecated": ["Candidate Inactive"]
+    },
+    {
+      "comment": "The Card icon has been renamed to 'Card Stack' to align naming with the v3 icon naming convention.",
+      "replacement": "Card Stack",
+      "deprecated": ["Card"]
+    },
+    {
+      "comment": "The Card View icon has been renamed to 'Document View' to align naming with the v3 icon naming convention.",
+      "replacement": "Document View",
+      "deprecated": ["Card View"]
+    },
+    {
+      "comment": "The carea100 icon has been replaced by a new 'Area Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Area Chart",
+      "deprecated": ["carea100"]
+    },
+    {
+      "comment": "The carealayered icon has been replaced by a new 'Area Layer Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Area Layer Chart",
+      "deprecated": ["carealayered"]
+    },
+    {
+      "comment": "The careastacked icon has been replaced by a new 'Area Stack Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Area Stack Chart",
+      "deprecated": ["careastacked"]
+    },
+    {
+      "comment": "The cbarclustered icon has been replaced by a new 'Bar Horizontal Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Horizontal Chart",
+      "deprecated": ["cbarclustered"]
+    },
+    {
+      "comment": "The Clustered Bar icon has been replaced by a new 'Bar Horizontal Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Horizontal Cluster Chart",
+      "deprecated": ["Clustered Bar"]
+    },
+    {
+      "comment": "cbarstacked and Stacked Bar icons have been replaced by a new 'Bar Horizontal Stack Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Horizontal Stack Chart",
+      "deprecated": ["cbarstacked", "Stacked Bar"]
+    },
+    {
+      "comment": "The cbubble icon has been replaced by a new 'Bubble Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bubble Chart",
+      "deprecated": ["cbubble"]
+    },
+    {
+      "comment": "The ccolumnclustered icon has been replaced by a new 'Bar Chart Fill' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Chart Fill",
+      "deprecated": ["ccolumnclustered"]
+    },
+    {
+      "comment": "The Dashboard Labor Cost Analysis icon has been replaced by a new 'Bar Chart Growth' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Chart Growth",
+      "deprecated": ["Dashboard Labor Cost Analysis"]
+    },
+    {
+      "comment": "ccolumnstacked and Stacked Column icons have been consolidated and replaced by a new 'Bar Stack Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Stack Chart",
+      "deprecated": ["Stacked Column", "ccolumnstacked"]
+    },
+    {
+      "comment": "The cdualline icon has been replaced by a new 'Dual Line Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Dual Line Chart",
+      "deprecated": ["cdualline"]
+    },
+    {
+      "comment": "Chart and Bar Graph icons have been consolidated and replaced by a new 'Bar Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Chart",
+      "deprecated": ["Bar Graph", "Chart"]
+    },
+    {
+      "comment": "The Table Axis icon has been renamed to 'Table Axis' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Axis",
+      "deprecated": ["Toggle Graph"]
+    },
+    {
+      "comment": "The Cell Filter icon has been renamed to 'Table Filter' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Filter",
+      "deprecated": ["Cell Filter"]
+    },
+    {
+      "comment": "The Cell Gear icon has been renamed to 'Table Gear' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Gear",
+      "deprecated": ["Cell Gear"]
+    },
+    {
+      "comment": "The Cell Reset icon has been renamed to 'Table Refresh' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Refresh",
+      "deprecated": ["Cell Reset"]
+    },
+    {
+      "comment": "The Cell Row icon has been renamed to 'Table Row' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Row",
+      "deprecated": ["Cell Row"]
+    },
+    {
+      "comment": "The Cell Search icon has been renamed to 'Table Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Search",
+      "deprecated": ["Cell Search"]
+    },
+    {
+      "comment": "The Cell Swap Axis icon has been renamed to 'Table Swap Axis' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Swap Axis",
+      "deprecated": ["Cell Swap Axis"]
+    },
+    {
+      "comment": "The Cell Template icon has been renamed to 'Dashboard Grid Fill' to align naming with the v3 icon naming convention.",
+      "replacement": "Dashboard Grid Fill",
+      "deprecated": ["Cell Template"]
+    },
+    {
+      "comment": "The Check + Circle icon has been renamed to 'Check Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Check Circle",
+      "deprecated": ["Check + Circle"]
+    },
+    {
+      "comment": "The Checkboxes icon has been renamed to 'Checkbox Stack' to align naming with the v3 icon naming convention.",
+      "replacement": "Checkbox Stack",
+      "deprecated": ["Checkboxes"]
+    },
+    {
+      "comment": "The Chevron Hierarchy Open icon has been renamed to 'Hierarchy Chevron Open' to align naming with the v3 icon naming convention.",
+      "replacement": "Hierarchy Chevron Open",
+      "deprecated": ["Chevron Hierarchy Open"]
+    },
+    {
+      "comment": "The Chevron Hierarchy Closed icon has been renamed to 'Hierarchy Chevron' to align naming with the v3 icon naming convention.",
+      "replacement": "Hierarchy Chevron",
+      "deprecated": ["Chevron Hierarchy Closed"]
+    },
+    {
+      "comment": "cline and Line icons have been consolidated and replaced by a new 'Line Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Line Chart",
+      "deprecated": ["cline", "Line"]
+    },
+    {
+      "comment": "The Clipboard + Graph icon has been renamed to 'Clipboard Chart' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard Chart",
+      "deprecated": ["Clipboard + Graph"]
+    },
+    {
+      "comment": "The Clipboard + Person icon has been renamed to 'Clipboard User' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard User",
+      "deprecated": ["Clipboard + Person"]
+    },
+    {
+      "comment": "The Clipboard + Plus icon has been renamed to 'Clipboard Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard Plus",
+      "deprecated": ["Clipboard + Plus"]
+    },
+    {
+      "comment": "The Clipboard + Remove icon has been renamed to 'Clipboard X' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard X",
+      "deprecated": ["Clipboard + Remove"]
+    },
+    {
+      "comment": "The Clipboard + Search icon has been renamed to 'Clipboard Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard Search",
+      "deprecated": ["Clipboard + Search"]
+    },
+    {
+      "comment": "The Clipboard Blank + Check icon has been renamed to 'Clipboard Success' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard Success",
+      "deprecated": ["Clipboard Blank + Check"]
+    },
+    {
+      "comment": "Clustered Column and Cluster icons have been consolidated and replaced by a new 'Bar Cluster Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Cluster Chart",
+      "deprecated": ["Clustered Column", "Cluster"]
+    },
+    {
+      "comment": "Column Line and Discovery Board icons have been consolidated and replaced by a new 'Bar Line Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Line Chart",
+      "deprecated": ["Column Line", "Discovery Board"]
+    },
+    {
+      "comment": "cpie and Pie icons have been consolidated and replaced by a new 'Donut Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Donut Chart",
+      "deprecated": ["cpie", "Pie"]
+    },
+    {
+      "comment": "The cscatter icon has been replaced by a new 'Scatter Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Scatter Chart",
+      "deprecated": ["cscatter"]
+    },
+    {
+      "comment": "The cwaterfall icon has been replaced by a new 'Waterfall Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Waterfall Chart",
+      "deprecated": ["cwaterfall"]
+    },
+    {
+      "comment": "The Conclusion icon has been renamed to 'Check Circle Underline' to align naming with the v3 icon naming convention.",
+      "replacement": "Check Circle Underline",
+      "deprecated": ["Conclusion"]
+    },
+    {
+      "comment": "The Contact icon has been renamed to 'Book User' to align naming with the v3 icon naming convention.",
+      "replacement": "Book User",
+      "deprecated": ["Contact"]
+    },
+    {
+      "comment": "The Contact Card Job Profile icon has been renamed to 'Document User' to align naming with the v3 icon naming convention.",
+      "replacement": "Document User",
+      "deprecated": ["Contact Card Job Profile"]
+    },
+    {
+      "comment": "The Find Job icon has been renamed to 'Briefcase Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Briefcase Search",
+      "deprecated": ["Find Job"]
+    },
+    {
+      "comment": "The Find Job icon has been renamed to 'Briefcase Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Calendar List",
+      "deprecated": ["Job Reqs"]
+    },
+    {
+      "comment": "The Course icon has been renamed to 'Easel' to align naming with the v3 icon naming convention.",
+      "replacement": "Easel",
+      "deprecated": ["Course"]
+    },
+    {
+      "comment": "The Dashboard Workforce icon has been renamed to 'User Group Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "User Group Circle",
+      "deprecated": ["Dashboard Workforce"]
+    },
+    {
+      "comment": "The Data Complex icon has been renamed to 'Data Server' to align naming with the v3 icon naming convention.",
+      "replacement": "Data Server",
+      "deprecated": ["Data Complex"]
+    },
+    {
+      "comment": "The Data Input icon has been renamed to 'Data Arrow Right' to align naming with the v3 icon naming convention.",
+      "replacement": "Data Arrow Right",
+      "deprecated": ["Data Input"]
+    },
+    {
+      "comment": "The Device Desktop icon has been renamed to 'Desktop' to align naming with the v3 icon naming convention.",
+      "replacement": "Desktop",
+      "deprecated": ["Device Desktop"]
+    },
+    {
+      "comment": "The Device Phone icon has been renamed to 'Mobile' to align naming with the v3 icon naming convention.",
+      "replacement": "Mobile",
+      "deprecated": ["Device Phone"]
+    },
+    {
+      "comment": "The Device Tablet icon has been renamed to 'Tablet' to align naming with the v3 icon naming convention.",
+      "replacement": "Tablet",
+      "deprecated": ["Device Tablet"]
+    },
+    {
+      "comment": "The Document Alt icon has been renamed to 'Document' to align naming with the v3 icon naming convention.",
+      "deprecated": ["Document Alt"],
+      "replacement": "Document"
+    },
+    {
+      "comment": "The Document Candidate Star icon has been renamed to 'Document User Star' to align naming with the v3 icon naming convention.",
+      "replacement": "Document User Star",
+      "deprecated": ["Document Candidate Star"]
+    },
+    {
+      "comment": "The Document Locked icon has been renamed to 'Document Lock' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Lock",
+      "deprecated": ["Document Locked"]
+    },
+    {
+      "comment": "The Documents + Check icon has been renamed to 'Document Stack Check' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Stack Check",
+      "deprecated": ["Documents + Check"]
+    },
+    {
+      "comment": "The Dashboard Recruiting icon has been renamed to 'Document Stack User' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Stack User",
+      "deprecated": ["Dashboard Recruiting"]
+    },
+    {
+      "comment": "The Dollar icon has been renamed to 'Money' to align naming with the v3 icon naming convention.",
+      "replacement": "Money",
+      "deprecated": ["Dollar"]
+    },
+    {
+      "comment": "The Dashboard Financials icon has been renamed to 'Money Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Money Search",
+      "deprecated": ["Dashboard Financials"]
+    },
+    {
+      "comment": "The Dashboard Grants icon has been renamed to 'Money Ribbon' to align naming with the v3 icon naming convention.",
+      "replacement": "Money Ribbon",
+      "deprecated": ["Dashboard Grants"]
+    },
+    {
+      "comment": "The Edit Button icon has been renamed to 'Button Edit' to align naming with the v3 icon naming convention.",
+      "replacement": "Button Edit",
+      "deprecated": ["Edit Button"]
+    },
+    {
+      "comment": "The Edit Button Bar icon has been renamed to 'Button Bar' to align naming with the v3 icon naming convention.",
+      "replacement": "Button Bar",
+      "deprecated": ["Edit Button Bar"]
+    },
+    {
+      "comment": "The Empty App icon has been renamed to 'Cloud Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Cloud Search",
+      "deprecated": ["Empty App"]
+    },
+    {
+      "comment": "The Enter Fullscreen icon has been renamed to 'Grow Chevron' to align naming with the v3 icon naming convention.",
+      "replacement": "Grow Chevron",
+      "deprecated": ["Enter Fullscreen"]
+    },
+    {
+      "comment": "The Eraser icon has been renamed to 'Erase' to align naming with the v3 icon naming convention.",
+      "replacement": "Erase",
+      "deprecated": ["Eraser"]
+    },
+    {
+      "comment": "The Eraser Cell icon has been renamed to 'Cell Erase' to align naming with the v3 icon naming convention.",
+      "replacement": "Cell Erase",
+      "deprecated": ["Eraser Cell"]
+    },
+    {
+      "comment": "The Eraser Font icon has been renamed to 'Font Erase' to align naming with the v3 icon naming convention.",
+      "replacement": "Font Erase",
+      "deprecated": ["Eraser Font"]
+    },
+    {
+      "comment": "The Exclamation + Circle icon has been renamed to 'Exclamation Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Exclamation Circle",
+      "deprecated": ["Exclamation + Circle"]
+    },
+    {
+      "comment": "The Exclamation + Triangle icon has been renamed to 'Exclamation Triangle' to align naming with the v3 icon naming convention.",
+      "replacement": "Exclamation Triangle",
+      "deprecated": ["Exclamation + Triangle"]
+    },
+    {
+      "comment": "The Exit Fullscreen icon has been renamed to 'Shrink Chevron' to align naming with the v3 icon naming convention.",
+      "replacement": "Shrink Chevron",
+      "deprecated": ["Exit Fullscreen"]
+    },
+    {
+      "comment": "The Expand Table icon has been renamed to 'Table Expand' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Expand",
+      "deprecated": ["Expand Table"]
+    },
+    {
+      "comment": "The Expenses Attachment icon has been renamed to 'Camera Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Camera Plus",
+      "deprecated": ["Expenses Attachment"]
+    },
+    {
+      "comment": "The Fan icon has been renamed to 'Fan Chart' to align naming with the v3 icon naming convention.",
+      "replacement": "Fan Chart",
+      "deprecated": ["Fan"]
+    },
+    {
+      "comment": "The Fetch Data icon has been renamed to 'Data Arrow Left' to align naming with the v3 icon naming convention.",
+      "replacement": "Data Arrow Left",
+      "deprecated": ["Fetch Data"]
+    },
+    {
+      "comment": "The Filter + X icon has been renamed to 'Filter X' to align naming with the v3 icon naming convention.",
+      "replacement": "Filter X",
+      "deprecated": ["Filter + X"]
+    },
+    {
+      "comment": "The Filter + Check icon has been renamed to 'Filter Check' to align naming with the v3 icon naming convention.",
+      "replacement": "Filter Check",
+      "deprecated": ["Filter + Check"]
+    },
+    {
+      "comment": "The Find Candidates icon has been renamed to 'Document User Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Document User Search",
+      "deprecated": ["Find Candidates"]
+    },
+    {
+      "comment": "Find Transactions and Receipt Magnifier icons have been consolidated and renamed to 'Receipt Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Receipt Search",
+      "deprecated": ["Find Transactions", "Receipt Maginfier"]
+    },
+    {
+      "comment": "The Folder Closed icon has been renamed to 'Folder' to align naming with the v3 icon naming convention.",
+      "replacement": "Folder",
+      "deprecated": ["Folder Closed"]
+    },
+    {
+      "comment": "The Folder Move icon has been renamed to 'Folder Arrow Right' to align naming with the v3 icon naming convention.",
+      "replacement": "Folder Arrow Right",
+      "deprecated": ["Folder Move"]
+    },
+    {
+      "comment": "The Footer icon has been renamed to 'Document Footer' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Footer",
+      "deprecated": ["Footer"]
+    },
+    {
+      "comment": "The Formatting icon has been renamed to 'Font Edit' to align naming with the v3 icon naming convention.",
+      "replacement": "Font Edit",
+      "deprecated": ["Formatting"]
+    },
+    {
+      "comment": "The Formula Clipboard icon has been renamed to 'Clipboard Formula' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard Formula",
+      "deprecated": ["Formula Clipboard"]
+    },
+    {
+      "comment": "The Freeze Header icon has been renamed to 'Table Header Freeze' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Header Freeze",
+      "deprecated": ["Freeze Header"]
+    },
+    {
+      "comment": "The funnel icon has been renamed to 'Funnel' to align naming with the v3 icon naming convention.",
+      "replacement": "Funnel",
+      "deprecated": ["funnel"]
+    },
+    {
+      "comment": "The FX icon has been renamed to 'Formula' to align naming with the v3 icon naming convention.",
+      "replacement": "Formula",
+      "deprecated": ["FX"]
+    },
+    {
+      "comment": "The FX Writeback icon has been renamed to 'Formula Bolt' to align naming with the v3 icon naming convention.",
+      "replacement": "Formula Bolt",
+      "deprecated": ["FX Writeback"]
+    },
+    {
+      "comment": "The FX Brackets icon has been renamed to 'Formula Brackets' to align naming with the v3 icon naming convention.",
+      "replacement": "Formula Brackets",
+      "deprecated": ["FX Brackets"]
+    },
+    {
+      "comment": "The FX Loop icon has been renamed to 'Formula Loop' to align naming with the v3 icon naming convention.",
+      "replacement": "Formula Loop",
+      "deprecated": ["FX Loop"]
+    },
+    {
+      "comment": "The Heatmap icon has been renamed to 'Grid Square' to align naming with the v3 icon naming convention.",
+      "replacement": "Grid Square",
+      "deprecated": ["Heatmap"]
+    },
+    {
+      "comment": "The Hide Col icon has been renamed to 'Column Hide' to align naming with the v3 icon naming convention.",
+      "replacement": "Column Hide",
+      "deprecated": ["Hide Col"]
+    },
+    {
+      "comment": "The Home + Building icon has been renamed to 'Home Building' to align naming with the v3 icon naming convention.",
+      "replacement": "Home Building",
+      "deprecated": ["Home + Building"]
+    },
+    {
+      "comment": "The Hour Glass icon has been renamed to 'Hourglass' to align naming with the v3 icon naming convention.",
+      "replacement": "Hourglass",
+      "deprecated": ["Hour Glass"]
+    },
+    {
+      "comment": "Inbox Fill and Inbox Large icons have been consolidated and replaced by a new 'Inbox' icon to align naming with the v3 icon naming convention.",
+      "deprecated": ["Inbox Fill", "Inbox Large"],
+      "replacement": "Inbox"
+    },
+    {
+      "comment": "The Instance Mapping icon has been renamed to 'Instance Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Instance Search",
+      "deprecated": ["Instance Mapping"]
+    },
+    {
+      "comment": "The Interaction Group icon has been renamed to 'Copy' to align naming with the v3 icon naming convention.",
+      "replacement": "Copy",
+      "deprecated": ["Interaction Group"]
+    },
+    {
+      "comment": "The Copy icon has been renamed to 'Document Copy' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Copy",
+      "deprecated": ["Copy"]
+    },
+    {
+      "comment": "The Inventory Count icon has been renamed to 'Row Clipboard' to align naming with the v3 icon naming convention.",
+      "replacement": "Row Clipboard",
+      "deprecated": ["Inventory Count"]
+    },
+    {
+      "comment": "The Dashboard Procurement icon has been renamed to 'Row Arrow Up' to align naming with the v3 icon naming convention.",
+      "replacement": "Row Arrow Up",
+      "deprecated": ["Dashboard Procurement"]
+    },
+    {
+      "comment": "The Inventory Search icon has been renamed to 'List Check' to align naming with the v3 icon naming convention.",
+      "replacement": "List Check",
+      "deprecated": ["Inventory Search"]
+    },
+    {
+      "comment": "The Invisible icon has been renamed to 'Visible Strikethrough' to align naming with the v3 icon naming convention.",
+      "replacement": "Visible Strikethrough",
+      "deprecated": ["Invisible"]
+    },
+    {
+      "comment": "Itemize, Media Quiz, and Quiz icons have been consolidated and replaced by a new 'Document List' icon to align naming with the v3 icon naming convention.",
+      "replacement": "Document List",
+      "deprecated": ["Itemize", "Media Quiz", "Quiz"]
+    },
+    {
+      "comment": "Drawer, Justify, and Reorder v2 icons have been consolidated and replaced by a new 'Hamburger' icon to align naming with the v3 icon naming convention.",
+      "replacement": "Hamburger",
+      "deprecated": ["Drawer", "Justify", "Reorder v2"]
+    },
+    {
+      "comment": "The Labeled Image icon has been renamed to 'Image Label' to align naming with the v3 icon naming convention.",
+      "replacement": "Image Label",
+      "deprecated": ["Labeled Image"]
+    },
+    {
+      "comment": "The Left Sidebar icon has been renamed to 'Sidebar Left' to align naming with the v3 icon naming convention.",
+      "replacement": "Sidebar Left",
+      "deprecated": ["Left Sidebar"]
+    },
+    {
+      "comment": "The Legal icon has been renamed to 'Gavel' to align naming with the v3 icon naming convention.",
+      "replacement": "Gavel",
+      "deprecated": ["Legal"]
+    },
+    {
+      "comment": "The Letter icon has been renamed to 'Mail Open' to align naming with the v3 icon naming convention.",
+      "replacement": "Mail Open",
+      "deprecated": ["Letter"]
+    },
+    {
+      "comment": "The Letter A icon has been renamed to 'Font' to align naming with the v3 icon naming convention.",
+      "replacement": "Font",
+      "deprecated": ["Letter A"]
+    },
+    {
+      "comment": "The Live Data icon has been renamed to 'Data Bolt' to align naming with the v3 icon naming convention.",
+      "replacement": "Data Bolt",
+      "deprecated": ["Live Data"]
+    },
+    {
+      "comment": "The Livepages icon has been renamed to 'Box Text Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Box Text Circle",
+      "deprecated": ["Livepages"]
+    },
+    {
+      "comment": "The Lock Plus icon has been renamed to 'Lock Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Lock Plus",
+      "deprecated": ["Lock + Plus"]
+    },
+    {
+      "comment": "The Lock + Keyhole icon has been renamed to 'Lock Keyhole' to align naming with the v3 icon naming convention.",
+      "replacement": "Lock Keyhole",
+      "deprecated": ["Lock + Keyhole"]
+    },
+    {
+      "comment": "The Meal icon has been renamed to 'Utensils' to align naming with the v3 icon naming convention.",
+      "replacement": "Utensils",
+      "deprecated": ["Meal"]
+    },
+    {
+      "comment": "The Media Classroom icon has been renamed to 'Users' to align naming with the v3 icon naming convention.",
+      "replacement": "Users",
+      "deprecated": ["Media Classroom"]
+    },
+    {
+      "comment": "Media Survey, Survey, and Conclusion Popup icons have been consolidated and replaced by a new 'Document Survey' icon to align naming with the v3 icon naming convention.",
+      "replacement": "Document Survey",
+      "deprecated": ["Media Survey", "Survey", "Conclusion Popup"]
+    },
+    {
+      "comment": "Media Topics and nbox icons have been consolidated and replaced by a new 'Dashboard Grid' icon to align naming with the v3 icon naming convention.",
+      "replacement": "Dashboard Grid",
+      "deprecated": ["nbox", "Media Topics"]
+    },
+    {
+      "comment": "The Merge Tag icon has been renamed to 'Tag Merge' to align naming with the v3 icon naming convention.",
+      "replacement": "Tag Merge",
+      "deprecated": ["Merge Tag"]
+    },
+    {
+      "comment": "The Messaging icon has been renamed to 'Comment Discussion' to align naming with the v3 icon naming convention.",
+      "replacement": "Comment Discussion",
+      "deprecated": ["Messaging"]
+    },
+    {
+      "comment": "The Minus + Circle icon has been renamed to 'Minus Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Minus Circle",
+      "deprecated": ["Minus + Circle"]
+    },
+    {
+      "comment": "The Mobile Notifications icon has been renamed to 'Mobile Active' to align naming with the v3 icon naming convention.",
+      "replacement": "Mobile Active",
+      "deprecated": ["Mobile Notifications"]
+    },
+    {
+      "comment": "The Move Inventory (Move Dolly v1) icon has been renamed to 'Dolly' to align naming with the v3 icon naming convention.",
+      "replacement": "Dolly",
+      "deprecated": ["Move Inventory", "Move Dolly"]
+    },
+    {
+      "comment": "The My Learning icon has been renamed to 'Book Open Bookmark' to align naming with the v3 icon naming convention.",
+      "replacement": "Book Open Bookmark",
+      "deprecated": ["My Learning"]
+    },
+    {
+      "comment": "The My Referrals icon has been renamed to 'User Focus' to align naming with the v3 icon naming convention.",
+      "replacement": "User Focus",
+      "deprecated": ["My Referrals"]
+    },
+    {
+      "comment": "The My Schedule icon has been renamed to 'Calendar User' to align naming with the v3 icon naming convention.",
+      "replacement": "Calendar User",
+      "deprecated": ["My Schedule"]
+    },
+    {
+      "comment": "The No Bid icon has been renamed to 'Bid Strikethrough' to align naming with the v3 icon naming convention.",
+      "replacement": "Bid Strikethrough",
+      "deprecated": ["No Bid"]
+    },
+    {
+      "comment": "The No Connection Cloud icon has been renamed to 'Cloud Strikethrough' to align naming with the v3 icon naming convention.",
+      "replacement": "Cloud Strikethrough",
+      "deprecated": ["No Connection Cloud"]
+    },
+    {
+      "comment": "The Notes icon has been renamed to 'Note' to align naming with the v3 icon naming convention.",
+      "replacement": "Note",
+      "deprecated": ["Notes"]
+    },
+    {
+      "comment": "The Notifications Large icon has been renamed to 'Notifications' to align naming with the v3 icon naming convention.",
+      "deprecated": ["Notifications Large"],
+      "replacement": "Notifications"
+    },
+    {
+      "comment": "The Onboarding Home icon has been renamed to 'Map Location' to align naming with the v3 icon naming convention.",
+      "replacement": "Map Location",
+      "deprecated": ["Onboarding Home"]
+    },
+    {
+      "comment": "The One Column icon has been renamed to 'Column One' to align naming with the v3 icon naming convention.",
+      "replacement": "Column One",
+      "deprecated": ["One Column"]
+    },
+    {
+      "comment": "The Open Response icon has been renamed to 'Comment Text' to align naming with the v3 icon naming convention.",
+      "replacement": "Comment Text",
+      "deprecated": ["Open Response"]
+    },
+    {
+      "comment": "The Opportunity Graph icon has been renamed to 'Donut Chart User' to align naming with the v3 icon naming convention.",
+      "replacement": "Donut Chart User",
+      "deprecated": ["Opportunity Graph"]
+    },
+    {
+      "comment": "The Ordered List icon has been renamed to 'List Order' to align naming with the v3 icon naming convention.",
+      "replacement": "List Order",
+      "deprecated": ["Ordered List"]
+    },
+    {
+      "comment": "The Org Chart icon has been renamed to 'Organization' to align naming with the v3 icon naming convention.",
+      "replacement": "Organization",
+      "deprecated": ["Org Chart"]
+    },
+    {
+      "comment": "The Org Chart People icon has been renamed to 'Card User' to align naming with the v3 icon naming convention.",
+      "replacement": "Card User",
+      "deprecated": ["Org Chart People"]
+    },
+    {
+      "comment": "The Package Magnifier icon has been renamed to 'Package Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Package Search",
+      "deprecated": ["Package Magnifier"]
+    },
+    {
+      "comment": "The Package Revolving Arrows icon has been renamed to 'Package Loop' to align naming with the v3 icon naming convention.",
+      "replacement": "Package Loop",
+      "deprecated": ["Package Revolving Arrows"]
+    },
+    {
+      "comment": "The Panel List icon has been renamed to 'List Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "List Plus",
+      "deprecated": ["Panel List"]
+    },
+    {
+      "comment": "The Paste icon has been renamed to 'Clipboard' to align naming with the v3 icon naming convention.",
+      "replacement": "Clipboard",
+      "deprecated": ["Paste"]
+    },
+    {
+      "comment": "The Person + Star icon has been renamed to 'User Star' to align naming with the v3 icon naming convention.",
+      "replacement": "User Star",
+      "deprecated": ["Person + Star"]
+    },
+    {
+      "comment": "The Perspective icon has been renamed to 'Layers' to align naming with the v3 icon naming convention.",
+      "replacement": "Layers",
+      "deprecated": ["Perspective"]
+    },
+    {
+      "comment": "The Phone Unlock icon has been renamed to 'Mobile Unlock' to align naming with the v3 icon naming convention.",
+      "replacement": "Mobile Unlock",
+      "deprecated": ["Phone Unlock"]
+    },
+    {
+      "comment": "The Picked Short icon has been renamed to 'Circle Half Fill' to align naming with the v3 icon naming convention.",
+      "replacement": "Circle Half Fill",
+      "deprecated": ["Picked Short"]
+    },
+    {
+      "comment": "The pie-chart icon has been renamed to 'Pie Chart' to align naming with the v3 icon naming convention.",
+      "replacement": "Pie Chart",
+      "deprecated": ["pie-chart"]
+    },
+    {
+      "comment": "The Pin Slash icon has been renamed to 'Pin Strikethrough' to align naming with the v3 icon naming convention.",
+      "replacement": "Pin Strikethrough",
+      "deprecated": ["Pin Slash"]
+    },
+    {
+      "comment": "The pivot icon has been renamed to 'Pivot' to align naming with the v3 icon naming convention.",
+      "replacement": "Pivot",
+      "deprecated": ["pivot"]
+    },
+    {
+      "comment": "The Pivot Table icon has been renamed to 'Table Pivot' to align naming with the v3 icon naming convention.",
+      "replacement": "Table Pivot",
+      "deprecated": ["Pivot Table"]
+    },
+    {
+      "comment": "The Play + Circle icon has been renamed to 'Play Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Play Circle",
+      "deprecated": ["Play + Circle"]
+    },
+    {
+      "comment": "The Add Footer icon has been renamed to 'Plus' to align naming with the v3 icon naming convention.",
+      "deprecated": ["Add Footer"],
+      "replacement": "Plus"
+    },
+    {
+      "comment": "The Plus + Circle icon has been renamed to 'Plus Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Plus Circle",
+      "deprecated": ["Plus + Circle"]
+    },
+    {
+      "comment": "The Related Actions Circle icon has been renamed to 'Progress Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Related Actions Circle",
+      "deprecated": ["Progress Circle"]
+    },
+    {
+      "comment": "The Projects icon has been renamed to 'Hammer' to align naming with the v3 icon naming convention.",
+      "replacement": "Hammer",
+      "deprecated": ["Projects"]
+    },
+    {
+      "comment": "The Proof of Delivery icon has been renamed to 'Package Check' to align naming with the v3 icon naming convention.",
+      "replacement": "Package Check",
+      "deprecated": ["Proof of Delivery"]
+    },
+    {
+      "comment": "The Prospect icon has been renamed to 'ID Card Search' to align naming with the v3 icon naming convention.",
+      "replacement": "ID Card Search",
+      "deprecated": ["Prospect"]
+    },
+    {
+      "comment": "The pyramid icon has been renamed to 'Pyramid Chart' to align naming with the v3 icon naming convention.",
+      "replacement": "Pyramid Chart",
+      "deprecated": ["pyramid"]
+    },
+    {
+      "comment": "The Question Mark icon has been renamed to 'Question' to align naming with the v3 icon naming convention.",
+      "replacement": "Question",
+      "deprecated": ["Question Mark"]
+    },
+    {
+      "comment": "The Question Mark + Circle icon has been renamed to 'Question Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "Question Circle",
+      "deprecated": ["Question Mark + Circle"]
+    },
+    {
+      "comment": "The Question Mark Filled icon has been renamed to 'Question Circle Fill' to align naming with the v3 icon naming convention.",
+      "replacement": "Question Circle Fill",
+      "deprecated": ["Question Mark Filled"]
+    },
+    {
+      "comment": "Receipts and Dashboard Expenses icons have been consolidated and replaced by a new 'Receipt' icon to align naming with the v3 icon naming convention.",
+      "replacement": "Receipt",
+      "deprecated": ["Dashboard Expenses", "Receipts"]
+    },
+    {
+      "comment": "The Recruiting icon has been renamed to 'Users Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Users Plus",
+      "deprecated": ["Recruiting"]
+    },
+    {
+      "comment": "The Rename icon has been renamed to 'Document Edit' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Edit",
+      "deprecated": ["Rename"]
+    },
+    {
+      "comment": "The Re-order icon has been renamed to 'Reorder' to align naming with the v3 icon naming convention.",
+      "replacement": "Reorder",
+      "deprecated": ["Re-order"]
+    },
+    {
+      "comment": "The Report Parameter icon has been renamed to 'Document Gear' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Gear",
+      "deprecated": ["Report Parameter"]
+    },
+    {
+      "comment": "The Right Sidebar icon has been renamed to 'Sidebar Right' to align naming with the v3 icon naming convention.",
+      "replacement": "Sidebar Right",
+      "deprecated": ["Right Sidebar"]
+    },
+    {
+      "comment": "The Rows + Check icon has been renamed to 'Row Check' to align naming with the v3 icon naming convention.",
+      "replacement": "Row Check",
+      "deprecated": ["Rows + Check"]
+    },
+    {
+      "comment": "The Rows + Plus icon has been renamed to 'Row Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "Row Plus",
+      "deprecated": ["Rows + Plus"]
+    },
+    {
+      "comment": "The RPM icon has been renamed to 'Gauge' to align naming with the v3 icon naming convention.",
+      "replacement": "Gauge",
+      "deprecated": ["RPM"]
+    },
+    {
+      "comment": "The RTE Emphasis icon has been renamed to 'Font Emphasis' to align naming with the v3 icon naming convention.",
+      "replacement": "Font Emphasis",
+      "deprecated": ["RTE Emphasis"]
+    },
+    {
+      "comment": "The No Fill icon has been renamed to 'Fill Strikethrough' to align naming with the v3 icon naming convention.",
+      "replacement": "Fill Strikethrough",
+      "deprecated": ["No Fill"]
+    },
+    {
+      "comment": "The Screen Magnification icon has been renamed to 'Webpage Search' to align naming with the v3 icon naming convention.",
+      "replacement": "Webpage Search",
+      "deprecated": ["Screen Magnification"]
+    },
+    {
+      "comment": "The Show Col icon has been renamed to 'Column Show' to align naming with the v3 icon naming convention.",
+      "replacement": "Column Show",
+      "deprecated": ["Show Col"]
+    },
+    {
+      "comment": "The Signout icon has been renamed to 'Sign Out' to align naming with the v3 icon naming convention.",
+      "replacement": "Sign Out",
+      "deprecated": ["Signout"]
+    },
+    {
+      "comment": "The Skills icon has been renamed to 'Bow Compass' to align naming with the v3 icon naming convention.",
+      "replacement": "Bow Compass",
+      "deprecated": ["Skills"]
+    },
+    {
+      "comment": "The Sort Down icon has been renamed to 'Arrow Down Small' to align naming with the v3 icon naming convention.",
+      "replacement": "Arrow Down Small",
+      "deprecated": ["Sort Down"]
+    },
+    {
+      "comment": "The Sort Up icon has been renamed to 'Arrow Up Small' to align naming with the v3 icon naming convention.",
+      "replacement": "Arrow Up Small",
+      "deprecated": ["Sort Up"]
+    },
+    {
+      "comment": "The Sparkle icon has been renamed to 'Sparkles' to align naming with the v3 icon naming convention.",
+      "replacement": "Sparkles",
+      "deprecated": ["Sparkle"]
+    },
+    {
+      "comment": "The Sparkle Assistant icon has been renamed to 'Assistant Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Assistant Sparkle",
+      "deprecated": ["Sparkle Assistant"]
+    },
+    {
+      "comment": "The Sparkle Document icon has been renamed to 'Document Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Sparkle",
+      "deprecated": ["Sparkle Document"]
+    },
+    {
+      "comment": "The Sparkle Edit icon has been renamed to 'Edit Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Edit Sparkle",
+      "deprecated": ["Sparkle Edit"]
+    },
+    {
+      "comment": "The Sparkle Info icon has been renamed to 'Info Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Info Sparkle",
+      "deprecated": ["Sparkle Info"]
+    },
+    {
+      "comment": "The Sparkle Question icon has been renamed to 'Question Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Question Sparkle",
+      "deprecated": ["Sparkle Question"]
+    },
+    {
+      "comment": "The Sparkle Search icon has been renamed to 'Search Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Search Sparkle",
+      "deprecated": ["Sparkle Search"]
+    },
+    {
+      "comment": "The Sparkle Single Small icon has been renamed to 'Sparkle' to align naming with the v3 icon naming convention.",
+      "replacement": "Sparkle",
+      "deprecated": ["Sparkle Single Small"]
+    },
+    {
+      "comment": "The Speech + Exclamation icon has been renamed to 'Comment Exclamation' to align naming with the v3 icon naming convention.",
+      "replacement": "Comment Exclamation",
+      "deprecated": ["Speech + Exclamation"]
+    },
+    {
+      "comment": "The Sub Organization icon has been renamed to 'Sub Organization' to align naming with the v3 icon naming convention.",
+      "replacement": "Sub Organization",
+      "deprecated": ["Sub Org"]
+    },
+    {
+      "comment": "The Switch icon has been renamed to 'Toggle' to align naming with the v3 icon naming convention.",
+      "replacement": "Toggle",
+      "deprecated": ["Switch"]
+    },
+    {
+      "comment": "The System Notification icon has been renamed to 'Cloud Settings' to align naming with the v3 icon naming convention.",
+      "replacement": "Cloud Settings",
+      "deprecated": ["System Notification"]
+    },
+    {
+      "comment": "The Task Compensation icon has been renamed to 'Document Chart' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Chart",
+      "deprecated": ["Task Compensation"]
+    },
+    {
+      "comment": "The Task Overview icon has been renamed to 'Document Task' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Task",
+      "deprecated": ["Task Overview"]
+    },
+    {
+      "comment": "The Text Color icon has been renamed to 'Font Color' to align naming with the v3 icon naming convention.",
+      "replacement": "Font Color",
+      "deprecated": ["Text Color"]
+    },
+    {
+      "comment": "The Textarea icon has been renamed to 'Text Area' to align naming with the v3 icon naming convention.",
+      "replacement": "Text Area",
+      "deprecated": ["Textarea"]
+    },
+    {
+      "comment": "The Three Column icon has been renamed to 'Column Three' to align naming with the v3 icon naming convention.",
+      "replacement": "Column Three",
+      "deprecated": ["Three Column"]
+    },
+    {
+      "comment": "The Thumbs Down Filled icon has been renamed to 'Thumbs Down Fill' to align naming with the v3 icon naming convention.",
+      "replacement": "Thumbs Down Fill",
+      "deprecated": ["Thumbs Down Filled"]
+    },
+    {
+      "comment": "The Thumbs Down Outlined icon has been renamed to 'Thumbs Down' to align naming with the v3 icon naming convention.",
+      "replacement": "Thumbs Down",
+      "deprecated": ["Thumbs Down Outlined"]
+    },
+    {
+      "comment": "The Thumbs Up Filled icon has been renamed to 'Thumbs Up Fill' to align naming with the v3 icon naming convention.",
+      "replacement": "Thumbs Up Fill",
+      "deprecated": ["Thumbs Up Filled"]
+    },
+    {
+      "comment": "The Thumbs Up Outlined icon has been renamed to 'Thumbs Up' to align naming with the v3 icon naming convention.",
+      "replacement": "Thumbs Up",
+      "deprecated": ["Thumbs Up Outlined"]
+    },
+    {
+      "comment": "The Time icon has been renamed to 'History' to align naming with the v3 icon naming convention.",
+      "replacement": "History",
+      "deprecated": ["Time"]
+    },
+    {
+      "comment": "The Time Off Balance icon has been renamed to 'Calendar Info' to align naming with the v3 icon naming convention.",
+      "replacement": "Calendar Info",
+      "deprecated": ["Time Off Balance"]
+    },
+    {
+      "comment": "The Timeline All icon has been renamed to 'Timeline' to align naming with the v3 icon naming convention.",
+      "replacement": "Timeline",
+      "deprecated": ["Timeline All"]
+    },
+    {
+      "comment": "The Transformation Import icon has been renamed to 'Extend' to align naming with the v3 icon naming convention.",
+      "replacement": "Extend",
+      "deprecated": ["Transformation Import"]
+    },
+    {
+      "comment": "The Transformation Join icon has been renamed to 'Shrink Horizontal' to align naming with the v3 icon naming convention.",
+      "replacement": "Shrink Horizontal",
+      "deprecated": ["Transformation Join"]
+    },
+    {
+      "comment": "The Transformation Union icon has been renamed to 'Union' to align naming with the v3 icon naming convention.",
+      "replacement": "Union",
+      "deprecated": ["Transformation Union"]
+    },
+    {
+      "comment": "The Transformation Group By icon has been renamed to 'Group' to align naming with the v3 icon naming convention.",
+      "replacement": "Group",
+      "deprecated": ["Transformation Group By"]
+    },
+    {
+      "comment": "The Translated Actuals icon has been renamed to 'Actuals Finance' to align naming with the v3 icon naming convention.",
+      "replacement": "Actuals Finance",
+      "deprecated": ["Translated Actuals"]
+    },
+    {
+      "comment": "The Travel icon has been renamed to 'Airplane' to align naming with the v3 icon naming convention.",
+      "replacement": "Airplane",
+      "deprecated": ["Travel"]
+    },
+    {
+      "comment": "The Two Column icon has been renamed to 'Column Two' to align naming with the v3 icon naming convention.",
+      "replacement": "Column Two",
+      "deprecated": ["Two Column"]
+    },
+    {
+      "comment": "The Unfreeze icon has been renamed to 'Sun' to align naming with the v3 icon naming convention.",
+      "replacement": "Sun",
+      "deprecated": ["Unfreeze"]
+    },
+    {
+      "comment": "The Unlink icon has been renamed to 'Link Strikethrough' to align naming with the v3 icon naming convention.",
+      "replacement": "Link Strikethrough",
+      "deprecated": ["Unlink"]
+    },
+    {
+      "comment": "The Unlocked icon has been renamed to 'Lock Keyhole Open' to align naming with the v3 icon naming convention.",
+      "replacement": "Lock Keyhole Open",
+      "deprecated": ["Unlocked"]
+    },
+    {
+      "comment": "The unpivot icon has been renamed to 'Unpivot' to align naming with the v3 icon naming convention.",
+      "replacement": "Unpivot",
+      "deprecated": ["unpivot"]
+    },
+    {
+      "comment": "The Upload Cloud icon has been renamed to 'Cloud Arrow Up' to align naming with the v3 icon naming convention.",
+      "replacement": "Cloud Arrow Up",
+      "deprecated": ["Upload Cloud"]
+    },
+    {
+      "comment": "The User + Plus icon has been renamed to 'User Plus' to align naming with the v3 icon naming convention.",
+      "replacement": "User Plus",
+      "deprecated": ["User + Plus"]
+    },
+    {
+      "comment": "The User Locked icon has been renamed to 'User Lock' to align naming with the v3 icon naming convention.",
+      "replacement": "User Lock",
+      "deprecated": ["User Locked"]
+    },
+    {
+      "comment": "The User Remove icon has been renamed to 'User X' to align naming with the v3 icon naming convention.",
+      "replacement": "User X",
+      "deprecated": ["User Remove"]
+    },
+    {
+      "comment": "The View Site icon has been renamed to 'Webpage Open' to align naming with the v3 icon naming convention.",
+      "replacement": "Webpage Open",
+      "deprecated": ["View Site"]
+    },
+    {
+      "comment": "The Virtual Version Locked icon has been renamed to 'Virtual Version Lock' to align naming with the v3 icon naming convention.",
+      "replacement": "Virtual Version Lock",
+      "deprecated": ["Virtual Version Locked"]
+    },
+    {
+      "comment": "The Webinar icon has been renamed to 'Desktop Media' to align naming with the v3 icon naming convention.",
+      "replacement": "Desktop Media",
+      "deprecated": ["Webinar"]
+    },
+    {
+      "comment": "The Wizard icon has been renamed to 'Magic Wand' to align naming with the v3 icon naming convention.",
+      "replacement": "Magic Wand",
+      "deprecated": ["Wizard"]
+    },
+    {
+      "comment": "The Workbook icon has been renamed to 'Book' to align naming with the v3 icon naming convention.",
+      "replacement": "Book",
+      "deprecated": ["Workbook"]
+    },
+    {
+      "comment": "The Worksheets icon has been renamed to 'Document Worksheets' to align naming with the v3 icon naming convention.",
+      "replacement": "Document Worksheets",
+      "deprecated": ["Worksheets"]
+    },
+    {
+      "comment": "The X + Circle icon has been renamed to 'X Circle' to align naming with the v3 icon naming convention.",
+      "replacement": "X Circle",
+      "deprecated": ["X + Circle"]
+    },
+    {
+      "comment": "The XO Instance List icon has been renamed to 'XO Loop' to align naming with the v3 icon naming convention.",
+      "replacement": "XO Loop",
+      "deprecated": ["XO Instance List"]
+    },
+    {
+      "comment": "The Zoom area icon has been renamed to 'Zoom Area' to align naming with the v3 icon naming convention.",
+      "replacement": "Zoom Area",
+      "deprecated": ["Zoom area"]
+    },
+    {
+      "comment": "100bar and cbar100 icons have been consolidated and replaced by a new 'Bar Horizontal Full Stack Chart' icon to align column chart naming for all chart icons in v3.",
+      "replacement": "Bar Horizontal Full Stack Chart",
+      "deprecated": ["100bar", "cbar100"]
+    },
+    {
+      "deprecated": ["Error"],
+      "replacement": "Bolt Fill"
+    }
+  ],
+  "new": [
+    "Clipboard List",
+    "Document Copy",
+    "Cube",
+    "Briefcase Info",
+    "Ranking",
+    "Laurel Wreath",
+    "Box Text Microphone",
+    "Collapse"
+  ]
+}
