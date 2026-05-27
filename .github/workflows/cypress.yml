@@ -21,6 +21,8 @@ jobs:
           ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
 
       - uses: chromaui/action@main
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
