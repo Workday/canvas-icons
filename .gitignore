@@ -29,6 +29,7 @@ yarn-error.log
 testem.log
 /typings
 /.nx
+.eslintcache
 
 # System Files
 .DS_Store
