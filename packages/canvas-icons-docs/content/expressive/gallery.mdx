@@ -10,7 +10,7 @@ import {IconsGallery} from '../../components/IconsGallery';
 
 <IconsGallery
   icons={Object.keys(expressiveIcons)
-    .filter(k => 'svg' in systemIcons[k])
-    .map(k => systemIcons[k])}
+    .filter(k => 'svg' in expressiveIcons[k])
+    .map(k => expressiveIcons[k])}
   type="expressive"
 />
