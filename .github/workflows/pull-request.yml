@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 2
 
       - name: Get last commit message
         id: last_commit_message
@@ -68,7 +68,6 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CYPRESS_CACHE_FOLDER: .cache/cypress
-          ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
           COMMIT_INFO_MESSAGE: ${{ needs.install.outputs.last_commit_message }}
           COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
 

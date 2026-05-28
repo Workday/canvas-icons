@@ -1,6 +1,10 @@
 import {installPlugin} from '@chromatic-com/cypress';
 import {defineConfig} from 'cypress';
 
+// Required by @chromatic-com/cypress so it can attach to the Electron browser
+// via CDP. Set here so we don't have to prefix every `yarn cy:*` invocation.
+process.env.ELECTRON_EXTRA_LAUNCH_ARGS ??= '--remote-debugging-port=9222';
+
 export default defineConfig({
   projectId: 'u8mm8z',
   env: {
