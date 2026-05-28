@@ -8,11 +8,15 @@ import '@workday/canvas-tokens-web/css/component/_variables.css';
 import '@workday/canvas-tokens-web/css/system/_variables.css';
 
 import {ExpressiveGalleryPage} from './pages/ExpressiveGalleryPage';
+import {ExpressiveThemedGalleryPage} from './pages/ExpressiveThemedGalleryPage';
 import {SystemGalleryPage} from './pages/SystemGalleryPage';
+import {SystemThemedGalleryPage} from './pages/SystemThemedGalleryPage';
 
 const routes: Record<string, () => React.ReactNode> = {
   '/expressive': ExpressiveGalleryPage,
+  '/expressive-themed': ExpressiveThemedGalleryPage,
   '/system': SystemGalleryPage,
+  '/system-themed': SystemThemedGalleryPage,
 };
 
 const Page = routes[window.location.pathname] ?? SystemGalleryPage;
