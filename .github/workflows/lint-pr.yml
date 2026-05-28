@@ -13,17 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Get Package Scopes
-        id: scope-vars
-        run: echo "scopes=$(node utils/get-package-names.js)" >> "$GITHUB_OUTPUT"
-
       # Please look up the latest version from
       # https://github.com/amannn/action-semantic-pull-request/releases
-      - uses: amannn/action-semantic-pull-request@v3.4.0
+      - uses: amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          scopes: ${{steps.scope-vars.outputs.scopes}}
+          scopes: |
+            system
+            expressive
+            docs
+
           subjectPattern: ^[A-Z].+$
 
       - uses: Workday/canvas-kit-actions/verify-pull-request@v1
