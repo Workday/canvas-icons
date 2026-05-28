@@ -9,6 +9,8 @@ jobs:
       last_commit_message: ${{ steps.last_commit_message.outputs.last_commit_message }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get last commit message
         id: last_commit_message
