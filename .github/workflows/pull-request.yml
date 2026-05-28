@@ -73,7 +73,7 @@ jobs:
           COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
           ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
 
-      - uses: chromaui/action@v1
+      - uses: chromaui/action@v17
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
