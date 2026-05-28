@@ -80,3 +80,4 @@ jobs:
           cypress: true
           exitOnceUploaded: false
           exitZeroOnChanges: true
+          skip: '@(renovate/**|dependabot/**)'
