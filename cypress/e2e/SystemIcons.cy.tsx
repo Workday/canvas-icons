@@ -1,0 +1,9 @@
+describe('Expressive Icons', () => {
+  beforeEach(() => {
+    cy.visit('/system');
+  });
+
+  it('renders the icon gallery on the page', () => {
+    cy.get('[data-testid="icon-gallery"]').should('exist');
+  });
+});

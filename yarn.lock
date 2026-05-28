@@ -6018,6 +6018,13 @@ chroma-js@^2.2.0:
   resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-2.6.0.tgz#578743dd359698a75067a19fa5571dec54d0b70b"
   integrity sha512-BLHvCB9s8Z1EV4ethr6xnkl/P2YRFOGqfgvuMG/MyCbZPrTA+NeiByY6XvgF0zP4/2deU2CXnWyMa3zu1LqQ3A==
 
+chromatic@^17.1.0:
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-17.1.0.tgz#73289165de0346cecb98974e568b79dc5b69d5de"
+  integrity sha512-TApQvyoFJHmeSqgvtGQ8JVQmHcPENub76B/uJGBx+G2Ju6AVo2f4Buh3Rhe0IcBh2N/fBdqEU4MDavhJeVnS+Q==
+  dependencies:
+    semver "^7.3.5"
+
 chrome-remote-interface@^0.33.0:
   version "0.33.3"
   resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.33.3.tgz#d8b4339f487b460a9461af7355bda98054e8e1a4"

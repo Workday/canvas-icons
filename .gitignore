@@ -30,6 +30,7 @@ testem.log
 /typings
 /.nx
 .eslintcache
+build-archive.log
 
 # System Files
 .DS_Store

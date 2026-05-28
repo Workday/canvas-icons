@@ -26,6 +26,7 @@
     "@workday/canvas-kit-styling": "^15.0.4",
     "@workday/canvas-tokens-web": "^4.3.0",
     "change-case-all": "^2.1.0",
+    "chromatic": "^17.1.0",
     "cypress": "^15",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
