@@ -3,6 +3,9 @@ import {defineConfig} from 'cypress';
 
 export default defineConfig({
   projectId: 'u8mm8z',
+  env: {
+    disableAutoSnapshot: true,
+  },
   retries: {
     runMode: 2,
   },

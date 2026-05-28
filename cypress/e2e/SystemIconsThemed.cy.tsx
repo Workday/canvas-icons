@@ -3,6 +3,10 @@ describe('System Icons Themed', () => {
     cy.visit('/system-themed');
   });
 
+  it('Themed System Icon Gallery Snapshot', () => {
+    cy.takeSnapshot();
+  });
+
   it('renders the icon gallery on the page', () => {
     cy.get('[data-testid="icon-gallery"]').should('exist');
   });

@@ -10,6 +10,10 @@ describe('Expressive Icons', () => {
     cy.visit('/expressive');
   });
 
+  it('System Icon Gallery Snapshot', () => {
+    cy.takeSnapshot();
+  });
+
   it('renders the icon gallery on the page', () => {
     cy.get('[data-testid="icon-gallery"]').should('exist');
   });

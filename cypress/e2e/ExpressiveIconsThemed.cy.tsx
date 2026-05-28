@@ -3,6 +3,10 @@ describe('Expressive Icons Themed', () => {
     cy.visit('/expressive-themed');
   });
 
+  it('Themed Expressive Icon Gallery Snapshot', () => {
+    cy.takeSnapshot();
+  });
+
   it('renders the icon gallery on the page', () => {
     cy.get('[data-testid="icon-gallery"]').should('exist');
   });
