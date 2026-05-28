@@ -59,7 +59,6 @@
     "clean": "nx run-many -t clean --projects=tag:*:*",
     "cy:app": "vite",
     "cy:open": "start-server-and-test cy:app http://localhost:4173 'cypress open --e2e'",
-    "precy:e2e": "yarn build",
     "cy:e2e": "start-server-and-test cy:app http://localhost:4173 'cypress run --e2e'",
     "cy:run": "run-s build cy:e2e",
     "docs:build": "nx build @workday/canvas-icons-docs",

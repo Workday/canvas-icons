@@ -9,12 +9,5 @@ const icons = Object.values(systemIcons).filter(
 ) as CanvasSystemIcon[];
 
 export const SystemGalleryPage = () => {
-  return (
-    <main style={{padding: '2rem', fontFamily: 'system-ui, sans-serif'}}>
-      <h1>System Icons</h1>
-      <div data-testid="icon-gallery">
-        <IconsGallery icons={icons} type="system" />
-      </div>
-    </main>
-  );
+  return <IconsGallery icons={icons} type="system" />;
 };

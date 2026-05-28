@@ -30,3 +30,30 @@ jobs:
       - name: Type Check
         shell: bash
         run: yarn typecheck
+
+  visual-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: Workday/canvas-kit-actions/install@v1
+        with:
+          node_version: 24.x
+
+      - name: Run Cypress e2e tests
+        run: yarn cy:e2e
+        env:
+          CYPRESS_CACHE_FOLDER: .cache/cypress
+          ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
+
+      - uses: chromaui/action@v1
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          cypress: true
+          exitOnceUploaded: false
+          exitZeroOnChanges: true

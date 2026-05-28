@@ -1,4 +1,4 @@
-describe('Expressive Icons', () => {
+describe('System Icons', () => {
   beforeEach(() => {
     cy.visit('/system');
   });
