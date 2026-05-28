@@ -11,11 +11,8 @@ describe('System Icons', () => {
   });
 
   it('System Icon Gallery Snapshot', () => {
-    cy.takeSnapshot();
-  });
-
-  it('renders the icon gallery on the page', () => {
     cy.get('[data-testid="icon-gallery"]').should('exist');
+    cy.takeSnapshot();
   });
 
   it('all icons are rendered correctly', () => {
