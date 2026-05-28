@@ -10,12 +10,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Get last commit message
         id: last_commit_message
         run: |
-          echo "last_commit_message=$(git log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+          echo "last_commit_message=$(git log -1 --pretty=%s)" >> "$GITHUB_OUTPUT"
 
   check:
     runs-on: ubuntu-latest
@@ -70,6 +71,7 @@ jobs:
           CYPRESS_CACHE_FOLDER: .cache/cypress
           COMMIT_INFO_MESSAGE: ${{ needs.install.outputs.last_commit_message }}
           COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
+          ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
 
       - uses: chromaui/action@v1
         with:
