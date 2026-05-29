@@ -1,0 +1,138 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+      - preminor/*
+      - premajor/*
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Select the type of version bump'
+        required: false
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+      package:
+        description: 'Select the packages to publish'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - system
+          - expressive
+
+# permissions:
+#   id-token: write  # Required for OIDC
+#   contents: write
+
+jobs:
+  release:
+    # Skip releases triggered by our own release commits (`chore: Release ...`)
+    # and explicit opt-outs (`[skip release]`).
+    if: ${{ !contains(github.event.head_commit.message, '[skip release]') && (startsWith(github.event.head_commit.message, 'fix') || startsWith(github.event.head_commit.message, 'feat')) || inputs.package }}
+    runs-on: ubuntu-latest
+    steps:
+      ## We don't persist credentials because we need a Personal Access Token to
+      ## push on a branch that is protected. See
+      ## https://github.com/cycjimmy/semantic-release-action#basic-usage
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0 # Used for conventional commit ranges
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+          # Do NOT set registry-url - it creates token-based auth that conflicts with OIDC
+
+      - uses: Workday/canvas-kit-actions/install@v1
+        with:
+          node_version: 24.x
+
+      # Upgrade npm to 11.5.1+ for OIDC support (Node.js 22.x comes with npm 10.x)
+      - name: Upgrade npm for OIDC support
+        run: npm install -g npm@11.10.1
+
+      - name: Config git user
+        shell: bash
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Collect changed files
+        id: changed_files
+        if: ${{ github.event_name == 'push' && github.ref_name == 'main' }}
+        shell: bash
+        run: |
+          # For pushes (including the very first one with `before` == 000...) fall
+          # back to inspecting the head commit on its own.
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            FILES=$(git diff-tree --no-commit-id --name-only -r HEAD)
+          else
+            FILES=$(git diff --name-only "$BEFORE" "${{ github.sha }}")
+          fi
+          {
+            echo "files<<EOF"
+            echo "$FILES"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Determine packages to release
+        id: determine
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BRANCH: ${{ github.ref_name }}
+          HEAD_COMMIT: ${{ github.event.head_commit.message }}
+          CHANGED_FILES: ${{ steps.changed_files.outputs.files }}
+          VERSION: ${{ inputs.version }}
+          PACKAGE: ${{ inputs.package }}
+        run: node utils/getPackagesForRelease.js
+
+      - name: Pull prerelease branch
+        if: ${{ inputs.version == 'minor' || inputs.version == 'major' }}
+        shell: bash
+        run: |
+          if [ "${{ inputs.package }}" = "all" ]; then
+            echo "Cannot release all packages with a minor or major version bump. Do a release for each package separately. Exiting."
+            exit 1
+          fi
+          git pull origin pre${{ inputs.version }}/${{ inputs.package }}
+
+      - name: Release @workday/canvas-system-icons-web
+        if: ${{ steps.determine.outputs.system-version }}
+        uses: Workday/canvas-kit-actions/do-release@v1
+        with:
+          ghToken: ${{ secrets.GH_RW_TOKEN }}
+          package: '@workday/canvas-system-icons-web'
+          packagePath: packages/canvas-system-icons-web
+          version: ${{ steps.determine.outputs.system-version }}
+          buildScript: yarn build:web:system
+          prerelease: ${{ steps.determine.outputs.prerelease }}
+          preid: ${{ steps.determine.outputs.preid }}
+          # skipGithubRelease: ${{ steps.determine.outputs.prerelease }}
+          releaseScript: echo
+          skipGithubRelease: true
+          skipPush: true
+
+      - name: Release @workday/canvas-expressive-icons-web
+        if: ${{ steps.determine.outputs.expressive-version }}
+        uses: Workday/canvas-kit-actions/do-release@v1
+        with:
+          ghToken: ${{ secrets.GH_RW_TOKEN }}
+          package: '@workday/canvas-expressive-icons-web'
+          packagePath: packages/canvas-expressive-icons-web
+          version: ${{ steps.determine.outputs.expressive-version }}
+          buildScript: yarn build:web:expressive
+          prerelease: ${{ steps.determine.outputs.prerelease }}
+          preid: ${{ steps.determine.outputs.preid }}
+          # skipGithubRelease: ${{ steps.determine.outputs.prerelease }}
+          releaseScript: echo
+          skipGithubRelease: true
+          skipPush: true
