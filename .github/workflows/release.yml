@@ -34,7 +34,12 @@ jobs:
   release:
     # Skip releases triggered by our own release commits (`chore: Release ...`)
     # and explicit opt-outs (`[skip release]`).
-    if: ${{ !contains(github.event.head_commit.message, '[skip release]') && (startsWith(github.event.head_commit.message, 'fix') || startsWith(github.event.head_commit.message, 'feat')) || inputs.package }}
+    if: |
+      (github.event_name == 'push'
+          && !contains(github.event.head_commit.message, '[skip release]')
+          && (startsWith(github.event.head_commit.message, 'fix')
+              || startsWith(github.event.head_commit.message, 'feat')))
+      || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       ## We don't persist credentials because we need a Personal Access Token to
@@ -54,7 +59,7 @@ jobs:
         with:
           node_version: 24.x
 
-      # Upgrade npm to 11.5.1+ for OIDC support (Node.js 22.x comes with npm 10.x)
+      # Upgrade npm to 11.10.1+ for OIDC support (Node.js 24.x comes with npm 11.x)
       - name: Upgrade npm for OIDC support
         run: npm install -g npm@11.10.1
 
@@ -109,8 +114,8 @@ jobs:
         shell: bash
         run: |
           if [ "${{ inputs.package }}" = "all" ]; then
-            echo "Cannot release all packages with a minor or major version bump. Do a release for each package separately. Exiting."
-            exit 1
+            git pull origin pre${{ inputs.version }}/system
+            git pull origin pre${{ inputs.version }}/expressive
           fi
           git pull origin pre${{ inputs.version }}/${{ inputs.package }}
 
