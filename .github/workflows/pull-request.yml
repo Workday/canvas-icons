@@ -8,6 +8,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: Workday/canvas-kit-actions/install@v1
         with:
@@ -30,3 +32,44 @@ jobs:
       - name: Type Check
         shell: bash
         run: yarn typecheck
+
+  chromatic-cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: Workday/canvas-kit-actions/install@v1
+        with:
+          node_version: 24.x
+
+      - name: Get last commit message
+        id: commit_log
+        run: |
+          echo "last_commit_message=$(git log -1 --pretty=%s)" >> "$GITHUB_OUTPUT"
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v7
+        with:
+          start: yarn cy:app
+          wait-on: 'http://localhost:4173'
+          record: true
+          parallel: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CYPRESS_CACHE_FOLDER: .cache/cypress
+          COMMIT_INFO_MESSAGE: ${{ steps.commit_log.outputs.last_commit_message }}
+          COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
+          ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
+
+      - uses: chromaui/action@v17
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          cypress: true
+          exitOnceUploaded: false
+          exitZeroOnChanges: true
+          skip: '@(renovate/**|dependabot/**)'
