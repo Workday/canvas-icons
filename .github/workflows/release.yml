@@ -95,6 +95,15 @@ jobs:
           PACKAGE: ${{ inputs.package }}
         run: node utils/getPackagesForRelease.js
 
+
+      - name: Log determine outputs
+        shell: bash
+        run: |
+          echo "determine.outputs.system-version: ${{ steps.determine.outputs.system-version }}"
+          echo "determine.outputs.expressive-version: ${{ steps.determine.outputs.expressive-version }}"
+          echo "determine.outputs.preid: ${{ steps.determine.outputs.preid }}"
+          echo "determine.outputs.prerelease: ${{ steps.determine.outputs.prerelease }}"
+
       - name: Pull prerelease branch
         if: ${{ inputs.version == 'minor' || inputs.version == 'major' }}
         shell: bash
@@ -117,7 +126,7 @@ jobs:
           prerelease: ${{ steps.determine.outputs.prerelease }}
           preid: ${{ steps.determine.outputs.preid }}
           # skipGithubRelease: ${{ steps.determine.outputs.prerelease }}
-          releaseScript: echo
+          releaseScript: echo "Skipping release for @workday/canvas-system-icons-web"
           skipGithubRelease: true
           skipPush: true
 
@@ -133,6 +142,6 @@ jobs:
           prerelease: ${{ steps.determine.outputs.prerelease }}
           preid: ${{ steps.determine.outputs.preid }}
           # skipGithubRelease: ${{ steps.determine.outputs.prerelease }}
-          releaseScript: echo
+          releaseScript: echo "Skipping release for @workday/canvas-expressive-icons-web"
           skipGithubRelease: true
           skipPush: true
