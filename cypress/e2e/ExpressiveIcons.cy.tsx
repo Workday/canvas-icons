@@ -3,7 +3,7 @@ import {CanvasExpressiveIcon} from '@workday/canvas-expressive-icons-web';
 
 const icons = Object.keys(expressiveIcons)
   .map(key => expressiveIcons[key as keyof typeof expressiveIcons])
-  .filter(icon => 'svg' in icon && !('fallback' in icon)) as CanvasExpressiveIcon[];
+  .filter(icon => 'svg' in icon) as CanvasExpressiveIcon[];
 
 describe('Expressive Icons', () => {
   beforeEach(() => {

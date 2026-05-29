@@ -3,7 +3,7 @@ import {CanvasSystemIcon} from '@workday/canvas-system-icons-web';
 
 const icons = Object.keys(systemIcons)
   .map(key => systemIcons[key as keyof typeof systemIcons])
-  .filter(icon => 'svg' in icon && !('fallback' in icon)) as CanvasSystemIcon[];
+  .filter(icon => 'svg' in icon) as CanvasSystemIcon[];
 
 describe('System Icons', () => {
   beforeEach(() => {

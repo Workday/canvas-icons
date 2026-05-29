@@ -1,9 +1,10 @@
 import {installPlugin} from '@chromatic-com/cypress';
 import {defineConfig} from 'cypress';
 
-// Required by @chromatic-com/cypress so it can attach to the Electron browser
-// via CDP. Set here so we don't have to prefix every `yarn cy:*` invocation.
-process.env.ELECTRON_EXTRA_LAUNCH_ARGS ??= '--remote-debugging-port=9222';
+// Enable Chromatic visual snapshots only in CI (or when explicitly opted in).
+// Locally we skip the plugin so `yarn cy:run` doesn't try to attach to Electron
+// via CDP and fail with a connection error.
+const enableChromatic = !!process.env.CI || process.env.CHROMATIC === 'true';
 
 export default defineConfig({
   projectId: 'u8mm8z',
@@ -19,7 +20,16 @@ export default defineConfig({
     supportFile: 'cypress/support/e2e.ts',
     numTestsKeptInMemory: 0,
     setupNodeEvents(on, config) {
-      installPlugin(on, config);
+      if (enableChromatic) {
+        installPlugin(on, config);
+      } else {
+        // The Chromatic support file unconditionally calls
+        // `cy.task('prepareArchives', ...)` in before/afterEach hooks.
+        // Stub it locally so tests don't fail with an unregistered-task error.
+        on('task', {
+          prepareArchives: () => null,
+        });
+      }
     },
   },
 });
