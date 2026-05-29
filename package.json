@@ -10,7 +10,8 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
+    "@changesets/cli": "^2.31.0",
+    "@chromatic-com/cypress": "^0.12.5",
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
     "@nx/eslint": "22.6.4",
@@ -20,10 +21,13 @@
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^8.59.3",
     "@typescript-eslint/parser": "^8.59.3",
+    "@vitejs/plugin-react": "^6.0.2",
     "@workday/canvas-kit-react": "^15.0.4",
     "@workday/canvas-kit-styling": "^15.0.4",
     "@workday/canvas-tokens-web": "^4.3.0",
     "change-case-all": "^2.1.0",
+    "chromatic": "^17.1.0",
+    "cypress": "^15",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
@@ -35,7 +39,9 @@
     "prettier": "^3.8.3",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "typescript": "^6.0.3"
+    "start-server-and-test": "^3.0.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
   },
   "resolutions": {
     "zod": "4.3.6"
@@ -51,19 +57,28 @@
     "build:web:system": "nx run @workday/canvas-system-icons-web:build",
     "build:web:expressive": "nx run @workday/canvas-expressive-icons-web:build",
     "clean": "nx run-many -t clean --projects=tag:*:*",
+    "precy:app": "yarn build",
+    "cy:app": "vite --port 4173",
+    "cy:open": "start-server-and-test cy:app http://localhost:4173 'cypress open --e2e'",
+    "cy:e2e": "start-server-and-test cy:app http://localhost:4173 'cypress run'",
+    "cy:run": "yarn cy:e2e",
     "docs:build": "nx build @workday/canvas-icons-docs",
     "docs:dev": "nx dev @workday/canvas-icons-docs",
     "docs:run": "nx start @workday/canvas-icons-docs",
     "format": "prettier \"**/*.{js,jsx,json,scss,md}\" --write",
     "graph": "nx graph",
     "lint": "eslint .",
+    "prebuild": "yarn clean",
     "prepare": "husky",
     "precommit": "lint-staged",
     "predocs:dev": "yarn build",
     "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["eslint --cache --fix", "prettier --write"],
+    "*.{ts,tsx}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ],
     "*.md": "prettier --write"
   },
   "private": true

@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["cypress", "node"],
+    "isolatedModules": false
+  },
+  "include": ["e2e/**/*.ts", "e2e/**/*.tsx", "support/**/*.ts", "support/**/*.tsx"],
+  "exclude": ["downloads", "screenshots", "node_modules"]
+}

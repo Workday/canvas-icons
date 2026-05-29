@@ -4,14 +4,14 @@ import {capitalCase} from 'change-case-all';
 
 import {CanvasExpressiveIcon} from '@workday/canvas-expressive-icons-web';
 import {ExpressiveIcon, SystemIcon} from '@workday/canvas-kit-react/icon';
-import {createStencil} from '@workday/canvas-kit-styling';
+import {CSProps, createStencil, handleCsProp} from '@workday/canvas-kit-styling';
 import {CanvasSystemIcon} from '@workday/canvas-system-icons-web';
 import {system} from '@workday/canvas-tokens-web';
 
 type IconsGalleryProps = {
   icons: (CanvasSystemIcon | CanvasExpressiveIcon)[];
   type: 'system' | 'expressive';
-};
+} & CSProps;
 
 const galleryStyles = createStencil({
   parts: {
@@ -55,9 +55,9 @@ const galleryStyles = createStencil({
   },
 });
 
-export const IconsGallery = ({icons, type}: IconsGalleryProps) => {
+export const IconsGallery = ({icons, type, ...props}: IconsGalleryProps) => {
   return (
-    <div {...galleryStyles({type})}>
+    <div {...handleCsProp(props, galleryStyles({type}))}>
       {icons.map(icon => (
         <div key={icon.name} {...galleryStyles.parts.iconCard}>
           {icon.type === 'system' ? <SystemIcon icon={icon} /> : <ExpressiveIcon icon={icon} />}
