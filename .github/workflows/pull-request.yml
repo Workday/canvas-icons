@@ -68,7 +68,7 @@ jobs:
       - uses: chromaui/action@v17
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          projectToken: chpt_fb013199850d822
           cypress: true
           exitOnceUploaded: false
           exitZeroOnChanges: true
