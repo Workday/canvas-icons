@@ -11,7 +11,7 @@
 
 ## Release Category
 
-<!-- Accent Icons, System Icons, Documentation, Infrastructure, etc -->
+<!-- System Icons, Documentation, Infrastructure, etc -->
 
 ---
 
