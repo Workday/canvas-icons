@@ -1,0 +1,100 @@
+1:"$Sreact.fragment"
+2:I[55169,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"TOCProvider"]
+3:I[769,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"Sidebar"]
+4:I[47486,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"ClientWrapper"]
+1d:I[63894,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"HeadingAnchor"]
+1e:I[97367,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+5:T7f9,# GitHub Actions Workflows
+
+This repository uses several GitHub Actions to automate the deployment and release processes. Below
+are the descriptions of the workflows and their triggers.
+
+---
+
+## Deploy GH Pages
+
+#### Description:
+
+This workflow automates the deployment of the GitHub Pages site whenever changes are pushed to the
+`main` branch.
+
+#### Trigger:
+
+This workflow is triggered by a `push` event to the `main` branch.
+
+---
+
+## Pull Request Check
+
+#### Description:
+
+This workflow runs checks when a pull request is created, ensuring code quality and consistency
+before merging.
+
+#### Trigger:
+
+This workflow is triggered on any pull request (`pull_request` event).
+
+#### Checks:
+
+- **Build:** Check the build processes to ensure that the project compiles correctly.
+- **Unit tests:** Run unit tests to verify that the code works as expected.
+- **Cypress:** Run Cypress tests to validate the functionality on both the baseline and current
+  branch. Skipped if changed files doesn't have any svgs changed or PR has label `cy:approved` to
+  accept branch changes.
+
+---
+
+## Release
+
+#### Description:
+
+The Release workflow manages publishing packages for different platforms and handles both stable and
+pre-releases.
+
+- **Web Release:** Publishes web packages to `npm`. Triggered by:
+  - A commit with changes to web packages pushed to the `main` branch
+
+- **Minor and Major:** Minor and major releases made manually will pull changes from:
+  - `preminor/*/*` → `main` for minor
+  - `premajor/*/*` → `main` for major
+
+- **Pre-releases:** Automatically triggered when changes are pushed to:
+  - `preminor/*/*` for **beta** (upcoming minor release)
+  - `premajor/*/*` for **alpha** (upcoming major release)
+
+#### Trigger:
+
+- Automatically triggered by `push` to `main`, `preminor/*/*`, or `premajor/*/*`
+- Can also be manually triggered via the GitHub UI, requiring inputs: `scope`, `platform`, and
+  `version`
+
+---
+
+These workflows help streamline the deployment and release process, ensuring consistency and
+reducing manual effort.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"x:mx-auto x:flex x:max-w-(--nextra-content-width)","children":["$","$L2",null,{"value":[{"value":"Deploy GH Pages","id":"deploy-gh-pages","depth":2},{"value":"Description:","id":"description","depth":4},{"value":"Trigger:","id":"trigger","depth":4},{"value":"Pull Request Check","id":"pull-request-check","depth":2},{"value":"Description:","id":"description-1","depth":4},{"value":"Trigger:","id":"trigger-1","depth":4},{"value":"Checks:","id":"checks","depth":4},{"value":"Release","id":"release","depth":2},{"value":"Description:","id":"description-2","depth":4},{"value":"Trigger:","id":"trigger-2","depth":4}],"children":[["$","$L3",null,{}],["$","$L4",null,{"metadata":{"title":"GitHub Actions Workflows","filePath":"content/actions.md","timestamp":1779134115000},"sourceCode":"$5","children":[["$","div",null,{"id":"nextra-skip-nav"}],["$","main",null,{"data-pagefind-body":true,"children":[["$","h1",null,{"className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-bold x:mt-2 x:text-4xl","children":["GitHub Actions Workflows","$undefined"]}],"\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"This repository uses several GitHub Actions to automate the deployment and release processes. Below\nare the descriptions of the workflows and their triggers."}],"\n",["$","hr",null,{"className":"x:my-[2em] nextra-border"}],"\n",["$","h2",null,{"id":"deploy-gh-pages","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Deploy GH Pages","$L6"]}],"\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b"]}]]}]]}]}],null,"$L1c"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"GfAY0JhI42z0ve0yKF9ze"}
+6:["$","$L1d",null,{"id":"deploy-gh-pages"}]
+7:["$","h4",null,{"id":"description","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Description:",["$","$L1d",null,{"id":"description"}]]}]
+8:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["This workflow automates the deployment of the GitHub Pages site whenever changes are pushed to the\n",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," branch."]}]
+9:["$","h4",null,{"id":"trigger","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Trigger:",["$","$L1d",null,{"id":"trigger"}]]}]
+a:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["This workflow is triggered by a ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"push"}]," event to the ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," branch."]}]
+b:["$","hr",null,{"className":"x:my-[2em] nextra-border"}]
+c:["$","h2",null,{"id":"pull-request-check","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Pull Request Check",["$","$L1d",null,{"id":"pull-request-check"}]]}]
+d:["$","h4",null,{"id":"description-1","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Description:",["$","$L1d",null,{"id":"description-1"}]]}]
+e:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"This workflow runs checks when a pull request is created, ensuring code quality and consistency\nbefore merging."}]
+f:["$","h4",null,{"id":"trigger-1","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Trigger:",["$","$L1d",null,{"id":"trigger-1"}]]}]
+10:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["This workflow is triggered on any pull request (",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"pull_request"}]," event)."]}]
+11:["$","h4",null,{"id":"checks","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Checks:",["$","$L1d",null,{"id":"checks"}]]}]
+12:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","strong",null,{"children":"Build:"}]," Check the build processes to ensure that the project compiles correctly."]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","strong",null,{"children":"Unit tests:"}]," Run unit tests to verify that the code works as expected."]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","strong",null,{"children":"Cypress:"}]," Run Cypress tests to validate the functionality on both the baseline and current\nbranch. Skipped if changed files doesn’t have any svgs changed or PR has label ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"cy:approved"}]," to\naccept branch changes."]}],"\n"]}]
+13:["$","hr",null,{"className":"x:my-[2em] nextra-border"}]
+14:["$","h2",null,{"id":"release","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Release",["$","$L1d",null,{"id":"release"}]]}]
+15:["$","h4",null,{"id":"description-2","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Description:",["$","$L1d",null,{"id":"description-2"}]]}]
+16:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"The Release workflow manages publishing packages for different platforms and handles both stable and\npre-releases."}]
+17:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":["\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":[["$","strong",null,{"children":"Web Release:"}]," Publishes web packages to ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"npm"}],". Triggered by:"]}],"\n",["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":["A commit with changes to web packages pushed to the ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," branch"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":["\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":[["$","strong",null,{"children":"Minor and Major:"}]," Minor and major releases made manually will pull changes from:"]}],"\n",["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","code",null,{"className":"nextra-code","dir":"ltr","children":"preminor/*/*"}]," → ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," for minor"]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","code",null,{"className":"nextra-code","dir":"ltr","children":"premajor/*/*"}]," → ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," for major"]}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":["\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":[["$","strong",null,{"children":"Pre-releases:"}]," Automatically triggered when changes are pushed to:"]}],"\n",["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","code",null,{"className":"nextra-code","dir":"ltr","children":"preminor/*/*"}]," for ",["$","strong",null,{"children":"beta"}]," (upcoming minor release)"]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","code",null,{"className":"nextra-code","dir":"ltr","children":"premajor/*/*"}]," for ",["$","strong",null,{"children":"alpha"}]," (upcoming major release)"]}],"\n"]}],"\n"]}],"\n"]}]
+18:["$","h4",null,{"id":"trigger-2","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Trigger:",["$","$L1d",null,{"id":"trigger-2"}]]}]
+19:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":["Automatically triggered by ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"push"}]," to ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}],", ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"preminor/*/*"}],", or ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"premajor/*/*"}]]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":["Can also be manually triggered via the GitHub UI, requiring inputs: ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"scope"}],", ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"platform"}],", and\n",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"version"}]]}],"\n"]}]
+1a:["$","hr",null,{"className":"x:my-[2em] nextra-border"}]
+1b:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"These workflows help streamline the deployment and release process, ensuring consistency and\nreducing manual effort."}]
+1c:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+20:null

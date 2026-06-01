@@ -1,0 +1,145 @@
+1:"$Sreact.fragment"
+2:I[55169,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"TOCProvider"]
+3:I[769,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"Sidebar"]
+4:I[47486,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"ClientWrapper"]
+9:I[83987,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"ToggleWordWrapButton"]
+a:I[63894,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"HeadingAnchor"]
+25:I[97367,["/_next/static/chunks/0x.~j7vy9ohz0.js","/_next/static/chunks/0eewamb49pw7k.js","/_next/static/chunks/0obsrs4397qcb.js","/_next/static/chunks/0ah~wypegx2t8.js","/_next/static/chunks/0t968t54uyp4v.js"],"OutletBoundary"]
+26:"$Sreact.suspense"
+5:Te9b,# Git & GitHub
+
+```sh
+# clone the repo
+git clone https://github.com/Workday/canvas-icons.git
+# install dependencies
+yarn install
+```
+
+## Creating an Issue
+
+If you find something you'd like added, feel free to
+[create an issue](https://github.com/Workday/canvas-icons/issues/new/choose), but please be sure to
+[review existing issues](https://github.com/Workday/canvas-icons/issues) first to reduce duplicates.
+
+## Git Guidelines
+
+### Branches
+
+- Create branches for each feature you develop
+- Branch names should start with an issue number and be a description of the feature being
+  implemented/bug being fixed
+- Prefer dashes over camelCasing in branch names.
+
+Example:
+
+```sh
+git checkout -b ISSUE-51_add-ci-release-step
+```
+
+#### Major Branches
+
+- `main` – Holds current stable releases.
+- `gh-pages` – Branch for deployed documentation.
+
+#### Pre-release Branches
+
+These branches organize changes for upcoming minor and major releases by icon type.
+
+TODO: Add branch info.
+
+### Commit Message Format
+
+Canvas Icons relies on the
+[conventional-commit format specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification).
+By formalizing our commit message format, this allows us to easily generate changelogs and scan
+through the commit history.
+
+#### Commit Descriptions
+
+> **Examples**
+
+```
+chore: Add alpha release stage to Jenkins
+fix(graphics-web): Update graphics project settings
+```
+
+> **DO**
+
+- Use the commit scope if your change is specific to a package
+- When in doubt, leave scope out
+- Capitalize your description
+- Explain the additions/edits/fixes made in your staged changes. If you cannot describe it within
+  ~50 characters, you should be breaking it into multiple commits
+- Use the imperative mood (e.g. "fix", not "fixed")
+- Start with a verb
+- If you have similar/identical commits one after another, consider using `--amend` or squashing.
+
+> **DON'T**
+
+- Don't use generic messages (e.g. "fix: Clean up code", "fix: Address review feedback", etc.)
+- Don't describe the problem that was being solved (e.g. "fix: State was broken")
+- Don't be too brief. Avoid one word descriptions. Anyone with context should have a good idea of
+  what your commit does without having to look at it.
+- Don't end with a period
+
+## Submitting a Pull Request
+
+After committing your changes, you can push them up and create a pull request. You can either create
+a PR in [GitHub's UI](https://github.com/Workday/canvas-icons/pulls) or
+[the `gh` CLI](https://cli.github.com/manual/gh_pr_create). When creating a PR, please allow edits
+by maintainers, so we can add small nits and suggestions as we review.
+
+```sh
+gh pr create
+```
+
+If you'd like early feedback, please create a draft PR. And when you're ready for review, add a
+`ready for review` label. We triage open pull requests daily and assign owners to ensure they move
+along in a timely manner. Once the CI checks pass and changes are approved, we'll merge your branch
+and create a new release, if needed.
+
+Please follow the provided pull request template. The Issue section connects the pull request to the
+associated issue. The Summary and Release Category sections are used by our release automation to
+generate our changelog. All other sections below are intended for the reviewer and help the review
+process move along smoothly.
+
+## Releases
+
+- Releases are prepared by updating package versions with `changeset version`, and updating package
+  changelogs.
+- All releases are handled by the Release GitHub Action.
+- Patch releases are initiated by commits with no feature type, e.g. `docs`, `fix`, `test`, etc.,
+  merged into the `main` branch.
+- Major releases should be done manually by running the GitHub workflow.
+
+TODO: Add rest of release info.0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"x:mx-auto x:flex x:max-w-(--nextra-content-width)","children":["$","$L2",null,{"value":[{"value":"Creating an Issue","id":"creating-an-issue","depth":2},{"value":"Git Guidelines","id":"git-guidelines","depth":2},{"value":"Branches","id":"branches","depth":3},{"value":"Major Branches","id":"major-branches","depth":4},{"value":"Pre-release Branches","id":"pre-release-branches","depth":4},{"value":"Commit Message Format","id":"commit-message-format","depth":3},{"value":"Commit Descriptions","id":"commit-descriptions","depth":4},{"value":"Submitting a Pull Request","id":"submitting-a-pull-request","depth":2},{"value":"Releases","id":"releases","depth":2}],"children":[["$","$L3",null,{}],["$","$L4",null,{"metadata":{"title":"Git & GitHub","filePath":"content/git.md","timestamp":1779134115000},"sourceCode":"$5","children":["$L6","$L7"]}]]}]}],null,"$L8"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"GfAY0JhI42z0ve0yKF9ze"}
+6:["$","div",null,{"id":"nextra-skip-nav"}]
+7:["$","main",null,{"data-pagefind-body":true,"children":[["$","h1",null,{"className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-bold x:mt-2 x:text-4xl","children":["Git & GitHub","$undefined"]}],"\n",["$","div",null,{"data-pagefind-ignore":"all","className":"nextra-code x:relative x:not-first:mt-[1.25em]","children":["$undefined",["$","pre",null,{"className":"x:group x:focus-visible:nextra-focus x:overflow-x-auto x:subpixel-antialiased x:text-[.9em] x:bg-white x:dark:bg-black x:py-4 x:ring-1 x:ring-inset x:ring-gray-300 x:dark:ring-neutral-700 x:contrast-more:ring-gray-900 x:contrast-more:dark:ring-gray-50 x:contrast-more:contrast-150 x:rounded-md not-prose","tabIndex":"0","children":[["$","div",null,{"className":"x:group-hover:opacity-100 x:group-focus:opacity-100 x:opacity-0 x:transition x:focus-within:opacity-100 x:flex x:gap-1 x:absolute x:right-4 x:top-2","children":[["$","$L9",null,{"children":["$","svg",null,{"viewBox":"0 0 24 24","fill":"currentColor","height":"1em","children":["$","path",null,{"d":"M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"}]}]}],false]}],["$","code",null,{"className":"nextra-code","dir":"ltr","children":[["$","span",null,{"children":["$","span",null,{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"# clone the repo"}]}],"\n",["$","span",null,{"children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"git"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" clone"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" https://github.com/Workday/canvas-icons.git"}]]}],"\n",["$","span",null,{"children":["$","span",null,{"style":{"--shiki-light":"#6A737D","--shiki-dark":"#6A737D"},"children":"# install dependencies"}]}],"\n",["$","span",null,{"children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"yarn"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" install"}]]}]]}]]}]]}],"\n",["$","h2",null,{"id":"creating-an-issue","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Creating an Issue",["$","$La",null,{"id":"creating-an-issue"}]]}],"\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["If you find something you’d like added, feel free to\n",["$","a",null,{"href":"https://github.com/Workday/canvas-icons/issues/new/choose","target":"_blank","rel":"noreferrer","className":"x:focus-visible:nextra-focus x:text-primary-600 x:underline x:hover:no-underline x:decoration-from-font x:[text-underline-position:from-font]","children":["create an issue",[" ",["$","svg",null,{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":1.7,"viewBox":"0 0 24 24","height":"1em","className":"x:inline x:align-baseline x:shrink-0","children":[["$","path",null,{"d":"M7 17L17 7"}],["$","path",null,{"d":"M7 7h10v10"}]]}]]]}],", but please be sure to\n",["$","a",null,{"href":"https://github.com/Workday/canvas-icons/issues","target":"_blank","rel":"noreferrer","className":"x:focus-visible:nextra-focus x:text-primary-600 x:underline x:hover:no-underline x:decoration-from-font x:[text-underline-position:from-font]","children":["review existing issues",[" ",["$","svg",null,{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":1.7,"viewBox":"0 0 24 24","height":"1em","className":"x:inline x:align-baseline x:shrink-0","children":[["$","path",null,{"d":"M7 17L17 7"}],["$","path",null,{"d":"M7 7h10v10"}]]}]]]}]," first to reduce duplicates."]}],"\n",["$","h2",null,{"id":"git-guidelines","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Git Guidelines",["$","$La",null,{"id":"git-guidelines"}]]}],"\n",["$","h3",null,{"id":"branches","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Branches","$Lb"]}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24"]}]
+8:["$","$L25",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+b:["$","$La",null,{"id":"branches"}]
+c:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":"Create branches for each feature you develop"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Branch names should start with an issue number and be a description of the feature being\nimplemented/bug being fixed"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Prefer dashes over camelCasing in branch names."}],"\n"]}]
+d:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"Example:"}]
+e:["$","div",null,{"data-pagefind-ignore":"all","className":"nextra-code x:relative x:not-first:mt-[1.25em]","children":["$undefined",["$","pre",null,{"className":"x:group x:focus-visible:nextra-focus x:overflow-x-auto x:subpixel-antialiased x:text-[.9em] x:bg-white x:dark:bg-black x:py-4 x:ring-1 x:ring-inset x:ring-gray-300 x:dark:ring-neutral-700 x:contrast-more:ring-gray-900 x:contrast-more:dark:ring-gray-50 x:contrast-more:contrast-150 x:rounded-md not-prose","tabIndex":"0","children":[["$","div",null,{"className":"x:group-hover:opacity-100 x:group-focus:opacity-100 x:opacity-0 x:transition x:focus-within:opacity-100 x:flex x:gap-1 x:absolute x:right-4 x:top-2","children":[["$","$L9",null,{"children":["$","svg",null,{"viewBox":"0 0 24 24","fill":"currentColor","height":"1em","children":["$","path",null,{"d":"M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"}]}]}],false]}],["$","code",null,{"className":"nextra-code","dir":"ltr","children":["$","span",null,{"children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"git"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" checkout"}],["$","span",null,{"style":{"--shiki-light":"#005CC5","--shiki-dark":"#79B8FF"},"children":" -b"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" ISSUE-51_add-ci-release-step"}]]}]}]]}]]}]
+f:["$","h4",null,{"id":"major-branches","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Major Branches",["$","$La",null,{"id":"major-branches"}]]}]
+10:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," – Holds current stable releases."]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":[["$","code",null,{"className":"nextra-code","dir":"ltr","children":"gh-pages"}]," – Branch for deployed documentation."]}],"\n"]}]
+11:["$","h4",null,{"id":"pre-release-branches","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Pre-release Branches",["$","$La",null,{"id":"pre-release-branches"}]]}]
+12:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"These branches organize changes for upcoming minor and major releases by icon type."}]
+13:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"TODO: Add branch info."}]
+14:["$","h3",null,{"id":"commit-message-format","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Commit Message Format",["$","$La",null,{"id":"commit-message-format"}]]}]
+15:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["Canvas Icons relies on the\n",["$","a",null,{"href":"https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification","target":"_blank","rel":"noreferrer","className":"x:focus-visible:nextra-focus x:text-primary-600 x:underline x:hover:no-underline x:decoration-from-font x:[text-underline-position:from-font]","children":["conventional-commit format specification",[" ",["$","svg",null,{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":1.7,"viewBox":"0 0 24 24","height":"1em","className":"x:inline x:align-baseline x:shrink-0","children":[["$","path",null,{"d":"M7 17L17 7"}],["$","path",null,{"d":"M7 7h10v10"}]]}]]]}],".\nBy formalizing our commit message format, this allows us to easily generate changelogs and scan\nthrough the commit history."]}]
+16:["$","h4",null,{"id":"commit-descriptions","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-xl","children":["Commit Descriptions",["$","$La",null,{"id":"commit-descriptions"}]]}]
+17:["$","blockquote",null,{"className":"x:not-first:mt-[1.25em] x:border-gray-300 x:italic x:text-gray-700 x:dark:border-gray-700 x:dark:text-gray-400 x:border-s-2 x:ps-[1.5em]","children":["\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["$","strong",null,{"children":"Examples"}]}],"\n"]}]
+18:["$","div",null,{"data-pagefind-ignore":"all","className":"nextra-code x:relative x:not-first:mt-[1.25em]","children":["$undefined",["$","pre",null,{"className":"x:group x:focus-visible:nextra-focus x:overflow-x-auto x:subpixel-antialiased x:text-[.9em] x:bg-white x:dark:bg-black x:py-4 x:ring-1 x:ring-inset x:ring-gray-300 x:dark:ring-neutral-700 x:contrast-more:ring-gray-900 x:contrast-more:dark:ring-gray-50 x:contrast-more:contrast-150 x:rounded-md not-prose","tabIndex":"0","children":[["$","div",null,{"className":"x:group-hover:opacity-100 x:group-focus:opacity-100 x:opacity-0 x:transition x:focus-within:opacity-100 x:flex x:gap-1 x:absolute x:right-4 x:top-2","children":[["$","$L9",null,{"children":["$","svg",null,{"viewBox":"0 0 24 24","fill":"currentColor","height":"1em","children":["$","path",null,{"d":"M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"}]}]}],false]}],["$","code",null,{"className":"nextra-code","dir":"ltr","children":[["$","span",null,{"children":["$","span",null,{"children":"chore: Add alpha release stage to Jenkins"}]}],"\n",["$","span",null,{"children":["$","span",null,{"children":"fix(graphics-web): Update graphics project settings"}]}]]}]]}]]}]
+19:["$","blockquote",null,{"className":"x:not-first:mt-[1.25em] x:border-gray-300 x:italic x:text-gray-700 x:dark:border-gray-700 x:dark:text-gray-400 x:border-s-2 x:ps-[1.5em]","children":["\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["$","strong",null,{"children":"DO"}]}],"\n"]}]
+1a:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":"Use the commit scope if your change is specific to a package"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"When in doubt, leave scope out"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Capitalize your description"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Explain the additions/edits/fixes made in your staged changes. If you cannot describe it within\n~50 characters, you should be breaking it into multiple commits"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Use the imperative mood (e.g. “fix”, not “fixed”)"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Start with a verb"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":["If you have similar/identical commits one after another, consider using ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"--amend"}]," or squashing."]}],"\n"]}]
+1b:["$","blockquote",null,{"className":"x:not-first:mt-[1.25em] x:border-gray-300 x:italic x:text-gray-700 x:dark:border-gray-700 x:dark:text-gray-400 x:border-s-2 x:ps-[1.5em]","children":["\n",["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["$","strong",null,{"children":"DON’T"}]}],"\n"]}]
+1c:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":"Don’t use generic messages (e.g. “fix: Clean up code”, “fix: Address review feedback”, etc.)"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Don’t describe the problem that was being solved (e.g. “fix: State was broken”)"}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Don’t be too brief. Avoid one word descriptions. Anyone with context should have a good idea of\nwhat your commit does without having to look at it."}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Don’t end with a period"}],"\n"]}]
+1d:["$","h2",null,{"id":"submitting-a-pull-request","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Submitting a Pull Request",["$","$La",null,{"id":"submitting-a-pull-request"}]]}]
+1e:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["After committing your changes, you can push them up and create a pull request. You can either create\na PR in ",["$","a",null,{"href":"https://github.com/Workday/canvas-icons/pulls","target":"_blank","rel":"noreferrer","className":"x:focus-visible:nextra-focus x:text-primary-600 x:underline x:hover:no-underline x:decoration-from-font x:[text-underline-position:from-font]","children":["GitHub’s UI",[" ",["$","svg",null,{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":1.7,"viewBox":"0 0 24 24","height":"1em","className":"x:inline x:align-baseline x:shrink-0","children":[["$","path",null,{"d":"M7 17L17 7"}],["$","path",null,{"d":"M7 7h10v10"}]]}]]]}]," or\n",["$","a",null,{"href":"https://cli.github.com/manual/gh_pr_create","target":"_blank","rel":"noreferrer","className":"x:focus-visible:nextra-focus x:text-primary-600 x:underline x:hover:no-underline x:decoration-from-font x:[text-underline-position:from-font]","children":[["the ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"gh"}]," CLI"],false]}],". When creating a PR, please allow edits\nby maintainers, so we can add small nits and suggestions as we review."]}]
+1f:["$","div",null,{"data-pagefind-ignore":"all","className":"nextra-code x:relative x:not-first:mt-[1.25em]","children":["$undefined",["$","pre",null,{"className":"x:group x:focus-visible:nextra-focus x:overflow-x-auto x:subpixel-antialiased x:text-[.9em] x:bg-white x:dark:bg-black x:py-4 x:ring-1 x:ring-inset x:ring-gray-300 x:dark:ring-neutral-700 x:contrast-more:ring-gray-900 x:contrast-more:dark:ring-gray-50 x:contrast-more:contrast-150 x:rounded-md not-prose","tabIndex":"0","children":[["$","div",null,{"className":"x:group-hover:opacity-100 x:group-focus:opacity-100 x:opacity-0 x:transition x:focus-within:opacity-100 x:flex x:gap-1 x:absolute x:right-4 x:top-2","children":[["$","$L9",null,{"children":["$","svg",null,{"viewBox":"0 0 24 24","fill":"currentColor","height":"1em","children":["$","path",null,{"d":"M4 19h6v-2H4v2zM20 5H4v2h16V5zm-3 6H4v2h13.25c1.1 0 2 .9 2 2s-.9 2-2 2H15v-2l-3 3l3 3v-2h2c2.21 0 4-1.79 4-4s-1.79-4-4-4z"}]}]}],false]}],["$","code",null,{"className":"nextra-code","dir":"ltr","children":["$","span",null,{"children":[["$","span",null,{"style":{"--shiki-light":"#6F42C1","--shiki-dark":"#B392F0"},"children":"gh"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" pr"}],["$","span",null,{"style":{"--shiki-light":"#032F62","--shiki-dark":"#9ECBFF"},"children":" create"}]]}]}]]}]]}]
+20:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":["If you’d like early feedback, please create a draft PR. And when you’re ready for review, add a\n",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"ready for review"}]," label. We triage open pull requests daily and assign owners to ensure they move\nalong in a timely manner. Once the CI checks pass and changes are approved, we’ll merge your branch\nand create a new release, if needed."]}]
+21:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"Please follow the provided pull request template. The Issue section connects the pull request to the\nassociated issue. The Summary and Release Category sections are used by our release automation to\ngenerate our changelog. All other sections below are intended for the reviewer and help the review\nprocess move along smoothly."}]
+22:["$","h2",null,{"id":"releases","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Releases",["$","$La",null,{"id":"releases"}]]}]
+23:["$","ul",null,{"className":"x:[:is(ol,ul)_&]:my-[.75em] x:not-first:mt-[1.25em] x:list-disc x:ms-[1.5em]","children":["\n",["$","li",null,{"className":"x:my-[.5em]","children":["Releases are prepared by updating package versions with ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"changeset version"}],", and updating package\nchangelogs."]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"All releases are handled by the Release GitHub Action."}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":["Patch releases are initiated by commits with no feature type, e.g. ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"docs"}],", ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"fix"}],", ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"test"}],", etc.,\nmerged into the ",["$","code",null,{"className":"nextra-code","dir":"ltr","children":"main"}]," branch."]}],"\n",["$","li",null,{"className":"x:my-[.5em]","children":"Major releases should be done manually by running the GitHub workflow."}],"\n"]}]
+24:["$","p",null,{"className":"x:not-first:mt-[1.25em] x:leading-7","children":"TODO: Add rest of release info."}]
+27:null
