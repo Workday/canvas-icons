@@ -18,6 +18,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Workday/canvas-icons"
+  },
   "scripts": {
     "build": "run-s clean build:base build:copy build:js build:sprites",
     "build:base": "nx build:system @workday/canvas-icons",
@@ -33,5 +37,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "private": true
+  "private": false
 }
