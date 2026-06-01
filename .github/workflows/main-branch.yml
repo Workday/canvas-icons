@@ -1,0 +1,140 @@
+name: Update main branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+
+      - name: Cache node modules
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+
+      - name: Install deps
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn
+
+      - name: Save cache
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+
+  deploy-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Config git user
+        shell: bash
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+  
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+
+      - name: Cache node modules
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+
+      - name: Install deps
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn
+
+      - name: Build and Deploy Docs
+        id: build-docs
+        uses: Workday/canvas-kit-actions/deploy-nextra-to-pages@v1
+        with:
+          buildAssets: 'yarn build'
+          buildDocs: 'yarn docs:build'
+          commit: 'docs: Deploy docs to GH pages [skip release]'
+          moveDocs: true
+          outputPath: packages/canvas-icons-docs/docs
+
+      - name: Push changes
+        run: git push origin gh-pages
+
+  chromatic-cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+
+      - name: Cache node modules
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+
+      - name: Install deps
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn
+
+      - name: Get last commit message
+        id: commit_log
+        run: |
+          echo "last_commit_message=$(git log -1 --pretty=%s)" >> "$GITHUB_OUTPUT"
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v7
+        with:
+          start: yarn cy:app
+          wait-on: 'http://localhost:4173'
+          record: false
+          parallel: false
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CYPRESS_CACHE_FOLDER: .cache/cypress
+          COMMIT_INFO_MESSAGE: ${{ steps.commit_log.outputs.last_commit_message }}
+          COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
+          ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
+
+      - uses: chromaui/action@v17
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: chpt_fb013199850d822
+          cypress: true
+          exitZeroOnChanges: false
+          autoAcceptChanges: 'main'
+
+      - name: Cache cypress modules
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/cypress
+          key: ${{ runner.os }}-24.x-cypress-cache-15.x
