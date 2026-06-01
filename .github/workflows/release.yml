@@ -26,14 +26,12 @@ on:
           - system
           - expressive
 
-# permissions:
-#   id-token: write  # Required for OIDC
-#   contents: write
+permissions:
+  id-token: write  # Required for OIDC
+  contents: write
 
 jobs:
-  release:
-    # Skip releases triggered by our own release commits (`chore: Release ...`)
-    # and explicit opt-outs (`[skip release]`).
+  setup:
     if: |
       (github.event_name == 'push'
           && !contains(github.event.head_commit.message, '[skip release]')
@@ -41,33 +39,34 @@ jobs:
               || startsWith(github.event.head_commit.message, 'feat')))
       || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    outputs:
+      system-version: ${{ steps.determine.outputs.system-version }}
+      expressive-version: ${{ steps.determine.outputs.expressive-version }}
+      preid: ${{ steps.determine.outputs.preid }}
     steps:
-      ## We don't persist credentials because we need a Personal Access Token to
-      ## push on a branch that is protected. See
-      ## https://github.com/cycjimmy/semantic-release-action#basic-usage
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0 # Used for conventional commit ranges
 
-      - uses: actions/setup-node@v4
+      - name: Cache node modules
+        id: yarn-cache
+        uses: actions/cache@v4
         with:
-          node-version: 24.x
-          # Do NOT set registry-url - it creates token-based auth that conflicts with OIDC
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
 
-      - uses: Workday/canvas-kit-actions/install@v1
-        with:
-          node_version: 24.x
-
-      # Upgrade npm to 11.10.1+ for OIDC support (Node.js 24.x comes with npm 11.x)
-      - name: Upgrade npm for OIDC support
-        run: npm install -g npm@11.10.1
-
-      - name: Config git user
+      - name: Install Packages
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
         shell: bash
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+        run: yarn install --production=false
+
+      - name: Save cache
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
 
       - name: Collect changed files
         id: changed_files
@@ -100,53 +99,129 @@ jobs:
           PACKAGE: ${{ inputs.package }}
         run: node utils/getPackagesForRelease.js
 
-
       - name: Log determine outputs
         shell: bash
         run: |
-          echo "determine.outputs.system-version: ${{ steps.determine.outputs.system-version }}"
-          echo "determine.outputs.expressive-version: ${{ steps.determine.outputs.expressive-version }}"
-          echo "determine.outputs.preid: ${{ steps.determine.outputs.preid }}"
-          echo "determine.outputs.prerelease: ${{ steps.determine.outputs.prerelease }}"
+          echo "system-version: ${{ steps.determine.outputs.system-version }}"
+          echo "expressive-version: ${{ steps.determine.outputs.expressive-version }}"
+          echo "preid: ${{ steps.determine.outputs.preid }}"
 
-      - name: Pull prerelease branch
-        if: ${{ inputs.version == 'minor' || inputs.version == 'major' }}
+  release-system:
+    needs: setup
+    if: ${{ needs.setup.outputs.system-version != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      ## We don't persist credentials because we need a Personal Access Token to
+      ## push on a branch that is protected. See
+      ## https://github.com/cycjimmy/semantic-release-action#basic-usage
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+          # Do NOT set registry-url - it creates token-based auth that conflicts with OIDC
+
+      - name: Cache node modules
+        id: yarn-cache
+        uses: actions/cache/save@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+
+      - name: Install Packages
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        shell: bash
+        run: yarn install --production=false
+
+      # Upgrade npm to 11.10.1+ for OIDC support (Node.js 24.x comes with npm 11.x)
+      - name: Upgrade npm for OIDC support
+        run: npm install -g npm@11.10.1
+
+      - name: Config git user
         shell: bash
         run: |
-          if [ "${{ inputs.package }}" = "all" ]; then
-            git pull origin pre${{ inputs.version }}/system
-            git pull origin pre${{ inputs.version }}/expressive
-          fi
-          git pull origin pre${{ inputs.version }}/${{ inputs.package }}
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Pull prerelease branch
+        if: |
+          github.event_name == 'workflow_dispatch'
+          && (inputs.version != 'patch')
+          && (inputs.package != 'expressive')
+        shell: bash
+        run: git pull origin pre${{ inputs.version }}/system
 
       - name: Release @workday/canvas-system-icons-web
-        if: ${{ steps.determine.outputs.system-version }}
         uses: Workday/canvas-kit-actions/do-release@v1
         with:
           ghToken: ${{ secrets.GH_RW_TOKEN }}
           package: '@workday/canvas-system-icons-web'
           packagePath: packages/canvas-system-icons-web
-          version: ${{ steps.determine.outputs.system-version }}
+          version: ${{ needs.setup.outputs.system-version }}
           buildScript: yarn build:web:system
-          prerelease: ${{ steps.determine.outputs.prerelease }}
-          preid: ${{ steps.determine.outputs.preid }}
-          # skipGithubRelease: ${{ steps.determine.outputs.prerelease }}
-          releaseScript: echo "Skipping release for @workday/canvas-system-icons-web"
-          skipGithubRelease: true
-          skipPush: true
+          prerelease: ${{ needs.setup.outputs.preid != '' }}
+          preid: ${{ needs.setup.outputs.preid }}
+          skipGithubRelease: ${{ needs.setup.outputs.preid != '' }}
+          skipCreateTag: true
+
+  release-expressive:
+    needs: [setup, release-system]
+    if: |
+      always()
+      && (needs.release-system.result == 'success' || needs.release-system.result == 'skipped')
+      && needs.setup.outputs.expressive-version != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24.x
+
+      - name: Cache node modules
+        id: yarn-cache
+        uses: actions/cache/save@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
+
+      - name: Install Packages
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+        shell: bash
+        run: yarn install --production=false
+
+      - name: Upgrade npm for OIDC support
+        run: npm install -g npm@11.10.1
+
+      - name: Config git user
+        shell: bash
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Pull prerelease branch
+        if: |
+          github.event_name == 'workflow_dispatch'
+          && (inputs.version != 'patch')
+          && (inputs.package != 'system')
+        shell: bash
+        run: git pull origin pre${{ inputs.version }}/expressive
 
       - name: Release @workday/canvas-expressive-icons-web
-        if: ${{ steps.determine.outputs.expressive-version }}
         uses: Workday/canvas-kit-actions/do-release@v1
         with:
           ghToken: ${{ secrets.GH_RW_TOKEN }}
           package: '@workday/canvas-expressive-icons-web'
           packagePath: packages/canvas-expressive-icons-web
-          version: ${{ steps.determine.outputs.expressive-version }}
+          version: ${{ needs.setup.outputs.expressive-version }}
           buildScript: yarn build:web:expressive
-          prerelease: ${{ steps.determine.outputs.prerelease }}
-          preid: ${{ steps.determine.outputs.preid }}
-          # skipGithubRelease: ${{ steps.determine.outputs.prerelease }}
-          releaseScript: echo "Skipping release for @workday/canvas-expressive-icons-web"
-          skipGithubRelease: true
-          skipPush: true
+          prerelease: ${{ needs.setup.outputs.preid != '' }}
+          preid: ${{ needs.setup.outputs.preid }}
+          skipGithubRelease: ${{ needs.setup.outputs.preid != '' }}
+          skipCreateTag: true
