@@ -23,7 +23,7 @@
     "url": "https://github.com/Workday/canvas-icons"
   },
   "scripts": {
-    "build": "run-s clean build:base build:copy build:metadata build:js build:sprites",
+    "build": "run-s clean build:base build:copy build:js build:metadata build:sprites",
     "build:base": "nx build:system @workday/canvas-icons",
     "build:copy": "mkdir -p dist/svg && cp ../canvas-icons/dist/svg/system/*.svg ./dist/svg",
     "build:metadata": "run-p build:metadata:*",
