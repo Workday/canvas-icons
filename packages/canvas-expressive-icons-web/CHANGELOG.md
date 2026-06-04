@@ -1,5 +1,17 @@
 # @workday/canvas-expressive-icons-web
 
+## 1.1.0
+
+### Minor Changes
+
+  ### Icons
+  - feat: Add metadata files to packages ([#20](https://github.com/Workday/canvas-icons/pull/20))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+    
+  - ### Infrastructure
+    - chore: Add main branch action ([@RayRedGoose](https://github.com/RayRedGoose))
+    - chore: Add fixes for gh-pages ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 1.0.2
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@workday/canvas-system-icons-web",
-  "version": "4.0.5",
+  "version": "4.1.0",
   "description": "Workday system icons for web",
   "license": "CC-BY-ND-4.0",
   "author": "Workday, Inc. (https://www.workday.com)",
@@ -23,9 +23,12 @@
     "url": "https://github.com/Workday/canvas-icons"
   },
   "scripts": {
-    "build": "run-s clean build:base build:copy build:js build:sprites",
+    "build": "run-s clean build:base build:copy build:js build:metadata build:sprites",
     "build:base": "nx build:system @workday/canvas-icons",
     "build:copy": "mkdir -p dist/svg && cp ../canvas-icons/dist/svg/system/*.svg ./dist/svg",
+    "build:metadata": "run-p build:metadata:*",
+    "build:metadata:web": "mkdir -p dist/metadata && cp ../canvas-icons/system.metadata.json ./dist/metadata/system.metadata.json",
+    "build:metadata:deprecated": "mkdir -p dist/metadata && cp ../canvas-icons/system.deprecated.metadata.json ./dist/metadata/system.deprecated.metadata.json",
     "build:js": "nx run-many -t icon-es6 icon-commonjs -p @workday/canvas-system-icons-web",
     "build:sprites": "nx run-many -t sprites -p @workday/canvas-system-icons-web",
     "clean": "rimraf dist",
