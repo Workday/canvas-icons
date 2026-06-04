@@ -1,5 +1,17 @@
 # @workday/canvas-system-icons-web
 
+## 4.1.0
+
+### Minor Changes
+
+- ### Components
+  - chore: Add main branch action ([@RayRedGoose](https://github.com/RayRedGoose))
+  - chore: Add fixes for gh-pages ([@RayRedGoose](https://github.com/RayRedGoose))
+
+  ### Icons
+  - feat: Add metadata files to packages ([#20](https://github.com/Workday/canvas-icons/pull/20))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 4.0.5
 
 ### Patch Changes
