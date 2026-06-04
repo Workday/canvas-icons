@@ -175,10 +175,14 @@ jobs:
       && needs.setup.outputs.expressive-version != ''
     runs-on: ubuntu-latest
     steps:
+      # Check out the tip of the branch (not the triggering SHA) so we include
+      # any commit that release-system just pushed; otherwise this job's push
+      # will be rejected as "branch is not up to date".
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-node@v4
         with:

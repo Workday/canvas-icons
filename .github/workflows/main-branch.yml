@@ -41,6 +41,11 @@ jobs:
   deploy-docs:
     runs-on: ubuntu-latest
     needs: install
+    # Only one gh-pages deploy at a time. If a newer commit is already
+    # waiting in queue, drop the older one.
+    concurrency:
+      group: deploy-docs-gh-pages
+      cancel-in-progress: true
 
     steps:
       - uses: actions/checkout@v4
@@ -54,7 +59,20 @@ jobs:
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-  
+          # `deploy-nextra-to-pages` runs `git pull origin main` which is a merge.
+          # Pin a default pull strategy so newer git versions don't bail.
+          git config --global pull.rebase false
+
+      # Resync gh-pages with main BEFORE the deploy action runs its own
+      # `git pull origin main`. We prefer main's version on any conflict
+      # (the docs/ folder is unique to gh-pages and is preserved by the merge).
+      # After this step gh-pages == main's tip, so the action's pull is a no-op.
+      - name: Sync gh-pages with main
+        shell: bash
+        run: |
+          git fetch origin main
+          git merge origin/main --no-edit -X theirs
+
       - uses: actions/setup-node@v4
         with:
           node-version: 24.x
