@@ -45,12 +45,14 @@ const commitPattern = /^(?<type>\w+)(?:\((?<scope>[^()]+)\))?!?:/;
 const filePatterns = {
   shared: [/(?:^|\/)nx-plugin\//],
   system: [
+    /(?:^|\/)canvas-system-icons-web\//,
     /(?:^|\/)canvas-icons\/src\/system\//,
     /(?:^|\/)canvas-system-icons-web\//,
     /(?:^|\/)system\.metadata\.json$/,
     /(?:^|\/)system\.deprecated\.metadata\.json$/,
   ],
   expressive: [
+    /(?:^|\/)canvas-expressive-icons-web\//,
     /(?:^|\/)canvas-icons\/src\/expressive\//,
     /(?:^|\/)canvas-expressive-icons-web\//,
     /(?:^|\/)expressive\.metadata\.json$/,
