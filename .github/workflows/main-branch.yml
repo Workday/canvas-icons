@@ -63,6 +63,11 @@ jobs:
           # Pin a default pull strategy so newer git versions don't bail.
           git config --global pull.rebase false
 
+      - name: Remove docs folder prior build
+        shell: bash
+        run: |
+          rm -rf docs
+
       # Resync gh-pages with main BEFORE the deploy action runs its own
       # `git pull origin main`. We prefer main's version on any conflict
       # (the docs/ folder is unique to gh-pages and is preserved by the merge).
