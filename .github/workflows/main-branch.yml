@@ -95,7 +95,7 @@ jobs:
 
       - name: Build and Deploy Docs
         id: build-docs
-        uses: Workday/canvas-kit-actions/deploy-nextra-to-pages@v1
+        uses: Workday/canvas-kit-actions/deploy-nextra-to-pages@v2
         with:
           buildAssets: 'yarn build'
           buildDocs: 'yarn docs:build'

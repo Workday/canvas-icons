@@ -155,7 +155,7 @@ jobs:
         run: git pull origin pre${{ inputs.version }}/system
 
       - name: Release @workday/canvas-system-icons-web
-        uses: Workday/canvas-kit-actions/do-release@v1
+        uses: Workday/canvas-kit-actions/do-release@v2
         with:
           ghToken: ${{ secrets.GH_RW_TOKEN }}
           package: '@workday/canvas-system-icons-web'
@@ -218,7 +218,7 @@ jobs:
         run: git pull origin pre${{ inputs.version }}/expressive
 
       - name: Release @workday/canvas-expressive-icons-web
-        uses: Workday/canvas-kit-actions/do-release@v1
+        uses: Workday/canvas-kit-actions/do-release@v2
         with:
           ghToken: ${{ secrets.GH_RW_TOKEN }}
           package: '@workday/canvas-expressive-icons-web'
