@@ -22,7 +22,7 @@ jobs:
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -33,7 +33,7 @@ jobs:
 
       - name: Save cache
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -84,7 +84,7 @@ jobs:
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -121,7 +121,7 @@ jobs:
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -159,7 +159,7 @@ jobs:
           autoAcceptChanges: 'main'
 
       - name: Cache cypress modules
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: .cache/cypress
           key: ${{ runner.os }}-24.x-cypress-cache-15.x

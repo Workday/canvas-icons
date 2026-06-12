@@ -23,7 +23,7 @@ jobs:
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -34,7 +34,7 @@ jobs:
 
       - name: Save cache
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
