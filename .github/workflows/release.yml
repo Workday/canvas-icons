@@ -119,7 +119,7 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
           # Do NOT set registry-url - it creates token-based auth that conflicts with OIDC
@@ -184,7 +184,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.ref }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
 
