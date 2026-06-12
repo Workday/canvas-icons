@@ -44,7 +44,7 @@ jobs:
       expressive-version: ${{ steps.determine.outputs.expressive-version }}
       preid: ${{ steps.determine.outputs.preid }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
           fetch-depth: 0 # Used for conventional commit ranges
@@ -114,7 +114,7 @@ jobs:
       ## We don't persist credentials because we need a Personal Access Token to
       ## push on a branch that is protected. See
       ## https://github.com/cycjimmy/semantic-release-action#basic-usage
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
           fetch-depth: 0
@@ -178,7 +178,7 @@ jobs:
       # Check out the tip of the branch (not the triggering SHA) so we include
       # any commit that release-system just pushed; otherwise this job's push
       # will be rejected as "branch is not up to date".
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
           fetch-depth: 0
