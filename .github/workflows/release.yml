@@ -44,14 +44,14 @@ jobs:
       expressive-version: ${{ steps.determine.outputs.expressive-version }}
       preid: ${{ steps.determine.outputs.preid }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
           fetch-depth: 0 # Used for conventional commit ranges
 
       - name: Cache node modules
         id: yarn-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -63,7 +63,7 @@ jobs:
 
       - name: Save cache
         if: steps.yarn-cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -114,19 +114,19 @@ jobs:
       ## We don't persist credentials because we need a Personal Access Token to
       ## push on a branch that is protected. See
       ## https://github.com/cycjimmy/semantic-release-action#basic-usage
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
           # Do NOT set registry-url - it creates token-based auth that conflicts with OIDC
 
       - name: Cache node modules
         id: yarn-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -155,7 +155,7 @@ jobs:
         run: git pull origin pre${{ inputs.version }}/system
 
       - name: Release @workday/canvas-system-icons-web
-        uses: Workday/canvas-kit-actions/do-release@v1
+        uses: Workday/canvas-kit-actions/do-release@v2
         with:
           ghToken: ${{ secrets.GH_RW_TOKEN }}
           package: '@workday/canvas-system-icons-web'
@@ -178,19 +178,19 @@ jobs:
       # Check out the tip of the branch (not the triggering SHA) so we include
       # any commit that release-system just pushed; otherwise this job's push
       # will be rejected as "branch is not up to date".
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           persist-credentials: false
           fetch-depth: 0
           ref: ${{ github.ref }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: yarn-cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -218,7 +218,7 @@ jobs:
         run: git pull origin pre${{ inputs.version }}/expressive
 
       - name: Release @workday/canvas-expressive-icons-web
-        uses: Workday/canvas-kit-actions/do-release@v1
+        uses: Workday/canvas-kit-actions/do-release@v2
         with:
           ghToken: ${{ secrets.GH_RW_TOKEN }}
           package: '@workday/canvas-expressive-icons-web'
