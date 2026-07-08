@@ -10,19 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: main
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -33,7 +33,7 @@ jobs:
 
       - name: Save cache
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -48,7 +48,7 @@ jobs:
       cancel-in-progress: true
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: gh-pages
@@ -78,13 +78,13 @@ jobs:
           git fetch origin main
           git merge origin/main --no-edit -X theirs
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -95,7 +95,7 @@ jobs:
 
       - name: Build and Deploy Docs
         id: build-docs
-        uses: Workday/canvas-kit-actions/deploy-nextra-to-pages@v1
+        uses: Workday/canvas-kit-actions/deploy-nextra-to-pages@v2
         with:
           buildAssets: 'yarn build'
           buildDocs: 'yarn docs:build'
@@ -110,18 +110,18 @@ jobs:
     needs: install
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -159,7 +159,7 @@ jobs:
           autoAcceptChanges: 'main'
 
       - name: Cache cypress modules
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: .cache/cypress
           key: ${{ runner.os }}-24.x-cypress-cache-15.x
