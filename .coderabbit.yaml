@@ -12,6 +12,5 @@ reviews:
     enabled: true
     drafts: false
     base_branches: ['prerelease/.*', 'preminor/.*', 'premajor/.*']
-    labels: ['ready for review']
 chat:
   auto_reply: true
