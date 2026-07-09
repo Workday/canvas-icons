@@ -2304,48 +2304,6 @@
     ]
   },
   {
-    "category": "Data Stream",
-    "description": "",
-    "figmaName": "Chevron Hierarchy",
-    "filename": "wd-icon-hierarchy-chevron.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "hierarchy-chevron",
-    "tags": [
-      "hierarchy",
-      "order",
-      "organize",
-      "arrange",
-      "sort",
-      "classify",
-      "categorize",
-      "analytics",
-      "node",
-      "parent",
-      "child"
-    ]
-  },
-  {
-    "category": "Data Stream",
-    "description": "",
-    "figmaName": "Chevron Hierarchy Open",
-    "filename": "wd-icon-hierarchy-chevron-open.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "hierarchy-chevron-open",
-    "tags": [
-      "hierarchy",
-      "order",
-      "organize",
-      "arrange",
-      "sort",
-      "classify",
-      "categorize",
-      "analytics",
-      "node",
-      "parent",
-      "child"
-    ]
-  },
-  {
     "author": "",
     "category": "Navigation",
     "description": "",
@@ -3066,6 +3024,36 @@
       "reply",
       "message",
       "planning"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Comment Sparkle",
+    "filename": "wd-icon-comment-sparkle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "comment-sparkle",
+    "tags": [
+      "ai",
+      "star",
+      "twinkle",
+      "shine",
+      "magic",
+      "AI",
+      "artificial",
+      "intelligence",
+      "generate",
+      "quick",
+      "quicktips",
+      "help",
+      "ML",
+      "ask",
+      "talk",
+      "chat",
+      "communcation",
+      "bubble",
+      "comment"
     ]
   },
   {
@@ -5092,6 +5080,48 @@
     ]
   },
   {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Chevron Hierarchy",
+    "filename": "wd-icon-hierarchy-chevron.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "hierarchy-chevron",
+    "tags": [
+      "hierarchy",
+      "order",
+      "organize",
+      "arrange",
+      "sort",
+      "classify",
+      "categorize",
+      "analytics",
+      "node",
+      "parent",
+      "child"
+    ]
+  },
+  {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Chevron Hierarchy Open",
+    "filename": "wd-icon-hierarchy-chevron-open.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "hierarchy-chevron-open",
+    "tags": [
+      "hierarchy",
+      "order",
+      "organize",
+      "arrange",
+      "sort",
+      "classify",
+      "categorize",
+      "analytics",
+      "node",
+      "parent",
+      "child"
+    ]
+  },
+  {
     "author": "",
     "category": "Data Stream",
     "description": "",
@@ -5787,6 +5817,19 @@
   },
   {
     "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "List",
+    "filename": "wd-icon-list.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "list",
+    "tags": [
+      "bullet",
+      "list"
+    ]
+  },
+  {
+    "author": "",
     "category": "Editor",
     "description": "",
     "figmaName": "List Bullet",
@@ -5875,19 +5918,7 @@
       "unordered",
       "numbered"
     ]
-  },{
-    "author": "",
-    "category": "Core",
-    "description": "",
-    "figmaName": "List",
-    "filename": "wd-icon-list.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "list",
-    "tags": [
-      "bullet", "list"
-    ]
   },
-
   {
     "author": "",
     "category": "Objects",
@@ -7605,6 +7636,26 @@
   },
   {
     "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Sana",
+    "filename": "wd-icon-sana.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sana",
+    "tags": [
+      "logo",
+      "company",
+      "brand",
+      "wd",
+      "identifier",
+      "mark",
+      "ai",
+      "intelligence",
+      "agent"
+    ]
+  },
+  {
+    "author": "",
     "category": "Editor",
     "description": "",
     "figmaName": "Save",
@@ -7614,26 +7665,6 @@
     "tags": [
       "save",
       "planning"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Core",
-    "description": "",
-    "figmaName": "Sana",
-    "filename": "wd-icon-sana.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "sana",
-    "tags": [
-      "logo", 
-      "company", 
-      "brand", 
-      "wd", 
-      "identifier", 
-      "mark", 
-      "ai", 
-      "intelligence", 
-      "agent"
     ]
   },
   {
@@ -9367,11 +9398,11 @@
     "maintainer": "Canvas Design System Team",
     "name": "workday",
     "tags": [
-      "dub", 
-      "logo", 
-      "company", 
-      "brand", 
-      "WD", 
+      "dub",
+      "logo",
+      "company",
+      "brand",
+      "WD",
       "identifier"
     ]
   },
