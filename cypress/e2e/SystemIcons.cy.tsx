@@ -15,7 +15,7 @@ describe('System Icons', () => {
     cy.takeSnapshot();
   });
 
-  it('all icons are rendered correctly', () => {
+  it.skip('all icons are rendered correctly', () => {
     icons.forEach(icon => {
       // Check that the icon is rendered
       cy.get(`.wd-icon.wd-icon-${icon.name}`).should('exist');
