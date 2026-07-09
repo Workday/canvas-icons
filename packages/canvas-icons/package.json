@@ -4,8 +4,11 @@
   "description": "Canvas icons package to store all icons for the canvas system",
   "author": "Workday, Inc. (https://www.workday.com)",
   "contributors": [
+    "Alan Smith",
+    "Josh Bagwell",
+    "Manuel Carrera",
     "Raisa Primerova",
-    "Alan Smith"
+    "Sheelah Brennan"
   ],
   "license": "CC-BY-ND-4.0",
   "scripts": {
