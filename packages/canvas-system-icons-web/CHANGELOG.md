@@ -1,16 +1,38 @@
 # @workday/canvas-system-icons-web
 
+## 4.2.0
+
+### Minor Changes
+
+- ### Components
+  - chore: Fix docs ([@RayRedGoose](https://github.com/RayRedGoose))
+  - chore: Update deprecated GH Actions ([#23](https://github.com/Workday/canvas-icons/pull/23))
+    ([@alanbsmith](https://github.com/alanbsmith))
+  - chore Remove 'ready for review' label from auto review
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
+  ### Icons
+  - feat(system): Add icon ([#29](https://github.com/Workday/canvas-icons/pull/29))
+    ([@RayRedGoose](https://github.com/RayRedGoose)) The icon has been added to the system icons
+    library.
+
+  ### Infrastructure
+  - chore: Update GHA to prevent failures ([#21](https://github.com/Workday/canvas-icons/pull/21))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+  - chore: Update package.json ([#28](https://github.com/Workday/canvas-icons/pull/28))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 4.1.0
 
 ### Minor Changes
 
-  ### Icons
-  - feat: Add metadata files to packages ([#20](https://github.com/Workday/canvas-icons/pull/20))
-    ([@RayRedGoose](https://github.com/RayRedGoose))
-    
-  - ### Infrastructure
-    - chore: Add main branch action ([@RayRedGoose](https://github.com/RayRedGoose))
-    - chore: Add fixes for gh-pages ([@RayRedGoose](https://github.com/RayRedGoose))
+### Icons
+
+- feat: Add metadata files to packages ([#20](https://github.com/Workday/canvas-icons/pull/20))
+  ([@RayRedGoose](https://github.com/RayRedGoose))
+- ### Infrastructure
+  - chore: Add main branch action ([@RayRedGoose](https://github.com/RayRedGoose))
+  - chore: Add fixes for gh-pages ([@RayRedGoose](https://github.com/RayRedGoose))
 
 ## 4.0.5
 
