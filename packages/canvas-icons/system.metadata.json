@@ -11978,6 +11978,35 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Team Fill",
+    "filename": "wd-icon-team-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "team-fill",
+    "tags": [
+      "team",
+      "children",
+      "filled",
+      "sub-team"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Terminal",
+    "filename": "wd-icon-terminal.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "terminal",
+    "tags": [
+      "code",
+      "command",
+      "terminal",
+      "command line",
+      "bash"
+    ]
+  },
+  {
     "author": "",
     "category": "Editor",
     "description": "",
@@ -12046,6 +12075,19 @@
     ]
   },
   {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Text Paragraph",
+    "filename": "wd-icon-text-paragraph.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "text-paragraph",
+    "tags": [
+      "text",
+      "new paragraph",
+      "new line"
+    ]
+  },
+  {
     "author": "",
     "category": "Editor",
     "description": "",
@@ -12109,6 +12151,19 @@
       "stroke",
       "border",
       "positive"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Thumbs Up Down",
+    "filename": "wd-icon-thumbs-up-down.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "thumbs-up-down",
+    "tags": [
+      "dislike",
+      "like",
+      "reaction"
     ]
   },
   {
@@ -12263,6 +12318,18 @@
     ]
   },
   {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "TXT",
+    "filename": "wd-icon-txt.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "txt",
+    "tags": [
+      "filetype",
+      "text"
+    ]
+  },
+  {
     "author": "",
     "category": "Editor",
     "description": "",
@@ -12388,6 +12455,35 @@
       "avatar",
       "complete",
       "scout"
+    ]
+  },
+  {
+    "category": "People",
+    "description": "",
+    "figmaName": "User Circle",
+    "filename": "wd-icon-user-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "user-circle",
+    "tags": [
+      "person",
+      "user",
+      "avatar",
+      "filled",
+      "circle"
+    ]
+  },
+  {
+    "category": "People",
+    "description": "",
+    "figmaName": "User Fill",
+    "filename": "wd-icon-user-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "user-fill",
+    "tags": [
+      "person",
+      "user",
+      "avatar",
+      "filled"
     ]
   },
   {
@@ -12735,6 +12831,35 @@
     ]
   },
   {
+    "category": "Mobile App",
+    "description": "",
+    "figmaName": "Wi-Fi",
+    "filename": "wd-icon-wi-fi.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "wi-fi",
+    "tags": [
+      "wifi",
+      "signal",
+      "internet"
+    ]
+  },
+  {
+    "category": "Mobile App",
+    "description": "",
+    "figmaName": "Wi-Fi Exclamation",
+    "filename": "wd-icon-wi-fi-exclamation.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "wi-fi-exclamation",
+    "tags": [
+      "wifi",
+      "signal",
+      "internet",
+      "important",
+      "error",
+      "alert"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -12765,6 +12890,17 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Workflow",
+    "filename": "wd-icon-workflow.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "workflow",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -12790,6 +12926,21 @@
       "close",
       "exit",
       "X"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "X Circle Fill",
+    "filename": "wd-icon-x-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "x-circle-fill",
+    "tags": [
+      "x",
+      "cross",
+      "remove",
+      "circle",
+      "filled"
     ]
   },
   {
