@@ -10,19 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           ref: main
           persist-credentials: false
           fetch-depth: 0
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v5
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -33,7 +33,7 @@ jobs:
 
       - name: Save cache
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -48,7 +48,7 @@ jobs:
       cancel-in-progress: true
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: gh-pages
@@ -78,13 +78,13 @@ jobs:
           git fetch origin main
           git merge origin/main --no-edit -X theirs
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v5
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -110,18 +110,18 @@ jobs:
     needs: install
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
           node-version: 24.x
 
       - name: Cache node modules
         id: cache
-        uses: actions/cache@v5
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: node_modules
           key: ${{ runner.os }}-24.x-node-modules-hash-${{ hashFiles('yarn.lock') }}
@@ -136,7 +136,7 @@ jobs:
           echo "last_commit_message=$(git log -1 --pretty=%s)" >> "$GITHUB_OUTPUT"
 
       - name: Cypress run
-        uses: cypress-io/github-action@v7
+        uses: cypress-io/github-action@fa4a118725a8f001170d49631ea89e5d66fee626 # v7.4.1
         with:
           start: yarn cy:app
           wait-on: 'http://localhost:4173'
@@ -150,7 +150,7 @@ jobs:
           COMMIT_INFO_SHA: ${{github.event.pull_request.head.sha}}
           ELECTRON_EXTRA_LAUNCH_ARGS: --remote-debugging-port=9222
 
-      - uses: chromaui/action@v17
+      - uses: chromaui/action@94713c544284a14195de3b50ef24301579f1877e # v18.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: chpt_fb013199850d822
@@ -159,7 +159,7 @@ jobs:
           autoAcceptChanges: 'main'
 
       - name: Cache cypress modules
-        uses: actions/cache/save@v5
+        uses: actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: .cache/cypress
           key: ${{ runner.os }}-24.x-cypress-cache-15.x
