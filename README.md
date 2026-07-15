@@ -4,7 +4,7 @@ _Canvas system and expressive icons_
 
 ## Overview
 
-This repository builds system and expressive assets.
+This repository builds system and expressive icons.
 
 ## License
 
