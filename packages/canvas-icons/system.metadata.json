@@ -10211,6 +10211,48 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Rectangle Arrow Up",
+    "filename": "wd-icon-rectangle-arrow-up.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rectangle-arrow-up",
+    "tags": [
+      "rectangle",
+      "screen",
+      "layout",
+      "add",
+      "download"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Rectangle Split",
+    "filename": "wd-icon-rectangle-split.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rectangle-split",
+    "tags": [
+      "screen",
+      "split",
+      "line"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Rectangle User",
+    "filename": "wd-icon-rectangle-user.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rectangle-user",
+    "tags": [
+      "rectangle",
+      "screen",
+      "layout",
+      "user"
+    ]
+  },
+  {
     "author": "",
     "category": "Navigation",
     "description": "",
@@ -10505,6 +10547,20 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Revert",
+    "filename": "wd-icon-revert.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "revert",
+    "tags": [
+      "revert",
+      "arrow",
+      "back",
+      "undo"
+    ]
+  },
+  {
     "author": "",
     "category": "Audio Visual",
     "description": "",
@@ -10694,6 +10750,32 @@
     ]
   },
   {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Scribble",
+    "filename": "wd-icon-scribble.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "scribble",
+    "tags": [
+      "scribble",
+      "draw",
+      "pen"
+    ]
+  },
+  {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Scribble Thick",
+    "filename": "wd-icon-scribble-thick.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "scribble-thick",
+    "tags": [
+      "scribble",
+      "draw",
+      "pen"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -10797,6 +10879,23 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Shapes Plus",
+    "filename": "wd-icon-shapes-plus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shapes-plus",
+    "tags": [
+      "square",
+      "circle",
+      "triangle",
+      "flat",
+      "plus",
+      "add",
+      "grid"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -10810,6 +10909,50 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Shield Check",
+    "filename": "wd-icon-shield-check.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shield-check",
+    "tags": [
+      "success",
+      "checkmark",
+      "protection",
+      "security"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Shield Exclamation",
+    "filename": "wd-icon-shield-exclamation.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shield-exclamation",
+    "tags": [
+      "important",
+      "alert",
+      "error",
+      "protection",
+      "security"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Shield Exclamation Fill",
+    "filename": "wd-icon-shield-exclamation-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shield-exclamation-fill",
+    "tags": [
+      "important",
+      "alert",
+      "error",
+      "protection",
+      "security"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -10820,6 +10963,21 @@
     "tags": [
       "shield",
       "heart"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Shield Life",
+    "filename": "wd-icon-shield-life.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shield-life",
+    "tags": [
+      "protection",
+      "security",
+      "star of life",
+      "health",
+      "medicine"
     ]
   },
   {
@@ -10872,6 +11030,20 @@
       "coop",
       "cooperate",
       "merge"
+    ]
+  },
+  {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Shuffle",
+    "filename": "wd-icon-shuffle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shuffle",
+    "tags": [
+      "branches",
+      "mixing",
+      "shuffle",
+      "dual"
     ]
   },
   {
@@ -11146,6 +11318,48 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Sparkle Badge",
+    "filename": "wd-icon-sparkle-badge.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sparkle-badge",
+    "tags": [
+      "AI",
+      "sparkle",
+      "badge"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Sparkle Focus",
+    "filename": "wd-icon-sparkle-focus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sparkle-focus",
+    "tags": [
+      "sparkle",
+      "AI",
+      "focus",
+      "viewfinder"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Sparkle Focus Split",
+    "filename": "wd-icon-sparkle-focus-split.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sparkle-focus-split",
+    "tags": [
+      "AI",
+      "sparkle",
+      "focus",
+      "viewfinder",
+      "split"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -11179,6 +11393,20 @@
     ]
   },
   {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Split Down",
+    "filename": "wd-icon-split-down.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "split-down",
+    "tags": [
+      "branches",
+      "separation",
+      "split",
+      "dual"
+    ]
+  },
+  {
     "author": "",
     "category": "Data Stream",
     "description": "",
@@ -11189,6 +11417,19 @@
     "tags": [
       "branch",
       "dual"
+    ]
+  },
+  {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Split Up",
+    "filename": "wd-icon-split-up.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "split-up",
+    "tags": [
+      "branches",
+      "split",
+      "separation"
     ]
   },
   {
@@ -11214,6 +11455,50 @@
     "tags": [
       "add",
       "square"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Square Pointer",
+    "filename": "wd-icon-square-pointer.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "square-pointer",
+    "tags": [
+      "selection",
+      "select arean",
+      "pointer"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Square Pointer Dashed",
+    "filename": "wd-icon-square-pointer-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "square-pointer-dashed",
+    "tags": [
+      "square",
+      "dashed",
+      "template",
+      "selection",
+      "select area"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Square Search Dashed",
+    "filename": "wd-icon-square-search-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "square-search-dashed",
+    "tags": [
+      "zoom area",
+      "magnifier",
+      "square",
+      "dashed",
+      "template",
+      "selection"
     ]
   },
   {
@@ -11274,6 +11559,84 @@
       "rank",
       "rating",
       "save"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Stop",
+    "filename": "wd-icon-stop.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "stop",
+    "tags": [
+      "stop",
+      "square",
+      "video",
+      "media",
+      "media control"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Stop Circle",
+    "filename": "wd-icon-stop-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "stop-circle",
+    "tags": [
+      "stop",
+      "square",
+      "video",
+      "media",
+      "media control",
+      "circle"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Stop Circle Fill",
+    "filename": "wd-icon-stop-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "stop-circle-fill",
+    "tags": [
+      "stop",
+      "square",
+      "video",
+      "media",
+      "media control",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Stop Small",
+    "filename": "wd-icon-stop-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "stop-small",
+    "tags": [
+      "stop",
+      "square",
+      "video",
+      "media",
+      "media control",
+      "small"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Stopwatch",
+    "filename": "wd-icon-stopwatch.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "stopwatch",
+    "tags": [
+      "stopwatch",
+      "seconds",
+      "time",
+      "clock"
     ]
   },
   {
@@ -11362,6 +11725,20 @@
       "sun",
       "brightness",
       "light"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Sun Min",
+    "filename": "wd-icon-sun-min.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sun-min",
+    "tags": [
+      "brightness",
+      "minimum",
+      "min",
+      "dim"
     ]
   },
   {
