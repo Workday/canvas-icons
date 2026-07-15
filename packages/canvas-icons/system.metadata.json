@@ -5118,6 +5118,23 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Dashboard Grid Plus",
+    "filename": "wd-icon-dashboard-grid-plus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "dashboard-grid-plus",
+    "tags": [
+      "home",
+      "reports",
+      "page",
+      "template",
+      "deisgner",
+      "add",
+      "plus"
+    ]
+  },
+  {
     "author": "",
     "category": "Data Stream",
     "description": "",
@@ -5281,6 +5298,33 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Diamond Gem",
+    "filename": "wd-icon-diamond-gem.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "diamond-gem",
+    "tags": [
+      "diamond",
+      "gem",
+      "stone"
+    ]
+  },
+  {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Distribute",
+    "filename": "wd-icon-distribute.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "distribute",
+    "tags": [
+      "branch",
+      "dual",
+      "split",
+      "down"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -5293,6 +5337,23 @@
       "doc",
       "report",
       "word"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Blank",
+    "filename": "wd-icon-document-blank.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-blank",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "blank",
+      "empty"
     ]
   },
   {
@@ -5339,6 +5400,23 @@
     ]
   },
   {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Dashed",
+    "filename": "wd-icon-document-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-dashed",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "dashed",
+      "virtual version"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -5368,6 +5446,23 @@
       "paper",
       "doc",
       "document"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Face Unhappy",
+    "filename": "wd-icon-document-face-unhappy.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-face-unhappy",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "sad face",
+      "bad"
     ]
   },
   {
@@ -5417,6 +5512,24 @@
     ]
   },
   {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Image",
+    "filename": "wd-icon-document-image.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-image",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "image",
+      "rich",
+      "attachment"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -5456,6 +5569,43 @@
       "doc",
       "secure",
       "planning"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Lock Dashed",
+    "filename": "wd-icon-document-lock-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-lock-dashed",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "dashed",
+      "virtual version",
+      "locked",
+      "secured"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Plus",
+    "filename": "wd-icon-document-plus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-plus",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "blank",
+      "plus",
+      "add"
     ]
   },
   {
@@ -5706,6 +5856,23 @@
     ]
   },
   {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Zip",
+    "filename": "wd-icon-document-zip.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-zip",
+    "tags": [
+      "file",
+      "doc",
+      "report",
+      "word",
+      "document",
+      "ZIP",
+      "compressed"
+    ]
+  },
+  {
     "author": "",
     "category": "Objects",
     "description": "",
@@ -5718,6 +5885,21 @@
       "cash",
       "currency",
       "budget"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Dollar Sign Circle",
+    "filename": "wd-icon-dollar-sign-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "dollar-sign-circle",
+    "tags": [
+      "money",
+      "cash",
+      "currency",
+      "budget",
+      "circle"
     ]
   },
   {
@@ -5770,6 +5952,34 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Door Open Left",
+    "filename": "wd-icon-door-open-left.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "door-open-left",
+    "tags": [
+      "enter",
+      "left",
+      "door",
+      "entrance"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Door Open Right",
+    "filename": "wd-icon-door-open-right.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "door-open-right",
+    "tags": [
+      "enter",
+      "right",
+      "door",
+      "entrance"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -5780,6 +5990,20 @@
     "tags": [
       "circle",
       "planning"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Double Line",
+    "filename": "wd-icon-double-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "double-line",
+    "tags": [
+      "menu",
+      "dual",
+      "double",
+      "lines"
     ]
   },
   {
