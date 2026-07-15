@@ -7302,6 +7302,19 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Hand Raised",
+    "filename": "wd-icon-hand-raised.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "hand-raised",
+    "tags": [
+      "reaction",
+      "ask",
+      "question"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -7329,6 +7342,37 @@
       "page",
       "template",
       "designer"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Heart",
+    "filename": "wd-icon-heart.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "heart",
+    "tags": [
+      "heart",
+      "health",
+      "love",
+      "like",
+      "reaction"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Heart Fill",
+    "filename": "wd-icon-heart-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "heart-fill",
+    "tags": [
+      "health",
+      "heart",
+      "like",
+      "love",
+      "reaction",
+      "filled"
     ]
   },
   {
@@ -7613,6 +7657,20 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Home Fill",
+    "filename": "wd-icon-home-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "home-fill",
+    "tags": [
+      "home",
+      "main",
+      "navigation",
+      "filled"
+    ]
+  },
+  {
     "author": "",
     "category": "Objects",
     "description": "",
@@ -7671,6 +7729,18 @@
     ]
   },
   {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Image Fill",
+    "filename": "wd-icon-image-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "image-fill",
+    "tags": [
+      "image",
+      "fill"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -7694,6 +7764,22 @@
     "filename": "wd-icon-inbox.svg",
     "maintainer": "Canvas Design System Team",
     "name": "inbox",
+    "tags": [
+      "notification",
+      "header",
+      "mail",
+      "email",
+      "send",
+      "receive"
+    ]
+  },
+  {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Inbox Fill",
+    "filename": "wd-icon-inbox-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "inbox-fill",
     "tags": [
       "notification",
       "header",
@@ -7854,6 +7940,18 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Join Dashed",
+    "filename": "wd-icon-join-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "join-dashed",
+    "tags": [
+      "circles",
+      "dashed"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -7931,6 +8029,58 @@
       "opposite",
       "boolean",
       "start"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Key Command",
+    "filename": "wd-icon-key-command.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "key-command",
+    "tags": [
+      "key",
+      "cmd",
+      "command",
+      "win"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Key Control",
+    "filename": "wd-icon-key-control.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "key-control",
+    "tags": [
+      "key",
+      "ctrl",
+      "control"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Key Option",
+    "filename": "wd-icon-key-option.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "key-option",
+    "tags": [
+      "key",
+      "option",
+      "alt"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Key Shift",
+    "filename": "wd-icon-key-shift.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "key-shift",
+    "tags": [
+      "key",
+      "shift"
     ]
   },
   {
@@ -8030,6 +8180,19 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Life Preserver",
+    "filename": "wd-icon-life-preserver.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "life-preserver",
+    "tags": [
+      "safety",
+      "lifesaver",
+      "help"
+    ]
+  },
+  {
     "author": "",
     "category": "Objects",
     "description": "",
@@ -8057,6 +8220,105 @@
       "charting",
       "graph",
       "nodes"
+    ]
+  },
+  {
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Line Chart Anomaly",
+    "filename": "wd-icon-line-chart-anomaly.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-chart-anomaly",
+    "tags": [
+      "data vis",
+      "data viz",
+      "data visualization",
+      "charting",
+      "graph",
+      "nodes",
+      "anomaly",
+      "detection"
+    ]
+  },
+  {
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Line Chart Arrow",
+    "filename": "wd-icon-line-chart-arrow.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-chart-arrow",
+    "tags": [
+      "data vis",
+      "data viz",
+      "data visualization",
+      "charting",
+      "graph",
+      "nodes",
+      "arrow"
+    ]
+  },
+  {
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Line Chart Dashed",
+    "filename": "wd-icon-line-chart-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-chart-dashed",
+    "tags": [
+      "data vis",
+      "data viz",
+      "data visualization",
+      "charting",
+      "graph",
+      "nodes",
+      "dashed"
+    ]
+  },
+  {
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Line Chart Double",
+    "filename": "wd-icon-line-chart-double.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-chart-double",
+    "tags": [
+      "data vis",
+      "data viz",
+      "data visualization",
+      "charting",
+      "graph",
+      "nodes",
+      "dual line",
+      "lines",
+      "two"
+    ]
+  },
+  {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Line Spacing Grow",
+    "filename": "wd-icon-line-spacing-grow.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-spacing-grow",
+    "tags": [
+      "line spacing",
+      "line height",
+      "grow",
+      "increase"
+    ]
+  },
+  {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Line Spacing Shrink",
+    "filename": "wd-icon-line-spacing-shrink.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-spacing-shrink",
+    "tags": [
+      "line spacing",
+      "line height",
+      "shrink",
+      "decrease"
     ]
   },
   {
@@ -8277,6 +8539,22 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Lock Open",
+    "filename": "wd-icon-lock-open.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "lock-open",
+    "tags": [
+      "security",
+      "secure",
+      "protect",
+      "protected",
+      "padlock",
+      "safety"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -8306,6 +8584,17 @@
       "sync",
       "template",
       "designer"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Loupe",
+    "filename": "wd-icon-loupe.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "loupe",
+    "tags": [
+      "loope"
     ]
   },
   {
