@@ -1,5 +1,13 @@
 # @workday/canvas-system-icons-web
 
+## 5.0.0-alpha.1
+
+### Major Changes
+
+- ### System Icons
+  - feat: Add v5 Sana Canvas icons ([#38](https://github.com/Workday/canvas-icons/pull/38))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 4.2.0
 
 ### Minor Changes
