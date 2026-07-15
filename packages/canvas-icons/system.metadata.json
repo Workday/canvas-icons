@@ -8756,6 +8756,18 @@
     ]
   },
   {
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Merge Down",
+    "filename": "wd-icon-merge-down.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "merge-down",
+    "tags": [
+      "unify",
+      "branches"
+    ]
+  },
+  {
     "author": "",
     "category": "Data Stream",
     "description": "",
@@ -8811,6 +8823,47 @@
       "subtract",
       "math",
       "equation"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Minus Circle Fill",
+    "filename": "wd-icon-minus-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "minus-circle-fill",
+    "tags": [
+      "minus",
+      "circle",
+      "remove",
+      "filled"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Minus Square",
+    "filename": "wd-icon-minus-square.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "minus-square",
+    "tags": [
+      "minus",
+      "square",
+      "remove"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Minus Square Fill",
+    "filename": "wd-icon-minus-square-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "minus-square-fill",
+    "tags": [
+      "minus",
+      "square",
+      "remove",
+      "filled"
     ]
   },
   {
@@ -8975,6 +9028,41 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Next",
+    "filename": "wd-icon-next.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "next",
+    "tags": [
+      "play",
+      "next",
+      "skip",
+      "triangle",
+      "video",
+      "media",
+      "media control"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Next Small",
+    "filename": "wd-icon-next-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "next-small",
+    "tags": [
+      "play",
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "small",
+      "skip",
+      "next"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -8999,6 +9087,20 @@
       "notification",
       "alert",
       "bell"
+    ]
+  },
+  {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Notifications Active",
+    "filename": "wd-icon-notifications-active.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "notifications-active",
+    "tags": [
+      "bell",
+      "active",
+      "notifications",
+      "unread"
     ]
   },
   {
@@ -9253,6 +9355,73 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Pause Circle",
+    "filename": "wd-icon-pause-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pause-circle",
+    "tags": [
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "circle",
+      "pause"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Pause Circle Dashed",
+    "filename": "wd-icon-pause-circle-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pause-circle-dashed",
+    "tags": [
+      "play",
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "circle",
+      "dashed",
+      "pause"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Pause Circle Fill",
+    "filename": "wd-icon-pause-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pause-circle-fill",
+    "tags": [
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "circle",
+      "filled",
+      "pause"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Pause Small",
+    "filename": "wd-icon-pause-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pause-small",
+    "tags": [
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "small",
+      "pause"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -9263,6 +9432,22 @@
     "tags": [
       "document",
       "doc"
+    ]
+  },
+  {
+    "category": "People",
+    "description": "",
+    "figmaName": "Peers",
+    "filename": "wd-icon-peers.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "peers",
+    "tags": [
+      "peers",
+      "users",
+      "people",
+      "person",
+      "team",
+      "group"
     ]
   },
   {
@@ -9445,6 +9630,56 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Play Circle Dashed",
+    "filename": "wd-icon-play-circle-dashed.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "play-circle-dashed",
+    "tags": [
+      "play",
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "circle",
+      "dashed"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Play Circle Fill",
+    "filename": "wd-icon-play-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "play-circle-fill",
+    "tags": [
+      "play",
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Play Small",
+    "filename": "wd-icon-play-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "play-small",
+    "tags": [
+      "play",
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "small"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -9491,6 +9726,20 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Plus Circle Fill",
+    "filename": "wd-icon-plus-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "plus-circle-fill",
+    "tags": [
+      "plus",
+      "circle",
+      "add",
+      "filled"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -9503,6 +9752,77 @@
       "positive",
       "new",
       "start"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Plus Square",
+    "filename": "wd-icon-plus-square.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "plus-square",
+    "tags": [
+      "plus",
+      "square",
+      "add"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Plus Square Fill",
+    "filename": "wd-icon-plus-square-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "plus-square-fill",
+    "tags": [
+      "plus",
+      "square",
+      "add",
+      "filled"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Pointer",
+    "filename": "wd-icon-pointer.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pointer",
+    "tags": [
+      "pointer",
+      "cursor",
+      "mouse"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Pointer Up",
+    "filename": "wd-icon-pointer-up.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pointer-up",
+    "tags": [
+      "navigation",
+      "location",
+      "compass",
+      "GPS",
+      "tracker",
+      "north"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Pointer Up Right",
+    "filename": "wd-icon-pointer-up-right.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pointer-up-right",
+    "tags": [
+      "navigation",
+      "location",
+      "compass",
+      "GPS",
+      "tracker"
     ]
   },
   {
@@ -9538,6 +9858,65 @@
     ]
   },
   {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Presentation",
+    "filename": "wd-icon-presentation.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "presentation",
+    "tags": [
+      "easel",
+      "media",
+      "presentation",
+      "show"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Presentation Chart",
+    "filename": "wd-icon-presentation-chart.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "presentation-chart",
+    "tags": [
+      "easel",
+      "chart",
+      "media",
+      "presentation",
+      "show"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Presentation Image",
+    "filename": "wd-icon-presentation-image.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "presentation-image",
+    "tags": [
+      "easel",
+      "media",
+      "presentation",
+      "show",
+      "image"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Presentation Play",
+    "filename": "wd-icon-presentation-play.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "presentation-play",
+    "tags": [
+      "easel",
+      "play",
+      "media",
+      "presentation",
+      "show"
+    ]
+  },
+  {
     "author": "",
     "category": "Audio Visual",
     "description": "",
@@ -9550,6 +9929,23 @@
       "media control",
       "previous",
       "video"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Previous Small",
+    "filename": "wd-icon-previous-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "previous-small",
+    "tags": [
+      "play",
+      "triangle",
+      "video",
+      "media",
+      "media control",
+      "small",
+      "back"
     ]
   },
   {
@@ -9576,6 +9972,18 @@
     "name": "prism",
     "tags": [
       "triangle"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Progress Indicator",
+    "filename": "wd-icon-progress-indicator.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "progress-indicator",
+    "tags": [
+      "loading",
+      "progress"
     ]
   },
   {
