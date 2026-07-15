@@ -3092,7 +3092,7 @@
       "unlock"
     ],
     "deprecated": true,
-    "fallback": "wd-icon-lock-keyhole.svg"
+    "fallback": "wd-icon-lock-open.svg"
   },
   {
     "author": "",
@@ -4730,5 +4730,464 @@
     ],
     "deprecated": true,
     "fallback": "wd-icon-zoom-out.svg"
+  },
+  {
+    "author": "",
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Redo",
+    "filename": "wd-icon-redo.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "redo",
+    "tags": [
+      "redo",
+      "cancel",
+      "back"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-u-turn-right.svg"
+  },
+  {
+    "author": "",
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Undo",
+    "filename": "wd-icon-undo.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "undo",
+    "tags": [
+      "revert",
+      "cancel",
+      "back"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-u-turn-left.svg"
+  },{
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Lock Keyhole",
+    "filename": "wd-icon-lock-keyhole.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "lock-keyhole",
+    "tags": [
+      "security",
+      "secure",
+      "protect",
+      "protected",
+      "padlock",
+      "safety",
+      "key",
+      "unlock"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-lock.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Dropdown Button",
+    "filename": "wd-icon-dropdown-button.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "dropdown-button",
+    "tags": [
+      "multiple",
+      "action",
+      "more",
+      "secondary",
+      "form",
+      "select",
+      "template",
+      "designer"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-dropdown.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Button Edit",
+    "filename": "wd-icon-button-edit.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "button-edit",
+    "tags": [
+      "action",
+      "pencil",
+      "rectangle",
+      "template",
+      "form",
+      "designer"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-edit.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Assistant",
+    "filename": "wd-icon-assistant.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "assistant",
+    "tags": [
+      "talk",
+      "chat",
+      "communcation"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-comment-blank.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Assistant Sparkle",
+    "filename": "wd-icon-assistant-sparkle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "assistant-sparkle",
+    "tags": [
+      "ai",
+      "star",
+      "twinkle",
+      "shine",
+      "magic",
+      "AI",
+      "artificial",
+      "intelligence",
+      "generate",
+      "quick",
+      "quicktips",
+      "help",
+      "ML",
+      "ask",
+      "talk",
+      "chat",
+      "communcation"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-comment-sparkle.svg"
+  },
+  {
+    "author": "",
+    "category": "Data Stream",
+    "description": "",
+    "figmaName": "Flow",
+    "filename": "wd-icon-flow.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "flow",
+    "tags": [
+      "flow",
+      "tree",
+      "branch",
+      "map",
+      "template",
+      "designer"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-split-up.svg"
+  },
+  {
+    "author": "",
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Anomaly Detection",
+    "filename": "wd-icon-anomaly-detection.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "anomaly-detection",
+    "tags": [
+      "chart",
+      "numbers",
+      "data-viz",
+      "graph",
+      "planning"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-line-chart-anomaly.svg"
+  },
+  {
+    "author": "",
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Diagonal Down Right Small",
+    "filename": "wd-icon-arrow-diagonal-down-right-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-diagonal-down-right-small",
+    "tags": [
+      "direction",
+      "navigation",
+      "planning"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-down-right.svg"
+  },
+  {
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Bar Chart Growth",
+    "filename": "wd-icon-bar-chart-growth.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "bar-chart-growth",
+    "tags": [
+      "graph",
+      "column",
+      "grow",
+      "up",
+      "arrow"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-bar-chart-ascending-arrow.svg"
+  },
+  {
+    "author": "",
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Card User",
+    "filename": "wd-icon-card-user.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "card-user",
+    "tags": [
+      "people",
+      "organization",
+      "management",
+      "system"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-rectangle-user.svg"
+  },
+  {
+    "author": "",
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Collapse",
+    "filename": "wd-icon-collapse.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "collapse",
+    "tags": [
+      "collapse",
+      "minimize",
+      "shrink",
+      "reduce"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-left-to-line.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Column One",
+    "filename": "wd-icon-column-one.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "column-one",
+    "tags": [
+      "single",
+      "text",
+      "words",
+      "form",
+      "template",
+      "designer"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-rectangle.svg"
+  },
+    {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Download",
+    "filename": "wd-icon-download.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "download",
+    "tags": [
+      "file",
+      "collapse",
+      "attachments",
+      "arrow",
+      "upload",
+      "download"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-down-to-line.svg"
+  },
+  {
+    "category": "Chart Visuals",
+    "description": "",
+    "figmaName": "Dual Line Chart",
+    "filename": "wd-icon-dual-line-chart.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "dual-line-chart",
+    "tags": [
+      "data vis",
+      "data viz",
+      "data visualization",
+      "charting",
+      "graph",
+      "two",
+      "duo",
+      "absolute value"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-line-chart-double.svg"
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Easel",
+    "filename": "wd-icon-easel.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "easel",
+    "tags": [
+      "projector",
+      "projector-screen"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-presentation.svg"
+  },
+    {
+    "author": "",
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Extend",
+    "filename": "wd-icon-extend.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "extend",
+    "tags": [
+      "bring in",
+      "ship",
+      "move",
+      "transport"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-right-to-line.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Select",
+    "filename": "wd-icon-select.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "select",
+    "tags": [
+      "cursor"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-square-pointer-dashed.svg"
+  },
+  {
+    "author": "",
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Skip",
+    "filename": "wd-icon-skip.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "skip",
+    "tags": [
+      "media",
+      "media control",
+      "next",
+      "video"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-next.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Sub Organization",
+    "filename": "wd-icon-sub-organization.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sub-organization",
+    "tags": [
+      "secondary",
+      "org",
+      "organization",
+      "chart",
+      "charting",
+      "presentation",
+      "map",
+      "tree",
+      "people",
+      "levels",
+      "structure",
+      "team",
+      "hierarchy"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-team-fill.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Upload",
+    "filename": "wd-icon-upload.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "upload",
+    "tags": [
+      "file",
+      "collapse",
+      "attachments",
+      "arrow",
+      "download",
+      "up"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrow-up-to-line.svg"
+  },
+  {
+    "author": "",
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Virtual Version",
+    "filename": "wd-icon-virtual-version.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "virtual-version",
+    "tags": [
+      "file",
+      "doc",
+      "planning"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-document-dashed.svg"
+  },
+  {
+    "author": "",
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Virtual Version Lock",
+    "filename": "wd-icon-virtual-version-lock.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "virtual-version-lock",
+    "tags": [
+      "file",
+      "doc",
+      "secure",
+      "planning"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-document-lock-dashed.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Zoom Area",
+    "filename": "wd-icon-zoom-area.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "zoom-area",
+    "tags": [
+      "mag",
+      "magnifying",
+      "glass",
+      "zoom",
+      "view"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-square-search-dashed.svg"
   }
 ]
