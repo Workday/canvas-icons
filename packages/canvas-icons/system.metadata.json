@@ -6272,6 +6272,58 @@
     ]
   },
   {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Exclamation Circle Fill",
+    "filename": "wd-icon-exclamation-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "exclamation-circle-fill",
+    "tags": [
+      "important",
+      "error",
+      "alert",
+      "mark",
+      "feedback",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Exclamation Square",
+    "filename": "wd-icon-exclamation-square.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "exclamation-square",
+    "tags": [
+      "important",
+      "error",
+      "alert",
+      "mark",
+      "feedback",
+      "square",
+      "box"
+    ]
+  },
+  {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Exclamation Square Fill",
+    "filename": "wd-icon-exclamation-square-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "exclamation-square-fill",
+    "tags": [
+      "important",
+      "error",
+      "alert",
+      "mark",
+      "feedback",
+      "square",
+      "box",
+      "filled"
+    ]
+  },
+  {
     "author": "",
     "category": "Notification",
     "description": "",
@@ -6408,6 +6460,30 @@
       "mad",
       "upset",
       "angry"
+    ]
+  },
+  {
+    "category": "People",
+    "description": "",
+    "figmaName": "Face Unhappy Sweat",
+    "filename": "wd-icon-face-unhappy-sweat.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "face-unhappy-sweat",
+    "tags": [
+      "mood",
+      "face",
+      "smile",
+      "smiley",
+      "emoji",
+      "reaction",
+      "response",
+      "satisfaction",
+      "sad",
+      "mad",
+      "upset",
+      "angry",
+      "sweat",
+      "hard"
     ]
   },
   {
@@ -6554,6 +6630,21 @@
     ]
   },
   {
+    "category": "Mobile App",
+    "description": "",
+    "figmaName": "Finder",
+    "filename": "wd-icon-finder.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "finder",
+    "tags": [
+      "folder",
+      "finder",
+      "iOS",
+      "MacOS",
+      "directory"
+    ]
+  },
+  {
     "author": "",
     "category": "Mobile App",
     "description": "",
@@ -6569,7 +6660,7 @@
   },
   {
     "author": "",
-    "category": "Notification",
+    "category": "Objects",
     "description": "",
     "figmaName": "Flag",
     "filename": "wd-icon-flag.svg",
@@ -6580,6 +6671,36 @@
       "emblem",
       "pole",
       "wind"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Flag Wave",
+    "filename": "wd-icon-flag-wave.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "flag-wave",
+    "tags": [
+      "banner",
+      "emblem",
+      "pole",
+      "wind"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Flags",
+    "filename": "wd-icon-flags.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "flags",
+    "tags": [
+      "banner",
+      "emblem",
+      "pole",
+      "wind",
+      "crossed",
+      "flags"
     ]
   },
   {
@@ -6648,6 +6769,25 @@
       "taxonomy",
       "file",
       "organize"
+    ]
+  },
+  {
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Folder Gear",
+    "filename": "wd-icon-folder-gear.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "folder-gear",
+    "tags": [
+      "directory",
+      "doc",
+      "document",
+      "tree",
+      "taxonomy",
+      "file",
+      "organize",
+      "gear",
+      "settings"
     ]
   },
   {
@@ -6947,6 +7087,33 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Gift",
+    "filename": "wd-icon-gift.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "gift",
+    "tags": [
+      "present",
+      "birthday",
+      "celebration",
+      "gift"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Glasses",
+    "filename": "wd-icon-glasses.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "glasses",
+    "tags": [
+      "health",
+      "vision",
+      "glasses"
+    ]
+  },
+  {
     "author": "",
     "category": "Objects",
     "description": "",
@@ -6992,6 +7159,40 @@
       "foundation",
       "skeleton",
       "net"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Grid Dots",
+    "filename": "wd-icon-grid-dots.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "grid-dots",
+    "tags": [
+      "grid",
+      "table",
+      "active",
+      "template",
+      "designer",
+      "dots",
+      "menu"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Grid Dots Thick",
+    "filename": "wd-icon-grid-dots-thick.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "grid-dots-thick",
+    "tags": [
+      "grid",
+      "table",
+      "active",
+      "template",
+      "designer",
+      "dots",
+      "menu"
     ]
   },
   {
