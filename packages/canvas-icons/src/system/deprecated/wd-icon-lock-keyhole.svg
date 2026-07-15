@@ -1,4 +1,5 @@
 <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-lock-keyhole" role="presentation">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-lock.svg instead. -->
 <g>
 <path d="M5.00058 19.4993C5.00058 19.7755 5.22444 19.9993 5.50058 19.9993H18.5006C18.7767 19.9993 19.0006 19.7755 19.0006 19.4993L19.0006 10.5C19.0006 10.2239 18.7767 10 18.5006 10H5.50059C5.22445 10 5.00059 10.2239 5.00059 10.5L5.00058 19.4993Z" fill="transparent" class="wd-icon-background"></path>
 <path d="M19.0006 19.4993C19.0006 19.7755 18.7767 19.9993 18.5006 19.9993H5.50058C5.22444 19.9993 5.00058 19.7755 5.00058 19.4993L5.00059 10.5C5.00059 10.2239 5.22445 10 5.50059 10H18.5006C18.7767 10 19.0006 10.2239 19.0006 10.5L19.0006 19.4993Z" fill="transparent" class="wd-icon-background"></path>

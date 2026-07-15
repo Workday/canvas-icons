@@ -1,4 +1,5 @@
 <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-bar-chart-growth" role="presentation">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-bar-chart-ascending-arrow.svg instead. -->
 <g>
 <path d="M7 13.9998C7.55214 13.9998 7.99976 14.4477 8 14.9998V19.9998C8 20.5521 7.55228 20.9998 7 20.9998H3C2.44772 20.9998 2 20.5521 2 19.9998V14.9998C2.00024 14.4477 2.44786 13.9998 3 13.9998H7ZM4 18.9998H6V15.9998H4V18.9998Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
 <path d="M14 11.9998C14.5521 11.9998 14.9998 12.4477 15 12.9998V19.9998C15 20.5521 14.5523 20.9998 14 20.9998H10C9.44772 20.9998 9 20.5521 9 19.9998V12.9998C9.00024 12.4477 9.44786 11.9998 10 11.9998H14ZM11 18.9998H13V13.9998H11V18.9998Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>

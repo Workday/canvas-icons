@@ -1,4 +1,5 @@
 <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="wd-icon wd-icon-zoom-area" role="presentation">
+<!-- Deprecated icon: will be removed in the future. Use wd-icon-square-search-dashed.svg instead. -->
 <g>
 <path d="M4.5 17C4.77614 17 5 17.2239 5 17.5V19H6.5C6.77614 19 7 19.2239 7 19.5V20.5C7 20.7761 6.77614 21 6.5 21H5C3.89543 21 3 20.1046 3 19V17.5C3 17.2239 3.22386 17 3.5 17H4.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
 <path d="M11.5 19C11.7761 19 12 19.2239 12 19.5V20.5C12 20.7761 11.7761 21 11.5 21H9.5C9.22386 21 9 20.7761 9 20.5V19.5C9 19.2239 9.22386 19 9.5 19H11.5Z" fill="oklch(0.3523 0 0 / 1)" class="wd-icon-fill"></path>
