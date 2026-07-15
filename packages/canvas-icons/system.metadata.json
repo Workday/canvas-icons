@@ -322,6 +322,65 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Archive",
+    "filename": "wd-icon-archive.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "archive",
+    "tags": [
+      "archive",
+      "bin",
+      "docs"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Archive Arrow Down",
+    "filename": "wd-icon-archive-arrow-down.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "archive-arrow-down",
+    "tags": [
+      "archive",
+      "bin",
+      "docs",
+      "download"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Archive Arrow Up",
+    "filename": "wd-icon-archive-arrow-up.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "archive-arrow-up",
+    "tags": [
+      "archive",
+      "bin",
+      "docs",
+      "upload",
+      "add"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Archive X",
+    "filename": "wd-icon-archive-x.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "archive-x",
+    "tags": [
+      "archive",
+      "bin",
+      "docs",
+      "remove",
+      "x",
+      "cross",
+      "delete"
+    ]
+  },
+  {
     "category": "Chart Visuals",
     "description": "",
     "figmaName": "Area Chart",
@@ -484,6 +543,139 @@
     ]
   },
   {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Circle",
+    "filename": "wd-icon-arrow-down-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "bottom",
+      "circle"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Circle Fill",
+    "filename": "wd-icon-arrow-down-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "bottom",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down From Line",
+    "filename": "wd-icon-arrow-down-from-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-from-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "download",
+      "move down"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Left",
+    "filename": "wd-icon-arrow-down-left.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-left",
+    "tags": [
+      "navigation",
+      "ui",
+      "diagonal",
+      "bottom"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Left Circle",
+    "filename": "wd-icon-arrow-down-left-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-left-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "bottom",
+      "circle",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Left Circle Fill",
+    "filename": "wd-icon-arrow-down-left-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-left-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "bottom",
+      "circle",
+      "filled",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Right",
+    "filename": "wd-icon-arrow-down-right.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-right",
+    "tags": [
+      "navigation",
+      "ui",
+      "diagonal",
+      "bottom"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Right Circle",
+    "filename": "wd-icon-arrow-down-right-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-right-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "bottom",
+      "circle",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down Right Circle Fill",
+    "filename": "wd-icon-arrow-down-right-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-right-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "bottom",
+      "circle",
+      "filled",
+      "diagonal"
+    ]
+  },
+  {
     "author": "",
     "category": "Navigation",
     "description": "",
@@ -494,6 +686,32 @@
     "tags": [
       "arrow",
       "descending"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Down To Line",
+    "filename": "wd-icon-arrow-down-to-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-down-to-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "download",
+      "move down"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Enter",
+    "filename": "wd-icon-arrow-enter.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-enter",
+    "tags": [
+      "navigation",
+      "ui"
     ]
   },
   {
@@ -511,6 +729,49 @@
     ]
   },
   {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Left Circle",
+    "filename": "wd-icon-arrow-left-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-left-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "left",
+      "circle"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Left Circle Fill",
+    "filename": "wd-icon-arrow-left-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-left-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "left",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Left From Line",
+    "filename": "wd-icon-arrow-left-from-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-left-from-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "collapse",
+      "move left"
+    ]
+  },
+  {
     "author": "",
     "category": "Navigation",
     "description": "",
@@ -522,6 +783,20 @@
       "arrow",
       "back",
       "navigation"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Left To Line",
+    "filename": "wd-icon-arrow-left-to-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-left-to-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "collapse",
+      "move left"
     ]
   },
   {
@@ -539,6 +814,75 @@
     ]
   },
   {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Right Circle",
+    "filename": "wd-icon-arrow-right-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-right-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "right",
+      "circle"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Right Circle Fill",
+    "filename": "wd-icon-arrow-right-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-right-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "right",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Right Enter",
+    "filename": "wd-icon-arrow-right-enter.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-right-enter",
+    "tags": [
+      "navigation",
+      "ui",
+      "enter"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Right Exit",
+    "filename": "wd-icon-arrow-right-exit.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-right-exit",
+    "tags": [
+      "navigation",
+      "ui",
+      "exit"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Right From Line",
+    "filename": "wd-icon-arrow-right-from-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-right-from-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "extend",
+      "move right"
+    ]
+  },
+  {
     "author": "",
     "category": "Navigation",
     "description": "",
@@ -550,6 +894,20 @@
       "arrow",
       "foward",
       "navigation"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Right To Line",
+    "filename": "wd-icon-arrow-right-to-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-right-to-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "extend",
+      "move right"
     ]
   },
   {
@@ -568,6 +926,34 @@
       "shift",
       "trade",
       "subtitute"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow U Turn Left",
+    "filename": "wd-icon-arrow-u-turn-left.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-u-turn-left",
+    "tags": [
+      "navigation",
+      "ui",
+      "back",
+      "undo"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow U Turn Right",
+    "filename": "wd-icon-arrow-u-turn-right.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-u-turn-right",
+    "tags": [
+      "navigation",
+      "ui",
+      "redo",
+      "forward"
     ]
   },
   {
@@ -600,6 +986,140 @@
     ]
   },
   {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Circle Fill",
+    "filename": "wd-icon-arrow-up-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "top",
+      "circle",
+      "filled"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up From Line",
+    "filename": "wd-icon-arrow-up-from-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-from-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "upload",
+      "move up"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Left",
+    "filename": "wd-icon-arrow-up-left.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-left",
+    "tags": [
+      "navigation",
+      "ui",
+      "diagonal",
+      "top"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Left Circle",
+    "filename": "wd-icon-arrow-up-left-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-left-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "top",
+      "circle",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Left Circle Fill",
+    "filename": "wd-icon-arrow-up-left-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-left-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "top",
+      "circle",
+      "filled",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Right",
+    "filename": "wd-icon-arrow-up-right.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-right",
+    "tags": [
+      "navigation",
+      "ui",
+      "diagonal",
+      "top"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Right Circle",
+    "filename": "wd-icon-arrow-up-right-circle.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-right-circle",
+    "tags": [
+      "navigation",
+      "ui",
+      "top",
+      "circle",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Right Circle Fill",
+    "filename": "wd-icon-arrow-up-right-circle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-right-circle-fill",
+    "tags": [
+      "navigation",
+      "ui",
+      "top",
+      "circle",
+      "filled",
+      "diagonal"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up Right Square",
+    "filename": "wd-icon-arrow-up-right-square.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-right-square",
+    "tags": [
+      "navigation",
+      "ui",
+      "square",
+      "diagonal",
+      "top"
+    ]
+  },
+  {
     "author": "",
     "category": "Navigation",
     "description": "",
@@ -610,6 +1130,50 @@
     "tags": [
       "arrow",
       "ascending"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrow Up To Line",
+    "filename": "wd-icon-arrow-up-to-line.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrow-up-to-line",
+    "tags": [
+      "navigation",
+      "ui",
+      "upload",
+      "move up"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrows Clockwise",
+    "filename": "wd-icon-arrows-clockwise.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrows-clockwise",
+    "tags": [
+      "navigation",
+      "ui",
+      "rotation",
+      "forward",
+      "loop"
+    ]
+  },
+  {
+    "category": "Navigation",
+    "description": "",
+    "figmaName": "Arrows Counterclockwise",
+    "filename": "wd-icon-arrows-counterclockwise.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "arrows-counterclockwise",
+    "tags": [
+      "navigation",
+      "ui",
+      "loop",
+      "back",
+      "rotation"
     ]
   },
   {
@@ -680,7 +1244,28 @@
     "name": "audio",
     "tags": [
       "volume",
-      "sound"
+      "sound",
+      "speaker",
+      "sound wave",
+      "maximum",
+      "max"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Fill",
+    "filename": "wd-icon-audio-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-fill",
+    "tags": [
+      "sound",
+      "volume",
+      "speaker",
+      "sound wave",
+      "maximum",
+      "max",
+      "filled"
     ]
   },
   {
@@ -693,7 +1278,61 @@
     "name": "audio-min",
     "tags": [
       "volume",
-      "sound"
+      "sound",
+      "speaker",
+      "sound wave",
+      "min",
+      "minimum"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Min Fill",
+    "filename": "wd-icon-audio-min-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-min-fill",
+    "tags": [
+      "sound",
+      "volume",
+      "speaker",
+      "sound wave",
+      "filled",
+      "min",
+      "minimum"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Minus",
+    "filename": "wd-icon-audio-minus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-minus",
+    "tags": [
+      "speaker",
+      "minus",
+      "decrease",
+      "volume down",
+      "sound",
+      "volume"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Minus Fill",
+    "filename": "wd-icon-audio-minus-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-minus-fill",
+    "tags": [
+      "speaker",
+      "minus",
+      "decrease",
+      "volume down",
+      "sound",
+      "volume",
+      "filled"
     ]
   },
   {
@@ -706,7 +1345,32 @@
     "name": "audio-mute",
     "tags": [
       "volume",
-      "sound"
+      "sound",
+      "speaker",
+      "no wave",
+      "mute",
+      "silent",
+      "x",
+      "cross"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Mute Fill",
+    "filename": "wd-icon-audio-mute-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-mute-fill",
+    "tags": [
+      "speaker",
+      "no wave",
+      "mute",
+      "silent",
+      "filled",
+      "sound",
+      "volume",
+      "x",
+      "cross"
     ]
   },
   {
@@ -719,7 +1383,61 @@
     "name": "audio-none",
     "tags": [
       "volume",
-      "sound"
+      "sound",
+      "speaker",
+      "no wave",
+      "mute",
+      "silent"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio None Fill",
+    "filename": "wd-icon-audio-none-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-none-fill",
+    "tags": [
+      "speaker",
+      "no wave",
+      "mute",
+      "silent",
+      "filled",
+      "sound",
+      "volume"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Plus",
+    "filename": "wd-icon-audio-plus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-plus",
+    "tags": [
+      "speaker",
+      "sound",
+      "volume",
+      "volume up",
+      "increase",
+      "plus"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Audio Plus Fill",
+    "filename": "wd-icon-audio-plus-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "audio-plus-fill",
+    "tags": [
+      "speaker",
+      "sound",
+      "volume",
+      "filled",
+      "volume up",
+      "increase",
+      "plus"
     ]
   },
   {
