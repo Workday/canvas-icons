@@ -1,5 +1,11 @@
 # @workday/canvas-system-icons-web
 
+## 5.0.0
+
+### Major Changes
+
+-
+
 ## 5.0.0-alpha.1
 
 ### Major Changes
