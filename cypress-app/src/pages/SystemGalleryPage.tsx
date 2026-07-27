@@ -12,12 +12,21 @@ const icons = Object.values(systemIcons).filter(
 
 export const SystemGalleryPage = () => {
   return (
-    <IconsGallery
-      icons={icons}
-      type="system"
-      cs={{
-        [systemIconStencil.vars.size]: px2rem(56),
-      }}
-    />
+    <>
+      <IconsGallery
+        icons={icons.filter((icon): icon is CanvasSystemIcon => !('deprecated' in icon))}
+        type="system"
+        cs={{
+          [systemIconStencil.vars.size]: px2rem(56),
+        }}
+      />
+      <IconsGallery
+        icons={icons.filter((icon): icon is CanvasSystemIcon => 'deprecated' in icon)}
+        type="system"
+        cs={{
+          [systemIconStencil.vars.size]: px2rem(56),
+        }}
+      />
+    </>
   );
 };

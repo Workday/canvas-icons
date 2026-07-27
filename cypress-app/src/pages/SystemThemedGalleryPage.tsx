@@ -13,15 +13,27 @@ const icons = Object.values(systemIcons).filter(
 
 export const SystemThemedGalleryPage = () => {
   return (
-    <IconsGallery
-      icons={icons}
-      type="system"
-      cs={{
-        [systemIconStencil.vars.size]: px2rem(56),
-        [systemIconStencil.vars.color]: cssVar(base.magenta600),
-        [systemIconStencil.vars.accentColor]: cssVar(base.magenta900),
-        [systemIconStencil.vars.backgroundColor]: cssVar(base.magenta100),
-      }}
-    />
+    <>
+      <IconsGallery
+        icons={icons.filter((icon): icon is CanvasSystemIcon => !('deprecated' in icon))}
+        type="system"
+        cs={{
+          [systemIconStencil.vars.size]: px2rem(56),
+          [systemIconStencil.vars.color]: cssVar(base.magenta600),
+          [systemIconStencil.vars.accentColor]: cssVar(base.magenta900),
+          [systemIconStencil.vars.backgroundColor]: cssVar(base.magenta100),
+        }}
+      />
+      <IconsGallery
+        icons={icons.filter((icon): icon is CanvasSystemIcon => 'deprecated' in icon)}
+        type="system"
+        cs={{
+          [systemIconStencil.vars.size]: px2rem(56),
+          [systemIconStencil.vars.color]: cssVar(base.magenta600),
+          [systemIconStencil.vars.accentColor]: cssVar(base.magenta900),
+          [systemIconStencil.vars.backgroundColor]: cssVar(base.magenta100),
+        }}
+      />
+    </>
   );
 };
