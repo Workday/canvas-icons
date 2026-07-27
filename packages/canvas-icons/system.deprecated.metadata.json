@@ -554,7 +554,7 @@
     "author": "",
     "category": "Core",
     "description": "",
-    "figmaName": "Button Edit",
+    "figmaName": "Edit",
     "filename": "wd-icon-button-edit.svg",
     "maintainer": "Canvas Design System Team",
     "name": "button-edit",
@@ -2523,7 +2523,7 @@
   {
     "category": "Data Stream",
     "description": "",
-    "figmaName": "Hierarchy Children",
+    "figmaName": "Hierarchy Partial",
     "filename": "wd-icon-hierarchy-parent-child.svg",
     "maintainer": "Canvas Design System Team",
     "name": "hierarchy-parent-child",
@@ -2541,12 +2541,12 @@
       "child"
     ],
     "deprecated": true,
-    "fallback": "wd-icon-hierarchy-children.svg"
+    "fallback": "wd-icon-hierarchy-partial.svg"
   },
   {
     "category": "Data Stream",
     "description": "",
-    "figmaName": "Hierarchy Partial",
+    "figmaName": "Hierarchy Children",
     "filename": "wd-icon-hierarchy-right-full.svg",
     "maintainer": "Canvas Design System Team",
     "name": "hierarchy-right-full",
@@ -2564,7 +2564,7 @@
       "child"
     ],
     "deprecated": true,
-    "fallback": "wd-icon-hierarchy-partial.svg"
+    "fallback": "wd-icon-hierarchy-children.svg"
   },
   {
     "author": "",
@@ -2582,24 +2582,6 @@
     ],
     "deprecated": true,
     "fallback": "wd-icon-hourglass.svg"
-  },
-  {
-    "category": "Notification",
-    "description": "",
-    "figmaName": "Inbox",
-    "filename": "wd-icon-inbox-fill.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "inbox-fill",
-    "tags": [
-      "notification",
-      "header",
-      "mail",
-      "email",
-      "send",
-      "receive"
-    ],
-    "deprecated": true,
-    "fallback": "wd-icon-inbox.svg"
   },
   {
     "category": "Notification",
@@ -4746,7 +4728,7 @@
     "author": "",
     "category": "Navigation",
     "description": "",
-    "figmaName": "Undo",
+    "figmaName": "Arrow U Turn Left",
     "filename": "wd-icon-undo.svg",
     "maintainer": "Canvas Design System Team",
     "name": "undo",
