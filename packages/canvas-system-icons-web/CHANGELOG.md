@@ -1,5 +1,20 @@
 # @workday/canvas-system-icons-web
 
+## 5.0.1
+
+### Patch Changes
+
+- ### Icons
+  - fix: Update deprecated icons to match v5 styles
+    ([#43](https://github.com/Workday/canvas-icons/pull/43))
+    ([@RayRedGoose](https://github.com/RayRedGoose)) All deprecated icons have been a visual-only
+    update to match the new Sana Canvas look. The visual inconsistency has been fix for the icon.
+
+  ### Infrastructure
+  - chore: Update all external actions to use SHA1 for versioning
+    ([#40](https://github.com/Workday/canvas-icons/pull/40))
+    ([@alanbsmith](https://github.com/alanbsmith))
+
 ## 5.0.0
 
 ### Major Changes
