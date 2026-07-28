@@ -5707,7 +5707,7 @@
   {
     "category": "Files & Docs",
     "description": "",
-    "figmaName": "Document Zip",
+    "figmaName": "Document ZIP",
     "filename": "wd-icon-document-zip.svg",
     "maintainer": "Canvas Design System Team",
     "name": "document-zip",
@@ -8300,21 +8300,6 @@
       "protected",
       "padlock",
       "safety"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Audio Visual",
-    "description": "",
-    "figmaName": "Loop",
-    "filename": "wd-icon-loop.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "loop",
-    "tags": [
-      "refresh",
-      "sync",
-      "template",
-      "designer"
     ]
   },
   {
