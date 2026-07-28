@@ -1733,7 +1733,7 @@
   {
     "category": "Chart Visuals",
     "description": "",
-    "figmaName": "Bar Cluster Chart",
+    "figmaName": "Bar Horizontal Cluster Chart",
     "filename": "wd-icon-bar-horizontal-cluster-chart.svg",
     "maintainer": "Canvas Design System Team",
     "name": "bar-horizontal-cluster-chart",
@@ -3770,19 +3770,6 @@
     "author": "",
     "category": "Navigation",
     "description": "",
-    "figmaName": "Chevron Down Small",
-    "filename": "wd-icon-chevron-down-small.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "chevron-down-small",
-    "tags": [
-      "navigation",
-      "arrow"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Navigation",
-    "description": "",
     "figmaName": "Chevron Left",
     "filename": "wd-icon-chevron-left.svg",
     "maintainer": "Canvas Design System Team",
@@ -3800,19 +3787,6 @@
     "filename": "wd-icon-chevron-left-small.svg",
     "maintainer": "Canvas Design System Team",
     "name": "chevron-left-small",
-    "tags": [
-      "navigation",
-      "arrow"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Navigation",
-    "description": "",
-    "figmaName": "Chevron Right",
-    "filename": "wd-icon-chevron-right.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "chevron-right",
     "tags": [
       "navigation",
       "arrow"
@@ -7147,7 +7121,7 @@
   {
     "category": "Data Stream",
     "description": "",
-    "figmaName": "Chevron Hierarchy",
+    "figmaName": "Hierarchy Chevron",
     "filename": "wd-icon-hierarchy-chevron.svg",
     "maintainer": "Canvas Design System Team",
     "name": "hierarchy-chevron",
@@ -7168,7 +7142,7 @@
   {
     "category": "Data Stream",
     "description": "",
-    "figmaName": "Chevron Hierarchy Open",
+    "figmaName": "Hierarchy Chevron Open",
     "filename": "wd-icon-hierarchy-chevron-open.svg",
     "maintainer": "Canvas Design System Team",
     "name": "hierarchy-chevron-open",
@@ -8250,23 +8224,6 @@
       "security",
       "template",
       "designer"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Core",
-    "description": "",
-    "figmaName": "Lock Open",
-    "filename": "wd-icon-lock-keyhole-open.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "lock-keyhole-open",
-    "tags": [
-      "security",
-      "secure",
-      "protect",
-      "protected",
-      "padlock",
-      "safety"
     ]
   },
   {

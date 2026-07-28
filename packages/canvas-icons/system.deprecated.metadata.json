@@ -1268,7 +1268,7 @@
   {
     "category": "Data Stream",
     "description": "",
-    "figmaName": "Chevron Hierarchy",
+    "figmaName": "Hierarchy Chevron",
     "filename": "wd-icon-chevron-hierarchy-closed.svg",
     "maintainer": "Canvas Design System Team",
     "name": "chevron-hierarchy-closed",
@@ -1286,12 +1286,12 @@
       "child"
     ],
     "deprecated": true,
-    "fallback": "wd-icon-chevron-hierarchy.svg"
+    "fallback": "wd-icon-hierarchy-chevron.svg"
   },
   {
     "category": "Data Stream",
     "description": "",
-    "figmaName": "Chevron Hierarchy Open",
+    "figmaName": "Hierarchy Chevron Open",
     "filename": "wd-icon-chevron-hierarchy-open.svg",
     "maintainer": "Canvas Design System Team",
     "name": "chevron-hierarchy-open",
@@ -1309,7 +1309,7 @@
       "child"
     ],
     "deprecated": true,
-    "fallback": "wd-icon-chevron-hierarchy-open.svg"
+    "fallback": "wd-icon-hierarchy-chevron-open.svg"
   },
   {
     "author": "",
@@ -1404,7 +1404,7 @@
     "author": "",
     "category": "Navigation",
     "description": "",
-    "figmaName": "Arrow Left to Line",
+    "figmaName": "Arrow Left To Line",
     "filename": "wd-icon-collapse.svg",
     "maintainer": "Canvas Design System Team",
     "name": "collapse",
@@ -1917,7 +1917,7 @@
     "author": "",
     "category": "Core",
     "description": "",
-    "figmaName": "Download",
+    "figmaName": "Arrow Down To Line",
     "filename": "wd-icon-download.svg",
     "maintainer": "Canvas Design System Team",
     "name": "download",
@@ -2150,7 +2150,7 @@
     "author": "",
     "category": "Navigation",
     "description": "",
-    "figmaName": "Arrow Right to Line",
+    "figmaName": "Arrow Right To Line",
     "filename": "wd-icon-extend.svg",
     "maintainer": "Canvas Design System Team",
     "name": "extend",
@@ -2876,6 +2876,23 @@
     ],
     "deprecated": true,
     "fallback": "wd-icon-lock.svg"
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Lock Open",
+    "filename": "wd-icon-lock-keyhole-open.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "lock-keyhole-open",
+    "tags": [
+      "security",
+      "secure",
+      "protect",
+      "protected",
+      "padlock",
+      "safety"
+    ]
   },
   {
     "author": "",
@@ -3903,7 +3920,7 @@
     "author": "",
     "category": "Core",
     "description": "",
-    "figmaName": "Pointer Dashed",
+    "figmaName": "Square Pointer Dashed",
     "filename": "wd-icon-select.svg",
     "maintainer": "Canvas Design System Team",
     "name": "select",
@@ -4871,7 +4888,7 @@
     "author": "",
     "category": "Core",
     "description": "",
-    "figmaName": "Upload",
+    "figmaName": "Arrow Up To Line",
     "filename": "wd-icon-upload.svg",
     "maintainer": "Canvas Design System Team",
     "name": "upload",
