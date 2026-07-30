@@ -1,5 +1,13 @@
 # @workday/canvas-system-icons-web
 
+## 5.0.3
+
+### Patch Changes
+
+- ### Infrastructure
+  - fix: Fix metadata bug ([#45](https://github.com/Workday/canvas-icons/pull/45))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 5.0.2
 
 ### Patch Changes
