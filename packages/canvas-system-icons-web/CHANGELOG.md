@@ -1,5 +1,13 @@
 # @workday/canvas-system-icons-web
 
+## 5.0.2
+
+### Patch Changes
+
+- ### System Icons
+  - fix: Deprecate loop icon ([#44](https://github.com/Workday/canvas-icons/pull/44))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 5.0.1
 
 ### Patch Changes
