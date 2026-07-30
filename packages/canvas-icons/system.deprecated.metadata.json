@@ -2892,7 +2892,9 @@
       "protected",
       "padlock",
       "safety"
-    ]
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-lock-open.svg"
   },
   {
     "author": "",
