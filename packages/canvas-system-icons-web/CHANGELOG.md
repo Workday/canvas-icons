@@ -1,5 +1,13 @@
 # @workday/canvas-system-icons-web
 
+## 5.0.3
+
+### Patch Changes
+
+- ### Infrastructure
+  - fix: Fix metadata bug ([#45](https://github.com/Workday/canvas-icons/pull/45))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 5.0.2
 
 ### Patch Changes
@@ -27,7 +35,86 @@
 
 ### Major Changes
 
--
+The **`@workday/canvas-system-icons-web` v5** package ships **Sana Canvas Assets**. This is an
+updated system icon library aligned with Sana Canvas.
+
+The major changes in this release are:
+
+- A **new visual look** that matches Sana icon style.
+- **Workday and Sana icons merged** into a single library, which is why there are **almost 200 new
+  icons**.
+
+Deprecated icons remain available for a transition period. Each deprecated export points to a
+**fallback** icon you should use instead. This guide summarizes what changed in v5 and how to
+upgrade the package.
+
+#### Renames
+
+The Sana alignment introduced a number of new icons that did not previously exist in the Canvas
+library. In earlier icon library work, we established a naming convention system and aligned all
+Canvas icons with it for better organization and clearer icon meaning. With the addition of new Sana
+icons, we need to extend that convention system so it also covers them.
+
+In some cases, this also requires renaming existing Canvas icons. As we have added more variations
+to existing icons, they now need systematic name or style changes to stay consistent. Their previous
+names are now outdated or confusing.
+
+| Old icon                        | Old JS name                       | New icon                  | New JS name                  |
+| ------------------------------- | --------------------------------- | ------------------------- | ---------------------------- |
+| Anomaly Detection               | `anomalyDetectionIcon`            | Line Chart Anomaly        | `lineChartAnomalyIcon`       |
+| Arrow Diagonal Down Right Small | `arrowDiagonalDownRightSmallIcon` | Arrow Down Right          | `arrowDownRightIcon`         |
+| Assistant                       | `assistantIcon`                   | Comment Blank             | `commentBlankIcon`           |
+| Bar Chart Growth                | `barChartGrowthIcon`              | Bar Chart Ascending Arrow | `barChartAscendingArrowIcon` |
+| Card User                       | `cardUserIcon`                    | Rectangle User            | `rectangleUserIcon`          |
+| Collapse                        | `collapseIcon`                    | Arrow Left To Line        | `arrowLeftToLineIcon`        |
+| Column One                      | `columnOneIcon`                   | Rectangle                 | `rectangleIcon`              |
+| Download                        | `downloadIcon`                    | Arrow Down To Line        | `arrowDownToLineIcon`        |
+| Dual Line Chart                 | `dualLineChartIcon`               | Line Chart Double         | `lineChartDoubleIcon`        |
+| Easel                           | `easelIcon`                       | Presentation              | `presentationIcon`           |
+| Extend                          | `extendIcon`                      | Arrow Right To Line       | `arrowRightToLineIcon`       |
+| Flow                            | `flowIcon`                        | Split Up                  | `splitUpIcon`                |
+| Lock Keyhole Open               | `lockKeyholeOpenIcon`             | Lock Open                 | `lockOpenIcon`               |
+| Select                          | `selectIcon`                      | Square Pointer Dashed     | `squarePointerDashedIcon`    |
+| Skip                            | `skipIcon`                        | Next                      | `nextIcon`                   |
+| Sub Organization                | `subOrganizationIcon`             | Team Fill                 | `teamFillIcon`               |
+| Upload                          | `uploadIcon`                      | Arrow Up To Line          | `arrowUpToLineIcon`          |
+| Virtual Version                 | `virtualVersionIcon`              | Document Dashed           | `documentDashedIcon`         |
+| Virtual Version Lock            | `virtualVersionLockIcon`          | Document Lock Dashed      | `documentLockDashedIcon`     |
+| Zoom Area                       | `zoomAreaIcon`                    | Square Search Dashed      | `squareSearchDashedIcon`     |
+
+#### Deprecations
+
+The primary goal of the Sana Canvas Assets release is visual alignment with Sana. Some icons were
+redesigned to match Sana's visual language. Their previous designs are now either mismatched or
+redundant, so we no longer need to support them. Deprecated exports remain available for a
+transition period.
+
+| Old icon          | Old JS name            | New icon                | New JS name                  |
+| ----------------- | ---------------------- | ----------------------- | ---------------------------- |
+| Assistant Sparkle | `assistantSparkleIcon` | Comment Sparkle         | `commentSparkleIcon`         |
+| Button Edit       | `buttonEditIcon`       | Edit                    | `editIcon`                   |
+| Dropdown Button   | `dropdownButtonIcon`   | Dropdown                | `dropdownIcon`               |
+| Lock Keyhole      | `lockKeyholeIcon`      | Lock                    | `lockIcon`                   |
+| Loop              | `loopIcon`             | Arrows Counterclockwise | `arrowsCounterclockwiseIcon` |
+| Redo              | `redoIcon`             | Arrow U Turn Right      | `arrowUTurnRightIcon`        |
+| Undo              | `undoIcon`             | Arrow U Turn Left       | `arrowUTurnLeftIcon`         |
+
+#### Layer Simplification
+
+As part of the shift to Sana styles, several icons were simplified to match Sana's visual language.
+Some elements were streamlined or removed for stylistic purposes. The result is cleaner icons with
+fewer layers than their previous versions. Fewer than ten icons were affected. Layer structure
+changed on the following icons:
+
+- Dropdown
+- Erase
+- Inbox Fill
+- Video
+
+#### Additional links
+
+- [Changes Overview](https://workday.github.io/canvas-kit/?path=/docs/guides-icon-migration-sana-canvas-assets-overview--docs)
+- [Icon Codemod](https://workday.github.io/canvas-kit/?path=/docs/guides-icon-migration-codemod--docs)
 
 ## 5.0.0-alpha.1
 
