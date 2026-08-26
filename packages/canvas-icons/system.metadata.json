@@ -7770,28 +7770,6 @@
     "author": "",
     "category": "Editor",
     "description": "",
-    "figmaName": "Indent",
-    "filename": "wd-icon-indent.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "indent",
-    "tags": [
-      "right",
-      "arrow",
-      "lines",
-      "row",
-      "format",
-      "type",
-      "data",
-      "table",
-      "grid",
-      "tab",
-      "text"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Editor",
-    "description": "",
     "figmaName": "Indent Decrease",
     "filename": "wd-icon-indent-decrease.svg",
     "maintainer": "Canvas Design System Team",
@@ -8346,20 +8324,6 @@
   {
     "category": "Editor",
     "description": "",
-    "figmaName": "Line Spacing Grow",
-    "filename": "wd-icon-line-spacing-grow.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "line-spacing-grow",
-    "tags": [
-      "line spacing",
-      "line height",
-      "grow",
-      "increase"
-    ]
-  },
-  {
-    "category": "Editor",
-    "description": "",
     "figmaName": "Line Spacing Increase",
     "filename": "wd-icon-line-spacing-increase.svg",
     "maintainer": "Canvas Design System Team",
@@ -8369,20 +8333,6 @@
       "line height",
       "grow",
       "increase"
-    ]
-  },
-  {
-    "category": "Editor",
-    "description": "",
-    "figmaName": "Line Spacing Shrink",
-    "filename": "wd-icon-line-spacing-shrink.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "line-spacing-shrink",
-    "tags": [
-      "line spacing",
-      "line height",
-      "shrink",
-      "decrease"
     ]
   },
   {
@@ -10404,27 +10354,6 @@
     "tags": [
       "table",
       "planning"
-    ]
-  },
-  {
-    "author": "",
-    "category": "Editor",
-    "description": "",
-    "figmaName": "Remove Indent",
-    "filename": "wd-icon-remove-indent.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "remove-indent",
-    "tags": [
-      "left",
-      "arrow",
-      "lines",
-      "row",
-      "format",
-      "type",
-      "data",
-      "table",
-      "grid",
-      "tab"
     ]
   },
   {
