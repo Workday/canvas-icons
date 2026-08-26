@@ -137,23 +137,6 @@
   },
   {
     "author": "",
-    "category": "Audio Visual",
-    "description": "",
-    "figmaName": "Arrows Counterclockwise",
-    "filename": "wd-icon-loop.svg",
-    "maintainer": "Canvas Design System Team",
-    "name": "loop",
-    "tags": [
-      "refresh",
-      "sync",
-      "template",
-      "designer"
-    ],
-    "deprecated": true,
-    "fallback": "wd-icon-arrows-counterclockwise.svg"
-  },
-  {
-    "author": "",
     "category": "Core",
     "description": "",
     "figmaName": "Join Left Anti",
@@ -2620,6 +2603,30 @@
   },
   {
     "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Indent",
+    "filename": "wd-icon-indent.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "indent",
+    "tags": [
+      "right",
+      "arrow",
+      "lines",
+      "row",
+      "format",
+      "type",
+      "data",
+      "table",
+      "grid",
+      "tab",
+      "text"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-indent-increase.svg"
+  },
+  {
+    "author": "",
     "category": "Data Stream",
     "description": "",
     "figmaName": "Instance Search",
@@ -2825,6 +2832,38 @@
     "fallback": "wd-icon-font.svg"
   },
   {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Line Spacing Grow",
+    "filename": "wd-icon-line-spacing-grow.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-spacing-grow",
+    "tags": [
+      "line spacing",
+      "line height",
+      "grow",
+      "increase"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-line-spacing-increase.svg"
+  },
+  {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Line Spacing Shrink",
+    "filename": "wd-icon-line-spacing-shrink.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-spacing-shrink",
+    "tags": [
+      "line spacing",
+      "line height",
+      "shrink",
+      "decrease"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-line-spacing-decrease.svg"
+  },
+  {
     "author": "",
     "category": "Data Stream",
     "description": "",
@@ -2895,6 +2934,23 @@
     ],
     "deprecated": true,
     "fallback": "wd-icon-lock-open.svg"
+  },
+  {
+    "author": "",
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Arrows Counterclockwise",
+    "filename": "wd-icon-loop.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "loop",
+    "tags": [
+      "refresh",
+      "sync",
+      "template",
+      "designer"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-arrows-counterclockwise.svg"
   },
   {
     "author": "",
@@ -3734,6 +3790,29 @@
     ],
     "deprecated": true,
     "fallback": "wd-icon-arrow-u-turn-right.svg"
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Remove Indent",
+    "filename": "wd-icon-remove-indent.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "remove-indent",
+    "tags": [
+      "left",
+      "arrow",
+      "lines",
+      "row",
+      "format",
+      "type",
+      "data",
+      "table",
+      "grid",
+      "tab"
+    ],
+    "deprecated": true,
+    "fallback": "wd-icon-indent-decrease.svg"
   },
   {
     "author": "",

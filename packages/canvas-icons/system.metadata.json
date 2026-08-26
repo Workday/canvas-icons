@@ -1893,7 +1893,7 @@
   },
   {
     "author": "",
-    "category": "Notification",
+    "category": "Objects",
     "description": "",
     "figmaName": "Bolt",
     "filename": "wd-icon-bolt.svg",
@@ -1905,7 +1905,7 @@
   },
   {
     "author": "",
-    "category": "Notification",
+    "category": "Objects",
     "description": "",
     "figmaName": "Bolt Fill",
     "filename": "wd-icon-bolt-fill.svg",
@@ -1914,6 +1914,25 @@
     "tags": [
       "lightning",
       "filled"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Bolt Strikethrough",
+    "filename": "wd-icon-bolt-strikethrough.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "bolt-strikethrough",
+    "tags": [
+      "lightning",
+      "filled",
+      "off",
+      "slash",
+      "flash",
+      "error",
+      "camera",
+      "mobile"
     ]
   },
   {
@@ -2468,6 +2487,28 @@
       "template",
       "form",
       "designer"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Button Pointer",
+    "filename": "wd-icon-button-pointer.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "button-pointer",
+    "tags": [
+      "click",
+      "cursor",
+      "select",
+      "action",
+      "box",
+      "UI",
+      "designer",
+      "modulr",
+      "rectangle",
+      "component",
+      "cell"
     ]
   },
   {
@@ -3204,6 +3245,29 @@
   },
   {
     "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Car",
+    "filename": "wd-icon-car.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "car",
+    "tags": [
+      "transportation",
+      "rental",
+      "wheel",
+      "vehicle",
+      "sedan",
+      "suv",
+      "route",
+      "commute",
+      "automobile",
+      "road",
+      "travel",
+      "drive"
+    ]
+  },
+  {
+    "author": "",
     "category": "Files & Docs",
     "description": "",
     "figmaName": "Card Stack",
@@ -3460,6 +3524,66 @@
       "remove",
       "table",
       "cell"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Cell Merge",
+    "filename": "wd-icon-cell-merge.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "cell-merge",
+    "tags": [
+      "combine",
+      "unite",
+      "squash",
+      "table",
+      "grid",
+      "union",
+      "spreadsheet",
+      "sheet"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Cell Repeat",
+    "filename": "wd-icon-cell-repeat.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "cell-repeat",
+    "tags": [
+      "copy",
+      "duplicate",
+      "table",
+      "grid",
+      "spreadsheet",
+      "sheet",
+      "move",
+      "arrow",
+      "down",
+      "rows",
+      "column"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Cell Split",
+    "filename": "wd-icon-cell-split.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "cell-split",
+    "tags": [
+      "split",
+      "divide",
+      "break",
+      "separate",
+      "table",
+      "grid",
+      "spreadsheet",
+      "sheet"
     ]
   },
   {
@@ -4222,7 +4346,7 @@
   },
   {
     "author": "",
-    "category": "Data Stream",
+    "category": "Objects",
     "description": "",
     "figmaName": "Cloud Arrow Up",
     "filename": "wd-icon-cloud-arrow-up.svg",
@@ -4235,7 +4359,23 @@
   },
   {
     "author": "",
-    "category": "Data Stream",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Cloud Bolt",
+    "filename": "wd-icon-cloud-bolt.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "cloud-bolt",
+    "tags": [
+      "cloudy",
+      "storm",
+      "error",
+      "weather",
+      "lightning"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
     "description": "",
     "figmaName": "Cloud Lock",
     "filename": "wd-icon-cloud-lock.svg",
@@ -4249,7 +4389,24 @@
   },
   {
     "author": "",
-    "category": "Data Stream",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Cloud Rain",
+    "filename": "wd-icon-cloud-rain.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "cloud-rain",
+    "tags": [
+      "rainy",
+      "cloudy",
+      "drizzle",
+      "wet",
+      "storm",
+      "weather"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
     "description": "",
     "figmaName": "Cloud Search",
     "filename": "wd-icon-cloud-search.svg",
@@ -4266,7 +4423,7 @@
   },
   {
     "author": "",
-    "category": "Data Stream",
+    "category": "Objects",
     "description": "",
     "figmaName": "Cloud Settings",
     "filename": "wd-icon-cloud-settings.svg",
@@ -4281,7 +4438,7 @@
   },
   {
     "author": "",
-    "category": "Data Stream",
+    "category": "Objects",
     "description": "",
     "figmaName": "Cloud Strikethrough",
     "filename": "wd-icon-cloud-strikethrough.svg",
@@ -4291,6 +4448,21 @@
       "disconnected",
       "error",
       "nimbus"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Cloud Sun",
+    "filename": "wd-icon-cloud-sun.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "cloud-sun",
+    "tags": [
+      "weather",
+      "overcast",
+      "cloudy",
+      "partial"
     ]
   },
   {
@@ -4838,6 +5010,23 @@
     "author": "",
     "category": "Objects",
     "description": "",
+    "figmaName": "Couch",
+    "filename": "wd-icon-couch.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "couch",
+    "tags": [
+      "sofa",
+      "rest",
+      "lounge",
+      "relax",
+      "comfort",
+      "furniture"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
     "figmaName": "Credit Card",
     "filename": "wd-icon-credit-card.svg",
     "maintainer": "Canvas Design System Team",
@@ -5183,6 +5372,21 @@
     "author": "",
     "category": "Files & Docs",
     "description": "",
+    "figmaName": "Document Break",
+    "filename": "wd-icon-document-break.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-break",
+    "tags": [
+      "page break",
+      "split",
+      "docs",
+      "files"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Files & Docs",
+    "description": "",
     "figmaName": "Document Chart",
     "filename": "wd-icon-document-chart.svg",
     "maintainer": "Canvas Design System Team",
@@ -5411,6 +5615,20 @@
       "virtual version",
       "locked",
       "secured"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Files & Docs",
+    "description": "",
+    "figmaName": "Document Number",
+    "filename": "wd-icon-document-number.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "document-number",
+    "tags": [
+      "docs",
+      "page",
+      "file"
     ]
   },
   {
@@ -6675,6 +6893,41 @@
     "author": "",
     "category": "Editor",
     "description": "",
+    "figmaName": "Font Subscript",
+    "filename": "wd-icon-font-subscript.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "font-subscript",
+    "tags": [
+      "letter",
+      "a",
+      "type",
+      "text",
+      "level",
+      "format"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Font Superscript",
+    "filename": "wd-icon-font-superscript.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "font-superscript",
+    "tags": [
+      "format",
+      "text",
+      "letter",
+      "a",
+      "type",
+      "level",
+      "superscript"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
     "figmaName": "Formula",
     "filename": "wd-icon-formula.svg",
     "maintainer": "Canvas Design System Team",
@@ -7537,6 +7790,65 @@
   },
   {
     "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Indent Decrease",
+    "filename": "wd-icon-indent-decrease.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "indent-decrease",
+    "tags": [
+      "left",
+      "arrow",
+      "lines",
+      "row",
+      "format",
+      "type",
+      "data",
+      "table",
+      "grid",
+      "tab"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Indent Increase",
+    "filename": "wd-icon-indent-increase.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "indent-increase",
+    "tags": [
+      "right",
+      "arrow",
+      "lines",
+      "row",
+      "format",
+      "type",
+      "data",
+      "table",
+      "grid",
+      "tab",
+      "text"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Indent Precise",
+    "filename": "wd-icon-indent-precise.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "indent-precise",
+    "tags": [
+      "lines",
+      "format",
+      "tab",
+      "number",
+      "paragraph"
+    ]
+  },
+  {
+    "author": "",
     "category": "Core",
     "description": "",
     "figmaName": "Info",
@@ -8020,10 +8332,38 @@
   {
     "category": "Editor",
     "description": "",
+    "figmaName": "Line Spacing Decrease",
+    "filename": "wd-icon-line-spacing-decrease.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-spacing-decrease",
+    "tags": [
+      "line spacing",
+      "line height",
+      "shrink",
+      "decrease"
+    ]
+  },
+  {
+    "category": "Editor",
+    "description": "",
     "figmaName": "Line Spacing Grow",
     "filename": "wd-icon-line-spacing-grow.svg",
     "maintainer": "Canvas Design System Team",
     "name": "line-spacing-grow",
+    "tags": [
+      "line spacing",
+      "line height",
+      "grow",
+      "increase"
+    ]
+  },
+  {
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Line Spacing Increase",
+    "filename": "wd-icon-line-spacing-increase.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "line-spacing-increase",
     "tags": [
       "line spacing",
       "line height",
@@ -8257,6 +8597,22 @@
       "protected",
       "padlock",
       "safety"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Lotus",
+    "filename": "wd-icon-lotus.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "lotus",
+    "tags": [
+      "flower",
+      "yoga",
+      "wellness",
+      "relax",
+      "nature"
     ]
   },
   {
@@ -9233,6 +9589,25 @@
       "location",
       "important",
       "planning"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Pipeline",
+    "filename": "wd-icon-pipeline.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "pipeline",
+    "tags": [
+      "pipe",
+      "data",
+      "process",
+      "planning",
+      "import",
+      "export",
+      "connect",
+      "infrastructure"
     ]
   },
   {
@@ -10254,6 +10629,25 @@
   },
   {
     "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Rich Text",
+    "filename": "wd-icon-rich-text.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rich-text",
+    "tags": [
+      "text",
+      "font",
+      "format",
+      "page",
+      "formatter",
+      "letter",
+      "a",
+      "type"
+    ]
+  },
+  {
+    "author": "",
     "category": "Objects",
     "description": "",
     "figmaName": "Rocket",
@@ -10852,6 +11246,22 @@
     "author": "",
     "category": "Objects",
     "description": "",
+    "figmaName": "Snowflake",
+    "filename": "wd-icon-snowflake.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "snowflake",
+    "tags": [
+      "weather",
+      "winter",
+      "snow",
+      "cold",
+      "freeze"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
     "figmaName": "Soccer Ball",
     "filename": "wd-icon-soccer-ball.svg",
     "maintainer": "Canvas Design System Team",
@@ -11118,6 +11528,24 @@
     ]
   },
   {
+    "author": "",
+    "category": "Core",
+    "description": "",
+    "figmaName": "Square Rotate",
+    "filename": "wd-icon-square-rotate.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "square-rotate",
+    "tags": [
+      "camera",
+      "mobile",
+      "position",
+      "move",
+      "arrow",
+      "box",
+      "clockwise"
+    ]
+  },
+  {
     "category": "Core",
     "description": "",
     "figmaName": "Square Search Dashed",
@@ -11376,6 +11804,23 @@
   },
   {
     "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Table Column",
+    "filename": "wd-icon-table-column.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "table-column",
+    "tags": [
+      "cell",
+      "vertical",
+      "sheets",
+      "spreadsheet",
+      "select",
+      "header"
+    ]
+  },
+  {
+    "author": "",
     "category": "Core",
     "description": "",
     "figmaName": "Table Expand",
@@ -11413,6 +11858,23 @@
       "table",
       "gear",
       "planning"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Editor",
+    "description": "",
+    "figmaName": "Table Header",
+    "filename": "wd-icon-table-header.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "table-header",
+    "tags": [
+      "excel",
+      "grid",
+      "sheet",
+      "analytics",
+      "table",
+      "scout"
     ]
   },
   {
@@ -11935,6 +12397,24 @@
     "tags": [
       "filetype",
       "text"
+    ]
+  },
+  {
+    "author": "",
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Umbrella",
+    "filename": "wd-icon-umbrella.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "umbrella",
+    "tags": [
+      "weather",
+      "rain",
+      "storm",
+      "protection",
+      "shade",
+      "wet",
+      "insurance"
     ]
   },
   {
