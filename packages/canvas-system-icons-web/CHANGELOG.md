@@ -1,5 +1,17 @@
 # @workday/canvas-system-icons-web
 
+## 5.1.0
+
+### Minor Changes
+
+- ### Components
+  - chore: Update docs ([@RayRedGoose](https://github.com/RayRedGoose))
+
+  ### Icons
+  - feat: Add new system icons and update existing
+    ([#48](https://github.com/Workday/canvas-icons/pull/48))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
 ## 5.0.3
 
 ### Patch Changes
