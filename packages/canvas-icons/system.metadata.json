@@ -6481,6 +6481,17 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Fast Forward",
+    "filename": "wd-icon-fast-forward.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "fast-forward",
+    "tags": [
+      "media"
+    ]
+  },
+  {
     "author": "",
     "category": "Audio Visual",
     "description": "",
@@ -6493,6 +6504,18 @@
       "time",
       "seconds",
       "fifteen"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Fast Forward Small",
+    "filename": "wd-icon-fast-forward-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "fast-forward-small",
+    "tags": [
+      "media",
+      "play"
     ]
   },
   {
@@ -10524,6 +10547,17 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Rewind",
+    "filename": "wd-icon-rewind.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rewind",
+    "tags": [
+      "media"
+    ]
+  },
+  {
     "author": "",
     "category": "Audio Visual",
     "description": "",
@@ -10537,6 +10571,17 @@
       "second",
       "thirty",
       "back"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Rewind Small",
+    "filename": "wd-icon-rewind-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rewind-small",
+    "tags": [
+      "media"
     ]
   },
   {
