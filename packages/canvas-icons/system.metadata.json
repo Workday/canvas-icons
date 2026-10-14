@@ -3267,6 +3267,30 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Car Front",
+    "filename": "wd-icon-car-front.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "car-front",
+    "tags": [
+      "front view",
+      "vehicle",
+      "automobile",
+      "auto",
+      "headlights",
+      "grille",
+      "bumper",
+      "oncoming",
+      "transport",
+      "drive",
+      "ride",
+      "taxi",
+      "parking",
+      "traffic"
+    ]
+  },
+  {
     "author": "",
     "category": "Files & Docs",
     "description": "",
@@ -4842,6 +4866,34 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Comment Sana Fill",
+    "filename": "wd-icon-comment-sana-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "comment-sana-fill",
+    "tags": [
+      "chat",
+      "message",
+      "speech bubble",
+      "conversation",
+      "talk",
+      "discuss",
+      "reply",
+      "feedback",
+      "note",
+      "text",
+      "dialogue",
+      "sana",
+      "filled",
+      "solid",
+      "bubble",
+      "communicate",
+      "agent",
+      "ai"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -6313,6 +6365,32 @@
     ]
   },
   {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Exclamation Triangle Fill",
+    "filename": "wd-icon-exclamation-triangle-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "exclamation-triangle-fill",
+    "tags": [
+      "exclamation",
+      "triangle",
+      "warning",
+      "alert",
+      "caution",
+      "danger",
+      "error",
+      "attention",
+      "hazard",
+      "risk",
+      "problem",
+      "issue",
+      "notice",
+      "important",
+      "filled",
+      "solid"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -6481,6 +6559,29 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Fast Forward",
+    "filename": "wd-icon-fast-forward.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "fast-forward",
+    "tags": [
+      "forward",
+      "skip",
+      "next",
+      "speed up",
+      "advance",
+      "ahead",
+      "seek",
+      "media",
+      "playback",
+      "player",
+      "audio",
+      "video",
+      "double arrow right"
+    ]
+  },
+  {
     "author": "",
     "category": "Audio Visual",
     "description": "",
@@ -6493,6 +6594,29 @@
       "time",
       "seconds",
       "fifteen"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Fast Forward Small",
+    "filename": "wd-icon-fast-forward-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "fast-forward-small",
+    "tags": [
+      "forward",
+      "skip",
+      "next",
+      "speed up",
+      "advance",
+      "ahead",
+      "seek",
+      "media",
+      "playback",
+      "player",
+      "audio",
+      "video",
+      "double arrow right"
     ]
   },
   {
@@ -7845,6 +7969,31 @@
   {
     "category": "Core",
     "description": "",
+    "figmaName": "Info Fill",
+    "filename": "wd-icon-info-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "info-fill",
+    "tags": [
+      "information",
+      "about",
+      "help",
+      "details",
+      "notice",
+      "tip",
+      "hint",
+      "note",
+      "i",
+      "circle",
+      "filled",
+      "solid",
+      "tooltip",
+      "learn more",
+      "FAQ"
+    ]
+  },
+  {
+    "category": "Core",
+    "description": "",
     "figmaName": "Info Sparkle",
     "filename": "wd-icon-info-sparkle.svg",
     "maintainer": "Canvas Design System Team",
@@ -8951,6 +9100,30 @@
     ]
   },
   {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Moon Fill",
+    "filename": "wd-icon-moon-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "moon-fill",
+    "tags": [
+      "crescent",
+      "night",
+      "dark mode",
+      "dark theme",
+      "nighttime",
+      "sleep",
+      "bedtime",
+      "evening",
+      "lunar",
+      "theme",
+      "appearance",
+      "night mode",
+      "filled",
+      "solid"
+    ]
+  },
+  {
     "category": "Editor",
     "description": "",
     "figmaName": "Move Row Down",
@@ -9080,6 +9253,33 @@
       "active",
       "notifications",
       "unread"
+    ]
+  },
+  {
+    "category": "Notification",
+    "description": "",
+    "figmaName": "Notifications Strikethrough",
+    "filename": "wd-icon-notifications-strikethrough.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "notifications-strikethrough",
+    "tags": [
+      "notification off",
+      "bell off",
+      "bell slash",
+      "mute",
+      "muted",
+      "silent",
+      "silence",
+      "disable notifications",
+      "alerts off",
+      "do not disturb",
+      "DND",
+      "snooze",
+      "unsubscribe",
+      "no alerts",
+      "strikethrough",
+      "crossed out",
+      "slashed"
     ]
   },
   {
@@ -10524,6 +10724,29 @@
     ]
   },
   {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Rewind",
+    "filename": "wd-icon-rewind.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rewind",
+    "tags": [
+      "back",
+      "backward",
+      "previous",
+      "reverse",
+      "replay",
+      "skip back",
+      "go back",
+      "media",
+      "playback",
+      "player",
+      "audio",
+      "video",
+      "double arrow left"
+    ]
+  },
+  {
     "author": "",
     "category": "Audio Visual",
     "description": "",
@@ -10537,6 +10760,29 @@
       "second",
       "thirty",
       "back"
+    ]
+  },
+  {
+    "category": "Audio Visual",
+    "description": "",
+    "figmaName": "Rewind Small",
+    "filename": "wd-icon-rewind-small.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "rewind-small",
+    "tags": [
+      "back",
+      "backward",
+      "previous",
+      "reverse",
+      "replay",
+      "skip back",
+      "go back",
+      "media",
+      "playback",
+      "player",
+      "audio",
+      "video",
+      "double arrow left"
     ]
   },
   {
@@ -10890,6 +11136,35 @@
       "checkmark",
       "protection",
       "security"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Shield Check Fill",
+    "filename": "wd-icon-shield-check-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "shield-check-fill",
+    "tags": [
+      "check",
+      "checkmark",
+      "shield check",
+      "security",
+      "secure",
+      "protected",
+      "protection",
+      "safe",
+      "safety",
+      "verified",
+      "trusted",
+      "approved",
+      "valid",
+      "privacy",
+      "guard",
+      "defense",
+      "antivirus",
+      "filled",
+      "solid"
     ]
   },
   {
@@ -11535,6 +11810,31 @@
     ]
   },
   {
+    "category": "Core",
+    "description": "",
+    "figmaName": "Star Fill",
+    "filename": "wd-icon-star-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "star-fill",
+    "tags": [
+      "filled star",
+      "solid star",
+      "favorite",
+      "favourite",
+      "bookmark",
+      "rating",
+      "rate",
+      "review",
+      "highlight",
+      "featured",
+      "like",
+      "important",
+      "best",
+      "award",
+      "score"
+    ]
+  },
+  {
     "author": "",
     "category": "Core",
     "description": "",
@@ -11690,6 +11990,31 @@
       "sun",
       "brightness",
       "light"
+    ]
+  },
+  {
+    "category": "Objects",
+    "description": "",
+    "figmaName": "Sun Fill",
+    "filename": "wd-icon-sun-fill.svg",
+    "maintainer": "Canvas Design System Team",
+    "name": "sun-fill",
+    "tags": [
+      "sunny",
+      "day",
+      "light mode",
+      "light theme",
+      "daytime",
+      "brightness",
+      "bright",
+      "weather",
+      "sunshine",
+      "summer",
+      "theme",
+      "appearance",
+      "day mode",
+      "filled",
+      "solid"
     ]
   },
   {
