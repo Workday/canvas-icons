@@ -1,5 +1,21 @@
 # @workday/canvas-system-icons-web
 
+## 5.2.0
+
+### Minor Changes
+
+- ### Infrastructure
+  - chore: Update to fix snyk issues ([#53](https://github.com/Workday/canvas-icons/pull/53))
+    ([@RayRedGoose](https://github.com/RayRedGoose))
+
+  ### System Icons
+  - feat: Add new system icons to support teams ([#55](https://github.com/Workday/canvas-icons/pull/55))
+    ([@RayRedGoose](https://github.com/RayRedGoose)) 
+    New system icons has been added to the package: `comment sana fill`, `exclamation triangle fill`, 
+    `info fill`, `moon fill`, `shield check fill`, `star fill`, `sun fill`, `rewind`, `rewind small`, 
+    `fast forward`, `fast forward small`, `notifications strikethrough`, `car front`. Updated style for 
+    `car` and `chevron right` icons.
+
 ## 5.1.0
 
 ### Minor Changes
